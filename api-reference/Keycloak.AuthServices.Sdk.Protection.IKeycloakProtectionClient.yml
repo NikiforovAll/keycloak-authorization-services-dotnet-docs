@@ -12,14 +12,6 @@ items:
   nameWithType: IKeycloakProtectionClient
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectionClient
   type: Interface
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectionClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IKeycloakProtectionClient
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectionClient.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -29,6 +21,8 @@ items:
   syntax:
     content: 'public interface IKeycloakProtectionClient : IKeycloakProtectedResourceClient, IKeycloakPolicyClient'
     content.vb: Public Interface IKeycloakProtectionClient Inherits IKeycloakProtectedResourceClient, IKeycloakPolicyClient
+  derivedClasses:
+  - Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
   inheritedMembers:
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters,System.Threading.CancellationToken)

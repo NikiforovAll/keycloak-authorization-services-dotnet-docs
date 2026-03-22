@@ -17,14 +17,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientsInitialAccessItemRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item
@@ -58,14 +50,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder.ClientsInitialAccessItemRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder.ClientsInitialAccessItemRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item
@@ -96,14 +80,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder.ClientsInitialAccessItemRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder.ClientsInitialAccessItemRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item
@@ -134,14 +110,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder.DeleteAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder.DeleteAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 35
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item
@@ -173,14 +141,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder.ToDeleteRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder.ToDeleteRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToDeleteRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item
@@ -210,14 +170,6 @@ items:
   nameWithType: ClientsInitialAccessItemRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item.ClientsInitialAccessItemRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientsInitialAccess/Item/ClientsInitialAccessItemRequestBuilder.cs
-    startLine: 65
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientsInitialAccess.Item

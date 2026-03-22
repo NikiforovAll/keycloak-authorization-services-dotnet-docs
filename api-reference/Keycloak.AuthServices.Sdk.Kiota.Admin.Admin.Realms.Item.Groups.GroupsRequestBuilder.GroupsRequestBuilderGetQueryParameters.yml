@@ -12,6 +12,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.PopulateHierarchy
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Q
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
   langs:
   - csharp
   - vb
@@ -19,18 +20,10 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GroupsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 142
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
-  summary: Get group hierarchy.  Only name and ids are returned.
+  summary: Get group hierarchy.  Only `name` and `id` are returned.  `subGroups` are only returned when using the `search` or `q` parameter. If none of these parameters is provided, the top-level groups are returned without `subGroups` being filled.
   example: []
   syntax:
     content: public class GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
@@ -56,14 +49,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 144
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -97,14 +82,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Exact
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Exact
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Exact
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 146
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -138,14 +115,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 148
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -179,14 +148,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 150
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -220,14 +181,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.PopulateHierarchy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.PopulateHierarchy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PopulateHierarchy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 152
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -261,14 +214,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Q
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Q
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Q
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 156
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -302,14 +247,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 165
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -332,6 +269,41 @@ items:
     arguments:
     - type: System.String
       value: search
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  id: SubGroupsCount
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SubGroupsCount
+  nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
+  summary: 'Boolean which defines whether to return the count of subgroups for each group (default: true'
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("subGroupsCount")]
+
+      public bool? SubGroupsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <QueryParameter("subGroupsCount")>
+
+      Public Property SubGroupsCount As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: subGroupsCount
 references:
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups
@@ -775,3 +747,9 @@ references:
   name: Search
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_GroupsRequestBuilder_GroupsRequestBuilderGetQueryParameters_SubGroupsCount
+  name: SubGroupsCount
+  nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.SubGroupsCount

@@ -16,14 +16,6 @@ items:
   nameWithType: MethodConfig
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.MethodConfig
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MethodConfig
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4116
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -51,14 +43,6 @@ items:
   nameWithType: MethodConfig.Method
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.MethodConfig.Method
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Method
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4122
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -103,14 +87,6 @@ items:
   nameWithType: MethodConfig.Scopes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.MethodConfig.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4128
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -155,14 +131,6 @@ items:
   nameWithType: MethodConfig.ScopesEnforcementMode
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.MethodConfig.ScopesEnforcementMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopesEnforcementMode
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4134
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -216,14 +184,6 @@ items:
   nameWithType: MethodConfig.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.MethodConfig.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4145
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

@@ -14,14 +14,6 @@ items:
   nameWithType: ErrorResponse
   fullName: Keycloak.AuthServices.Sdk.ErrorResponse
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ErrorResponse
-    path: ../src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -52,14 +44,6 @@ items:
   nameWithType: ErrorResponse.Error
   fullName: Keycloak.AuthServices.Sdk.ErrorResponse.Error
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Error
-    path: ../src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -95,14 +79,6 @@ items:
   nameWithType: ErrorResponse.ErrorDescription
   fullName: Keycloak.AuthServices.Sdk.ErrorResponse.ErrorDescription
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ErrorDescription
-    path: ../src/Keycloak.AuthServices.Sdk/ErrorResponse.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk

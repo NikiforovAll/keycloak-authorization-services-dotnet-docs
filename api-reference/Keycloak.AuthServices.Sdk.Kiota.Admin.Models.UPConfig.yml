@@ -20,14 +20,6 @@ items:
   nameWithType: UPConfig
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UPConfig
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -58,14 +50,6 @@ items:
   nameWithType: UPConfig.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -91,14 +75,6 @@ items:
   nameWithType: UPConfig.Attributes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -122,14 +98,6 @@ items:
   nameWithType: UPConfig.Groups
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.Groups
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Groups
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -153,14 +121,6 @@ items:
   nameWithType: UPConfig.UnmanagedAttributePolicy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.UnmanagedAttributePolicy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UnmanagedAttributePolicy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -184,14 +144,6 @@ items:
   nameWithType: UPConfig.UPConfig()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.UPConfig()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -215,14 +167,6 @@ items:
   nameWithType: UPConfig.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 43
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -250,14 +194,6 @@ items:
   nameWithType: UPConfig.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 52
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -283,14 +219,6 @@ items:
   nameWithType: UPConfig.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPConfig.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UPConfig.cs
-    startLine: 65
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

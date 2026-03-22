@@ -13,14 +13,6 @@ items:
   nameWithType: UserManagedAccessConfig
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UserManagedAccessConfig
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserManagedAccessConfig
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7466
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -48,14 +40,6 @@ items:
   nameWithType: UserManagedAccessConfig.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UserManagedAccessConfig.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7474
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

@@ -14,14 +14,6 @@ items:
   nameWithType: ScopesValidationMode
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopesValidationMode
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -41,14 +33,6 @@ items:
   nameWithType: ScopesValidationMode.AllOf
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AllOf
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AllOf
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -69,14 +53,6 @@ items:
   nameWithType: ScopesValidationMode.AnyOf
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AnyOf
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AnyOf
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer

@@ -24,14 +24,6 @@ items:
   nameWithType: ResourceItemRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceItemRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -65,14 +57,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.Attributes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -96,14 +80,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.Permissions
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.Permissions
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Permissions
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -127,14 +103,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.Scopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -158,14 +126,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.ResourceItemRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -196,14 +156,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.ResourceItemRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 47
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -234,14 +186,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.DeleteAsync(Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderDeleteQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.DeleteAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderDeleteQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -273,14 +217,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.GetAsync(Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderGetQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderGetQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -313,14 +249,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.PutAsync(ResourceRepresentation, Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderPutQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderPutQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PutAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -355,14 +283,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.ToDeleteRequestInformation(Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderDeleteQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ToDeleteRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderDeleteQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToDeleteRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 99
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -392,14 +312,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderGetQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderGetQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 114
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -429,14 +341,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.ToPutRequestInformation(ResourceRepresentation, Action<RequestConfiguration<ResourceItemRequestBuilder.ResourceItemRequestBuilderPutQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.ResourceItemRequestBuilderPutQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToPutRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 131
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item
@@ -469,14 +373,6 @@ items:
   nameWithType: ResourceItemRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item.ResourceItemRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Resource/Item/ResourceItemRequestBuilder.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Resource.Item

@@ -26,14 +26,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationExecutionInfoRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1017
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -61,14 +53,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1023
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -113,14 +97,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Requirement
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Requirement
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Requirement
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1029
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -165,14 +141,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1035
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -217,14 +185,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Alias
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Alias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Alias
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1041
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -269,14 +229,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Description
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1047
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -321,14 +273,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.RequirementChoices
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.RequirementChoices
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequirementChoices
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1053
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -373,14 +317,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Configurable
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Configurable
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Configurable
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1060
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -425,14 +361,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.AuthenticationFlow
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.AuthenticationFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationFlow
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1066
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -477,14 +405,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.ProviderId
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.ProviderId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1072
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -529,14 +449,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.AuthenticationConfig
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.AuthenticationConfig
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationConfig
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1078
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -581,14 +493,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.FlowId
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.FlowId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FlowId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1084
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -633,14 +537,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Level
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Level
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Level
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1090
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -685,14 +581,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.Index
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.Index
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Index
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1096
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -737,14 +625,6 @@ items:
   nameWithType: AuthenticationExecutionInfoRepresentation.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.AuthenticationExecutionInfoRepresentation.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 1104
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

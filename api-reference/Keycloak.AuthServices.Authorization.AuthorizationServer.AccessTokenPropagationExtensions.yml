@@ -13,14 +13,6 @@ items:
   nameWithType: AccessTokenPropagationExtensions
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessTokenPropagationExtensions
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationExtensions.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -51,14 +43,6 @@ items:
   nameWithType: AccessTokenPropagationExtensions.AddHeaderPropagation(IHttpClientBuilder)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddHeaderPropagation(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddHeaderPropagation
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationExtensions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer

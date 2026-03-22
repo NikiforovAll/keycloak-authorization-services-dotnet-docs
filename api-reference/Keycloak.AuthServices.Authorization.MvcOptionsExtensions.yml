@@ -13,14 +13,6 @@ items:
   nameWithType: MvcOptionsExtensions
   fullName: Keycloak.AuthServices.Authorization.MvcOptionsExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/MvcOptionsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MvcOptionsExtensions
-    path: ../src/Keycloak.AuthServices.Authorization/MvcOptionsExtensions.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -51,14 +43,6 @@ items:
   nameWithType: MvcOptionsExtensions.AddProtectedResources(MvcOptions)
   fullName: Keycloak.AuthServices.Authorization.MvcOptionsExtensions.AddProtectedResources(Microsoft.AspNetCore.Mvc.MvcOptions)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/MvcOptionsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddProtectedResources
-    path: ../src/Keycloak.AuthServices.Authorization/MvcOptionsExtensions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

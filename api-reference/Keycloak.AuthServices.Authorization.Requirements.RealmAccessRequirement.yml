@@ -15,14 +15,6 @@ items:
   nameWithType: RealmAccessRequirement
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmAccessRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -53,14 +45,6 @@ items:
   nameWithType: RealmAccessRequirement.Roles
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.Roles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Roles
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -84,14 +68,6 @@ items:
   nameWithType: RealmAccessRequirement.RealmAccessRequirement(params string[])
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.RealmAccessRequirement(params string[])
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -119,22 +95,16 @@ items:
   nameWithType: RealmAccessRequirement.ToString()
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Returns a string that represents the current object.
   example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
+      description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.ToString*

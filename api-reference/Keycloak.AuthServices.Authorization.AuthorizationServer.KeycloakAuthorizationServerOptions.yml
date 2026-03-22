@@ -18,14 +18,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakAuthorizationServerOptions
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -64,14 +56,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.Section
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.Section
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Section
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -93,14 +77,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.SourceAuthenticationScheme
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.SourceAuthenticationScheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SourceAuthenticationScheme
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -124,14 +100,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.SourceTokenName
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.SourceTokenName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SourceTokenName
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -154,14 +122,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.DisableHeaderPropagation
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.DisableHeaderPropagation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisableHeaderPropagation
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -185,14 +145,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.UseProtectedResourcePolicyProvider
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.UseProtectedResourcePolicyProvider
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UseProtectedResourcePolicyProvider
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -217,14 +169,6 @@ items:
   nameWithType: KeycloakAuthorizationServerOptions.ScopesValidationMode
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.ScopesValidationMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopesValidationMode
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/KeycloakAuthorizationServerOptions.cs
-    startLine: 38
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer

@@ -22,14 +22,6 @@ items:
   nameWithType: UserConsentRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserConsentRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -60,14 +52,6 @@ items:
   nameWithType: UserConsentRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -93,14 +77,6 @@ items:
   nameWithType: UserConsentRepresentation.ClientId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.ClientId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -124,14 +100,6 @@ items:
   nameWithType: UserConsentRepresentation.CreatedDate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.CreatedDate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreatedDate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -155,14 +123,6 @@ items:
   nameWithType: UserConsentRepresentation.GrantedClientScopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.GrantedClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GrantedClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -186,14 +146,6 @@ items:
   nameWithType: UserConsentRepresentation.GrantedRealmRoles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.GrantedRealmRoles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GrantedRealmRoles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -229,14 +181,6 @@ items:
   nameWithType: UserConsentRepresentation.LastUpdatedDate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.LastUpdatedDate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LastUpdatedDate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -260,14 +204,6 @@ items:
   nameWithType: UserConsentRepresentation.UserConsentRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.UserConsentRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -291,14 +227,6 @@ items:
   nameWithType: UserConsentRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -326,14 +254,6 @@ items:
   nameWithType: UserConsentRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 63
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -359,14 +279,6 @@ items:
   nameWithType: UserConsentRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserConsentRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserConsentRepresentation.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

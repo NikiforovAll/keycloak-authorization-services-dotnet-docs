@@ -26,14 +26,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationExecutionRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -64,14 +56,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -97,14 +81,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.Authenticator
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.Authenticator
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Authenticator
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -128,14 +104,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.AuthenticatorConfig
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.AuthenticatorConfig
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticatorConfig
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -159,14 +127,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.AuthenticatorFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.AuthenticatorFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticatorFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -190,14 +150,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.AutheticatorFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.AutheticatorFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AutheticatorFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -233,14 +185,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.FlowId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.FlowId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FlowId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -264,14 +208,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -295,14 +231,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.ParentFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.ParentFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ParentFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -326,14 +254,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.Priority
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.Priority
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Priority
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 59
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -357,14 +277,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.Requirement
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.Requirement
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Requirement
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 63
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -388,14 +300,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.AuthenticationExecutionRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.AuthenticationExecutionRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 71
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -419,14 +323,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -454,14 +350,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 89
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -487,14 +375,6 @@ items:
   nameWithType: AuthenticationExecutionRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationExecutionRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationExecutionRepresentation.cs
-    startLine: 108
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

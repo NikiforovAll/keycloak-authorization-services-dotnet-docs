@@ -13,14 +13,6 @@ items:
   nameWithType: KeycloakFormatBinder
   fullName: Keycloak.AuthServices.Common.KeycloakFormatBinder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakFormatBinder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakFormatBinder
-    path: ../src/Keycloak.AuthServices.Common/KeycloakFormatBinder.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -50,14 +42,6 @@ items:
   nameWithType: KeycloakFormatBinder.Instance
   fullName: Keycloak.AuthServices.Common.KeycloakFormatBinder.Instance
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakFormatBinder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Instance
-    path: ../src/Keycloak.AuthServices.Common/KeycloakFormatBinder.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common

@@ -17,14 +17,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GroupRepresentation_clientRoles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -55,14 +47,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -88,14 +72,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles.GroupRepresentation_clientRoles()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles.GroupRepresentation_clientRoles()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -119,14 +95,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -154,14 +122,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -187,14 +147,6 @@ items:
   nameWithType: GroupRepresentation_clientRoles.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation_clientRoles.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/GroupRepresentation_clientRoles.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

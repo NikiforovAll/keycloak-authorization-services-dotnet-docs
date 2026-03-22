@@ -15,14 +15,6 @@ items:
   nameWithType: UPAttributePermissions
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UPAttributePermissions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UPAttributePermissions
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7063
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -50,14 +42,6 @@ items:
   nameWithType: UPAttributePermissions.View
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UPAttributePermissions.View
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: View
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7069
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -102,14 +86,6 @@ items:
   nameWithType: UPAttributePermissions.Edit
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UPAttributePermissions.Edit
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Edit
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7075
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -154,14 +130,6 @@ items:
   nameWithType: UPAttributePermissions.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.UPAttributePermissions.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7083
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

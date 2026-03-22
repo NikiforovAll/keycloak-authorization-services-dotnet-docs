@@ -17,14 +17,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UnregisteredRequiredActionsRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions
@@ -58,14 +50,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder.UnregisteredRequiredActionsRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.UnregisteredRequiredActionsRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions
@@ -96,14 +80,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder.UnregisteredRequiredActionsRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.UnregisteredRequiredActionsRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions
@@ -134,14 +110,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder.GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions
@@ -158,7 +126,7 @@ items:
       description: Cancellation token to use when cancelling requests
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActions}}
-      description: A List&lt;UnregisteredRequiredActions&gt;
+      description: A List&lt;global::Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActions&gt;
     content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of UnregisteredRequiredActions))
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.GetAsync*
   nameWithType.vb: UnregisteredRequiredActionsRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
@@ -175,14 +143,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions
@@ -213,14 +173,6 @@ items:
   nameWithType: UnregisteredRequiredActionsRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions.UnregisteredRequiredActionsRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/UnregisteredRequiredActions/UnregisteredRequiredActionsRequestBuilder.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.UnregisteredRequiredActions

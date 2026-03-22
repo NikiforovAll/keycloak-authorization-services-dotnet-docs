@@ -17,14 +17,6 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ExecuteActionsEmailRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
@@ -58,14 +50,6 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
@@ -96,14 +80,6 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
@@ -134,21 +110,13 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder.PutAsync(List<string>, Action<RequestConfiguration<ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.PutAsync(System.Collections.Generic.List<string>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PutAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
   summary: An email contains a link the user can click to perform a set of required actions. The redirectUri and clientId parameters are optional. If no redirect is given, then there will be no link back to click after actions have completed. Redirect uri must be a valid uri for the particular clientId.
   example: []
   syntax:
-    content: public Task<Stream?> PutAsync(List<string> body, Action<RequestConfiguration<ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
+    content: public Task PutAsync(List<string> body, Action<RequestConfiguration<ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
     parameters:
     - id: body
       type: System.Collections.Generic.List{System.String}
@@ -160,9 +128,8 @@ items:
       type: System.Threading.CancellationToken
       description: Cancellation token to use when cancelling requests
     return:
-      type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: A <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function PutAsync(body As List(Of String), requestConfiguration As Action(Of RequestConfiguration(Of ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function PutAsync(body As List(Of String), requestConfiguration As Action(Of RequestConfiguration(Of ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.PutAsync*
   nameWithType.vb: ExecuteActionsEmailRequestBuilder.PutAsync(List(Of String), Action(Of RequestConfiguration(Of ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters)), CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.PutAsync(System.Collections.Generic.List(Of String), System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters)), System.Threading.CancellationToken)
@@ -178,14 +145,6 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder.ToPutRequestInformation(List<string>, Action<RequestConfiguration<ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ToPutRequestInformation(System.Collections.Generic.List<string>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.ExecuteActionsEmailRequestBuilderPutQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToPutRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 59
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
@@ -219,14 +178,6 @@ items:
   nameWithType: ExecuteActionsEmailRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/ExecuteActionsEmail/ExecuteActionsEmailRequestBuilder.cs
-    startLine: 77
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail
@@ -788,14 +739,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.PutAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.PutAsync
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.ExecuteActionsEmail.ExecuteActionsEmailRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_ExecuteActionsEmail_ExecuteActionsEmailRequestBuilder_PutAsync_System_Collections_Generic_List_System_String__System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_ExecuteActionsEmail_ExecuteActionsEmailRequestBuilder_ExecuteActionsEmailRequestBuilderPutQueryParameters___System_Threading_CancellationToken_
@@ -898,68 +841,14 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{System.IO.Stream}
-  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Stream>
-  nameWithType: Task<Stream>
-  fullName: System.Threading.Tasks.Task<System.IO.Stream>
-  nameWithType.vb: Task(Of Stream)
-  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
-  name.vb: Task(Of Stream)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO
-  commentId: N:System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
   isExternal: true
@@ -1043,34 +932,6 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
-  - name: )
 - uid: System.Threading.Tasks
   commentId: N:System.Threading.Tasks
   isExternal: true

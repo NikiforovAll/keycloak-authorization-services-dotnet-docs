@@ -18,14 +18,6 @@ items:
   nameWithType: UsersRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UsersRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -59,14 +51,6 @@ items:
   nameWithType: UsersRequestBuilder.this[string]
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.this[string]
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: this[]
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 19
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -97,14 +81,6 @@ items:
   nameWithType: UsersRequestBuilder.UsersRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.UsersRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -135,14 +111,6 @@ items:
   nameWithType: UsersRequestBuilder.UsersRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.UsersRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -173,14 +141,6 @@ items:
   nameWithType: UsersRequestBuilder.DeleteAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.DeleteAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 51
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -213,14 +173,6 @@ items:
   nameWithType: UsersRequestBuilder.ToDeleteRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.ToDeleteRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToDeleteRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users
@@ -251,14 +203,6 @@ items:
   nameWithType: UsersRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users.UsersRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/Users/UsersRequestBuilder.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.Users

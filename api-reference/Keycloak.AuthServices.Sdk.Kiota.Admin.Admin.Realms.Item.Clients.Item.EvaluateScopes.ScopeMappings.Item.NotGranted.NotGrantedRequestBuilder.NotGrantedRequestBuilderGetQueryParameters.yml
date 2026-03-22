@@ -13,14 +13,6 @@ items:
   nameWithType: NotGrantedRequestBuilder.NotGrantedRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ScopeMappings.Item.NotGranted.NotGrantedRequestBuilder.NotGrantedRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ScopeMappings/Item/NotGranted/NotGrantedRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NotGrantedRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ScopeMappings/Item/NotGranted/NotGrantedRequestBuilder.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ScopeMappings.Item.NotGranted
@@ -50,14 +42,6 @@ items:
   nameWithType: NotGrantedRequestBuilder.NotGrantedRequestBuilderGetQueryParameters.Scope
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ScopeMappings.Item.NotGranted.NotGrantedRequestBuilder.NotGrantedRequestBuilderGetQueryParameters.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ScopeMappings/Item/NotGranted/NotGrantedRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ScopeMappings/Item/NotGranted/NotGrantedRequestBuilder.cs
-    startLine: 86
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ScopeMappings.Item.NotGranted

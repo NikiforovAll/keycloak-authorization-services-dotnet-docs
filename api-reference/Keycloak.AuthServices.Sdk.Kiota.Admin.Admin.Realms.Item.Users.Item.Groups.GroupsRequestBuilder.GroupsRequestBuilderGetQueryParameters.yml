@@ -16,14 +16,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GroupsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 93
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups
@@ -51,14 +43,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 96
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups
@@ -92,14 +76,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 98
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups
@@ -133,14 +109,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups
@@ -174,14 +142,6 @@ items:
   nameWithType: GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups.GroupsRequestBuilder.GroupsRequestBuilderGetQueryParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Users/Item/Groups/GroupsRequestBuilder.cs
-    startLine: 104
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.Groups

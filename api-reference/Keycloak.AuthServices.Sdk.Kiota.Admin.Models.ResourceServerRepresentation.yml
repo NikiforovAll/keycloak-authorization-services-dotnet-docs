@@ -8,6 +8,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.#ctor
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AdditionalData
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AllowRemoteResourceManagement
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.DecisionStrategy
@@ -26,14 +27,6 @@ items:
   nameWithType: ResourceServerRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceServerRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -64,14 +57,6 @@ items:
   nameWithType: ResourceServerRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -97,14 +82,6 @@ items:
   nameWithType: ResourceServerRepresentation.AllowRemoteResourceManagement
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AllowRemoteResourceManagement
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AllowRemoteResourceManagement
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -117,6 +94,29 @@ items:
       type: System.Nullable{System.Boolean}
     content.vb: Public Property AllowRemoteResourceManagement As Boolean?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AllowRemoteResourceManagement*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
+  id: AuthorizationSchema
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationSchema
+  nameWithType: ResourceServerRepresentation.AuthorizationSchema
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The authorizationSchema property
+  example: []
+  syntax:
+    content: public AuthorizationSchema? AuthorizationSchema { get; set; }
+    parameters: []
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+    content.vb: Public Property AuthorizationSchema As AuthorizationSchema
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId
   id: ClientId
@@ -128,14 +128,6 @@ items:
   nameWithType: ResourceServerRepresentation.ClientId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -159,14 +151,6 @@ items:
   nameWithType: ResourceServerRepresentation.DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.DecisionStrategy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionStrategy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -190,14 +174,6 @@ items:
   nameWithType: ResourceServerRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -221,14 +197,6 @@ items:
   nameWithType: ResourceServerRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -252,14 +220,6 @@ items:
   nameWithType: ResourceServerRepresentation.Policies
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Policies
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Policies
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -283,14 +243,6 @@ items:
   nameWithType: ResourceServerRepresentation.PolicyEnforcementMode
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.PolicyEnforcementMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyEnforcementMode
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -314,14 +266,6 @@ items:
   nameWithType: ResourceServerRepresentation.Resources
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Resources
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resources
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -345,14 +289,6 @@ items:
   nameWithType: ResourceServerRepresentation.Scopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 62
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -376,14 +312,6 @@ items:
   nameWithType: ResourceServerRepresentation.ResourceServerRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ResourceServerRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 70
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -407,14 +335,6 @@ items:
   nameWithType: ResourceServerRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 79
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -442,14 +362,6 @@ items:
   nameWithType: ResourceServerRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 88
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -475,14 +387,6 @@ items:
   nameWithType: ResourceServerRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ResourceServerRepresentation.cs
-    startLine: 107
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1030,6 +934,19 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_ResourceServerRepresentation_AuthorizationSchema
+  name: AuthorizationSchema
+  nameWithType: ResourceServerRepresentation.AuthorizationSchema
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.AuthorizationSchema
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema.html
+  name: AuthorizationSchema
+  nameWithType: AuthorizationSchema
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.ClientId
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceServerRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_ResourceServerRepresentation_ClientId

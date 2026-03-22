@@ -11,6 +11,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthUser
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateFrom
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateTo
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Max
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.OperationTypes
@@ -23,14 +24,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 117
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -60,14 +53,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthClient
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthClient
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 121
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -101,14 +86,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthIpAddress
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthIpAddress
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthIpAddress
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 130
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -142,14 +119,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthRealm
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthRealm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthRealm
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 139
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -183,14 +152,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthUser
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.AuthUser
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthUser
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -226,17 +187,11 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateFrom
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateFrom
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DateFrom
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 158
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
+  summary: From (inclusive) date (yyyy-MM-dd) or time in Epoch timestamp millis (number of milliseconds since January 1, 1970, 00:00:00 GMT)
+  example: []
   syntax:
     content: >-
       [QueryParameter("dateFrom")]
@@ -267,17 +222,11 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateTo
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateTo
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DateTo
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 167
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
+  summary: To (inclusive) date (yyyy-MM-dd) or time in Epoch timestamp millis (number of milliseconds since January 1, 1970, 00:00:00 GMT)
+  example: []
   syntax:
     content: >-
       [QueryParameter("dateTo")]
@@ -297,6 +246,41 @@ items:
     arguments:
     - type: System.String
       value: dateTo
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  id: Direction
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
+  summary: The direction to sort events by (asc or desc)
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("direction")]
+
+      public string? Direction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <QueryParameter("direction")>
+
+      Public Property Direction As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: direction
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   id: First
@@ -308,14 +292,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 174
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -349,14 +325,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 177
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -392,14 +360,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.OperationTypes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.OperationTypes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OperationTypes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 181
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -433,14 +393,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.ResourcePath
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.ResourcePath
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourcePath
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 190
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -474,14 +426,6 @@ items:
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.ResourceTypes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.ResourceTypes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceTypes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AdminEvents/AdminEventsRequestBuilder.cs
-    startLine: 199
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents
@@ -867,6 +811,12 @@ references:
   name: DateTo
   nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateTo
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.DateTo
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_AdminEvents_AdminEventsRequestBuilder_AdminEventsRequestBuilderGetQueryParameters_Direction
+  name: Direction
+  nameWithType: AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.Direction
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.First
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AdminEvents.AdminEventsRequestBuilder.AdminEventsRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_AdminEvents_AdminEventsRequestBuilder_AdminEventsRequestBuilderGetQueryParameters_First

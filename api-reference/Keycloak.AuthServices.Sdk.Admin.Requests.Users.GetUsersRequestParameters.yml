@@ -26,14 +26,6 @@ items:
   nameWithType: GetUsersRequestParameters
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetUsersRequestParameters
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 31
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -41,6 +33,7 @@ items:
     Optional request parameters for the <xref href="Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUsersAsync(System.String%2cKeycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> endpoint.
 
     It can be called in three different ways.
+
 
     <ol><li>
                 Don’t specify any criteria. A stream of all users within that realm will be returned (limited by pagination).
@@ -79,14 +72,6 @@ items:
   nameWithType: GetUsersRequestParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -110,14 +95,6 @@ items:
   nameWithType: GetUsersRequestParameters.Email
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Email
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Email
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -144,14 +121,6 @@ items:
   nameWithType: GetUsersRequestParameters.EmailVerified
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.EmailVerified
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EmailVerified
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 47
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -175,14 +144,6 @@ items:
   nameWithType: GetUsersRequestParameters.Enabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Enabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Enabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 52
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -206,14 +167,6 @@ items:
   nameWithType: GetUsersRequestParameters.Exact
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Exact
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Exact
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -240,14 +193,6 @@ items:
   nameWithType: GetUsersRequestParameters.First
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 63
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -271,14 +216,6 @@ items:
   nameWithType: GetUsersRequestParameters.FirstName
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.FirstName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FirstName
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -305,14 +242,6 @@ items:
   nameWithType: GetUsersRequestParameters.IdpAlias
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.IdpAlias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IdpAlias
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -336,14 +265,6 @@ items:
   nameWithType: GetUsersRequestParameters.IdpUserId
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.IdpUserId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IdpUserId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 79
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -367,14 +288,6 @@ items:
   nameWithType: GetUsersRequestParameters.LastName
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.LastName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LastName
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 85
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -401,14 +314,6 @@ items:
   nameWithType: GetUsersRequestParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 90
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -432,14 +337,6 @@ items:
   nameWithType: GetUsersRequestParameters.Query
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Query
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Query
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 95
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -463,14 +360,6 @@ items:
   nameWithType: GetUsersRequestParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 101
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -497,14 +386,6 @@ items:
   nameWithType: GetUsersRequestParameters.Username
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters.Username
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Username
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/GetUsersRequestParameters.cs
-    startLine: 107
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users

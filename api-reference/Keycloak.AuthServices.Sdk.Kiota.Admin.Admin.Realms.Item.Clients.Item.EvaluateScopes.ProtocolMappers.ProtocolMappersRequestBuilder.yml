@@ -17,14 +17,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtocolMappersRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -58,14 +50,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -96,14 +80,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -134,14 +110,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.GetAsync(Action<RequestConfiguration<ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -158,7 +126,7 @@ items:
       description: Cancellation token to use when cancelling requests
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ProtocolMapperEvaluationRepresentation}}
-      description: A List&lt;ProtocolMapperEvaluationRepresentation&gt;
+      description: A List&lt;global::Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ProtocolMapperEvaluationRepresentation&gt;
     content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ProtocolMapperEvaluationRepresentation))
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.GetAsync*
   nameWithType.vb: ProtocolMappersRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters)), CancellationToken)
@@ -175,14 +143,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -213,14 +173,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 75
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers

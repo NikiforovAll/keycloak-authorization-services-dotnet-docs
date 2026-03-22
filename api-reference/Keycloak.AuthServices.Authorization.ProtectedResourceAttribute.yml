@@ -16,14 +16,6 @@ items:
   nameWithType: ProtectedResourceAttribute
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtectedResourceAttribute
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -109,14 +101,6 @@ items:
   nameWithType: ProtectedResourceAttribute.ProtectedResourceAttribute(string, string?)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ProtectedResourceAttribute(string, string?)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -145,14 +129,6 @@ items:
   nameWithType: ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -181,14 +157,6 @@ items:
   nameWithType: ProtectedResourceAttribute.Resource
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -214,14 +182,6 @@ items:
   nameWithType: ProtectedResourceAttribute.Scopes
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceAttribute.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

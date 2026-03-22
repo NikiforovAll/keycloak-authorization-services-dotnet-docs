@@ -15,14 +15,6 @@ items:
   nameWithType: KeycloakRealmResource
   fullName: Aspire.Hosting.KeycloakRealmResource
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakRealmResource
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -59,14 +51,6 @@ items:
   nameWithType: KeycloakRealmResource.KeycloakRealmResource(string, string, KeycloakResource)
   fullName: Aspire.Hosting.KeycloakRealmResource.KeycloakRealmResource(string, string, Aspire.Hosting.KeycloakResource)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -100,14 +84,6 @@ items:
   nameWithType: KeycloakRealmResource.Parent
   fullName: Aspire.Hosting.KeycloakRealmResource.Parent
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Parent
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 87
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -133,14 +109,6 @@ items:
   nameWithType: KeycloakRealmResource.Realm
   fullName: Aspire.Hosting.KeycloakRealmResource.Realm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Realm
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 91
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting

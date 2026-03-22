@@ -23,14 +23,6 @@ items:
   nameWithType: WithClientItemRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithClientItemRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -64,14 +56,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.Available
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.Available
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Available
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 19
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -95,14 +79,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.Composite
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.Composite
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Composite
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -126,14 +102,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.WithClientItemRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.WithClientItemRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -164,14 +132,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.WithClientItemRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.WithClientItemRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -202,14 +162,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.DeleteAsync(List<RoleRepresentation>, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.DeleteAsync(System.Collections.Generic.List<Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 52
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -245,14 +197,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 71
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -269,7 +213,7 @@ items:
       description: Cancellation token to use when cancelling requests
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation}}
-      description: A List&lt;RoleRepresentation&gt;
+      description: A List&lt;global::Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation&gt;
     content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of RoleRepresentation))
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.GetAsync*
   nameWithType.vb: WithClientItemRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
@@ -286,14 +230,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.PostAsync(List<RoleRepresentation>, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.PostAsync(System.Collections.Generic.List<Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PostAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 90
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -329,14 +265,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.ToDeleteRequestInformation(List<RoleRepresentation>, Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.ToDeleteRequestInformation(System.Collections.Generic.List<Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToDeleteRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 109
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -370,14 +298,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 129
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -408,14 +328,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.ToPostRequestInformation(List<RoleRepresentation>, Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.ToPostRequestInformation(System.Collections.Generic.List<Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RoleRepresentation>, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToPostRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item
@@ -449,14 +361,6 @@ items:
   nameWithType: WithClientItemRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item.WithClientItemRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientScopes/Item/ScopeMappings/Clients/Item/WithClientItemRequestBuilder.cs
-    startLine: 167
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientScopes.Item.ScopeMappings.Clients.Item

@@ -18,14 +18,6 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultDefaultClientScopesRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
@@ -59,14 +51,6 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.this[string]
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.this[string]
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: this[]
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
@@ -97,14 +81,6 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.DefaultDefaultClientScopesRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.DefaultDefaultClientScopesRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
@@ -135,14 +111,6 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.DefaultDefaultClientScopesRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.DefaultDefaultClientScopesRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
@@ -173,18 +141,10 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
-  summary: Get realm default client scopes.  Only name and ids are returned.
+  summary: Get realm default client scopes. Only name and ids are returned.
   example: []
   syntax:
     content: public Task<List<ClientScopeRepresentation>?> GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
@@ -197,7 +157,7 @@ items:
       description: Cancellation token to use when cancelling requests
     return:
       type: System.Threading.Tasks.Task{System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientScopeRepresentation}}
-      description: A List&lt;ClientScopeRepresentation&gt;
+      description: A List&lt;global::Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientScopeRepresentation&gt;
     content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of ClientScopeRepresentation))
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.GetAsync*
   nameWithType.vb: DefaultDefaultClientScopesRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
@@ -214,18 +174,10 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 71
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes
-  summary: Get realm default client scopes.  Only name and ids are returned.
+  summary: Get realm default client scopes. Only name and ids are returned.
   example: []
   syntax:
     content: public RequestInformation ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null)
@@ -252,14 +204,6 @@ items:
   nameWithType: DefaultDefaultClientScopesRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes.DefaultDefaultClientScopesRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/DefaultDefaultClientScopes/DefaultDefaultClientScopesRequestBuilder.cs
-    startLine: 88
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.DefaultDefaultClientScopes

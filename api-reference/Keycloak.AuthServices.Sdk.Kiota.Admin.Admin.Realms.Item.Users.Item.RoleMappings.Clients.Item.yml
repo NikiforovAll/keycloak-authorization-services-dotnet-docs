@@ -4,7 +4,7 @@ items:
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item
   id: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item
   children:
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.WithClientItemRequestBuilder
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.ClientItemRequestBuilder
   langs:
   - csharp
   - vb
@@ -15,13 +15,13 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
 references:
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.WithClientItemRequestBuilder
-  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.WithClientItemRequestBuilder
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.ClientItemRequestBuilder
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.ClientItemRequestBuilder
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.WithClientItemRequestBuilder.html
-  name: WithClientItemRequestBuilder
-  nameWithType: WithClientItemRequestBuilder
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.WithClientItemRequestBuilder
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.ClientItemRequestBuilder.html
+  name: ClientItemRequestBuilder
+  nameWithType: ClientItemRequestBuilder
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item.ClientItemRequestBuilder
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.RoleMappings.Clients.Item
   href: Keycloak.html

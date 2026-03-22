@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  id: MembershipType
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  children:
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.MANAGED
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.UNMANAGED
+  langs:
+  - csharp
+  - vb
+  name: MembershipType
+  nameWithType: MembershipType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  type: Enum
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: public enum MembershipType
+    content.vb: Public Enum MembershipType
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.UNMANAGED
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.UNMANAGED
+  id: UNMANAGED
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  langs:
+  - csharp
+  - vb
+  name: UNMANAGED
+  nameWithType: MembershipType.UNMANAGED
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.UNMANAGED
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "UNMANAGED")]
+
+      UNMANAGED = 0
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+    content.vb: >-
+      <EnumMember(Value:="UNMANAGED")>
+
+      UNMANAGED = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: UNMANAGED
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.MANAGED
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.MANAGED
+  id: MANAGED
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  langs:
+  - csharp
+  - vb
+  name: MANAGED
+  nameWithType: MembershipType.MANAGED
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.MANAGED
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "MANAGED")]
+
+      MANAGED = 1
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+    content.vb: >-
+      <EnumMember(Value:="MANAGED")>
+
+      MANAGED = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: MANAGED
+references:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.html
+  name: MembershipType
+  nameWithType: MembershipType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType

@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  id: Status
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  children:
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.EXPIRED
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.PENDING
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Status
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  type: Enum
+  source:
+    remote:
+      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+      branch: feat/keycloak-auth-services-skill
+      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
+    id: Status
+    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+    startLine: 5
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: public enum Status
+    content.vb: Public Enum Status
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.PENDING
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.PENDING
+  id: PENDING
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  langs:
+  - csharp
+  - vb
+  name: PENDING
+  nameWithType: Status.PENDING
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.PENDING
+  type: Field
+  source:
+    remote:
+      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+      branch: feat/keycloak-auth-services-skill
+      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
+    id: PENDING
+    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+    startLine: 10
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "PENDING")]
+
+      PENDING = 0
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+    content.vb: >-
+      <EnumMember(Value:="PENDING")>
+
+      PENDING = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: PENDING
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.EXPIRED
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.EXPIRED
+  id: EXPIRED
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  langs:
+  - csharp
+  - vb
+  name: EXPIRED
+  nameWithType: Status.EXPIRED
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.EXPIRED
+  type: Field
+  source:
+    remote:
+      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+      branch: feat/keycloak-auth-services-skill
+      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
+    id: EXPIRED
+    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
+    startLine: 14
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "EXPIRED")]
+
+      EXPIRED = 1
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+    content.vb: >-
+      <EnumMember(Value:="EXPIRED")>
+
+      EXPIRED = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: EXPIRED
+references:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.html
+  name: Status
+  nameWithType: Status
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status

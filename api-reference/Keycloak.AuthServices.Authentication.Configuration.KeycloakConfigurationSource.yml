@@ -14,14 +14,6 @@ items:
   nameWithType: KeycloakConfigurationSource
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationSource
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakConfigurationSource
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -40,11 +32,11 @@ items:
   - Microsoft.Extensions.Configuration.FileConfigurationSource.EnsureDefaults(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   - Microsoft.Extensions.Configuration.FileConfigurationSource.ResolveFileProvider
   - Microsoft.Extensions.Configuration.FileConfigurationSource.FileProvider
-  - Microsoft.Extensions.Configuration.FileConfigurationSource.Path
-  - Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
-  - Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
-  - Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
   - Microsoft.Extensions.Configuration.FileConfigurationSource.OnLoadException
+  - Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
+  - Microsoft.Extensions.Configuration.FileConfigurationSource.Path
+  - Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
+  - Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -63,14 +55,6 @@ items:
   nameWithType: KeycloakConfigurationSource.ConfigurationPrefix
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationSource.ConfigurationPrefix
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigurationPrefix
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -94,14 +78,6 @@ items:
   nameWithType: KeycloakConfigurationSource.Build(IConfigurationBuilder)
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Build
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationSource.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -253,38 +229,6 @@ references:
   name: FileProvider
   nameWithType: FileConfigurationSource.FileProvider
   fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.FileProvider
-- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.Path
-  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.Path
-  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.path
-  name: Path
-  nameWithType: FileConfigurationSource.Path
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.Path
-- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
-  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
-  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.optional
-  name: Optional
-  nameWithType: FileConfigurationSource.Optional
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
-- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
-  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
-  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.reloadonchange
-  name: ReloadOnChange
-  nameWithType: FileConfigurationSource.ReloadOnChange
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
-- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
-  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
-  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.reloaddelay
-  name: ReloadDelay
-  nameWithType: FileConfigurationSource.ReloadDelay
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
 - uid: Microsoft.Extensions.Configuration.FileConfigurationSource.OnLoadException
   commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.OnLoadException
   parent: Microsoft.Extensions.Configuration.FileConfigurationSource
@@ -293,6 +237,38 @@ references:
   name: OnLoadException
   nameWithType: FileConfigurationSource.OnLoadException
   fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.OnLoadException
+- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
+  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
+  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.optional
+  name: Optional
+  nameWithType: FileConfigurationSource.Optional
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.Optional
+- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.Path
+  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.Path
+  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.path
+  name: Path
+  nameWithType: FileConfigurationSource.Path
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.Path
+- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
+  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
+  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.reloaddelay
+  name: ReloadDelay
+  nameWithType: FileConfigurationSource.ReloadDelay
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadDelay
+- uid: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
+  commentId: P:Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
+  parent: Microsoft.Extensions.Configuration.FileConfigurationSource
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationsource.reloadonchange
+  name: ReloadOnChange
+  nameWithType: FileConfigurationSource.ReloadOnChange
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationSource.ReloadOnChange
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object

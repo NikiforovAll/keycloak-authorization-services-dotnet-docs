@@ -13,6 +13,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Permission
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.PolicyId
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Resource
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Type
   langs:
@@ -22,14 +23,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 126
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -57,14 +50,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Fields
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Fields
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Fields
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 131
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -98,14 +83,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 138
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -139,14 +116,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 140
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -180,14 +149,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 144
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -221,14 +182,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Owner
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Owner
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Owner
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 153
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -262,14 +215,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Permission
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Permission
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Permission
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 160
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -303,14 +248,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.PolicyId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.PolicyId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 164
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -344,14 +281,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Resource
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 173
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -374,6 +303,39 @@ items:
     arguments:
     - type: System.String
       value: resource
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  id: ResourceType
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: ResourceType
+  nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
+  syntax:
+    content: >-
+      [QueryParameter("resourceType")]
+
+      public string? ResourceType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <QueryParameter("resourceType")>
+
+      Public Property ResourceType As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceType
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   id: Scope
@@ -385,14 +347,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 182
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -426,14 +380,6 @@ items:
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/Authz/ResourceServer/Policy/PolicyRequestBuilder.cs
-    startLine: 191
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy
@@ -937,6 +883,12 @@ references:
   name: Resource
   nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Resource
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Resource
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Clients_Item_Authz_ResourceServer_Policy_PolicyRequestBuilder_PolicyRequestBuilderGetQueryParameters_ResourceType
+  name: ResourceType
+  nameWithType: PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.ResourceType
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.Scope
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.Authz.ResourceServer.Policy.PolicyRequestBuilder.PolicyRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Clients_Item_Authz_ResourceServer_Policy_PolicyRequestBuilder_PolicyRequestBuilderGetQueryParameters_Scope

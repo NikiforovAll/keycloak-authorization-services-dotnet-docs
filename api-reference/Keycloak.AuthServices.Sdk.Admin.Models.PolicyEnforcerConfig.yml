@@ -25,14 +25,6 @@ items:
   nameWithType: PolicyEnforcerConfig
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyEnforcerConfig
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4736
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -60,14 +52,6 @@ items:
   nameWithType: PolicyEnforcerConfig.EnforcementMode
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.EnforcementMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnforcementMode
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4742
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -121,14 +105,6 @@ items:
   nameWithType: PolicyEnforcerConfig.Paths
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.Paths
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Paths
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4751
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -173,14 +149,6 @@ items:
   nameWithType: PolicyEnforcerConfig.PathCache
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.PathCache
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PathCache
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4757
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -225,14 +193,6 @@ items:
   nameWithType: PolicyEnforcerConfig.LazyLoadPaths
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.LazyLoadPaths
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LazyLoadPaths
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4763
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -277,14 +237,6 @@ items:
   nameWithType: PolicyEnforcerConfig.OnDenyRedirectTo
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.OnDenyRedirectTo
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OnDenyRedirectTo
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4769
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -329,14 +281,6 @@ items:
   nameWithType: PolicyEnforcerConfig.UserManagedAccess
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.UserManagedAccess
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserManagedAccess
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4775
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -381,14 +325,6 @@ items:
   nameWithType: PolicyEnforcerConfig.ClaimInformationPoint
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.ClaimInformationPoint
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClaimInformationPoint
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4781
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -433,14 +369,6 @@ items:
   nameWithType: PolicyEnforcerConfig.HttpMethodAsScope
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.HttpMethodAsScope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HttpMethodAsScope
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4790
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -485,14 +413,6 @@ items:
   nameWithType: PolicyEnforcerConfig.Realm
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.Realm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Realm
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4796
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -537,14 +457,6 @@ items:
   nameWithType: PolicyEnforcerConfig.AuthServerUrl
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.AuthServerUrl
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthServerUrl
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4802
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -589,14 +501,6 @@ items:
   nameWithType: PolicyEnforcerConfig.Credentials
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.Credentials
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Credentials
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4808
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -641,14 +545,6 @@ items:
   nameWithType: PolicyEnforcerConfig.Resource
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4815
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -693,14 +589,6 @@ items:
   nameWithType: PolicyEnforcerConfig.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.PolicyEnforcerConfig.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4823
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

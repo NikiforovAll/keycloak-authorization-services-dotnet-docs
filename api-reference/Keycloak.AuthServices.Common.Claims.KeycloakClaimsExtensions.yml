@@ -16,14 +16,6 @@ items:
   nameWithType: KeycloakClaimsExtensions
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakClaimsExtensions
-    path: ../src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -53,14 +45,6 @@ items:
   nameWithType: KeycloakClaimsExtensions.JsonClaimValueType
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions.JsonClaimValueType
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: JsonClaimValueType
-    path: ../src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -83,14 +67,6 @@ items:
   nameWithType: KeycloakClaimsExtensions.TryGetClaimValue<T>(IEnumerable<Claim>, string, string?, out T)
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions.TryGetClaimValue<T>(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>, string, string?, out T)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TryGetClaimValue
-    path: ../src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -111,6 +87,12 @@ items:
     - id: result
       type: '{T}'
       description: The claim value if found, otherwise the default value of type T.
+      attributes:
+      - type: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute
+        ctor: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.#ctor(System.Boolean)
+        arguments:
+        - type: System.Boolean
+          value: false
     typeParameters:
     - id: T
       description: The type of the claim value.
@@ -134,14 +116,6 @@ items:
   nameWithType: KeycloakClaimsExtensions.TryGetResourceCollection(IEnumerable<Claim>, out ResourceAccessCollection)
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions.TryGetResourceCollection(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>, out Keycloak.AuthServices.Common.Claims.ResourceAccessCollection)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TryGetResourceCollection
-    path: ../src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-    startLine: 64
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -156,6 +130,12 @@ items:
     - id: resourceAccessCollection
       type: Keycloak.AuthServices.Common.Claims.ResourceAccessCollection
       description: The resource access collection if found, otherwise null.
+      attributes:
+      - type: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute
+        ctor: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.#ctor(System.Boolean)
+        arguments:
+        - type: System.Boolean
+          value: false
     return:
       type: System.Boolean
       description: True if the resource collection was found, false otherwise.
@@ -176,14 +156,6 @@ items:
   nameWithType: KeycloakClaimsExtensions.TryGetRealmResource(IEnumerable<Claim>, out ResourceAccess)
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions.TryGetRealmResource(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>, out Keycloak.AuthServices.Common.Claims.ResourceAccess)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TryGetRealmResource
-    path: ../src/Keycloak.AuthServices.Common/Claims/KeycloakResourceClaimsExtensions.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -198,6 +170,12 @@ items:
     - id: resourcesAccess
       type: Keycloak.AuthServices.Common.Claims.ResourceAccess
       description: The realm resource access if found, otherwise null.
+      attributes:
+      - type: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute
+        ctor: System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.#ctor(System.Boolean)
+        arguments:
+        - type: System.Boolean
+          value: false
     return:
       type: System.Boolean
       description: True if the realm resource was found, false otherwise.

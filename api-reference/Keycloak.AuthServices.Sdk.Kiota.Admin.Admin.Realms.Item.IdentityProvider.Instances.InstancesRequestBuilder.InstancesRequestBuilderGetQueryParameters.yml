@@ -8,6 +8,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.BriefRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.First
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Max
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   langs:
   - csharp
@@ -16,14 +17,6 @@ items:
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: InstancesRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-    startLine: 136
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
@@ -53,14 +46,6 @@ items:
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-    startLine: 139
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
@@ -96,14 +81,6 @@ items:
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-    startLine: 142
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
@@ -139,14 +116,6 @@ items:
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-    startLine: 145
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
@@ -171,6 +140,41 @@ items:
     arguments:
     - type: System.String
       value: max
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  id: RealmOnly
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: RealmOnly
+  nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
+  summary: 'Boolean which defines if only realm-level IDPs (not associated with orgs) should be returned (default: false)'
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("realmOnly")]
+
+      public bool? RealmOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <QueryParameter("realmOnly")>
+
+      Public Property RealmOnly As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: realmOnly
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   id: Search
@@ -182,14 +186,6 @@ items:
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/IdentityProvider/Instances/InstancesRequestBuilder.cs
-    startLine: 150
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances
@@ -630,6 +626,12 @@ references:
   name: Max
   nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Max
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_IdentityProvider_Instances_InstancesRequestBuilder_InstancesRequestBuilderGetQueryParameters_RealmOnly
+  name: RealmOnly
+  nameWithType: InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.RealmOnly
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.Search
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.InstancesRequestBuilder.InstancesRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_IdentityProvider_Instances_InstancesRequestBuilder_InstancesRequestBuilderGetQueryParameters_Search

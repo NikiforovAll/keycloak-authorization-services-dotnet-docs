@@ -28,14 +28,6 @@ items:
   nameWithType: IdentityProviderRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IdentityProviderRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3603
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -63,14 +55,6 @@ items:
   nameWithType: IdentityProviderRepresentation.Alias
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.Alias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Alias
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3609
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -115,14 +99,6 @@ items:
   nameWithType: IdentityProviderRepresentation.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3615
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -167,14 +143,6 @@ items:
   nameWithType: IdentityProviderRepresentation.InternalId
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.InternalId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: InternalId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3621
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -219,14 +187,6 @@ items:
   nameWithType: IdentityProviderRepresentation.ProviderId
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.ProviderId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3627
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -271,14 +231,6 @@ items:
   nameWithType: IdentityProviderRepresentation.Enabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.Enabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Enabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3633
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -323,14 +275,6 @@ items:
   nameWithType: IdentityProviderRepresentation.UpdateProfileFirstLoginMode
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLoginMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateProfileFirstLoginMode
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3639
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -382,14 +326,6 @@ items:
   nameWithType: IdentityProviderRepresentation.TrustEmail
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.TrustEmail
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TrustEmail
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3646
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -434,14 +370,6 @@ items:
   nameWithType: IdentityProviderRepresentation.StoreToken
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.StoreToken
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: StoreToken
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3652
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -486,14 +414,6 @@ items:
   nameWithType: IdentityProviderRepresentation.AddReadTokenRoleOnCreate
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.AddReadTokenRoleOnCreate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddReadTokenRoleOnCreate
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3658
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -538,14 +458,6 @@ items:
   nameWithType: IdentityProviderRepresentation.AuthenticateByDefault
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.AuthenticateByDefault
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticateByDefault
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3664
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -590,14 +502,6 @@ items:
   nameWithType: IdentityProviderRepresentation.LinkOnly
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.LinkOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LinkOnly
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3670
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -642,14 +546,6 @@ items:
   nameWithType: IdentityProviderRepresentation.FirstBrokerLoginFlowAlias
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.FirstBrokerLoginFlowAlias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FirstBrokerLoginFlowAlias
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3676
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -694,14 +590,6 @@ items:
   nameWithType: IdentityProviderRepresentation.PostBrokerLoginFlowAlias
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.PostBrokerLoginFlowAlias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PostBrokerLoginFlowAlias
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3682
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -746,14 +634,6 @@ items:
   nameWithType: IdentityProviderRepresentation.Config
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.Config
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Config
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3688
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -798,14 +678,6 @@ items:
   nameWithType: IdentityProviderRepresentation.UpdateProfileFirstLogin
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateProfileFirstLogin
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3694
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -857,14 +729,6 @@ items:
   nameWithType: IdentityProviderRepresentation.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.IdentityProviderRepresentation.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 3703
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

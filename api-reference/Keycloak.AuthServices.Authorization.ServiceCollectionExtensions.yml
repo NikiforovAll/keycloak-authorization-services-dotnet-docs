@@ -19,14 +19,6 @@ items:
   nameWithType: ServiceCollectionExtensions
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceCollectionExtensions
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -57,14 +49,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthorization(IServiceCollection, IConfiguration, string)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddKeycloakAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthorization
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -102,14 +86,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthorization(IServiceCollection, IConfigurationSection)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddKeycloakAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthorization
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 52
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -141,14 +117,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthorization(IServiceCollection, Action<KeycloakAuthorizationOptions>?)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddKeycloakAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthorization
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 77
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -182,14 +150,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddAuthorizationServer(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddAuthorizationServer(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddAuthorizationServer
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 120
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -230,14 +190,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddAuthorizationServer(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddAuthorizationServer(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddAuthorizationServer
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 158
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -275,14 +227,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddAuthorizationServer(IServiceCollection, Action<KeycloakAuthorizationServerOptions>, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddAuthorizationServer(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions>, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddAuthorizationServer
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 187
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -320,14 +264,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddAuthorizationServerClient(IServiceCollection, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.AddAuthorizationServerClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddAuthorizationServerClient
-    path: ../src/Keycloak.AuthServices.Authorization/ServiceCollectionExtensions.cs
-    startLine: 241
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

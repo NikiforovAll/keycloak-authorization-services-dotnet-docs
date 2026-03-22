@@ -11,7 +11,6 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Address
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AtHash
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Birthdate
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.CHash
@@ -41,7 +40,6 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Profile
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Sid
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Sub
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Typ
@@ -55,14 +53,6 @@ items:
   nameWithType: IDToken
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IDToken
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -93,14 +83,6 @@ items:
   nameWithType: IDToken.Acr
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Acr
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Acr
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -124,14 +106,6 @@ items:
   nameWithType: IDToken.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -157,14 +131,6 @@ items:
   nameWithType: IDToken.Address
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Address
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Address
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -188,14 +154,6 @@ items:
   nameWithType: IDToken.AtHash
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AtHash
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AtHash
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -208,37 +166,6 @@ items:
       type: System.String
     content.vb: Public Property AtHash As String
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AtHash*
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
-  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
-  id: Auth_time
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken
-  langs:
-  - csharp
-  - vb
-  name: Auth_time
-  nameWithType: IDToken.Auth_time
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
-  type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Auth_time
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 38
-  assemblies:
-  - Keycloak.AuthServices.Sdk.Kiota
-  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The auth_time property
-  example: []
-  syntax:
-    content: public long? Auth_time { get; set; }
-    parameters: []
-    return:
-      type: System.Nullable{System.Int64}
-    content.vb: Public Property Auth_time As Long?
-  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
   id: AuthTime
@@ -250,38 +177,18 @@ items:
   nameWithType: IDToken.AuthTime
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthTime
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The authTime property
+  summary: The auth_time property
   example: []
   syntax:
-    content: >-
-      [Obsolete("")]
-
-      public int? AuthTime { get; set; }
+    content: public long? AuthTime { get; set; }
     parameters: []
     return:
-      type: System.Nullable{System.Int32}
-    content.vb: >-
-      <Obsolete("")>
-
-      Public Property AuthTime As Integer?
+      type: System.Nullable{System.Int64}
+    content.vb: Public Property AuthTime As Long?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ''
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp
   id: Azp
@@ -293,14 +200,6 @@ items:
   nameWithType: IDToken.Azp
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Azp
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -324,14 +223,6 @@ items:
   nameWithType: IDToken.Birthdate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Birthdate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Birthdate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -355,14 +246,6 @@ items:
   nameWithType: IDToken.CHash
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.CHash
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CHash
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -386,14 +269,6 @@ items:
   nameWithType: IDToken.ClaimsLocales
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.ClaimsLocales
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClaimsLocales
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -417,14 +292,6 @@ items:
   nameWithType: IDToken.Email
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Email
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Email
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 77
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -448,14 +315,6 @@ items:
   nameWithType: IDToken.EmailVerified
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.EmailVerified
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EmailVerified
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 83
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -479,14 +338,6 @@ items:
   nameWithType: IDToken.Exp
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Exp
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Exp
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 85
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -510,14 +361,6 @@ items:
   nameWithType: IDToken.FamilyName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.FamilyName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FamilyName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 89
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -541,14 +384,6 @@ items:
   nameWithType: IDToken.Gender
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Gender
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Gender
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 97
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -572,14 +407,6 @@ items:
   nameWithType: IDToken.GivenName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.GivenName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GivenName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 105
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -603,14 +430,6 @@ items:
   nameWithType: IDToken.Iat
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Iat
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Iat
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 111
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -634,14 +453,6 @@ items:
   nameWithType: IDToken.Iss
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Iss
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Iss
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 115
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -665,14 +476,6 @@ items:
   nameWithType: IDToken.Jti
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Jti
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Jti
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 123
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -696,14 +499,6 @@ items:
   nameWithType: IDToken.Locale
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Locale
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Locale
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 131
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -727,14 +522,6 @@ items:
   nameWithType: IDToken.MiddleName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.MiddleName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MiddleName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 139
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -758,14 +545,6 @@ items:
   nameWithType: IDToken.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 147
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -789,14 +568,6 @@ items:
   nameWithType: IDToken.Nbf
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Nbf
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Nbf
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 153
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -820,14 +591,6 @@ items:
   nameWithType: IDToken.Nickname
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Nickname
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Nickname
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 157
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -851,14 +614,6 @@ items:
   nameWithType: IDToken.Nonce
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Nonce
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Nonce
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 165
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -882,14 +637,6 @@ items:
   nameWithType: IDToken.OtherClaims
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.OtherClaims
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtherClaims
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 173
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -913,14 +660,6 @@ items:
   nameWithType: IDToken.PhoneNumber
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.PhoneNumber
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PhoneNumber
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 181
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -944,14 +683,6 @@ items:
   nameWithType: IDToken.PhoneNumberVerified
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.PhoneNumberVerified
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PhoneNumberVerified
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 187
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -975,14 +706,6 @@ items:
   nameWithType: IDToken.Picture
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Picture
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Picture
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 191
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1006,14 +729,6 @@ items:
   nameWithType: IDToken.PreferredUsername
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.PreferredUsername
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PreferredUsername
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 199
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1037,14 +752,6 @@ items:
   nameWithType: IDToken.Profile
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Profile
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Profile
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 207
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1057,37 +764,6 @@ items:
       type: System.String
     content.vb: Public Property Profile As String
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Profile*
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
-  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
-  id: SessionState
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken
-  langs:
-  - csharp
-  - vb
-  name: SessionState
-  nameWithType: IDToken.SessionState
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
-  type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SessionState
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 215
-  assemblies:
-  - Keycloak.AuthServices.Sdk.Kiota
-  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The session_state property
-  example: []
-  syntax:
-    content: public string? SessionState { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property SessionState As String
-  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash
   id: SHash
@@ -1099,14 +775,6 @@ items:
   nameWithType: IDToken.SHash
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SHash
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 223
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1130,14 +798,6 @@ items:
   nameWithType: IDToken.Sid
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Sid
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Sid
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 231
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1161,14 +821,6 @@ items:
   nameWithType: IDToken.Sub
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Sub
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Sub
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 239
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1192,14 +844,6 @@ items:
   nameWithType: IDToken.Typ
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Typ
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Typ
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 247
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1223,14 +867,6 @@ items:
   nameWithType: IDToken.UpdatedAt
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.UpdatedAt
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdatedAt
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 253
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1254,14 +890,6 @@ items:
   nameWithType: IDToken.Website
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Website
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Website
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 257
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1285,14 +913,6 @@ items:
   nameWithType: IDToken.Zoneinfo
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Zoneinfo
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Zoneinfo
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 265
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1316,14 +936,6 @@ items:
   nameWithType: IDToken.IDToken()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.IDToken()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 273
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1347,14 +959,6 @@ items:
   nameWithType: IDToken.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 282
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1382,14 +986,6 @@ items:
   nameWithType: IDToken.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 291
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1415,14 +1011,6 @@ items:
   nameWithType: IDToken.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/IDToken.cs
-    startLine: 339
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1949,12 +1537,12 @@ references:
   name: AtHash
   nameWithType: IDToken.AtHash
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AtHash
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_Auth_time
-  name: Auth_time
-  nameWithType: IDToken.Auth_time
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Auth_time
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_AuthTime
+  name: AuthTime
+  nameWithType: IDToken.AuthTime
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
 - uid: System.Nullable{System.Int64}
   commentId: T:System.Nullable{System.Int64}
   parent: System
@@ -2006,35 +1594,6 @@ references:
   - name: " "
   - name: T
   - name: )
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_AuthTime
-  name: AuthTime
-  nameWithType: IDToken.AuthTime
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.AuthTime
-- uid: System.Nullable{System.Int32}
-  commentId: T:System.Nullable{System.Int32}
-  parent: System
-  definition: System.Nullable`1
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int?
-  nameWithType: int?
-  fullName: int?
-  nameWithType.vb: Integer?
-  fullName.vb: Integer?
-  name.vb: Integer?
-  spec.csharp:
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '?'
-  spec.vb:
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '?'
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Azp
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_Azp
@@ -2215,12 +1774,6 @@ references:
   name: Profile
   nameWithType: IDToken.Profile
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.Profile
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_SessionState
-  name: SessionState
-  nameWithType: IDToken.SessionState
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SessionState
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.SHash
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IDToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IDToken_SHash

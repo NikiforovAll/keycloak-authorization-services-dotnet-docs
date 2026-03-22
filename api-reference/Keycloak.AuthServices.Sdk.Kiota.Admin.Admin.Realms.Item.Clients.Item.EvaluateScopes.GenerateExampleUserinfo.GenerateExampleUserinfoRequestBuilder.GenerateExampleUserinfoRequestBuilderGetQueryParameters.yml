@@ -14,14 +14,6 @@ items:
   nameWithType: GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo.GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GenerateExampleUserinfoRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo
@@ -51,14 +43,6 @@ items:
   nameWithType: GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters.Scope
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo.GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo
@@ -92,14 +76,6 @@ items:
   nameWithType: GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters.UserId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo.GenerateExampleUserinfoRequestBuilder.GenerateExampleUserinfoRequestBuilderGetQueryParameters.UserId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/GenerateExampleUserinfo/GenerateExampleUserinfoRequestBuilder.cs
-    startLine: 93
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.GenerateExampleUserinfo

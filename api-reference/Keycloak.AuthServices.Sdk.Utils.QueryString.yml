@@ -31,14 +31,6 @@ items:
   nameWithType: QueryString
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString
   type: Struct
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: QueryString
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -64,14 +56,6 @@ items:
   nameWithType: QueryString.Empty
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Empty
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Empty
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 105
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -93,14 +77,6 @@ items:
   nameWithType: QueryString.QueryString(string?)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.QueryString(string?)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 112
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -131,14 +107,6 @@ items:
   nameWithType: QueryString.Value
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Value
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Value
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 127
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -162,26 +130,32 @@ items:
   nameWithType: QueryString.HasValue
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.HasValue
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HasValue
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 132
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
   summary: True if the query string is not empty
   example: []
   syntax:
-    content: public bool HasValue { get; }
+    content: >-
+      [MemberNotNullWhen(true, "Value")]
+
+      public bool HasValue { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public ReadOnly Property HasValue As Boolean
+    content.vb: >-
+      <MemberNotNullWhen(True, "Value")>
+
+      Public ReadOnly Property HasValue As Boolean
   overload: Keycloak.AuthServices.Sdk.Utils.QueryString.HasValue*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute
+    ctor: System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute.#ctor(System.Boolean,System.String)
+    arguments:
+    - type: System.Boolean
+      value: true
+    - type: System.String
+      value: Value
 - uid: Keycloak.AuthServices.Sdk.Utils.QueryString.ToString
   commentId: M:Keycloak.AuthServices.Sdk.Utils.QueryString.ToString
   id: ToString
@@ -193,14 +167,6 @@ items:
   nameWithType: QueryString.ToString()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 141
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -230,14 +196,6 @@ items:
   nameWithType: QueryString.ToUriComponent()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.ToUriComponent()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToUriComponent
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -266,14 +224,6 @@ items:
   nameWithType: QueryString.FromUriComponent(string)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.FromUriComponent(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FromUriComponent
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 161
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -307,14 +257,6 @@ items:
   nameWithType: QueryString.FromUriComponent(Uri)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.FromUriComponent(System.Uri)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FromUriComponent
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 175
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -342,14 +284,6 @@ items:
   nameWithType: QueryString.Create(string, string)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Create(string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Create
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 193
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -383,14 +317,6 @@ items:
   nameWithType: QueryString.Create(IEnumerable<KeyValuePair<string, string?>>)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Create(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string?>>)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Create
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 209
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -421,14 +347,6 @@ items:
   nameWithType: QueryString.Create(IEnumerable<KeyValuePair<string, StringValues>>)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Create(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, Microsoft.Extensions.Primitives.StringValues>>)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Create
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 229
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -459,14 +377,6 @@ items:
   nameWithType: QueryString.Add(QueryString)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Add(Keycloak.AuthServices.Sdk.Utils.QueryString)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Add
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 261
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -494,14 +404,6 @@ items:
   nameWithType: QueryString.Add(string, string)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Add(string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Add
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 283
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -538,14 +440,6 @@ items:
   nameWithType: QueryString.Equals(QueryString)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Equals(Keycloak.AuthServices.Sdk.Utils.QueryString)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Equals
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 302
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -575,14 +469,6 @@ items:
   nameWithType: QueryString.Equals(object?)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.Equals(object?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Equals
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 316
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -614,14 +500,6 @@ items:
   nameWithType: QueryString.GetHashCode()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.GetHashCode()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetHashCode
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 329
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -646,14 +524,6 @@ items:
   nameWithType: QueryString.operator ==(QueryString, QueryString)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.operator ==(Keycloak.AuthServices.Sdk.Utils.QueryString, Keycloak.AuthServices.Sdk.Utils.QueryString)
   type: Operator
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: op_Equality
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 337
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -687,14 +557,6 @@ items:
   nameWithType: QueryString.operator !=(QueryString, QueryString)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.operator !=(Keycloak.AuthServices.Sdk.Utils.QueryString, Keycloak.AuthServices.Sdk.Utils.QueryString)
   type: Operator
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: op_Inequality
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 345
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -728,14 +590,6 @@ items:
   nameWithType: QueryString.operator +(QueryString, QueryString)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryString.operator +(Keycloak.AuthServices.Sdk.Utils.QueryString, Keycloak.AuthServices.Sdk.Utils.QueryString)
   type: Operator
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: op_Addition
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 353
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils

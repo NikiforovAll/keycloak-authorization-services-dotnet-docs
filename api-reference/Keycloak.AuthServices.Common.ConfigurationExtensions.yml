@@ -16,14 +16,6 @@ items:
   nameWithType: ConfigurationExtensions
   fullName: Keycloak.AuthServices.Common.ConfigurationExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigurationExtensions
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -54,14 +46,6 @@ items:
   nameWithType: ConfigurationExtensions.GetKeycloakOptions<T>(IConfiguration, string)
   fullName: Keycloak.AuthServices.Common.ConfigurationExtensions.GetKeycloakOptions<T>(Microsoft.Extensions.Configuration.IConfiguration, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetKeycloakOptions
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -99,14 +83,6 @@ items:
   nameWithType: ConfigurationExtensions.GetKeycloakOptions<T>(IConfigurationSection)
   fullName: Keycloak.AuthServices.Common.ConfigurationExtensions.GetKeycloakOptions<T>(Microsoft.Extensions.Configuration.IConfigurationSection)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetKeycloakOptions
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -140,14 +116,6 @@ items:
   nameWithType: ConfigurationExtensions.BindKeycloakOptions<T>(IConfiguration, T, string)
   fullName: Keycloak.AuthServices.Common.ConfigurationExtensions.BindKeycloakOptions<T>(Microsoft.Extensions.Configuration.IConfiguration, T, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BindKeycloakOptions
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-    startLine: 47
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -185,14 +153,6 @@ items:
   nameWithType: ConfigurationExtensions.BindKeycloakOptions<T>(IConfigurationSection, T)
   fullName: Keycloak.AuthServices.Common.ConfigurationExtensions.BindKeycloakOptions<T>(Microsoft.Extensions.Configuration.IConfigurationSection, T)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BindKeycloakOptions
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationExtensions.cs
-    startLine: 65
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common

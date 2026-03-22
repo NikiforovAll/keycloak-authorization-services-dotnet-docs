@@ -14,14 +14,6 @@ items:
   nameWithType: PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport.PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PartialExportRequestBuilderPostQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-    startLine: 79
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport
@@ -51,14 +43,6 @@ items:
   nameWithType: PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters.ExportClients
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport.PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters.ExportClients
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ExportClients
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-    startLine: 81
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport
@@ -92,14 +76,6 @@ items:
   nameWithType: PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters.ExportGroupsAndRoles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport.PartialExportRequestBuilder.PartialExportRequestBuilderPostQueryParameters.ExportGroupsAndRoles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ExportGroupsAndRoles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/PartialExport/PartialExportRequestBuilder.cs
-    startLine: 83
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialExport

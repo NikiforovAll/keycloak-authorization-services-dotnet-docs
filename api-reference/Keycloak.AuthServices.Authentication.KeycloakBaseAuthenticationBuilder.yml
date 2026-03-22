@@ -15,14 +15,6 @@ items:
   nameWithType: KeycloakBaseAuthenticationBuilder
   fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakBaseAuthenticationBuilder
-    path: ../src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -55,14 +47,6 @@ items:
   nameWithType: KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder(IServiceCollection, IConfigurationSection?)
   fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection?)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -93,14 +77,6 @@ items:
   nameWithType: KeycloakBaseAuthenticationBuilder.Services
   fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Services
-    path: ../src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -124,14 +100,6 @@ items:
   nameWithType: KeycloakBaseAuthenticationBuilder.ConfigurationSection
   fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigurationSection
-    path: ../src/Keycloak.AuthServices.Authentication/KeycloakBaseAuthenticationBuilder.cs
-    startLine: 35
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication

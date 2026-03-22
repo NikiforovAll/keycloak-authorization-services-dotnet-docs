@@ -17,14 +17,6 @@ items:
   nameWithType: GetGroupsRequestParameters
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetGroupsRequestParameters
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
@@ -54,14 +46,6 @@ items:
   nameWithType: GetGroupsRequestParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
@@ -85,14 +69,6 @@ items:
   nameWithType: GetGroupsRequestParameters.First
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
@@ -116,14 +92,6 @@ items:
   nameWithType: GetGroupsRequestParameters.Exact
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.Exact
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Exact
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
@@ -147,14 +115,6 @@ items:
   nameWithType: GetGroupsRequestParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
@@ -178,14 +138,6 @@ items:
   nameWithType: GetGroupsRequestParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Groups/GetGroupsRequestParameters.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Groups

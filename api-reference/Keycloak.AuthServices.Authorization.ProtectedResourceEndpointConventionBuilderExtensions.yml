@@ -17,14 +17,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtectedResourceEndpointConventionBuilderExtensions
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -55,14 +47,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -99,14 +83,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -146,14 +122,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string[])
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string[])
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -193,14 +161,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResource<TBuilder>(TBuilder, string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResource<TBuilder>(TBuilder, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IgnoreProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 81
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -237,14 +197,6 @@ items:
   nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResources<TBuilder>(TBuilder)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResources<TBuilder>(TBuilder)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IgnoreProtectedResources
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourceEndpointConventionBuilderExtensions.cs
-    startLine: 97
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

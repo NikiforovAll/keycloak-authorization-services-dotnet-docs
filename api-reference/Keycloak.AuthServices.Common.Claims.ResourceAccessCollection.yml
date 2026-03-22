@@ -13,14 +13,6 @@ items:
   nameWithType: ResourceAccessCollection
   fullName: Keycloak.AuthServices.Common.Claims.ResourceAccessCollection
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccessCollection
-    path: ../src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-    startLine: 6
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -49,17 +41,19 @@ items:
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.ContainsKey(System.String)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.ContainsValue(Keycloak.AuthServices.Common.Claims.ResourceAccess)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.EnsureCapacity(System.Int32)
+  - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetAlternateLookup``1
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetEnumerator
-  - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.OnDeserialization(System.Object)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Remove(System.String)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Remove(System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess@)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TrimExcess
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TrimExcess(System.Int32)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryAdd(System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess)
+  - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup{{TAlternateKey}}@)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetValue(System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess@)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Comparer
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Count
+  - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Capacity
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Item(System.String)
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Keys
   - System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Values
@@ -81,14 +75,6 @@ items:
   nameWithType: ResourceAccessCollection.ResourceAccessCollection()
   fullName: Keycloak.AuthServices.Common.Claims.ResourceAccessCollection.ResourceAccessCollection()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -666,6 +652,39 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetAlternateLookup``1
+  commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetAlternateLookup``1
+  parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
+  definition: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  name: GetAlternateLookup<TAlternateKey>()
+  nameWithType: Dictionary<string, ResourceAccess>.GetAlternateLookup<TAlternateKey>()
+  fullName: System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.GetAlternateLookup<TAlternateKey>()
+  nameWithType.vb: Dictionary(Of String, ResourceAccess).GetAlternateLookup(Of TAlternateKey)()
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).GetAlternateLookup(Of TAlternateKey)()
+  name.vb: GetAlternateLookup(Of TAlternateKey)()
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetEnumerator
   commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetEnumerator
   parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
@@ -689,50 +708,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator
   - name: (
-  - name: )
-- uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
-  definition: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Dictionary<string, ResourceAccess>.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType.vb: Dictionary(Of String, ResourceAccess).GetObjectData(SerializationInfo, StreamingContext)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.OnDeserialization(System.Object)
   commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.OnDeserialization(System.Object)
@@ -945,6 +920,57 @@ references:
     name: ResourceAccess
     href: Keycloak.AuthServices.Common.Claims.ResourceAccess.html
   - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup{{TAlternateKey}}@)
+  commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup{``0}@)
+  parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
+  definition: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  name: TryGetAlternateLookup<TAlternateKey>(out AlternateLookup<TAlternateKey>)
+  nameWithType: Dictionary<string, ResourceAccess>.TryGetAlternateLookup<TAlternateKey>(out Dictionary<string, ResourceAccess>.AlternateLookup<TAlternateKey>)
+  fullName: System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.TryGetAlternateLookup<TAlternateKey>(out System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.AlternateLookup<TAlternateKey>)
+  nameWithType.vb: Dictionary(Of String, ResourceAccess).TryGetAlternateLookup(Of TAlternateKey)(Dictionary(Of String, ResourceAccess).AlternateLookup(Of TAlternateKey))
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).TryGetAlternateLookup(Of TAlternateKey)(System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).AlternateLookup(Of TAlternateKey))
+  name.vb: TryGetAlternateLookup(Of TAlternateKey)(AlternateLookup(Of TAlternateKey))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetValue(System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess@)
   commentId: M:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.TryGetValue(System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess@)
   parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
@@ -1010,6 +1036,16 @@ references:
   fullName: System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.Count
   nameWithType.vb: Dictionary(Of String, ResourceAccess).Count
   fullName.vb: System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).Count
+- uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Capacity
+  commentId: P:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Capacity
+  parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
+  definition: System.Collections.Generic.Dictionary`2.Capacity
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.capacity
+  name: Capacity
+  nameWithType: Dictionary<string, ResourceAccess>.Capacity
+  fullName: System.Collections.Generic.Dictionary<string, Keycloak.AuthServices.Common.Claims.ResourceAccess>.Capacity
+  nameWithType.vb: Dictionary(Of String, ResourceAccess).Capacity
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Keycloak.AuthServices.Common.Claims.ResourceAccess).Capacity
 - uid: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Item(System.String)
   commentId: P:System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}.Item(System.String)
   parent: System.Collections.Generic.Dictionary{System.String,Keycloak.AuthServices.Common.Claims.ResourceAccess}
@@ -1709,6 +1745,38 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  commentId: M:System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  name: GetAlternateLookup<TAlternateKey>()
+  nameWithType: Dictionary<TKey, TValue>.GetAlternateLookup<TAlternateKey>()
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.GetAlternateLookup<TAlternateKey>()
+  nameWithType.vb: Dictionary(Of TKey, TValue).GetAlternateLookup(Of TAlternateKey)()
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).GetAlternateLookup(Of TAlternateKey)()
+  name.vb: GetAlternateLookup(Of TAlternateKey)()
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary`2.GetEnumerator
   commentId: M:System.Collections.Generic.Dictionary`2.GetEnumerator
   isExternal: true
@@ -1731,49 +1799,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator
   - name: (
-  - name: )
-- uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Dictionary<TKey, TValue>.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType.vb: Dictionary(Of TKey, TValue).GetObjectData(SerializationInfo, StreamingContext)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)
   commentId: M:System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)
@@ -1952,6 +1977,56 @@ references:
   - name: " "
   - name: TValue
   - name: )
+- uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  commentId: M:System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  name: TryGetAlternateLookup<TAlternateKey>(out AlternateLookup<TAlternateKey>)
+  nameWithType: Dictionary<TKey, TValue>.TryGetAlternateLookup<TAlternateKey>(out Dictionary<TKey, TValue>.AlternateLookup<TAlternateKey>)
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.TryGetAlternateLookup<TAlternateKey>(out System.Collections.Generic.Dictionary<TKey, TValue>.AlternateLookup<TAlternateKey>)
+  nameWithType.vb: Dictionary(Of TKey, TValue).TryGetAlternateLookup(Of TAlternateKey)(Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey))
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).TryGetAlternateLookup(Of TAlternateKey)(System.Collections.Generic.Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey))
+  name.vb: TryGetAlternateLookup(Of TAlternateKey)(AlternateLookup(Of TAlternateKey))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)
   commentId: M:System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)
   isExternal: true
@@ -2004,6 +2079,15 @@ references:
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>.Count
   nameWithType.vb: Dictionary(Of TKey, TValue).Count
   fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).Count
+- uid: System.Collections.Generic.Dictionary`2.Capacity
+  commentId: P:System.Collections.Generic.Dictionary`2.Capacity
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.capacity
+  name: Capacity
+  nameWithType: Dictionary<TKey, TValue>.Capacity
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.Capacity
+  nameWithType.vb: Dictionary(Of TKey, TValue).Capacity
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).Capacity
 - uid: System.Collections.Generic.Dictionary`2.Item(`0)
   commentId: P:System.Collections.Generic.Dictionary`2.Item(`0)
   isExternal: true

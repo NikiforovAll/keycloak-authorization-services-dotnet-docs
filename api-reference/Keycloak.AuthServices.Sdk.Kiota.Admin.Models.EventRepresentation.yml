@@ -12,6 +12,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Details
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Error
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.GetFieldDeserializers
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.RealmId
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
@@ -26,14 +27,6 @@ items:
   nameWithType: EventRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -64,14 +57,6 @@ items:
   nameWithType: EventRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -97,14 +82,6 @@ items:
   nameWithType: EventRepresentation.ClientId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.ClientId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -128,14 +105,6 @@ items:
   nameWithType: EventRepresentation.Details
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Details
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Details
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -159,14 +128,6 @@ items:
   nameWithType: EventRepresentation.Error
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Error
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Error
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -179,6 +140,29 @@ items:
       type: System.String
     content.vb: Public Property [Error] As String
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Error*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
+  id: Id
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EventRepresentation.Id
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The id property
+  example: []
+  syntax:
+    content: public string? Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress
   id: IpAddress
@@ -190,14 +174,6 @@ items:
   nameWithType: EventRepresentation.IpAddress
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IpAddress
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -221,14 +197,6 @@ items:
   nameWithType: EventRepresentation.RealmId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.RealmId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -252,14 +220,6 @@ items:
   nameWithType: EventRepresentation.SessionId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.SessionId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SessionId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -283,14 +243,6 @@ items:
   nameWithType: EventRepresentation.Time
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Time
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Time
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 62
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -314,14 +266,6 @@ items:
   nameWithType: EventRepresentation.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -345,14 +289,6 @@ items:
   nameWithType: EventRepresentation.UserId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.UserId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -376,14 +312,6 @@ items:
   nameWithType: EventRepresentation.EventRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.EventRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -407,14 +335,6 @@ items:
   nameWithType: EventRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 91
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -442,14 +362,6 @@ items:
   nameWithType: EventRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -475,14 +387,6 @@ items:
   nameWithType: EventRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EventRepresentation.cs
-    startLine: 119
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1009,6 +913,12 @@ references:
   name: Error
   nameWithType: EventRepresentation.Error
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Error
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_EventRepresentation_Id
+  name: Id
+  nameWithType: EventRepresentation.Id
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.Id
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.IpAddress
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_EventRepresentation_IpAddress

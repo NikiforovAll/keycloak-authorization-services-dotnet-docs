@@ -19,14 +19,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientPolicyConditionRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -57,14 +49,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -90,14 +74,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.Condition
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.Condition
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Condition
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -121,25 +97,17 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.Configuration
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.Configuration
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Configuration
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The configuration property
+  summary: Configuration settings as a JSON object
   example: []
   syntax:
-    content: public UntypedNode? Configuration { get; set; }
+    content: public ClientPolicyConditionRepresentation_configuration? Configuration { get; set; }
     parameters: []
     return:
-      type: Microsoft.Kiota.Abstractions.Serialization.UntypedNode
-    content.vb: Public Property Configuration As UntypedNode
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
+    content.vb: Public Property Configuration As ClientPolicyConditionRepresentation_configuration
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.Configuration*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.#ctor
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.#ctor
@@ -152,14 +120,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.ClientPolicyConditionRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.ClientPolicyConditionRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -183,14 +143,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -218,14 +170,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -251,14 +195,6 @@ items:
   nameWithType: ClientPolicyConditionRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientPolicyConditionRepresentation.cs
-    startLine: 62
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -772,13 +708,13 @@ references:
   name: Configuration
   nameWithType: ClientPolicyConditionRepresentation.Configuration
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation.Configuration
-- uid: Microsoft.Kiota.Abstractions.Serialization.UntypedNode
-  commentId: T:Microsoft.Kiota.Abstractions.Serialization.UntypedNode
-  parent: Microsoft.Kiota.Abstractions.Serialization
-  isExternal: true
-  name: UntypedNode
-  nameWithType: UntypedNode
-  fullName: Microsoft.Kiota.Abstractions.Serialization.UntypedNode
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration.html
+  name: ClientPolicyConditionRepresentation_configuration
+  nameWithType: ClientPolicyConditionRepresentation_configuration
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

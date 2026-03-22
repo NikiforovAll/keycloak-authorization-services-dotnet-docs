@@ -57,14 +57,6 @@ items:
   nameWithType: OAuthClientRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OAuthClientRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4192
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -102,14 +94,6 @@ items:
   nameWithType: OAuthClientRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4199
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -154,14 +138,6 @@ items:
   nameWithType: OAuthClientRepresentation.ClientId
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ClientId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4205
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -206,14 +182,6 @@ items:
   nameWithType: OAuthClientRepresentation.Description
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4211
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -258,14 +226,6 @@ items:
   nameWithType: OAuthClientRepresentation.RootUrl
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.RootUrl
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RootUrl
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4217
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -310,14 +270,6 @@ items:
   nameWithType: OAuthClientRepresentation.AdminUrl
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AdminUrl
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminUrl
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4223
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -362,14 +314,6 @@ items:
   nameWithType: OAuthClientRepresentation.BaseUrl
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.BaseUrl
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BaseUrl
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4229
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -414,14 +358,6 @@ items:
   nameWithType: OAuthClientRepresentation.SurrogateAuthRequired
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.SurrogateAuthRequired
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SurrogateAuthRequired
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4235
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -466,14 +402,6 @@ items:
   nameWithType: OAuthClientRepresentation.Enabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Enabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Enabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4241
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -518,14 +446,6 @@ items:
   nameWithType: OAuthClientRepresentation.AlwaysDisplayInConsole
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AlwaysDisplayInConsole
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AlwaysDisplayInConsole
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4247
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -570,14 +490,6 @@ items:
   nameWithType: OAuthClientRepresentation.ClientAuthenticatorType
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ClientAuthenticatorType
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientAuthenticatorType
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4253
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -622,14 +534,6 @@ items:
   nameWithType: OAuthClientRepresentation.Secret
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Secret
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Secret
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4259
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -674,14 +578,6 @@ items:
   nameWithType: OAuthClientRepresentation.RegistrationAccessToken
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.RegistrationAccessToken
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RegistrationAccessToken
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4265
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -726,14 +622,6 @@ items:
   nameWithType: OAuthClientRepresentation.DefaultRoles
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.DefaultRoles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultRoles
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4271
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -785,14 +673,6 @@ items:
   nameWithType: OAuthClientRepresentation.RedirectUris
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.RedirectUris
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RedirectUris
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4278
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -837,14 +717,6 @@ items:
   nameWithType: OAuthClientRepresentation.WebOrigins
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.WebOrigins
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebOrigins
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4284
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -889,14 +761,6 @@ items:
   nameWithType: OAuthClientRepresentation.NotBefore
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.NotBefore
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NotBefore
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4290
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -941,14 +805,6 @@ items:
   nameWithType: OAuthClientRepresentation.BearerOnly
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.BearerOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BearerOnly
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4296
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -993,14 +849,6 @@ items:
   nameWithType: OAuthClientRepresentation.ConsentRequired
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ConsentRequired
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConsentRequired
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4302
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1045,14 +893,6 @@ items:
   nameWithType: OAuthClientRepresentation.StandardFlowEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.StandardFlowEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: StandardFlowEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4308
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1097,14 +937,6 @@ items:
   nameWithType: OAuthClientRepresentation.ImplicitFlowEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ImplicitFlowEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ImplicitFlowEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4314
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1149,14 +981,6 @@ items:
   nameWithType: OAuthClientRepresentation.DirectAccessGrantsEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.DirectAccessGrantsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DirectAccessGrantsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4320
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1201,14 +1025,6 @@ items:
   nameWithType: OAuthClientRepresentation.ServiceAccountsEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ServiceAccountsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceAccountsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4326
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1253,14 +1069,6 @@ items:
   nameWithType: OAuthClientRepresentation.AuthorizationServicesEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AuthorizationServicesEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthorizationServicesEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4332
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1305,14 +1113,6 @@ items:
   nameWithType: OAuthClientRepresentation.DirectGrantsOnly
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.DirectGrantsOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DirectGrantsOnly
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4338
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1364,14 +1164,6 @@ items:
   nameWithType: OAuthClientRepresentation.PublicClient
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.PublicClient
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PublicClient
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4345
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1416,14 +1208,6 @@ items:
   nameWithType: OAuthClientRepresentation.FrontchannelLogout
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.FrontchannelLogout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FrontchannelLogout
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4351
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1468,14 +1252,6 @@ items:
   nameWithType: OAuthClientRepresentation.Protocol
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Protocol
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Protocol
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4357
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1520,14 +1296,6 @@ items:
   nameWithType: OAuthClientRepresentation.Attributes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4363
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1572,14 +1340,6 @@ items:
   nameWithType: OAuthClientRepresentation.AuthenticationFlowBindingOverrides
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AuthenticationFlowBindingOverrides
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationFlowBindingOverrides
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4370
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1624,14 +1384,6 @@ items:
   nameWithType: OAuthClientRepresentation.FullScopeAllowed
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.FullScopeAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FullScopeAllowed
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4379
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1676,14 +1428,6 @@ items:
   nameWithType: OAuthClientRepresentation.NodeReRegistrationTimeout
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.NodeReRegistrationTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NodeReRegistrationTimeout
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4385
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1728,14 +1472,6 @@ items:
   nameWithType: OAuthClientRepresentation.RegisteredNodes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.RegisteredNodes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RegisteredNodes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4391
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1780,14 +1516,6 @@ items:
   nameWithType: OAuthClientRepresentation.ProtocolMappers
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ProtocolMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtocolMappers
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4398
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1832,14 +1560,6 @@ items:
   nameWithType: OAuthClientRepresentation.ClientTemplate
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.ClientTemplate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientTemplate
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4405
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1891,14 +1611,6 @@ items:
   nameWithType: OAuthClientRepresentation.UseTemplateConfig
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.UseTemplateConfig
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UseTemplateConfig
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4412
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -1950,14 +1662,6 @@ items:
   nameWithType: OAuthClientRepresentation.UseTemplateScope
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.UseTemplateScope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UseTemplateScope
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4419
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2009,14 +1713,6 @@ items:
   nameWithType: OAuthClientRepresentation.UseTemplateMappers
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.UseTemplateMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UseTemplateMappers
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4426
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2068,14 +1764,6 @@ items:
   nameWithType: OAuthClientRepresentation.DefaultClientScopes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.DefaultClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4433
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2120,14 +1808,6 @@ items:
   nameWithType: OAuthClientRepresentation.OptionalClientScopes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.OptionalClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OptionalClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4440
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2172,14 +1852,6 @@ items:
   nameWithType: OAuthClientRepresentation.AuthorizationSettings
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AuthorizationSettings
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthorizationSettings
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4447
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2224,14 +1896,6 @@ items:
   nameWithType: OAuthClientRepresentation.Access
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Access
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Access
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4453
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2276,14 +1940,6 @@ items:
   nameWithType: OAuthClientRepresentation.Origin
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Origin
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Origin
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4459
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2328,14 +1984,6 @@ items:
   nameWithType: OAuthClientRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4465
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2380,14 +2028,6 @@ items:
   nameWithType: OAuthClientRepresentation.Claims
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.Claims
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Claims
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4471
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -2439,14 +2079,6 @@ items:
   nameWithType: OAuthClientRepresentation.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.OAuthClientRepresentation.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 4480
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

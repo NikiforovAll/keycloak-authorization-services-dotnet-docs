@@ -16,14 +16,6 @@ items:
   nameWithType: RptRequirement
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RptRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -54,14 +46,6 @@ items:
   nameWithType: RptRequirement.Resource
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -85,14 +69,6 @@ items:
   nameWithType: RptRequirement.Scope
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -116,14 +92,6 @@ items:
   nameWithType: RptRequirement.RptRequirement(string, string)
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.RptRequirement(string, string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -154,22 +122,16 @@ items:
   nameWithType: RptRequirement.ToString()
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Returns a string that represents the current object.
   example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
+      description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.ToString*

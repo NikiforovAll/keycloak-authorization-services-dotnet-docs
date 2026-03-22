@@ -14,17 +14,10 @@ items:
   nameWithType: AuthorizationServerClient
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthorizationServerClient
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy.
   example: []
   syntax:
     content: 'public class AuthorizationServerClient : IAuthorizationServerClient'
@@ -52,14 +45,6 @@ items:
   nameWithType: AuthorizationServerClient.AuthorizationServerClient(HttpClient, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AuthorizationServerClient>)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.AuthorizationServerClient(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions>, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -97,14 +82,6 @@ items:
   nameWithType: AuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: VerifyAccessToResource
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AuthorizationServerClient.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer

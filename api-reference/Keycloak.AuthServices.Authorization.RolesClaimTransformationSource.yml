@@ -16,14 +16,6 @@ items:
   nameWithType: RolesClaimTransformationSource
   fullName: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RolesClaimTransformationSource
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -53,14 +45,6 @@ items:
   nameWithType: RolesClaimTransformationSource.None
   fullName: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource.None
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: None
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -81,14 +65,6 @@ items:
   nameWithType: RolesClaimTransformationSource.Realm
   fullName: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource.Realm
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Realm
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -109,14 +85,6 @@ items:
   nameWithType: RolesClaimTransformationSource.ResourceAccess
   fullName: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource.ResourceAccess
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccess
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -137,14 +105,6 @@ items:
   nameWithType: RolesClaimTransformationSource.All
   fullName: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource.All
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: All
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 55
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

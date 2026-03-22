@@ -21,14 +21,6 @@ items:
   nameWithType: PolicyEvaluationResponse
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyEvaluationResponse
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -59,14 +51,6 @@ items:
   nameWithType: PolicyEvaluationResponse.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -92,14 +76,6 @@ items:
   nameWithType: PolicyEvaluationResponse.Entitlements
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.Entitlements
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Entitlements
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -123,14 +99,6 @@ items:
   nameWithType: PolicyEvaluationResponse.Results
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.Results
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Results
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -154,14 +122,6 @@ items:
   nameWithType: PolicyEvaluationResponse.Rpt
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.Rpt
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Rpt
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -185,14 +145,6 @@ items:
   nameWithType: PolicyEvaluationResponse.Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.Status
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -216,14 +168,6 @@ items:
   nameWithType: PolicyEvaluationResponse.PolicyEvaluationResponse()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.PolicyEvaluationResponse()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -247,14 +191,6 @@ items:
   nameWithType: PolicyEvaluationResponse.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -282,14 +218,6 @@ items:
   nameWithType: PolicyEvaluationResponse.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -315,14 +243,6 @@ items:
   nameWithType: PolicyEvaluationResponse.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEvaluationResponse.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEvaluationResponse.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

@@ -13,14 +13,6 @@ items:
   nameWithType: WithSessionItemRequestBuilder.WithSessionItemRequestBuilderDeleteQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Sessions.Item.WithSessionItemRequestBuilder.WithSessionItemRequestBuilderDeleteQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Sessions/Item/WithSessionItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithSessionItemRequestBuilderDeleteQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Sessions/Item/WithSessionItemRequestBuilder.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Sessions.Item
@@ -50,14 +42,6 @@ items:
   nameWithType: WithSessionItemRequestBuilder.WithSessionItemRequestBuilderDeleteQueryParameters.IsOffline
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Sessions.Item.WithSessionItemRequestBuilder.WithSessionItemRequestBuilderDeleteQueryParameters.IsOffline
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Sessions/Item/WithSessionItemRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IsOffline
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Sessions/Item/WithSessionItemRequestBuilder.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Sessions.Item

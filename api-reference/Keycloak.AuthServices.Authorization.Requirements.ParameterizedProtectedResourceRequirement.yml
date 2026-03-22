@@ -13,14 +13,6 @@ items:
   nameWithType: ParameterizedProtectedResourceRequirement
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ParameterizedProtectedResourceRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -52,14 +44,6 @@ items:
   nameWithType: ParameterizedProtectedResourceRequirement.DynamicProtectedResourcePolicy
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement.DynamicProtectedResourcePolicy
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DynamicProtectedResourcePolicy
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements

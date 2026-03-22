@@ -24,14 +24,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient
   type: Interface
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IKeycloakProtectedResourceClient
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -40,6 +32,8 @@ items:
   syntax:
     content: public interface IKeycloakProtectedResourceClient
     content.vb: Public Interface IKeycloakProtectedResourceClient
+  derivedClasses:
+  - Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
 - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters,System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters,System.Threading.CancellationToken)
   id: GetResourcesIdsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters,System.Threading.CancellationToken)
@@ -51,14 +45,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourcesIdsWithResponseAsync(string, GetResourcesRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourcesIdsWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -95,14 +81,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourcesIdsAsync(string, GetResourcesRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesIdsAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourcesIdsAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -139,14 +117,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourcesWithResponseAsync(string, GetResourcesRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourcesWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -183,14 +153,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourcesAsync(string, GetResourcesRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourcesAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourcesAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -227,14 +189,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourceWithResponseAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourceWithResponseAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourceWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 89
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -271,14 +225,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.GetResourceAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.GetResourceAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResourceAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 102
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -315,14 +261,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.CreateResourceWithResponseAsync(string, Resource, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.CreateResourceWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.Resource, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateResourceWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 124
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -359,14 +297,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.CreateResourceAsync(string, Resource, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.CreateResourceAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.Resource, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateResourceAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 137
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -403,14 +333,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.UpdateResourceWithResponseAsync(string, string, Resource, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.UpdateResourceWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Protection.Models.Resource, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateResourceWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 163
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -451,14 +373,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.UpdateResourceAsync(string, string, Resource, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.UpdateResourceAsync(string, string, Keycloak.AuthServices.Sdk.Protection.Models.Resource, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateResourceAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 181
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -499,14 +413,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.DeleteResourceWithResponseAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.DeleteResourceWithResponseAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteResourceWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 205
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection
@@ -543,14 +449,6 @@ items:
   nameWithType: IKeycloakProtectedResourceClient.DeleteResourceAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient.DeleteResourceAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteResourceAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/IKeycloakProtectedResourceClient.cs
-    startLine: 218
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection

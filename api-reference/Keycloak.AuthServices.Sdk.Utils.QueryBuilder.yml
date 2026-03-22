@@ -21,14 +21,6 @@ items:
   nameWithType: QueryBuilder
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: QueryBuilder
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -58,14 +50,6 @@ items:
   nameWithType: QueryBuilder.QueryBuilder()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.QueryBuilder()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -89,14 +73,6 @@ items:
   nameWithType: QueryBuilder.QueryBuilder(IEnumerable<KeyValuePair<string, string>>)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.QueryBuilder(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -124,14 +100,6 @@ items:
   nameWithType: QueryBuilder.QueryBuilder(IEnumerable<KeyValuePair<string, StringValues>>)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.QueryBuilder(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, Microsoft.Extensions.Primitives.StringValues>>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -159,14 +127,6 @@ items:
   nameWithType: QueryBuilder.Add(string, string)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.Add(string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Add
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -199,22 +159,16 @@ items:
   nameWithType: QueryBuilder.ToString()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
+  summary: Returns a string that represents the current object.
   example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
+      description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.ToString*
@@ -229,14 +183,6 @@ items:
   nameWithType: QueryBuilder.ToQueryString()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.ToQueryString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToQueryString
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
@@ -260,22 +206,16 @@ items:
   nameWithType: QueryBuilder.GetHashCode()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.GetHashCode()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetHashCode
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 81
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
+  summary: Serves as the default hash function.
   example: []
   syntax:
     content: public override int GetHashCode()
     return:
       type: System.Int32
+      description: A hash code for the current object.
     content.vb: Public Overrides Function GetHashCode() As Integer
   overridden: System.Object.GetHashCode
   overload: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.GetHashCode*
@@ -290,25 +230,20 @@ items:
   nameWithType: QueryBuilder.Equals(object?)
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.Equals(object?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Equals
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
+  summary: Determines whether the specified object is equal to the current object.
   example: []
   syntax:
     content: public override bool Equals(object? obj)
     parameters:
     - id: obj
       type: System.Object
+      description: The object to compare with the current object.
     return:
       type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
   overload: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.Equals*
@@ -326,22 +261,16 @@ items:
   nameWithType: QueryBuilder.GetEnumerator()
   fullName: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.GetEnumerator()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetEnumerator
-    path: ../src/Keycloak.AuthServices.Sdk/Utils/QueryBuilder.cs
-    startLine: 87
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Utils
+  summary: Returns an enumerator that iterates through the collection.
   example: []
   syntax:
     content: public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+      description: An enumerator that can be used to iterate through the collection.
     content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of String, String))
   overload: Keycloak.AuthServices.Sdk.Utils.QueryBuilder.GetEnumerator*
   implements:

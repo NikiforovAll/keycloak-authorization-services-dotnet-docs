@@ -9,6 +9,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.AdditionalData
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.AllowedScopes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.GetFieldDeserializers
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Resource
@@ -22,14 +23,6 @@ items:
   nameWithType: EvaluationResultRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EvaluationResultRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -60,14 +53,6 @@ items:
   nameWithType: EvaluationResultRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -93,14 +78,6 @@ items:
   nameWithType: EvaluationResultRepresentation.AllowedScopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.AllowedScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AllowedScopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -113,6 +90,29 @@ items:
       type: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ScopeRepresentation}
     content.vb: Public Property AllowedScopes As List(Of ScopeRepresentation)
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.AllowedScopes*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
+  id: DeniedScopes
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation
+  langs:
+  - csharp
+  - vb
+  name: DeniedScopes
+  nameWithType: EvaluationResultRepresentation.DeniedScopes
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The deniedScopes property
+  example: []
+  syntax:
+    content: public List<ScopeRepresentation>? DeniedScopes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ScopeRepresentation}
+    content.vb: Public Property DeniedScopes As List(Of ScopeRepresentation)
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies
   id: Policies
@@ -124,14 +124,6 @@ items:
   nameWithType: EvaluationResultRepresentation.Policies
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Policies
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -155,14 +147,6 @@ items:
   nameWithType: EvaluationResultRepresentation.Resource
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -186,14 +170,6 @@ items:
   nameWithType: EvaluationResultRepresentation.Scopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -217,14 +193,6 @@ items:
   nameWithType: EvaluationResultRepresentation.Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Status
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 46
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -248,14 +216,6 @@ items:
   nameWithType: EvaluationResultRepresentation.EvaluationResultRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.EvaluationResultRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -279,14 +239,6 @@ items:
   nameWithType: EvaluationResultRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 59
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -314,14 +266,6 @@ items:
   nameWithType: EvaluationResultRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -347,14 +291,6 @@ items:
   nameWithType: EvaluationResultRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/EvaluationResultRepresentation.cs
-    startLine: 83
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -912,6 +848,12 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_EvaluationResultRepresentation_DeniedScopes
+  name: DeniedScopes
+  nameWithType: EvaluationResultRepresentation.DeniedScopes
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.DeniedScopes
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.Policies
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_EvaluationResultRepresentation_Policies

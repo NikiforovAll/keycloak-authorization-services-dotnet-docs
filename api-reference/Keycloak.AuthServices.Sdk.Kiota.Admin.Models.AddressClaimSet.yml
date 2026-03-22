@@ -23,14 +23,6 @@ items:
   nameWithType: AddressClaimSet
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddressClaimSet
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -61,14 +53,6 @@ items:
   nameWithType: AddressClaimSet.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -94,14 +78,6 @@ items:
   nameWithType: AddressClaimSet.Country
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.Country
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Country
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -125,14 +101,6 @@ items:
   nameWithType: AddressClaimSet.Formatted
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.Formatted
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Formatted
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -156,14 +124,6 @@ items:
   nameWithType: AddressClaimSet.Locality
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.Locality
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Locality
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -187,14 +147,6 @@ items:
   nameWithType: AddressClaimSet.PostalCode
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.PostalCode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PostalCode
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -218,14 +170,6 @@ items:
   nameWithType: AddressClaimSet.Region
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.Region
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Region
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -249,14 +193,6 @@ items:
   nameWithType: AddressClaimSet.StreetAddress
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.StreetAddress
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: StreetAddress
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -280,14 +216,6 @@ items:
   nameWithType: AddressClaimSet.AddressClaimSet()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.AddressClaimSet()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 64
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -311,14 +239,6 @@ items:
   nameWithType: AddressClaimSet.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 73
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -346,14 +266,6 @@ items:
   nameWithType: AddressClaimSet.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -379,14 +291,6 @@ items:
   nameWithType: AddressClaimSet.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AddressClaimSet.cs
-    startLine: 98
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

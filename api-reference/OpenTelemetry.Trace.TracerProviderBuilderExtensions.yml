@@ -13,14 +13,6 @@ items:
   nameWithType: TracerProviderBuilderExtensions
   fullName: OpenTelemetry.Trace.TracerProviderBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.OpenTelemetry/TracerProviderBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TracerProviderBuilderExtensions
-    path: ../src/Keycloak.AuthServices.OpenTelemetry/TracerProviderBuilderExtensions.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.OpenTelemetry
   namespace: OpenTelemetry.Trace
@@ -51,14 +43,6 @@ items:
   nameWithType: TracerProviderBuilderExtensions.AddKeycloakAuthServicesInstrumentation(TracerProviderBuilder)
   fullName: OpenTelemetry.Trace.TracerProviderBuilderExtensions.AddKeycloakAuthServicesInstrumentation(OpenTelemetry.Trace.TracerProviderBuilder)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.OpenTelemetry/TracerProviderBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthServicesInstrumentation
-    path: ../src/Keycloak.AuthServices.OpenTelemetry/TracerProviderBuilderExtensions.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.OpenTelemetry
   namespace: OpenTelemetry.Trace

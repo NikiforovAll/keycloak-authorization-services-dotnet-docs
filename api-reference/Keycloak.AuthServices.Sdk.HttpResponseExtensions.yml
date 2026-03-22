@@ -14,14 +14,6 @@ items:
   nameWithType: HttpResponseExtensions
   fullName: Keycloak.AuthServices.Sdk.HttpResponseExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HttpResponseExtensions
-    path: ../src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -52,14 +44,6 @@ items:
   nameWithType: HttpResponseExtensions.GetResponseAsync<T>(HttpResponseMessage, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.HttpResponseExtensions.GetResponseAsync<T>(System.Net.Http.HttpResponseMessage, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -97,14 +81,6 @@ items:
   nameWithType: HttpResponseExtensions.EnsureResponseAsync(HttpResponseMessage, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.HttpResponseExtensions.EnsureResponseAsync(System.Net.Http.HttpResponseMessage, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnsureResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/HttpResponseExtensions.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk

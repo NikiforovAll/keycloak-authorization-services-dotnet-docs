@@ -14,14 +14,6 @@ items:
   nameWithType: AccessTokenPropagationHandler
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessTokenPropagationHandler
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -59,14 +51,6 @@ items:
   nameWithType: AccessTokenPropagationHandler.AccessTokenPropagationHandler(IHttpContextAccessor, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AccessTokenPropagationHandler>)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.AccessTokenPropagationHandler(Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions>, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -100,30 +84,33 @@ items:
   nameWithType: AccessTokenPropagationHandler.SendAsync(HttpRequestMessage, CancellationToken)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SendAsync
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/AccessTokenPropagationHandler.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Sends an HTTP request to the inner handler to send to the server as an asynchronous operation.
   example: []
   syntax:
     content: protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     parameters:
     - id: request
       type: System.Net.Http.HttpRequestMessage
+      description: The HTTP request message to send to the server.
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: A cancellation token to cancel operation.
     return:
       type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: The task object representing the asynchronous operation.
     content.vb: Protected Overrides Function SendAsync(request As HttpRequestMessage, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)
   overridden: System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   overload: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.SendAsync*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: The <code class="paramref">request</code> was <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+  - type: System.OperationCanceledException
+    commentId: T:System.OperationCanceledException
+    description: The cancellation token was canceled. This exception is stored into the returned task.
 references:
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
   commentId: N:Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -822,6 +809,20 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.OperationCanceledException
+  commentId: T:System.OperationCanceledException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.operationcanceledexception
+  name: OperationCanceledException
+  nameWithType: OperationCanceledException
+  fullName: System.OperationCanceledException
 - uid: System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   commentId: M:System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   parent: System.Net.Http.DelegatingHandler

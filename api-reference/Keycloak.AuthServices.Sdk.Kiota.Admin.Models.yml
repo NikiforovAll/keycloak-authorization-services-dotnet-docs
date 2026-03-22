@@ -11,6 +11,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken_resource_access
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation_access
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation_attributes
@@ -26,13 +27,18 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticatorConfigRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticatorConfigRepresentation_config
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Authorization
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema_resourceTypes
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.CertificateRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClaimRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessPresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation_configuration
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientProfileRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientProfilesRepresentation
@@ -45,6 +51,9 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientScopeRepresentation_attributes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation_attributes
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation_config
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypesRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ComponentRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ComponentTypeRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ComponentTypeRepresentation_metadata
@@ -57,6 +66,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.CredentialRepresentation_config
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionEffect
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ErrorRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EventRepresentation_details
@@ -82,6 +92,12 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ManagementPermissionReference_scopePermissions
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MappingsRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MappingsRepresentation_clientMappings
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_access
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_applicationRoles
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_attributes
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_clientRoles
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MultivaluedHashMapStringComponentExportRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MultivaluedHashMapStringString
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation
@@ -90,6 +106,9 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_authenticationFlowBindingOverrides
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_claims
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_registeredNodes
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Permission
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Permission_claims
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEnforcementMode
@@ -112,6 +131,9 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_localizationTexts
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_smtpServer
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_socialProviders
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigInfoRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation_config
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionProviderRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionProviderRepresentation_config
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceOwnerRepresentation
@@ -214,6 +236,13 @@ references:
   name: AdminEventRepresentation
   nameWithType: AdminEventRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details.html
+  name: AdminEventRepresentation_details
+  nameWithType: AdminEventRepresentation_details
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -319,6 +348,27 @@ references:
   name: Authorization
   nameWithType: Authorization
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Authorization
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema.html
+  name: AuthorizationSchema
+  nameWithType: AuthorizationSchema
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema_resourceTypes
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema_resourceTypes
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema_resourceTypes.html
+  name: AuthorizationSchema_resourceTypes
+  nameWithType: AuthorizationSchema_resourceTypes
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthorizationSchema_resourceTypes
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.html
+  name: BruteForceStrategy
+  nameWithType: BruteForceStrategy
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.CertificateRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.CertificateRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -361,6 +411,13 @@ references:
   name: ClientPolicyConditionRepresentation
   nameWithType: ClientPolicyConditionRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration.html
+  name: ClientPolicyConditionRepresentation_configuration
+  nameWithType: ClientPolicyConditionRepresentation_configuration
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyConditionRepresentation_configuration
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -368,6 +425,13 @@ references:
   name: ClientPolicyExecutorRepresentation
   nameWithType: ClientPolicyExecutorRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation_configuration
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation_configuration
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation_configuration.html
+  name: ClientPolicyExecutorRepresentation_configuration
+  nameWithType: ClientPolicyExecutorRepresentation_configuration
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyExecutorRepresentation_configuration
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPolicyRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -452,6 +516,27 @@ references:
   name: ClientTemplateRepresentation_attributes
   nameWithType: ClientTemplateRepresentation_attributes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation_attributes
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation.html
+  name: ClientTypeRepresentation
+  nameWithType: ClientTypeRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation_config
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation_config
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation_config.html
+  name: ClientTypeRepresentation_config
+  nameWithType: ClientTypeRepresentation_config
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypeRepresentation_config
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypesRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypesRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypesRepresentation.html
+  name: ClientTypesRepresentation
+  nameWithType: ClientTypesRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTypesRepresentation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ComponentRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ComponentRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -536,6 +621,13 @@ references:
   name: DecisionStrategy
   nameWithType: DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ErrorRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ErrorRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ErrorRepresentation.html
+  name: ErrorRepresentation
+  nameWithType: ErrorRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ErrorRepresentation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.EvaluationResultRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -711,6 +803,48 @@ references:
   name: MappingsRepresentation_clientMappings
   nameWithType: MappingsRepresentation_clientMappings
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MappingsRepresentation_clientMappings
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation.html
+  name: MemberRepresentation
+  nameWithType: MemberRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_access
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_access
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_access.html
+  name: MemberRepresentation_access
+  nameWithType: MemberRepresentation_access
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_access
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_applicationRoles
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_applicationRoles
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_applicationRoles.html
+  name: MemberRepresentation_applicationRoles
+  nameWithType: MemberRepresentation_applicationRoles
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_applicationRoles
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_attributes
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_attributes
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_attributes.html
+  name: MemberRepresentation_attributes
+  nameWithType: MemberRepresentation_attributes
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_attributes
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_clientRoles
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_clientRoles
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_clientRoles.html
+  name: MemberRepresentation_clientRoles
+  nameWithType: MemberRepresentation_clientRoles
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MemberRepresentation_clientRoles
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType.html
+  name: MembershipType
+  nameWithType: MembershipType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MembershipType
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MultivaluedHashMapStringComponentExportRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.MultivaluedHashMapStringComponentExportRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -767,6 +901,27 @@ references:
   name: OAuthClientRepresentation_registeredNodes
   nameWithType: OAuthClientRepresentation_registeredNodes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_registeredNodes
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation.html
+  name: OrganizationDomainRepresentation
+  nameWithType: OrganizationDomainRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation.html
+  name: OrganizationRepresentation
+  nameWithType: OrganizationRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes.html
+  name: OrganizationRepresentation_attributes
+  nameWithType: OrganizationRepresentation_attributes
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Permission
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Permission
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -921,6 +1076,27 @@ references:
   name: RealmRepresentation_socialProviders
   nameWithType: RealmRepresentation_socialProviders
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_socialProviders
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigInfoRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigInfoRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigInfoRepresentation.html
+  name: RequiredActionConfigInfoRepresentation
+  nameWithType: RequiredActionConfigInfoRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigInfoRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation.html
+  name: RequiredActionConfigRepresentation
+  nameWithType: RequiredActionConfigRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation_config
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation_config
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation_config.html
+  name: RequiredActionConfigRepresentation_config
+  nameWithType: RequiredActionConfigRepresentation_config
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionConfigRepresentation_config
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionProviderRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RequiredActionProviderRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

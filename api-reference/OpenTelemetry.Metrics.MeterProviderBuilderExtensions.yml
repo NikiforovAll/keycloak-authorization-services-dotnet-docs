@@ -13,14 +13,6 @@ items:
   nameWithType: MeterProviderBuilderExtensions
   fullName: OpenTelemetry.Metrics.MeterProviderBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.OpenTelemetry/MeterProviderBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MeterProviderBuilderExtensions
-    path: ../src/Keycloak.AuthServices.OpenTelemetry/MeterProviderBuilderExtensions.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.OpenTelemetry
   namespace: OpenTelemetry.Metrics
@@ -51,14 +43,6 @@ items:
   nameWithType: MeterProviderBuilderExtensions.AddKeycloakAuthServicesInstrumentation(MeterProviderBuilder)
   fullName: OpenTelemetry.Metrics.MeterProviderBuilderExtensions.AddKeycloakAuthServicesInstrumentation(OpenTelemetry.Metrics.MeterProviderBuilder)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.OpenTelemetry/MeterProviderBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthServicesInstrumentation
-    path: ../src/Keycloak.AuthServices.OpenTelemetry/MeterProviderBuilderExtensions.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.OpenTelemetry
   namespace: OpenTelemetry.Metrics

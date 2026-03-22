@@ -7,9 +7,9 @@ items:
   children:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.#ctor(System.String,Microsoft.Kiota.Abstractions.IRequestAdapter)
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}},System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}})
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.WithUrl(System.String)
   langs:
@@ -19,14 +19,6 @@ items:
   nameWithType: PoliciesRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PoliciesRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -60,14 +52,6 @@ items:
   nameWithType: PoliciesRequestBuilder.PoliciesRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -98,14 +82,6 @@ items:
   nameWithType: PoliciesRequestBuilder.PoliciesRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -125,34 +101,26 @@ items:
   nameWithType.vb: PoliciesRequestBuilder.New(String, IRequestAdapter)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.New(String, Microsoft.Kiota.Abstractions.IRequestAdapter)
   name.vb: New(String, IRequestAdapter)
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  id: GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}},System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}},System.Threading.CancellationToken)
+  id: GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}},System.Threading.CancellationToken)
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder
   langs:
   - csharp
   - vb
-  name: GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
-  nameWithType: PoliciesRequestBuilder.GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
+  name: GetAsync(Action<RequestConfiguration<PoliciesRequestBuilderGetQueryParameters>>?, CancellationToken)
+  nameWithType: PoliciesRequestBuilder.GetAsync(Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>?, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
   example: []
   syntax:
-    content: public Task<ClientPoliciesRepresentation?> GetAsync(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
+    content: public Task<ClientPoliciesRepresentation?> GetAsync(Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
     parameters:
     - id: requestConfiguration
-      type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
+      type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}}
       description: Configuration for the request such as headers, query parameters, and middleware options.
     - id: cancellationToken
       type: System.Threading.CancellationToken
@@ -160,11 +128,11 @@ items:
     return:
       type: System.Threading.Tasks.Task{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation}
       description: A <xref href="Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of ClientPoliciesRepresentation)
+    content.vb: Public Function GetAsync(requestConfiguration As Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of ClientPoliciesRepresentation)
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync*
-  nameWithType.vb: PoliciesRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
-  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
-  name.vb: GetAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
+  nameWithType.vb: PoliciesRequestBuilder.GetAsync(Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)), CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)), System.Threading.CancellationToken)
+  name.vb: GetAsync(Action(Of RequestConfiguration(Of PoliciesRequestBuilderGetQueryParameters)), CancellationToken)
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   id: PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
@@ -176,14 +144,6 @@ items:
   nameWithType: PoliciesRequestBuilder.PutAsync(ClientPoliciesRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PutAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -208,43 +168,35 @@ items:
   nameWithType.vb: PoliciesRequestBuilder.PutAsync(ClientPoliciesRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation, System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
   name.vb: PutAsync(ClientPoliciesRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
-  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
-  id: ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}})
+  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}})
+  id: ToGetRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}})
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder
   langs:
   - csharp
   - vb
-  name: ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
-  nameWithType: PoliciesRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
+  name: ToGetRequestInformation(Action<RequestConfiguration<PoliciesRequestBuilderGetQueryParameters>>?)
+  nameWithType: PoliciesRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>?)
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
   example: []
   syntax:
-    content: public RequestInformation ToGetRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null)
+    content: public RequestInformation ToGetRequestInformation(Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>? requestConfiguration = null)
     parameters:
     - id: requestConfiguration
-      type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
+      type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}}
       description: Configuration for the request such as headers, query parameters, and middleware options.
     return:
       type: Microsoft.Kiota.Abstractions.RequestInformation
       description: A <xref href="Microsoft.Kiota.Abstractions.RequestInformation" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function ToGetRequestInformation(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing) As RequestInformation
+    content.vb: Public Function ToGetRequestInformation(requestConfiguration As Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)) = Nothing) As RequestInformation
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation*
-  nameWithType.vb: PoliciesRequestBuilder.ToGetRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
-  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)))
-  name.vb: ToGetRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
+  nameWithType.vb: PoliciesRequestBuilder.ToGetRequestInformation(Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)))
+  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters)))
+  name.vb: ToGetRequestInformation(Action(Of RequestConfiguration(Of PoliciesRequestBuilderGetQueryParameters)))
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   id: ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
@@ -256,14 +208,6 @@ items:
   nameWithType: PoliciesRequestBuilder.ToPutRequestInformation(ClientPoliciesRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToPutRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 85
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -296,14 +240,6 @@ items:
   nameWithType: PoliciesRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/ClientPolicies/Policies/PoliciesRequestBuilder.cs
-    startLine: 103
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies
@@ -866,21 +802,21 @@ references:
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientPoliciesRepresentation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_GetAsync_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___System_Threading_CancellationToken_
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_GetAsync_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_PoliciesRequestBuilderGetQueryParameters___System_Threading_CancellationToken_
   name: GetAsync
   nameWithType: PoliciesRequestBuilder.GetAsync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.GetAsync
-- uid: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
-  commentId: T:System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
+- uid: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}}
+  commentId: T:System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters}}
   parent: System
   definition: System.Action`1
   href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<RequestConfiguration<DefaultQueryParameters>>
-  nameWithType: Action<RequestConfiguration<DefaultQueryParameters>>
-  fullName: System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>
-  nameWithType.vb: Action(Of RequestConfiguration(Of DefaultQueryParameters))
-  fullName.vb: System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters))
-  name.vb: Action(Of RequestConfiguration(Of DefaultQueryParameters))
+  name: Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>
+  nameWithType: Action<RequestConfiguration<PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>
+  fullName: System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters>>
+  nameWithType.vb: Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters))
+  fullName.vb: System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters))
+  name.vb: Action(Of RequestConfiguration(Of PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters))
   spec.csharp:
   - uid: System.Action`1
     name: Action
@@ -891,9 +827,13 @@ references:
     name: RequestConfiguration
     isExternal: true
   - name: <
-  - uid: Microsoft.Kiota.Abstractions.DefaultQueryParameters
-    name: DefaultQueryParameters
-    isExternal: true
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder
+    name: PoliciesRequestBuilder
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters
+    name: PoliciesRequestBuilderGetQueryParameters
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters.html
   - name: '>'
   - name: '>'
   spec.vb:
@@ -910,9 +850,13 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Microsoft.Kiota.Abstractions.DefaultQueryParameters
-    name: DefaultQueryParameters
-    isExternal: true
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder
+    name: PoliciesRequestBuilder
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters
+    name: PoliciesRequestBuilderGetQueryParameters
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PoliciesRequestBuilderGetQueryParameters.html
   - name: )
   - name: )
 - uid: System.Threading.CancellationToken
@@ -1144,6 +1088,51 @@ references:
   name: PutAsync
   nameWithType: PoliciesRequestBuilder.PutAsync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.PutAsync
+- uid: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
+  commentId: T:System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<RequestConfiguration<DefaultQueryParameters>>
+  nameWithType: Action<RequestConfiguration<DefaultQueryParameters>>
+  fullName: System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>
+  nameWithType.vb: Action(Of RequestConfiguration(Of DefaultQueryParameters))
+  fullName.vb: System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters))
+  name.vb: Action(Of RequestConfiguration(Of DefaultQueryParameters))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Microsoft.Kiota.Abstractions.RequestConfiguration`1
+    name: RequestConfiguration
+    isExternal: true
+  - name: <
+  - uid: Microsoft.Kiota.Abstractions.DefaultQueryParameters
+    name: DefaultQueryParameters
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Kiota.Abstractions.RequestConfiguration`1
+    name: RequestConfiguration
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Kiota.Abstractions.DefaultQueryParameters
+    name: DefaultQueryParameters
+    isExternal: true
+  - name: )
+  - name: )
 - uid: System.Threading.Tasks.Task{System.IO.Stream}
   commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
   parent: System.Threading.Tasks
@@ -1215,7 +1204,7 @@ references:
   fullName: Microsoft.Kiota.Abstractions.RequestInformation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_ToGetRequestInformation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_ToGetRequestInformation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_ClientPolicies_Policies_PoliciesRequestBuilder_PoliciesRequestBuilderGetQueryParameters___
   name: ToGetRequestInformation
   nameWithType: PoliciesRequestBuilder.ToGetRequestInformation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.ClientPolicies.Policies.PoliciesRequestBuilder.ToGetRequestInformation

@@ -15,14 +15,6 @@ items:
   nameWithType: BruteForceRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.BruteForceRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BruteForceRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce
@@ -56,14 +48,6 @@ items:
   nameWithType: BruteForceRequestBuilder.Users
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.BruteForceRequestBuilder.Users
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Users
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce
@@ -87,14 +71,6 @@ items:
   nameWithType: BruteForceRequestBuilder.BruteForceRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.BruteForceRequestBuilder.BruteForceRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce
@@ -125,14 +101,6 @@ items:
   nameWithType: BruteForceRequestBuilder.BruteForceRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce.BruteForceRequestBuilder.BruteForceRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/AttackDetection/BruteForce/BruteForceRequestBuilder.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.AttackDetection.BruteForce

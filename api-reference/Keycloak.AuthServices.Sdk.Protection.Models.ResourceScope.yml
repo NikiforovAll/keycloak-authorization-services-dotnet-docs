@@ -13,14 +13,6 @@ items:
   nameWithType: ResourceScope
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.ResourceScope
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/ResourceResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceScope
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/ResourceResponse.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -50,14 +42,6 @@ items:
   nameWithType: ResourceScope.Name
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.ResourceScope.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/ResourceResponse.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/ResourceResponse.cs
-    startLine: 71
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models

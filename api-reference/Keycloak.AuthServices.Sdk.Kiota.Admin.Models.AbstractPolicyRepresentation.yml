@@ -16,6 +16,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Name
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Owner
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Policies
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Resources
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourcesData
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes
@@ -29,14 +30,6 @@ items:
   nameWithType: AbstractPolicyRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AbstractPolicyRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -67,14 +60,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -100,14 +85,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.DecisionStrategy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionStrategy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -131,14 +108,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Description
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -162,14 +131,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -193,14 +154,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Logic
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Logic
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Logic
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -224,14 +177,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -255,14 +200,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Owner
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Owner
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Owner
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -286,14 +223,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Policies
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Policies
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Policies
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 52
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -317,14 +246,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Resources
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Resources
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resources
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 60
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -348,14 +269,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.ResourcesData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourcesData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourcesData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -368,6 +281,29 @@ items:
       type: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceRepresentation}
     content.vb: Public Property ResourcesData As List(Of ResourceRepresentation)
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourcesData*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
+  id: ResourceType
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation
+  langs:
+  - csharp
+  - vb
+  name: ResourceType
+  nameWithType: AbstractPolicyRepresentation.ResourceType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The resourceType property
+  example: []
+  syntax:
+    content: public string? ResourceType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResourceType As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes
   id: Scopes
@@ -379,14 +315,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Scopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 76
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -410,14 +338,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.ScopesData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ScopesData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopesData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -441,14 +361,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 92
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -472,14 +384,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.AbstractPolicyRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.AbstractPolicyRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -503,14 +407,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 109
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -538,14 +434,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 118
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -571,14 +459,6 @@ items:
   nameWithType: AbstractPolicyRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AbstractPolicyRepresentation.cs
-    startLine: 140
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1294,6 +1174,12 @@ references:
     name: ResourceRepresentation
     href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ResourceRepresentation.html
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_AbstractPolicyRepresentation_ResourceType
+  name: ResourceType
+  nameWithType: AbstractPolicyRepresentation.ResourceType
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.ResourceType
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.Scopes
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AbstractPolicyRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_AbstractPolicyRepresentation_Scopes

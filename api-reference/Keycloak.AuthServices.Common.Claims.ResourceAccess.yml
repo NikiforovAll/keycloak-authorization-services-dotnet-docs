@@ -13,14 +13,6 @@ items:
   nameWithType: ResourceAccess
   fullName: Keycloak.AuthServices.Common.Claims.ResourceAccess
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccess
-    path: ../src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims
@@ -50,14 +42,6 @@ items:
   nameWithType: ResourceAccess.Roles
   fullName: Keycloak.AuthServices.Common.Claims.ResourceAccess.Roles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Roles
-    path: ../src/Keycloak.AuthServices.Common/Claims/ResourceAccessCollection.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common.Claims

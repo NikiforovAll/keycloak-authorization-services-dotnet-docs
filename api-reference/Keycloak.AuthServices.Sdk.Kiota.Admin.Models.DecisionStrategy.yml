@@ -15,14 +15,6 @@ items:
   nameWithType: DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionStrategy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -40,14 +32,6 @@ items:
   nameWithType: DecisionStrategy.AFFIRMATIVE
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy.AFFIRMATIVE
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AFFIRMATIVE
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -81,14 +65,6 @@ items:
   nameWithType: DecisionStrategy.UNANIMOUS
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy.UNANIMOUS
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UNANIMOUS
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -122,14 +98,6 @@ items:
   nameWithType: DecisionStrategy.CONSENSUS
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.DecisionStrategy.CONSENSUS
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CONSENSUS
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/DecisionStrategy.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

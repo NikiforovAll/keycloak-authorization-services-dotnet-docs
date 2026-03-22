@@ -14,14 +14,6 @@ items:
   nameWithType: KeycloakConfigurationProvider
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationProvider
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakConfigurationProvider
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -39,16 +31,16 @@ items:
   - Microsoft.Extensions.Configuration.IConfigurationProvider
   - System.IDisposable
   inheritedMembers:
-  - Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
-  - Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
   - Microsoft.Extensions.Configuration.FileConfigurationProvider.Dispose
   - Microsoft.Extensions.Configuration.FileConfigurationProvider.Dispose(System.Boolean)
+  - Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
+  - Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
   - Microsoft.Extensions.Configuration.FileConfigurationProvider.Source
-  - Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
-  - Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
   - Microsoft.Extensions.Configuration.ConfigurationProvider.GetChildKeys(System.Collections.Generic.IEnumerable{System.String},System.String)
   - Microsoft.Extensions.Configuration.ConfigurationProvider.GetReloadToken
   - Microsoft.Extensions.Configuration.ConfigurationProvider.OnReload
+  - Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
+  - Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
   - Microsoft.Extensions.Configuration.ConfigurationProvider.Data
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -67,14 +59,6 @@ items:
   nameWithType: KeycloakConfigurationProvider.KeycloakConfigurationProvider(KeycloakConfigurationSource, string)
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationProvider.KeycloakConfigurationProvider(Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationSource, string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -105,14 +89,6 @@ items:
   nameWithType: KeycloakConfigurationProvider.Load(Stream)
   fullName: Keycloak.AuthServices.Authentication.Configuration.KeycloakConfigurationProvider.Load(System.IO.Stream)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Load
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/KeycloakConfigurationProvider.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -217,50 +193,6 @@ references:
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
-  parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
-  name: ToString()
-  nameWithType: FileConfigurationProvider.ToString()
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString()
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
-  - name: (
-  - name: )
-- uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
-  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
-  parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
-  name: Load()
-  nameWithType: FileConfigurationProvider.Load()
-  fullName: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
-    name: Load
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
-    name: Load
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
-  - name: (
-  - name: )
 - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Dispose
   commentId: M:Microsoft.Extensions.Configuration.FileConfigurationProvider.Dispose
   parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
@@ -316,6 +248,50 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+- uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
+  parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
+  name: Load()
+  nameWithType: FileConfigurationProvider.Load()
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Load
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.load#microsoft-extensions-configuration-fileconfigurationprovider-load
+  - name: (
+  - name: )
+- uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
+  commentId: M:Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
+  parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
+  name: ToString()
+  nameWithType: FileConfigurationProvider.ToString()
+  fullName: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.fileconfigurationprovider.tostring
+  - name: (
+  - name: )
 - uid: Microsoft.Extensions.Configuration.FileConfigurationProvider.Source
   commentId: P:Microsoft.Extensions.Configuration.FileConfigurationProvider.Source
   parent: Microsoft.Extensions.Configuration.FileConfigurationProvider
@@ -324,98 +300,6 @@ references:
   name: Source
   nameWithType: FileConfigurationProvider.Source
   fullName: Microsoft.Extensions.Configuration.FileConfigurationProvider.Source
-- uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
-  commentId: M:Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
-  parent: Microsoft.Extensions.Configuration.ConfigurationProvider
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
-  name: TryGet(string, out string)
-  nameWithType: ConfigurationProvider.TryGet(string, out string)
-  fullName: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(string, out string)
-  nameWithType.vb: ConfigurationProvider.TryGet(String, String)
-  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(String, String)
-  name.vb: TryGet(String, String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
-    name: TryGet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
-    name: TryGet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
-  commentId: M:Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
-  parent: Microsoft.Extensions.Configuration.ConfigurationProvider
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
-  name: Set(string, string)
-  nameWithType: ConfigurationProvider.Set(string, string)
-  fullName: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(string, string)
-  nameWithType.vb: ConfigurationProvider.Set(String, String)
-  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(String, String)
-  name.vb: Set(String, String)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
-    name: Set
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
-    name: Set
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
 - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.GetChildKeys(System.Collections.Generic.IEnumerable{System.String},System.String)
   commentId: M:Microsoft.Extensions.Configuration.ConfigurationProvider.GetChildKeys(System.Collections.Generic.IEnumerable{System.String},System.String)
   parent: Microsoft.Extensions.Configuration.ConfigurationProvider
@@ -518,6 +402,98 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.onreload
   - name: (
+  - name: )
+- uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
+  parent: Microsoft.Extensions.Configuration.ConfigurationProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
+  name: Set(string, string)
+  nameWithType: ConfigurationProvider.Set(string, string)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(string, string)
+  nameWithType.vb: ConfigurationProvider.Set(String, String)
+  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(String, String)
+  name.vb: Set(String, String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
+    name: Set
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Set(System.String,System.String)
+    name: Set
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.set
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
+  parent: Microsoft.Extensions.Configuration.ConfigurationProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
+  name: TryGet(string, out string)
+  nameWithType: ConfigurationProvider.TryGet(string, out string)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(string, out string)
+  nameWithType.vb: ConfigurationProvider.TryGet(String, String)
+  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(String, String)
+  name.vb: TryGet(String, String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
+    name: TryGet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.TryGet(System.String,System.String@)
+    name: TryGet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationprovider.tryget
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: Microsoft.Extensions.Configuration.ConfigurationProvider.Data
   commentId: P:Microsoft.Extensions.Configuration.ConfigurationProvider.Data

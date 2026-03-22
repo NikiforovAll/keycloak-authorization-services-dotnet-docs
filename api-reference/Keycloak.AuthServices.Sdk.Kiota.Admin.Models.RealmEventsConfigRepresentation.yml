@@ -23,14 +23,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmEventsConfigRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -61,14 +53,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -94,14 +78,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdminEventsDetailsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.AdminEventsDetailsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsDetailsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -125,14 +101,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdminEventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.AdminEventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -156,14 +124,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EnabledEventTypes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.EnabledEventTypes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnabledEventTypes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -187,14 +147,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.EventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -218,14 +170,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsExpiration
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.EventsExpiration
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsExpiration
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -249,14 +193,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsListeners
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.EventsListeners
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsListeners
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -280,14 +216,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.RealmEventsConfigRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.RealmEventsConfigRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -311,14 +239,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -346,14 +266,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -379,14 +291,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmEventsConfigRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmEventsConfigRepresentation.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

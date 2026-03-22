@@ -17,14 +17,6 @@ items:
   nameWithType: PoliciesBuilderExtensions
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PoliciesBuilderExtensions
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -55,14 +47,6 @@ items:
   nameWithType: PoliciesBuilderExtensions.RequireResourceRoles(AuthorizationPolicyBuilder, params string[])
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, params string[])
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireResourceRoles
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 19
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -100,14 +84,6 @@ items:
   nameWithType: PoliciesBuilderExtensions.RequireResourceRolesForClient(AuthorizationPolicyBuilder, string, string[])
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRolesForClient(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, string, string[])
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireResourceRolesForClient
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -145,14 +121,6 @@ items:
   nameWithType: PoliciesBuilderExtensions.RequireRealmRoles(AuthorizationPolicyBuilder, params string[])
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireRealmRoles(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, params string[])
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireRealmRoles
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -187,14 +155,6 @@ items:
   nameWithType: PoliciesBuilderExtensions.RequireProtectedResource(AuthorizationPolicyBuilder, string, string)
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 83
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -232,14 +192,6 @@ items:
   nameWithType: PoliciesBuilderExtensions.RequireProtectedResource(AuthorizationPolicyBuilder, string, string[], ScopesValidationMode?)
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, string, string[], Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequireProtectedResource
-    path: ../src/Keycloak.AuthServices.Authorization/PoliciesBuilderExtensions.cs
-    startLine: 106
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

@@ -26,14 +26,6 @@ items:
   nameWithType: ConfigPropertyRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigPropertyRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -64,14 +56,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -97,14 +81,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.DefaultValue
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.DefaultValue
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -128,14 +104,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.HelpText
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.HelpText
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HelpText
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -159,14 +127,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Label
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Label
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Label
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -190,14 +150,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -221,14 +173,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Options
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Options
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Options
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -252,14 +196,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.ReadOnly
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.ReadOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ReadOnly
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -283,14 +219,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Required
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Required
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Required
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -314,14 +242,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Secret
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Secret
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Secret
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -345,14 +265,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 62
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -376,14 +288,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.ConfigPropertyRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.ConfigPropertyRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 70
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -407,14 +311,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 79
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -442,14 +338,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 88
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -475,14 +363,6 @@ items:
   nameWithType: ConfigPropertyRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ConfigPropertyRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ConfigPropertyRepresentation.cs
-    startLine: 107
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

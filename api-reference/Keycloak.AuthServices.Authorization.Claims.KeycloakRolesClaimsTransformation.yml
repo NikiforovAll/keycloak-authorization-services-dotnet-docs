@@ -14,14 +14,6 @@ items:
   nameWithType: KeycloakRolesClaimsTransformation
   fullName: Keycloak.AuthServices.Authorization.Claims.KeycloakRolesClaimsTransformation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakRolesClaimsTransformation
-    path: ../src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Claims
@@ -72,14 +64,6 @@ items:
   nameWithType: KeycloakRolesClaimsTransformation.KeycloakRolesClaimsTransformation(string, RolesClaimTransformationSource, string)
   fullName: Keycloak.AuthServices.Authorization.Claims.KeycloakRolesClaimsTransformation.KeycloakRolesClaimsTransformation(string, Keycloak.AuthServices.Authorization.RolesClaimTransformationSource, string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Claims
@@ -113,14 +97,6 @@ items:
   nameWithType: KeycloakRolesClaimsTransformation.TransformAsync(ClaimsPrincipal)
   fullName: Keycloak.AuthServices.Authorization.Claims.KeycloakRolesClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TransformAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Claims/KeycloakRolesClaimsTransformation.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Claims

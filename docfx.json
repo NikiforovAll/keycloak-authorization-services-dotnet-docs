@@ -10,10 +10,13 @@
       ],
       "dest": "./api-reference",
       "includePrivateMembers": false,
-      "disableGitFeatures": false,
+      "disableGitFeatures": true,
       "disableDefaultFilter": false,
       "noRestore": false,
-      "namespaceLayout": "flattened"
+      "namespaceLayout": "flattened",
+      "properties": {
+        "TargetFramework": "net10.0"
+      }
     }
   ],
   "build": {

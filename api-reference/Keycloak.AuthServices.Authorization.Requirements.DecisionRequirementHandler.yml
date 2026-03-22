@@ -14,14 +14,6 @@ items:
   nameWithType: DecisionRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionRequirementHandler
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -55,14 +47,6 @@ items:
   nameWithType: DecisionRequirementHandler.DecisionRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<DecisionRequirementHandler>)
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.DecisionRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -103,25 +87,20 @@ items:
   nameWithType: DecisionRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, DecisionRequirement)
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HandleRequirementAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 95
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Makes a decision if authorization is allowed based on a specific requirement.
   example: []
   syntax:
     content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, DecisionRequirement requirement)
     parameters:
     - id: context
       type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+      description: The authorization context.
     - id: requirement
       type: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
+      description: The requirement to evaluate.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As DecisionRequirement) As Task

@@ -14,14 +14,6 @@ items:
   nameWithType: ParameterizedProtectedResourceRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ParameterizedProtectedResourceRequirementHandler
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -55,14 +47,6 @@ items:
   nameWithType: ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<ParameterizedProtectedResourceRequirementHandler>)
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -103,25 +87,20 @@ items:
   nameWithType: ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, ParameterizedProtectedResourceRequirement)
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HandleRequirementAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ParameterizedProtectedResourceRequirement.cs
-    startLine: 51
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Makes a decision if authorization is allowed based on a specific requirement.
   example: []
   syntax:
     content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, ParameterizedProtectedResourceRequirement requirement)
     parameters:
     - id: context
       type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+      description: The authorization context.
     - id: requirement
       type: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
+      description: The requirement to evaluate.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As ParameterizedProtectedResourceRequirement) As Task

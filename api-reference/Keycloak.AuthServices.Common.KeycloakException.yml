@@ -15,14 +15,6 @@ items:
   nameWithType: KeycloakException
   fullName: Keycloak.AuthServices.Common.KeycloakException
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakException.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakException
-    path: ../src/Keycloak.AuthServices.Common/KeycloakException.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -38,7 +30,6 @@ items:
   - System.Runtime.Serialization.ISerializable
   inheritedMembers:
   - System.Exception.GetBaseException
-  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   - System.Exception.GetType
   - System.Exception.ToString
   - System.Exception.Data
@@ -66,14 +57,6 @@ items:
   nameWithType: KeycloakException.KeycloakException()
   fullName: Keycloak.AuthServices.Common.KeycloakException.KeycloakException()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakException.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Common/KeycloakException.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -97,14 +80,6 @@ items:
   nameWithType: KeycloakException.KeycloakException(string)
   fullName: Keycloak.AuthServices.Common.KeycloakException.KeycloakException(string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakException.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Common/KeycloakException.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -132,14 +107,6 @@ items:
   nameWithType: KeycloakException.KeycloakException(string, Exception)
   fullName: Keycloak.AuthServices.Common.KeycloakException.KeycloakException(string, System.Exception)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakException.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Common/KeycloakException.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -238,48 +205,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
   - name: (
-  - name: )
-- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  parent: System.Exception
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Exception.GetType
   commentId: M:System.Exception.GetType

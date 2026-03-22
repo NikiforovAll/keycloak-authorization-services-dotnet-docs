@@ -17,14 +17,6 @@ items:
   nameWithType: FlowPostRequestBody
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FlowPostRequestBody
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow
@@ -55,14 +47,6 @@ items:
   nameWithType: FlowPostRequestBody.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow
@@ -88,14 +72,6 @@ items:
   nameWithType: FlowPostRequestBody.FlowPostRequestBody()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody.FlowPostRequestBody()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow
@@ -119,14 +95,6 @@ items:
   nameWithType: FlowPostRequestBody.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow
@@ -154,14 +122,6 @@ items:
   nameWithType: FlowPostRequestBody.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow
@@ -187,14 +147,6 @@ items:
   nameWithType: FlowPostRequestBody.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow.FlowPostRequestBody.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Authentication/Flows/Item/Executions/Flow/FlowPostRequestBody.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Authentication.Flows.Item.Executions.Flow

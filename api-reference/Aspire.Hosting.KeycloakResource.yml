@@ -18,34 +18,30 @@ items:
   nameWithType: KeycloakResource
   fullName: Aspire.Hosting.KeycloakResource
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakResource
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
   summary: A resource that represents a PostgreSQL container.
   example: []
   syntax:
-    content: 'public class KeycloakResource : ContainerResource, IResourceWithArgs, IResourceWithEnvironment, IResourceWithServiceDiscovery, IResourceWithEndpoints, IResource'
-    content.vb: Public Class KeycloakResource Inherits ContainerResource Implements IResourceWithArgs, IResourceWithEnvironment, IResourceWithServiceDiscovery, IResourceWithEndpoints, IResource
+    content: 'public class KeycloakResource : ContainerResource, IResourceWithArgs, IResourceWithWaitSupport, IResourceWithProbes, IComputeResource, IResourceWithEnvironment, IResourceWithServiceDiscovery, IResourceWithEndpoints, IResource'
+    content.vb: Public Class KeycloakResource Inherits ContainerResource Implements IResourceWithArgs, IResourceWithWaitSupport, IResourceWithProbes, IComputeResource, IResourceWithEnvironment, IResourceWithServiceDiscovery, IResourceWithEndpoints, IResource
   inheritance:
   - System.Object
   - Aspire.Hosting.ApplicationModel.Resource
   - Aspire.Hosting.ApplicationModel.ContainerResource
   implements:
   - Aspire.Hosting.ApplicationModel.IResourceWithArgs
+  - Aspire.Hosting.ApplicationModel.IResourceWithWaitSupport
+  - Aspire.Hosting.ApplicationModel.IResourceWithProbes
+  - Aspire.Hosting.ApplicationModel.IComputeResource
   - Aspire.Hosting.ApplicationModel.IResourceWithEnvironment
   - Aspire.Hosting.IResourceWithServiceDiscovery
   - Aspire.Hosting.ApplicationModel.IResourceWithEndpoints
   - Aspire.Hosting.ApplicationModel.IResource
   inheritedMembers:
   - Aspire.Hosting.ApplicationModel.ContainerResource.Entrypoint
+  - Aspire.Hosting.ApplicationModel.ContainerResource.ShellExecution
   - Aspire.Hosting.ApplicationModel.Resource.Name
   - Aspire.Hosting.ApplicationModel.Resource.Annotations
   - System.Object.Equals(System.Object)
@@ -66,14 +62,6 @@ items:
   nameWithType: KeycloakResource.KeycloakResource(string, ParameterResource?, ParameterResource?)
   fullName: Aspire.Hosting.KeycloakResource.KeycloakResource(string, Aspire.Hosting.ApplicationModel.ParameterResource?, Aspire.Hosting.ApplicationModel.ParameterResource?)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -107,14 +95,6 @@ items:
   nameWithType: KeycloakResource.PrimaryEndpoint
   fullName: Aspire.Hosting.KeycloakResource.PrimaryEndpoint
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PrimaryEndpoint
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -138,14 +118,6 @@ items:
   nameWithType: KeycloakResource.UserNameParameter
   fullName: Aspire.Hosting.KeycloakResource.UserNameParameter
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserNameParameter
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 38
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -169,14 +141,6 @@ items:
   nameWithType: KeycloakResource.PasswordParameter
   fullName: Aspire.Hosting.KeycloakResource.PasswordParameter
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PasswordParameter
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -200,14 +164,6 @@ items:
   nameWithType: KeycloakResource.Imports
   fullName: Aspire.Hosting.KeycloakResource.Imports
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Imports
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -231,14 +187,6 @@ items:
   nameWithType: KeycloakResource.WithImport(string)
   fullName: Aspire.Hosting.KeycloakResource.WithImport(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithImport
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakResource.cs
-    startLine: 64
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -313,6 +261,27 @@ references:
   name: IResourceWithArgs
   nameWithType: IResourceWithArgs
   fullName: Aspire.Hosting.ApplicationModel.IResourceWithArgs
+- uid: Aspire.Hosting.ApplicationModel.IResourceWithWaitSupport
+  commentId: T:Aspire.Hosting.ApplicationModel.IResourceWithWaitSupport
+  parent: Aspire.Hosting.ApplicationModel
+  isExternal: true
+  name: IResourceWithWaitSupport
+  nameWithType: IResourceWithWaitSupport
+  fullName: Aspire.Hosting.ApplicationModel.IResourceWithWaitSupport
+- uid: Aspire.Hosting.ApplicationModel.IResourceWithProbes
+  commentId: T:Aspire.Hosting.ApplicationModel.IResourceWithProbes
+  parent: Aspire.Hosting.ApplicationModel
+  isExternal: true
+  name: IResourceWithProbes
+  nameWithType: IResourceWithProbes
+  fullName: Aspire.Hosting.ApplicationModel.IResourceWithProbes
+- uid: Aspire.Hosting.ApplicationModel.IComputeResource
+  commentId: T:Aspire.Hosting.ApplicationModel.IComputeResource
+  parent: Aspire.Hosting.ApplicationModel
+  isExternal: true
+  name: IComputeResource
+  nameWithType: IComputeResource
+  fullName: Aspire.Hosting.ApplicationModel.IComputeResource
 - uid: Aspire.Hosting.ApplicationModel.IResourceWithEnvironment
   commentId: T:Aspire.Hosting.ApplicationModel.IResourceWithEnvironment
   parent: Aspire.Hosting.ApplicationModel
@@ -348,6 +317,13 @@ references:
   name: Entrypoint
   nameWithType: ContainerResource.Entrypoint
   fullName: Aspire.Hosting.ApplicationModel.ContainerResource.Entrypoint
+- uid: Aspire.Hosting.ApplicationModel.ContainerResource.ShellExecution
+  commentId: P:Aspire.Hosting.ApplicationModel.ContainerResource.ShellExecution
+  parent: Aspire.Hosting.ApplicationModel.ContainerResource
+  isExternal: true
+  name: ShellExecution
+  nameWithType: ContainerResource.ShellExecution
+  fullName: Aspire.Hosting.ApplicationModel.ContainerResource.ShellExecution
 - uid: Aspire.Hosting.ApplicationModel.Resource.Name
   commentId: P:Aspire.Hosting.ApplicationModel.Resource.Name
   parent: Aspire.Hosting.ApplicationModel.Resource

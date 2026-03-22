@@ -338,6 +338,7 @@ references:
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.Confirmation
 - uid: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+  parent: Keycloak.AuthServices.Sdk.Admin.Models
   href: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation.html
   name: CredentialRepresentation
   nameWithType: CredentialRepresentation

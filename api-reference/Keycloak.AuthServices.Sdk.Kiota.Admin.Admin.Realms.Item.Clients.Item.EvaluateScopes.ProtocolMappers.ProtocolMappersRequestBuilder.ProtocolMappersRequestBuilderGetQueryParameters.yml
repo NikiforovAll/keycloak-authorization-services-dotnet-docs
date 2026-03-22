@@ -13,14 +13,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtocolMappersRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers
@@ -50,14 +42,6 @@ items:
   nameWithType: ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters.Scope
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers.ProtocolMappersRequestBuilder.ProtocolMappersRequestBuilderGetQueryParameters.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Clients/Item/EvaluateScopes/ProtocolMappers/ProtocolMappersRequestBuilder.cs
-    startLine: 86
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Clients.Item.EvaluateScopes.ProtocolMappers

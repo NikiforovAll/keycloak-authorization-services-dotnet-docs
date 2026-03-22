@@ -19,14 +19,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmEventsConfigRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5350
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -54,14 +46,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.EventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5356
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -106,14 +90,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsExpiration
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.EventsExpiration
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsExpiration
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5362
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -158,14 +134,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EventsListeners
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.EventsListeners
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsListeners
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5368
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -210,14 +178,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.EnabledEventTypes
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.EnabledEventTypes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnabledEventTypes
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5374
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -262,14 +222,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdminEventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.AdminEventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5381
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -314,14 +266,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdminEventsDetailsEnabled
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.AdminEventsDetailsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsDetailsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5387
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -366,14 +310,6 @@ items:
   nameWithType: RealmEventsConfigRepresentation.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.RealmEventsConfigRepresentation.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 5395
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

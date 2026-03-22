@@ -25,14 +25,6 @@ items:
   nameWithType: UserFederationProviderRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserFederationProviderRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -63,14 +55,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -96,14 +80,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.ChangedSyncPeriod
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.ChangedSyncPeriod
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ChangedSyncPeriod
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -127,14 +103,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.Config
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.Config
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Config
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -158,14 +126,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -189,14 +149,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.FullSyncPeriod
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.FullSyncPeriod
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FullSyncPeriod
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -220,14 +172,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -251,14 +195,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.LastSync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.LastSync
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LastSync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -282,14 +218,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.Priority
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.Priority
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Priority
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -313,14 +241,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.ProviderName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.ProviderName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -344,14 +264,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.UserFederationProviderRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.UserFederationProviderRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -375,14 +287,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 65
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -410,14 +314,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -443,14 +339,6 @@ items:
   nameWithType: UserFederationProviderRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserFederationProviderRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserFederationProviderRepresentation.cs
-    startLine: 92
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

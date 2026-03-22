@@ -5,10 +5,13 @@ items:
   id: KeycloakWebApiAuthenticationBuilderExtensions
   parent: Keycloak.AuthServices.Authentication
   children:
+  - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String,System.String)
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String,System.String)
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)
+  - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String)
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.String)
+  - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String)
   langs:
   - csharp
@@ -17,14 +20,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakWebApiAuthenticationBuilderExtensions
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -55,14 +50,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, string, string)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfiguration, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebApi
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -106,14 +93,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action<JwtBearerOptions>?, string, string)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebApi
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -148,6 +127,52 @@ items:
   nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action(Of JwtBearerOptions), String, String)
   fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions), String, String)
   name.vb: AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action(Of JwtBearerOptions), String, String)
+- uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String,System.String)
+  commentId: M:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String,System.String)
+  id: AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String,System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action<JwtBearerOptions, IServiceProvider>?, string, string)
+  nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action<JwtBearerOptions, IServiceProvider>?, string, string)
+  fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider>?, string, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+  namespace: Keycloak.AuthServices.Authentication
+  summary: >-
+    Protects the web API with Keycloak
+
+    This method expects the configuration file will have a section, named "Keycloak" as default, with the necessary settings to initialize authentication options.
+  example: []
+  syntax:
+    content: public static KeycloakWebApiAuthenticationBuilder AddKeycloakWebApi(this AuthenticationBuilder builder, IConfiguration configuration, Action<JwtBearerOptions, IServiceProvider>? configureJwtBearerOptions, string configSectionName = "Keycloak", string jwtBearerScheme = "Bearer")
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+      description: The <xref href="Microsoft.AspNetCore.Authentication.AuthenticationBuilder" data-throw-if-not-resolved="false"></xref> to which to add this configuration.
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+      description: The configuration instance.
+    - id: configureJwtBearerOptions
+      type: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider}
+      description: ''
+    - id: configSectionName
+      type: System.String
+      description: The configuration section with the necessary settings to initialize authentication options.
+    - id: jwtBearerScheme
+      type: System.String
+      description: The JWT bearer scheme name to be used. By default it uses "Bearer".
+    return:
+      type: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
+      description: The authentication builder to chain.
+    content.vb: Public Shared Function AddKeycloakWebApi(builder As AuthenticationBuilder, configuration As IConfiguration, configureJwtBearerOptions As Action(Of JwtBearerOptions, IServiceProvider), configSectionName As String = "Keycloak", jwtBearerScheme As String = "Bearer") As KeycloakWebApiAuthenticationBuilder
+  overload: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi*
+  nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action(Of JwtBearerOptions, IServiceProvider), String, String)
+  fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider), String, String)
+  name.vb: AddKeycloakWebApi(AuthenticationBuilder, IConfiguration, Action(Of JwtBearerOptions, IServiceProvider), String, String)
 - uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.String)
   commentId: M:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.String)
   id: AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.String)
@@ -160,14 +185,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, string)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfigurationSection, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebApi
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 76
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -205,14 +222,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action<JwtBearerOptions>?, string)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebApi
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 112
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -241,6 +250,46 @@ items:
   nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action(Of JwtBearerOptions), String)
   fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions), String)
   name.vb: AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action(Of JwtBearerOptions), String)
+- uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  commentId: M:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  id: AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action<JwtBearerOptions, IServiceProvider>?, string)
+  nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action<JwtBearerOptions, IServiceProvider>?, string)
+  fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider>?, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+  namespace: Keycloak.AuthServices.Authentication
+  summary: Protects the web API with Keycloak
+  example: []
+  syntax:
+    content: public static KeycloakWebApiAuthenticationBuilder AddKeycloakWebApi(this AuthenticationBuilder builder, IConfigurationSection configurationSection, Action<JwtBearerOptions, IServiceProvider>? configureJwtBearerOptions, string jwtBearerScheme = "Bearer")
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+      description: The <xref href="Microsoft.AspNetCore.Authentication.AuthenticationBuilder" data-throw-if-not-resolved="false"></xref> to which to add this configuration.
+    - id: configurationSection
+      type: Microsoft.Extensions.Configuration.IConfigurationSection
+      description: The configuration second from which to fill-in the options.
+    - id: configureJwtBearerOptions
+      type: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider}
+      description: ''
+    - id: jwtBearerScheme
+      type: System.String
+      description: The JWT bearer scheme name to be used. By default it uses "Bearer".
+    return:
+      type: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
+      description: The authentication builder to chain.
+    content.vb: Public Shared Function AddKeycloakWebApi(builder As AuthenticationBuilder, configurationSection As IConfigurationSection, configureJwtBearerOptions As Action(Of JwtBearerOptions, IServiceProvider), jwtBearerScheme As String = "Bearer") As KeycloakWebApiAuthenticationBuilder
+  overload: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi*
+  nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action(Of JwtBearerOptions, IServiceProvider), String)
+  fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider), String)
+  name.vb: AddKeycloakWebApi(AuthenticationBuilder, IConfigurationSection, Action(Of JwtBearerOptions, IServiceProvider), String)
 - uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String)
   commentId: M:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String)
   id: AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions},System.String)
@@ -253,14 +302,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, Action<KeycloakAuthenticationOptions>, Action<JwtBearerOptions>?, string)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action<Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions>, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebApi
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilderExtensions.cs
-    startLine: 141
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -289,6 +330,46 @@ items:
   nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, Action(Of KeycloakAuthenticationOptions), Action(Of JwtBearerOptions), String)
   fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action(Of Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions), System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions), String)
   name.vb: AddKeycloakWebApi(AuthenticationBuilder, Action(Of KeycloakAuthenticationOptions), Action(Of JwtBearerOptions), String)
+- uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  commentId: M:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  id: AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider},System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider},System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakWebApi(AuthenticationBuilder, Action<KeycloakAuthenticationOptions, IServiceProvider>, Action<JwtBearerOptions, IServiceProvider>?, string)
+  nameWithType: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, Action<KeycloakAuthenticationOptions, IServiceProvider>, Action<JwtBearerOptions, IServiceProvider>?, string)
+  fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action<Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions, System.IServiceProvider>, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider>?, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+  namespace: Keycloak.AuthServices.Authentication
+  summary: Protects the web API with Keycloak
+  example: []
+  syntax:
+    content: public static KeycloakWebApiAuthenticationBuilder AddKeycloakWebApi(this AuthenticationBuilder builder, Action<KeycloakAuthenticationOptions, IServiceProvider> configureKeycloakOptions, Action<JwtBearerOptions, IServiceProvider>? configureJwtBearerOptions = null, string jwtBearerScheme = "Bearer")
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+      description: The <xref href="Microsoft.AspNetCore.Authentication.AuthenticationBuilder" data-throw-if-not-resolved="false"></xref> to which to add this configuration.
+    - id: configureKeycloakOptions
+      type: System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider}
+      description: The action to configure the <xref href="Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions" data-throw-if-not-resolved="false"></xref>.
+    - id: configureJwtBearerOptions
+      type: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider}
+      description: The action to configure <xref href="Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions" data-throw-if-not-resolved="false"></xref>.
+    - id: jwtBearerScheme
+      type: System.String
+      description: The JWT bearer scheme name to be used. By default it uses "Bearer".
+    return:
+      type: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
+      description: The authentication builder to chain.
+    content.vb: Public Shared Function AddKeycloakWebApi(builder As AuthenticationBuilder, configureKeycloakOptions As Action(Of KeycloakAuthenticationOptions, IServiceProvider), configureJwtBearerOptions As Action(Of JwtBearerOptions, IServiceProvider) = Nothing, jwtBearerScheme As String = "Bearer") As KeycloakWebApiAuthenticationBuilder
+  overload: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi*
+  nameWithType.vb: KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(AuthenticationBuilder, Action(Of KeycloakAuthenticationOptions, IServiceProvider), Action(Of JwtBearerOptions, IServiceProvider), String)
+  fullName.vb: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions.AddKeycloakWebApi(Microsoft.AspNetCore.Authentication.AuthenticationBuilder, System.Action(Of Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions, System.IServiceProvider), System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider), String)
+  name.vb: AddKeycloakWebApi(AuthenticationBuilder, Action(Of KeycloakAuthenticationOptions, IServiceProvider), Action(Of JwtBearerOptions, IServiceProvider), String)
 references:
 - uid: Microsoft.AspNetCore.Authentication.AuthenticationBuilder
   commentId: T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder
@@ -734,6 +815,87 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider}
+  commentId: T:System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions,System.IServiceProvider}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<JwtBearerOptions, IServiceProvider>
+  nameWithType: Action<JwtBearerOptions, IServiceProvider>
+  fullName: System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider>
+  nameWithType.vb: Action(Of JwtBearerOptions, IServiceProvider)
+  fullName.vb: System.Action(Of Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions, System.IServiceProvider)
+  name.vb: Action(Of JwtBearerOptions, IServiceProvider)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    name: JwtBearerOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.jwtbearer.jwtbeareroptions
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions
+    name: JwtBearerOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.jwtbearer.jwtbeareroptions
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
 - uid: Microsoft.Extensions.Configuration.IConfigurationSection
   commentId: T:Microsoft.Extensions.Configuration.IConfigurationSection
   parent: Microsoft.Extensions.Configuration
@@ -788,4 +950,49 @@ references:
   - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
     name: KeycloakAuthenticationOptions
     href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html
+  - name: )
+- uid: System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider}
+  commentId: T:System.Action{Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions,System.IServiceProvider}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<KeycloakAuthenticationOptions, IServiceProvider>
+  nameWithType: Action<KeycloakAuthenticationOptions, IServiceProvider>
+  fullName: System.Action<Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions, System.IServiceProvider>
+  nameWithType.vb: Action(Of KeycloakAuthenticationOptions, IServiceProvider)
+  fullName.vb: System.Action(Of Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions, System.IServiceProvider)
+  name.vb: Action(Of KeycloakAuthenticationOptions, IServiceProvider)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
+    name: KeycloakAuthenticationOptions
+    href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
+    name: KeycloakAuthenticationOptions
+    href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html
+  - name: ','
+  - name: " "
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
   - name: )

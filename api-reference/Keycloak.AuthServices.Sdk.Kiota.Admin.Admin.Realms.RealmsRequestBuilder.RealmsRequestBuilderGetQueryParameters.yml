@@ -13,14 +13,6 @@ items:
   nameWithType: RealmsRequestBuilder.RealmsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.RealmsRequestBuilder.RealmsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/RealmsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/RealmsRequestBuilder.cs
-    startLine: 135
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
@@ -50,14 +42,6 @@ items:
   nameWithType: RealmsRequestBuilder.RealmsRequestBuilderGetQueryParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.RealmsRequestBuilder.RealmsRequestBuilderGetQueryParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/RealmsRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/RealmsRequestBuilder.cs
-    startLine: 137
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms

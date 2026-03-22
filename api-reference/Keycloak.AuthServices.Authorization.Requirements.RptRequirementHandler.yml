@@ -14,14 +14,6 @@ items:
   nameWithType: RptRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RptRequirementHandler
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -55,14 +47,6 @@ items:
   nameWithType: RptRequirementHandler.RptRequirementHandler(ILogger<RptRequirementHandler>)
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.RptRequirementHandler(Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 47
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -90,14 +74,6 @@ items:
   nameWithType: RptRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, RptRequirement)
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Keycloak.AuthServices.Authorization.Requirements.RptRequirement)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HandleRequirementAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RptRequirement.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements

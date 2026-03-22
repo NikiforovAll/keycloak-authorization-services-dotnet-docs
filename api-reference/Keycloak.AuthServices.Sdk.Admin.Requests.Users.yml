@@ -5,6 +5,7 @@ items:
   id: Keycloak.AuthServices.Sdk.Admin.Requests.Users
   children:
   - Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest
+  - Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
   - Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserGroupsRequestParameters
   - Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters
   langs:
@@ -31,6 +32,13 @@ references:
   name: GetUserGroupsRequestParameters
   nameWithType: GetUserGroupsRequestParameters
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserGroupsRequestParameters
+- uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+  commentId: T:Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+  parent: Keycloak.AuthServices.Sdk.Admin.Requests.Users
+  href: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters.html
+  name: GetUserCountRequestParameters
+  nameWithType: GetUserCountRequestParameters
+  fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
 - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters
   commentId: T:Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters
   parent: Keycloak.AuthServices.Sdk.Admin.Requests.Users

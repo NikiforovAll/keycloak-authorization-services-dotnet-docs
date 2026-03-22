@@ -14,14 +14,6 @@ items:
   nameWithType: Logic
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Logic
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Logic
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -39,14 +31,6 @@ items:
   nameWithType: Logic.POSITIVE
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Logic.POSITIVE
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: POSITIVE
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -80,14 +64,6 @@ items:
   nameWithType: Logic.NEGATIVE
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Logic.NEGATIVE
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NEGATIVE
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Logic.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

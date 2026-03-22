@@ -15,14 +15,6 @@ items:
   nameWithType: DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.DecisionStrategy
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionStrategy
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 2893
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -40,14 +32,6 @@ items:
   nameWithType: DecisionStrategy.AFFIRMATIVE
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.DecisionStrategy.AFFIRMATIVE
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AFFIRMATIVE
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 2899
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -81,14 +65,6 @@ items:
   nameWithType: DecisionStrategy.UNANIMOUS
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.DecisionStrategy.UNANIMOUS
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UNANIMOUS
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 2902
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -122,14 +98,6 @@ items:
   nameWithType: DecisionStrategy.CONSENSUS
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.DecisionStrategy.CONSENSUS
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CONSENSUS
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 2905
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models

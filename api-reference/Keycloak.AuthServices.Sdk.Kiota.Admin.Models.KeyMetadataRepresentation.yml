@@ -27,14 +27,6 @@ items:
   nameWithType: KeyMetadataRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeyMetadataRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -65,14 +57,6 @@ items:
   nameWithType: KeyMetadataRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -98,14 +82,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Algorithm
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Algorithm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Algorithm
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -129,14 +105,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Certificate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Certificate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Certificate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -160,14 +128,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Kid
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Kid
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Kid
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -191,14 +151,6 @@ items:
   nameWithType: KeyMetadataRepresentation.ProviderId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.ProviderId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -222,14 +174,6 @@ items:
   nameWithType: KeyMetadataRepresentation.ProviderPriority
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.ProviderPriority
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderPriority
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 46
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -253,14 +197,6 @@ items:
   nameWithType: KeyMetadataRepresentation.PublicKey
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.PublicKey
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PublicKey
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -284,14 +220,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Status
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -315,14 +243,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -346,14 +266,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Use
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Use
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Use
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 72
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -377,14 +289,6 @@ items:
   nameWithType: KeyMetadataRepresentation.ValidTo
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.ValidTo
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ValidTo
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -408,14 +312,6 @@ items:
   nameWithType: KeyMetadataRepresentation.KeyMetadataRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.KeyMetadataRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -439,14 +335,6 @@ items:
   nameWithType: KeyMetadataRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 87
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -474,14 +362,6 @@ items:
   nameWithType: KeyMetadataRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 96
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -507,14 +387,6 @@ items:
   nameWithType: KeyMetadataRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyMetadataRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/KeyMetadataRepresentation.cs
-    startLine: 116
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

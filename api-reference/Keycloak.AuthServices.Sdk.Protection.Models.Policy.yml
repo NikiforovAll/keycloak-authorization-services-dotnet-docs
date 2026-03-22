@@ -24,14 +24,6 @@ items:
   nameWithType: Policy
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Policy
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -62,14 +54,6 @@ items:
   nameWithType: Policy.Id
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -93,14 +77,6 @@ items:
   nameWithType: Policy.Name
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -124,14 +100,6 @@ items:
   nameWithType: Policy.Description
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -155,14 +123,6 @@ items:
   nameWithType: Policy.Type
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -186,14 +146,6 @@ items:
   nameWithType: Policy.Logic
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Logic
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Logic
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 35
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -217,14 +169,6 @@ items:
   nameWithType: Policy.DecisionStrategy
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.DecisionStrategy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionStrategy
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -248,14 +192,6 @@ items:
   nameWithType: Policy.Owner
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Owner
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Owner
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -279,14 +215,6 @@ items:
   nameWithType: Policy.Condition
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Condition
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Condition
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -310,14 +238,6 @@ items:
   nameWithType: Policy.Scopes
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 55
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -341,14 +261,6 @@ items:
   nameWithType: Policy.Groups
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Groups
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Groups
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 60
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -372,14 +284,6 @@ items:
   nameWithType: Policy.Roles
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Roles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Roles
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 65
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -403,14 +307,6 @@ items:
   nameWithType: Policy.Clients
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Clients
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Clients
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Policy.cs
-    startLine: 70
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models

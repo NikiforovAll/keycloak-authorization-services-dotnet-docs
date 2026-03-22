@@ -13,14 +13,6 @@ items:
   nameWithType: HostBuilderExtensions
   fullName: Keycloak.AuthServices.Authentication.Configuration.HostBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/HostBuilderExtenssions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HostBuilderExtensions
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/HostBuilderExtenssions.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration
@@ -51,14 +43,6 @@ items:
   nameWithType: HostBuilderExtensions.ConfigureKeycloakConfigurationSource(IHostBuilder, string, string)
   fullName: Keycloak.AuthServices.Authentication.Configuration.HostBuilderExtensions.ConfigureKeycloakConfigurationSource(Microsoft.Extensions.Hosting.IHostBuilder, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/Configuration/HostBuilderExtenssions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigureKeycloakConfigurationSource
-    path: ../src/Keycloak.AuthServices.Authentication/Configuration/HostBuilderExtenssions.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication.Configuration

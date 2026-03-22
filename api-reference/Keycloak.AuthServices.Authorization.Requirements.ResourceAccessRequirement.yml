@@ -16,14 +16,6 @@ items:
   nameWithType: ResourceAccessRequirement
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccessRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -54,14 +46,6 @@ items:
   nameWithType: ResourceAccessRequirement.Resource
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -85,14 +69,6 @@ items:
   nameWithType: ResourceAccessRequirement.Roles
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.Roles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Roles
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -116,14 +92,6 @@ items:
   nameWithType: ResourceAccessRequirement.ResourceAccessRequirement(string?, params string[])
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.ResourceAccessRequirement(string?, params string[])
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -154,22 +122,16 @@ items:
   nameWithType: ResourceAccessRequirement.ToString()
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Returns a string that represents the current object.
   example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
+      description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.ToString*

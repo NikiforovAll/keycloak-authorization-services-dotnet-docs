@@ -13,14 +13,6 @@ items:
   nameWithType: KeycloakWebAppServiceCollectionExtensions
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakWebAppServiceCollectionExtensions
-    path: ../src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppServiceCollectionExtensions.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -51,14 +43,6 @@ items:
   nameWithType: KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(IServiceCollection, IConfiguration, string, string, string, string?)
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, string, string, string, string?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakWebAppAuthentication
-    path: ../src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppServiceCollectionExtensions.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication

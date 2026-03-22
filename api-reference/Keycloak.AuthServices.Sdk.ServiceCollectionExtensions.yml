@@ -20,14 +20,6 @@ items:
   nameWithType: ServiceCollectionExtensions
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceCollectionExtensions
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -58,14 +50,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -106,14 +90,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 40
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -151,14 +127,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, Action<KeycloakAdminClientOptions>, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions>, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -196,14 +164,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, KeycloakAdminClientOptions, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 92
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -241,14 +201,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakProtectionHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 121
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -289,14 +241,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakProtectionHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 139
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -334,14 +278,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(IServiceCollection, Action<KeycloakProtectionClientOptions>, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakProtectionHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 156
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk
@@ -379,14 +315,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(IServiceCollection, KeycloakProtectionClientOptions, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakProtectionHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk/ServiceCollectionExtensions.cs
-    startLine: 194
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk

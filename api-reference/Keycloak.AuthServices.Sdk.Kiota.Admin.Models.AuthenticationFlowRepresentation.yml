@@ -24,14 +24,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationFlowRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -62,14 +54,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -95,14 +79,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.Alias
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.Alias
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Alias
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -126,14 +102,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.AuthenticationExecutions
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.AuthenticationExecutions
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationExecutions
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -157,14 +125,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.BuiltIn
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.BuiltIn
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BuiltIn
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -188,14 +148,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.Description
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -219,14 +171,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -250,14 +194,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.ProviderId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.ProviderId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProviderId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -281,14 +217,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.TopLevel
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.TopLevel
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TopLevel
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -312,14 +240,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.AuthenticationFlowRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.AuthenticationFlowRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 60
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -343,14 +263,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -378,14 +290,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 78
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -411,14 +315,6 @@ items:
   nameWithType: AuthenticationFlowRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AuthenticationFlowRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/AuthenticationFlowRepresentation.cs
-    startLine: 95
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

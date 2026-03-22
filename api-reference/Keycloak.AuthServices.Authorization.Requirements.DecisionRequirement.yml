@@ -19,14 +19,6 @@ items:
   nameWithType: DecisionRequirement
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DecisionRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -58,14 +50,6 @@ items:
   nameWithType: DecisionRequirement.Resource
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -91,14 +75,6 @@ items:
   nameWithType: DecisionRequirement.Scopes
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -124,14 +100,6 @@ items:
   nameWithType: DecisionRequirement.ScopesValidationMode
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.ScopesValidationMode
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopesValidationMode
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -155,14 +123,6 @@ items:
   nameWithType: DecisionRequirement.DecisionRequirement(string, string)
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.DecisionRequirement(string, string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -193,14 +153,6 @@ items:
   nameWithType: DecisionRequirement.DecisionRequirement(string, string[])
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.DecisionRequirement(string, string[])
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -231,14 +183,6 @@ items:
   nameWithType: DecisionRequirement.DecisionRequirement(string, string, string)
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.DecisionRequirement(string, string, string)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 56
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -272,22 +216,16 @@ items:
   nameWithType: DecisionRequirement.ToString()
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.ToString()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ToString
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/DecisionRequirement.cs
-    startLine: 60
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Returns a string that represents the current object.
   example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
+      description: A string that represents the current object.
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.ToString*

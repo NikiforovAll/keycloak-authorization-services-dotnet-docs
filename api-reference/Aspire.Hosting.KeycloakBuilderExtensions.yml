@@ -17,14 +17,6 @@ items:
   nameWithType: KeycloakBuilderExtensions
   fullName: Aspire.Hosting.KeycloakBuilderExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakBuilderExtensions
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -55,14 +47,6 @@ items:
   nameWithType: KeycloakBuilderExtensions.AddKeycloakContainer(IDistributedApplicationBuilder, string, string?, IResourceBuilder<ParameterResource>?, IResourceBuilder<ParameterResource>?, int?)
   fullName: Aspire.Hosting.KeycloakBuilderExtensions.AddKeycloakContainer(Aspire.Hosting.IDistributedApplicationBuilder, string, string?, Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.ParameterResource>?, Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.ApplicationModel.ParameterResource>?, int?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakContainer
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -109,14 +93,6 @@ items:
   nameWithType: KeycloakBuilderExtensions.AddRealm(IResourceBuilder<KeycloakResource>, string, string?)
   fullName: Aspire.Hosting.KeycloakBuilderExtensions.AddRealm(Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.KeycloakResource>, string, string?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddRealm
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 75
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -154,14 +130,6 @@ items:
   nameWithType: KeycloakBuilderExtensions.WithImport(IResourceBuilder<KeycloakResource>, string, bool)
   fullName: Aspire.Hosting.KeycloakBuilderExtensions.WithImport(Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.KeycloakResource>, string, bool)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithImport
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 95
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -199,14 +167,6 @@ items:
   nameWithType: KeycloakBuilderExtensions.WithDataVolume(IResourceBuilder<KeycloakResource>, string?, bool)
   fullName: Aspire.Hosting.KeycloakBuilderExtensions.WithDataVolume(Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.KeycloakResource>, string?, bool)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithDataVolume
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 126
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting
@@ -244,14 +204,6 @@ items:
   nameWithType: KeycloakBuilderExtensions.WithReference<TResource>(IResourceBuilder<TResource>, IResourceBuilder<KeycloakRealmResource>, string)
   fullName: Aspire.Hosting.KeycloakBuilderExtensions.WithReference<TResource>(Aspire.Hosting.ApplicationModel.IResourceBuilder<TResource>, Aspire.Hosting.ApplicationModel.IResourceBuilder<Aspire.Hosting.KeycloakRealmResource>, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WithReference
-    path: ../src/Keycloak.AuthServices.Aspire.Hosting/KeycloakBuilderExtensions.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Aspire.Hosting
   namespace: Aspire.Hosting

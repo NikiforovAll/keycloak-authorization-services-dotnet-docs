@@ -32,14 +32,6 @@ items:
   nameWithType: ClientTemplateRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientTemplateRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -82,14 +74,6 @@ items:
   nameWithType: ClientTemplateRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -115,14 +99,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Attributes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -146,14 +122,6 @@ items:
   nameWithType: ClientTemplateRepresentation.BearerOnly
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.BearerOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BearerOnly
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -177,14 +145,6 @@ items:
   nameWithType: ClientTemplateRepresentation.ConsentRequired
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.ConsentRequired
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConsentRequired
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -208,14 +168,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Description
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Description
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Description
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -239,14 +191,6 @@ items:
   nameWithType: ClientTemplateRepresentation.DirectAccessGrantsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.DirectAccessGrantsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DirectAccessGrantsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 35
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -270,14 +214,6 @@ items:
   nameWithType: ClientTemplateRepresentation.FrontchannelLogout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.FrontchannelLogout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FrontchannelLogout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -301,14 +237,6 @@ items:
   nameWithType: ClientTemplateRepresentation.FullScopeAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.FullScopeAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FullScopeAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -332,14 +260,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 43
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -363,14 +283,6 @@ items:
   nameWithType: ClientTemplateRepresentation.ImplicitFlowEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.ImplicitFlowEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ImplicitFlowEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -394,14 +306,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -425,14 +329,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Protocol
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Protocol
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Protocol
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -456,14 +352,6 @@ items:
   nameWithType: ClientTemplateRepresentation.ProtocolMappers
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.ProtocolMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtocolMappers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -487,14 +375,6 @@ items:
   nameWithType: ClientTemplateRepresentation.PublicClient
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.PublicClient
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PublicClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 75
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -518,14 +398,6 @@ items:
   nameWithType: ClientTemplateRepresentation.ServiceAccountsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.ServiceAccountsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceAccountsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 77
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -549,14 +421,6 @@ items:
   nameWithType: ClientTemplateRepresentation.StandardFlowEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.StandardFlowEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: StandardFlowEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 79
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -580,14 +444,6 @@ items:
   nameWithType: ClientTemplateRepresentation.ClientTemplateRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.ClientTemplateRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 83
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -611,14 +467,6 @@ items:
   nameWithType: ClientTemplateRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 92
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -646,14 +494,6 @@ items:
   nameWithType: ClientTemplateRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 101
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -679,14 +519,6 @@ items:
   nameWithType: ClientTemplateRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientTemplateRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/ClientTemplateRepresentation.cs
-    startLine: 126
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

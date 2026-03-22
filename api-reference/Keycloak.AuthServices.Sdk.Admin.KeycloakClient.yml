@@ -9,17 +9,22 @@ items:
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateChildGroupWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateGroupWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateUserWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Models.UserRepresentation,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteUserWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ExecuteActionsEmailWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetRealmWithResponseAsync(System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserGroupsRequestParameters,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUsersWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.JoinGroupWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.LeaveGroupWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.SendVerifyEmailWithResponseAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.UpdateGroupWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Admin.KeycloakClient.UpdateUserWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.UserRepresentation,System.Threading.CancellationToken)
@@ -30,14 +35,6 @@ items:
   nameWithType: KeycloakClient
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakClient
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -72,14 +69,6 @@ items:
   nameWithType: KeycloakClient.KeycloakClient(HttpClient)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.KeycloakClient(System.Net.Http.HttpClient)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -107,14 +96,6 @@ items:
   nameWithType: KeycloakClient.GetRealmWithResponseAsync(string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetRealmWithResponseAsync(string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetRealmWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -150,14 +131,6 @@ items:
   nameWithType: KeycloakClient.CreateUserWithResponseAsync(string, UserRepresentation, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateUserWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Models.UserRepresentation, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateUserWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 43
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -197,14 +170,6 @@ items:
   nameWithType: KeycloakClient.GetUsersWithResponseAsync(string, GetUsersRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUsersWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetUsersWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -232,6 +197,48 @@ items:
   nameWithType.vb: KeycloakClient.GetUsersWithResponseAsync(String, GetUsersRequestParameters, CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUsersWithResponseAsync(String, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUsersRequestParameters, System.Threading.CancellationToken)
   name.vb: GetUsersWithResponseAsync(String, GetUsersRequestParameters, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  id: GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
+  langs:
+  - csharp
+  - vb
+  name: GetUserCountWithResponseAsync(string, GetUserCountRequestParameters?, CancellationToken)
+  nameWithType: KeycloakClient.GetUserCountWithResponseAsync(string, GetUserCountRequestParameters?, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Admin
+  summary: >-
+    Get the integer amount of users on the realm that match the provided <xref href="Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters" data-throw-if-not-resolved="false"></xref>.
+
+
+    Note that the response is not JSON, but simply the integer value as a string.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> GetUserCountWithResponseAsync(string realm, GetUserCountRequestParameters? parameters = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: realm
+      type: System.String
+      description: Realm name (not ID).
+    - id: parameters
+      type: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+      description: Optional query parameters.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: An integer amount of users
+    content.vb: Public Function GetUserCountWithResponseAsync(realm As String, parameters As GetUserCountRequestParameters = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  nameWithType.vb: KeycloakClient.GetUserCountWithResponseAsync(String, GetUserCountRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync(String, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetUserCountWithResponseAsync(String, GetUserCountRequestParameters, CancellationToken)
 - uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
   id: GetUserWithResponseAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
@@ -243,14 +250,6 @@ items:
   nameWithType: KeycloakClient.GetUserWithResponseAsync(string, string, bool, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync(string, string, bool, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetUserWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -292,14 +291,6 @@ items:
   nameWithType: KeycloakClient.UpdateUserWithResponseAsync(string, string, UserRepresentation, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.UpdateUserWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Models.UserRepresentation, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateUserWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 122
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -341,14 +332,6 @@ items:
   nameWithType: KeycloakClient.DeleteUserWithResponseAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteUserWithResponseAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteUserWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 137
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -387,14 +370,6 @@ items:
   nameWithType: KeycloakClient.SendVerifyEmailWithResponseAsync(string, string, string?, string?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.SendVerifyEmailWithResponseAsync(string, string, string?, string?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SendVerifyEmailWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 151
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -439,14 +414,6 @@ items:
   nameWithType: KeycloakClient.ExecuteActionsEmailWithResponseAsync(string, string, ExecuteActionsEmailRequest, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ExecuteActionsEmailWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ExecuteActionsEmailWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 186
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -487,14 +454,6 @@ items:
   nameWithType: KeycloakClient.GetUserGroupsWithResponseAsync(string, string, GetUserGroupsRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserGroupsWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserGroupsRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetUserGroupsWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 226
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -536,14 +495,6 @@ items:
   nameWithType: KeycloakClient.JoinGroupWithResponseAsync(string, string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.JoinGroupWithResponseAsync(string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: JoinGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 261
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -585,14 +536,6 @@ items:
   nameWithType: KeycloakClient.LeaveGroupWithResponseAsync(string, string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.LeaveGroupWithResponseAsync(string, string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LeaveGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 284
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -634,14 +577,6 @@ items:
   nameWithType: KeycloakClient.GetGroupsWithResponseAsync(string, GetGroupsRequestParameters?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupsWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetGroupsWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 305
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -669,6 +604,47 @@ items:
   nameWithType.vb: KeycloakClient.GetGroupsWithResponseAsync(String, GetGroupsRequestParameters, CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupsWithResponseAsync(String, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters, System.Threading.CancellationToken)
   name.vb: GetGroupsWithResponseAsync(String, GetGroupsRequestParameters, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  id: GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
+  langs:
+  - csharp
+  - vb
+  name: GetSubGroupsWithResponseAsync(string, string, GetGroupsRequestParameters?, CancellationToken)
+  nameWithType: KeycloakClient.GetSubGroupsWithResponseAsync(string, string, GetGroupsRequestParameters?, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters?, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Admin
+  summary: Get a collection of sub groups by parent's id on the realm.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> GetSubGroupsWithResponseAsync(string realm, string parentGroupId, GetGroupsRequestParameters? parameters = null, CancellationToken cancellationToken = default)
+    parameters:
+    - id: realm
+      type: System.String
+      description: Realm name (not ID).
+    - id: parentGroupId
+      type: System.String
+      description: Parent Group ID.
+    - id: parameters
+      type: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters
+      description: Optional query parameters.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: ''
+    content.vb: Public Function GetSubGroupsWithResponseAsync(realm As String, parentGroupId As String, parameters As GetGroupsRequestParameters = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  nameWithType.vb: KeycloakClient.GetSubGroupsWithResponseAsync(String, String, GetGroupsRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync(String, String, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetSubGroupsWithResponseAsync(String, String, GetGroupsRequestParameters, CancellationToken)
 - uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   id: GetGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -680,14 +656,6 @@ items:
   nameWithType: KeycloakClient.GetGroupWithResponseAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 352
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -726,14 +694,6 @@ items:
   nameWithType: KeycloakClient.CreateGroupWithResponseAsync(string, GroupRepresentation, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateGroupWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 366
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -773,14 +733,6 @@ items:
   nameWithType: KeycloakClient.UpdateGroupWithResponseAsync(string, string, GroupRepresentation, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.UpdateGroupWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 380
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -822,14 +774,6 @@ items:
   nameWithType: KeycloakClient.CreateChildGroupWithResponseAsync(string, string, GroupRepresentation, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.CreateChildGroupWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Models.GroupRepresentation, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateChildGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 395
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -872,14 +816,6 @@ items:
   nameWithType: KeycloakClient.DeleteGroupWithResponseAsync(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteGroupWithResponseAsync(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DeleteGroupWithResponseAsync
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/KeycloakClient.cs
-    startLine: 410
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin
@@ -907,6 +843,126 @@ items:
   nameWithType.vb: KeycloakClient.DeleteGroupWithResponseAsync(String, String, CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteGroupWithResponseAsync(String, String, System.Threading.CancellationToken)
   name.vb: DeleteGroupWithResponseAsync(String, String, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  id: ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
+  langs:
+  - csharp
+  - vb
+  name: ResetPasswordWithResponseAsync(string, string, CredentialRepresentation, CancellationToken)
+  nameWithType: KeycloakClient.ResetPasswordWithResponseAsync(string, string, CredentialRepresentation, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Admin
+  summary: Set up a new password for the user
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> ResetPasswordWithResponseAsync(string realm, string userId, CredentialRepresentation credential, CancellationToken cancellationToken = default)
+    parameters:
+    - id: realm
+      type: System.String
+      description: Realm name(not ID).
+    - id: userId
+      type: System.String
+      description: User ID.
+    - id: credential
+      type: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+      description: Credential representation.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: ''
+    content.vb: Public Function ResetPasswordWithResponseAsync(realm As String, userId As String, credential As CredentialRepresentation, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  nameWithType.vb: KeycloakClient.ResetPasswordWithResponseAsync(String, String, CredentialRepresentation, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync(String, String, Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation, System.Threading.CancellationToken)
+  name.vb: ResetPasswordWithResponseAsync(String, String, CredentialRepresentation, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
+  langs:
+  - csharp
+  - vb
+  name: DeleteCredentialWithResponseAsync(string, string, string, CancellationToken)
+  nameWithType: KeycloakClient.DeleteCredentialWithResponseAsync(string, string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync(string, string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Admin
+  summary: Remove a credential for a user
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> DeleteCredentialWithResponseAsync(string realm, string userId, string credentialId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: realm
+      type: System.String
+      description: Realm name(not ID).
+    - id: userId
+      type: System.String
+      description: User ID
+    - id: credentialId
+      type: System.String
+      description: Credential ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: ''
+    content.vb: Public Function DeleteCredentialWithResponseAsync(realm As String, userId As String, credentialId As String, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: KeycloakClient.DeleteCredentialWithResponseAsync(String, String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: DeleteCredentialWithResponseAsync(String, String, String, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.KeycloakClient
+  langs:
+  - csharp
+  - vb
+  name: GetCredentialsWithResponseAsync(string, string, CancellationToken)
+  nameWithType: KeycloakClient.GetCredentialsWithResponseAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Admin
+  summary: Get a user's credentials.
+  example: []
+  syntax:
+    content: public Task<HttpResponseMessage> GetCredentialsWithResponseAsync(string realm, string userId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: realm
+      type: System.String
+      description: Realm name(not ID).
+    - id: userId
+      type: System.String
+      description: User ID
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: ''
+    content.vb: Public Function GetCredentialsWithResponseAsync(realm As String, userId As String, cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)
+  overload: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: KeycloakClient.GetCredentialsWithResponseAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync(String, String, System.Threading.CancellationToken)
+  name.vb: GetCredentialsWithResponseAsync(String, String, CancellationToken)
 references:
 - uid: Keycloak.AuthServices.Sdk.Admin
   commentId: N:Keycloak.AuthServices.Sdk.Admin
@@ -1698,6 +1754,72 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users
     name: Users
     href: Keycloak.AuthServices.Sdk.Admin.Requests.Users.html
+- uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+  commentId: T:Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+  parent: Keycloak.AuthServices.Sdk.Admin.Requests.Users
+  href: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters.html
+  name: GetUserCountRequestParameters
+  nameWithType: GetUserCountRequestParameters
+  fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync
+  href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_GetUserCountWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Users_GetUserCountRequestParameters_System_Threading_CancellationToken_
+  name: GetUserCountWithResponseAsync
+  nameWithType: KeycloakClient.GetUserCountWithResponseAsync
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserCountWithResponseAsync
+- uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetUserCountWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Users_GetUserCountRequestParameters_System_Threading_CancellationToken_
+  name: GetUserCountWithResponseAsync(string, GetUserCountRequestParameters, CancellationToken)
+  nameWithType: IKeycloakUserClient.GetUserCountWithResponseAsync(string, GetUserCountRequestParameters, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(string, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakUserClient.GetUserCountWithResponseAsync(String, GetUserCountRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(String, Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetUserCountWithResponseAsync(String, GetUserCountRequestParameters, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+    name: GetUserCountWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetUserCountWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Users_GetUserCountRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+    name: GetUserCountRequestParameters
+    href: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetUserCountWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters,System.Threading.CancellationToken)
+    name: GetUserCountWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetUserCountWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Users_GetUserCountRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters
+    name: GetUserCountRequestParameters
+    href: Keycloak.AuthServices.Sdk.Admin.Requests.Users.GetUserCountRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetUserWithResponseAsync
   href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_GetUserWithResponseAsync_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
@@ -2421,6 +2543,77 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Groups
     name: Groups
     href: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.html
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync
+  href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_GetSubGroupsWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Groups_GetGroupsRequestParameters_System_Threading_CancellationToken_
+  name: GetSubGroupsWithResponseAsync
+  nameWithType: KeycloakClient.GetSubGroupsWithResponseAsync
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetSubGroupsWithResponseAsync
+- uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakGroupClient_GetSubGroupsWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Groups_GetGroupsRequestParameters_System_Threading_CancellationToken_
+  name: GetSubGroupsWithResponseAsync(string, string, GetGroupsRequestParameters, CancellationToken)
+  nameWithType: IKeycloakGroupClient.GetSubGroupsWithResponseAsync(string, string, GetGroupsRequestParameters, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakGroupClient.GetSubGroupsWithResponseAsync(String, String, GetGroupsRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(String, String, Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetSubGroupsWithResponseAsync(String, String, GetGroupsRequestParameters, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+    name: GetSubGroupsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakGroupClient_GetSubGroupsWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Groups_GetGroupsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters
+    name: GetGroupsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.GetSubGroupsWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters,System.Threading.CancellationToken)
+    name: GetSubGroupsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakGroupClient_GetSubGroupsWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Requests_Groups_GetGroupsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters
+    name: GetGroupsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Admin.Requests.Groups.GetGroupsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetGroupWithResponseAsync
   href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_GetGroupWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
@@ -2733,6 +2926,218 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.DeleteGroupWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
     name: DeleteGroupWithResponseAsync
     href: Keycloak.AuthServices.Sdk.Admin.IKeycloakGroupClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakGroupClient_DeleteGroupWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync
+  href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_ResetPasswordWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Models_CredentialRepresentation_System_Threading_CancellationToken_
+  name: ResetPasswordWithResponseAsync
+  nameWithType: KeycloakClient.ResetPasswordWithResponseAsync
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.ResetPasswordWithResponseAsync
+- uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_ResetPasswordWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Models_CredentialRepresentation_System_Threading_CancellationToken_
+  name: ResetPasswordWithResponseAsync(string, string, CredentialRepresentation, CancellationToken)
+  nameWithType: IKeycloakUserClient.ResetPasswordWithResponseAsync(string, string, CredentialRepresentation, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(string, string, Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakUserClient.ResetPasswordWithResponseAsync(String, String, CredentialRepresentation, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(String, String, Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation, System.Threading.CancellationToken)
+  name.vb: ResetPasswordWithResponseAsync(String, String, CredentialRepresentation, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+    name: ResetPasswordWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_ResetPasswordWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Models_CredentialRepresentation_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+    name: CredentialRepresentation
+    href: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.ResetPasswordWithResponseAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation,System.Threading.CancellationToken)
+    name: ResetPasswordWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_ResetPasswordWithResponseAsync_System_String_System_String_Keycloak_AuthServices_Sdk_Admin_Models_CredentialRepresentation_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+    name: CredentialRepresentation
+    href: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+  parent: Keycloak.AuthServices.Sdk.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation.html
+  name: CredentialRepresentation
+  nameWithType: CredentialRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Admin.Models.CredentialRepresentation
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync
+  href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_DeleteCredentialWithResponseAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: DeleteCredentialWithResponseAsync
+  nameWithType: KeycloakClient.DeleteCredentialWithResponseAsync
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.DeleteCredentialWithResponseAsync
+- uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_DeleteCredentialWithResponseAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: DeleteCredentialWithResponseAsync(string, string, string, CancellationToken)
+  nameWithType: IKeycloakUserClient.DeleteCredentialWithResponseAsync(string, string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(string, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakUserClient.DeleteCredentialWithResponseAsync(String, String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(String, String, String, System.Threading.CancellationToken)
+  name.vb: DeleteCredentialWithResponseAsync(String, String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: DeleteCredentialWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_DeleteCredentialWithResponseAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.DeleteCredentialWithResponseAsync(System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: DeleteCredentialWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_DeleteCredentialWithResponseAsync_System_String_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync
+  href: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.html#Keycloak_AuthServices_Sdk_Admin_KeycloakClient_GetCredentialsWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: GetCredentialsWithResponseAsync
+  nameWithType: KeycloakClient.GetCredentialsWithResponseAsync
+  fullName: Keycloak.AuthServices.Sdk.Admin.KeycloakClient.GetCredentialsWithResponseAsync
+- uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetCredentialsWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: GetCredentialsWithResponseAsync(string, string, CancellationToken)
+  nameWithType: IKeycloakUserClient.GetCredentialsWithResponseAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakUserClient.GetCredentialsWithResponseAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(String, String, System.Threading.CancellationToken)
+  name.vb: GetCredentialsWithResponseAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: GetCredentialsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetCredentialsWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.GetCredentialsWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: GetCredentialsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Admin.IKeycloakUserClient.html#Keycloak_AuthServices_Sdk_Admin_IKeycloakUserClient_GetCredentialsWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: String

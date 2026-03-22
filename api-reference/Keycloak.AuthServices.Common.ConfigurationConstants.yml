@@ -13,14 +13,6 @@ items:
   nameWithType: ConfigurationConstants
   fullName: Keycloak.AuthServices.Common.ConfigurationConstants
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigurationConstants
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationConstants.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -50,14 +42,6 @@ items:
   nameWithType: ConfigurationConstants.ConfigurationPrefix
   fullName: Keycloak.AuthServices.Common.ConfigurationConstants.ConfigurationPrefix
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/ConfigurationConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ConfigurationPrefix
-    path: ../src/Keycloak.AuthServices.Common/ConfigurationConstants.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common

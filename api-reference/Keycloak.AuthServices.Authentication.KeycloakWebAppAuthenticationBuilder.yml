@@ -13,14 +13,6 @@ items:
   nameWithType: KeycloakWebAppAuthenticationBuilder
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakWebAppAuthenticationBuilder
-    path: ../src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppAuthenticationBuilder.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -53,14 +45,6 @@ items:
   nameWithType: KeycloakWebAppAuthenticationBuilder.OpenIdConnectScheme
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder.OpenIdConnectScheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OpenIdConnectScheme
-    path: ../src/Keycloak.AuthServices.Authentication/WebAppExtensions/KeycloakWebAppAuthenticationBuilder.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication

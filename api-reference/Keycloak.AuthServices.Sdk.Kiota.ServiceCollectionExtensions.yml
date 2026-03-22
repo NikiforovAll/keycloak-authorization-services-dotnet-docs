@@ -17,14 +17,6 @@ items:
   nameWithType: ServiceCollectionExtensions
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceCollectionExtensions
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -55,14 +47,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKiotaKeycloakAdminHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions.AddKiotaKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKiotaKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -103,14 +87,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -151,14 +127,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 63
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -196,14 +164,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, Action<KeycloakAdminClientOptions>, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Sdk.Kiota.KeycloakAdminClientOptions>, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -241,14 +201,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAdminHttpClient(IServiceCollection, KeycloakAdminClientOptions, Action<HttpClient>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.ServiceCollectionExtensions.AddKeycloakAdminHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Keycloak.AuthServices.Sdk.Kiota.KeycloakAdminClientOptions, System.Action<System.Net.Http.HttpClient>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAdminHttpClient
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/ServiceCollectionExtensions.cs
-    startLine: 131
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota

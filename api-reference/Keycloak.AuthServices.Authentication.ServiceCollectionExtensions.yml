@@ -15,14 +15,6 @@ items:
   nameWithType: ServiceCollectionExtensions
   fullName: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ServiceCollectionExtensions
-    path: ../src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -65,14 +57,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthentication(IServiceCollection, KeycloakAuthenticationOptions, Action<JwtBearerOptions>?)
   fullName: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions.AddKeycloakAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthentication
-    path: ../src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -118,14 +102,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthentication(IServiceCollection, IConfiguration, Action<JwtBearerOptions>?)
   fullName: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions.AddKeycloakAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthentication
-    path: ../src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -175,14 +151,6 @@ items:
   nameWithType: ServiceCollectionExtensions.AddKeycloakAuthentication(IServiceCollection, IConfiguration, string, Action<JwtBearerOptions>?)
   fullName: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions.AddKeycloakAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, string, System.Action<Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AddKeycloakAuthentication
-    path: ../src/Keycloak.AuthServices.Authentication/ServiceCollectionExtensions.cs
-    startLine: 87
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication

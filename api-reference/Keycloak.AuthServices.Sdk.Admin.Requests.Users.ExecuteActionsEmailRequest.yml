@@ -16,14 +16,6 @@ items:
   nameWithType: ExecuteActionsEmailRequest
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ExecuteActionsEmailRequest
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -53,14 +45,6 @@ items:
   nameWithType: ExecuteActionsEmailRequest.ClientId
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest.ClientId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientId
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -84,14 +68,6 @@ items:
   nameWithType: ExecuteActionsEmailRequest.Lifespan
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest.Lifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Lifespan
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -115,14 +91,6 @@ items:
   nameWithType: ExecuteActionsEmailRequest.RedirectUri
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest.RedirectUri
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RedirectUri
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users
@@ -146,14 +114,6 @@ items:
   nameWithType: ExecuteActionsEmailRequest.Actions
   fullName: Keycloak.AuthServices.Sdk.Admin.Requests.Users.ExecuteActionsEmailRequest.Actions
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Actions
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Requests/Users/ExecuteActionsEmailRequest.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Requests.Users

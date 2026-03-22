@@ -16,14 +16,6 @@ items:
   nameWithType: KeycloakAuthorizationOptions
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakAuthorizationOptions
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -63,14 +55,6 @@ items:
   nameWithType: KeycloakAuthorizationOptions.Section
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.Section
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Section
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -92,14 +76,6 @@ items:
   nameWithType: KeycloakAuthorizationOptions.EnableRolesMapping
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.EnableRolesMapping
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnableRolesMapping
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -123,14 +99,6 @@ items:
   nameWithType: KeycloakAuthorizationOptions.RolesResource
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RolesResource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RolesResource
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -154,14 +122,6 @@ items:
   nameWithType: KeycloakAuthorizationOptions.RoleClaimType
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RoleClaimType
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RoleClaimType
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakAuthorizationOptions.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

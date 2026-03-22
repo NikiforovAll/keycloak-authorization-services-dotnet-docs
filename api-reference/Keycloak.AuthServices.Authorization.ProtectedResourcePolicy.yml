@@ -15,14 +15,6 @@ items:
   nameWithType: ProtectedResourcePolicy
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicy
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtectedResourcePolicy
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-    startLine: 6
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -52,14 +44,6 @@ items:
   nameWithType: ProtectedResourcePolicy.From(string, string, string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicy.From(string, string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: From
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -96,14 +80,6 @@ items:
   nameWithType: ProtectedResourcePolicy.From(string, string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicy.From(string, string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: From
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -137,14 +113,6 @@ items:
   nameWithType: ProtectedResourcePolicy.Match(string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicy.Match(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Match
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicy.cs
-    startLine: 28
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

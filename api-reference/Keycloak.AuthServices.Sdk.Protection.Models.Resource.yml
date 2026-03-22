@@ -20,14 +20,6 @@ items:
   nameWithType: Resource
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 6
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -57,14 +49,6 @@ items:
   nameWithType: Resource.Resource(string, string[])
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Resource(string, string[])
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -95,14 +79,6 @@ items:
   nameWithType: Resource.Name
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -126,14 +102,6 @@ items:
   nameWithType: Resource.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -157,14 +125,6 @@ items:
   nameWithType: Resource.Type
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -189,14 +149,6 @@ items:
   nameWithType: Resource.Scopes
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Scopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scopes
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 38
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -232,14 +184,6 @@ items:
   nameWithType: Resource.Attributes
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -263,14 +207,6 @@ items:
   nameWithType: Resource.Owner
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.Owner
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Owner
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models
@@ -294,14 +230,6 @@ items:
   nameWithType: Resource.OwnerManagedAccess
   fullName: Keycloak.AuthServices.Sdk.Protection.Models.Resource.OwnerManagedAccess
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OwnerManagedAccess
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Models/Resource.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Models

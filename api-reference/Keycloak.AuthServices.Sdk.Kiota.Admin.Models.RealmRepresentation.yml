@@ -17,6 +17,8 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdditionalData
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsDetailsEnabled
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsEnabled
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ApplicationScopeMappings
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Applications
@@ -26,6 +28,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BrowserFlow
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BrowserSecurityHeaders
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceProtected
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientAuthenticationFlow
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientOfflineSessionIdleTimeout
@@ -84,6 +87,8 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionIdleTimeout
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespan
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespanEnabled
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyCodeReusable
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyDigits
@@ -131,6 +136,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserFederationProviders
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserManagedAccessAllowed
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Users
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WaitIncrementSeconds
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyAcceptableAaguids
@@ -145,6 +151,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessCreateTimeout
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRpEntityName
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRpId
@@ -162,14 +169,6 @@ items:
   nameWithType: RealmRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -200,14 +199,6 @@ items:
   nameWithType: RealmRepresentation.AccessCodeLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccessCodeLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessCodeLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -231,14 +222,6 @@ items:
   nameWithType: RealmRepresentation.AccessCodeLifespanLogin
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccessCodeLifespanLogin
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessCodeLifespanLogin
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -262,14 +245,6 @@ items:
   nameWithType: RealmRepresentation.AccessCodeLifespanUserAction
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccessCodeLifespanUserAction
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessCodeLifespanUserAction
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -293,14 +268,6 @@ items:
   nameWithType: RealmRepresentation.AccessTokenLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccessTokenLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessTokenLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -324,14 +291,6 @@ items:
   nameWithType: RealmRepresentation.AccessTokenLifespanForImplicitFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccessTokenLifespanForImplicitFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccessTokenLifespanForImplicitFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -355,14 +314,6 @@ items:
   nameWithType: RealmRepresentation.AccountTheme
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AccountTheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AccountTheme
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -386,14 +337,6 @@ items:
   nameWithType: RealmRepresentation.ActionTokenGeneratedByAdminLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ActionTokenGeneratedByAdminLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ActionTokenGeneratedByAdminLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -417,14 +360,6 @@ items:
   nameWithType: RealmRepresentation.ActionTokenGeneratedByUserLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ActionTokenGeneratedByUserLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ActionTokenGeneratedByUserLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -448,14 +383,6 @@ items:
   nameWithType: RealmRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -481,14 +408,6 @@ items:
   nameWithType: RealmRepresentation.AdminEventsDetailsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsDetailsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsDetailsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -512,14 +431,6 @@ items:
   nameWithType: RealmRepresentation.AdminEventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminEventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 38
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -532,6 +443,52 @@ items:
       type: System.Nullable{System.Boolean}
     content.vb: Public Property AdminEventsEnabled As Boolean?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsEnabled*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+  id: AdminPermissionsClient
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: AdminPermissionsClient
+  nameWithType: RealmRepresentation.AdminPermissionsClient
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The adminPermissionsClient property
+  example: []
+  syntax:
+    content: public ClientRepresentation? AdminPermissionsClient { get; set; }
+    parameters: []
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientRepresentation
+    content.vb: Public Property AdminPermissionsClient As ClientRepresentation
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
+  id: AdminPermissionsEnabled
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: AdminPermissionsEnabled
+  nameWithType: RealmRepresentation.AdminPermissionsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The adminPermissionsEnabled property
+  example: []
+  syntax:
+    content: public bool? AdminPermissionsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property AdminPermissionsEnabled As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme
   id: AdminTheme
@@ -543,14 +500,6 @@ items:
   nameWithType: RealmRepresentation.AdminTheme
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdminTheme
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -574,14 +523,6 @@ items:
   nameWithType: RealmRepresentation.Applications
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Applications
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Applications
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -617,14 +558,6 @@ items:
   nameWithType: RealmRepresentation.ApplicationScopeMappings
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ApplicationScopeMappings
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ApplicationScopeMappings
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 57
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -660,14 +593,6 @@ items:
   nameWithType: RealmRepresentation.Attributes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Attributes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Attributes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 68
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -691,14 +616,6 @@ items:
   nameWithType: RealmRepresentation.AuthenticationFlows
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AuthenticationFlows
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticationFlows
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 76
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -722,14 +639,6 @@ items:
   nameWithType: RealmRepresentation.AuthenticatorConfig
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AuthenticatorConfig
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthenticatorConfig
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 84
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -753,14 +662,6 @@ items:
   nameWithType: RealmRepresentation.BrowserFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BrowserFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BrowserFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 92
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -784,14 +685,6 @@ items:
   nameWithType: RealmRepresentation.BrowserSecurityHeaders
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BrowserSecurityHeaders
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BrowserSecurityHeaders
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 100
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -815,14 +708,6 @@ items:
   nameWithType: RealmRepresentation.BruteForceProtected
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceProtected
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BruteForceProtected
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 106
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -835,6 +720,29 @@ items:
       type: System.Nullable{System.Boolean}
     content.vb: Public Property BruteForceProtected As Boolean?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceProtected*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
+  id: BruteForceStrategy
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: BruteForceStrategy
+  nameWithType: RealmRepresentation.BruteForceStrategy
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The bruteForceStrategy property
+  example: []
+  syntax:
+    content: public BruteForceStrategy? BruteForceStrategy { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy}
+    content.vb: Public Property BruteForceStrategy As BruteForceStrategy?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate
   id: Certificate
@@ -846,14 +754,6 @@ items:
   nameWithType: RealmRepresentation.Certificate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Certificate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 108
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -889,14 +789,6 @@ items:
   nameWithType: RealmRepresentation.ClientAuthenticationFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientAuthenticationFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientAuthenticationFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 119
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -920,14 +812,6 @@ items:
   nameWithType: RealmRepresentation.ClientOfflineSessionIdleTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientOfflineSessionIdleTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientOfflineSessionIdleTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 125
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -951,14 +835,6 @@ items:
   nameWithType: RealmRepresentation.ClientOfflineSessionMaxLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientOfflineSessionMaxLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientOfflineSessionMaxLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 127
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -982,14 +858,6 @@ items:
   nameWithType: RealmRepresentation.ClientPolicies
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientPolicies
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientPolicies
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 131
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1013,14 +881,6 @@ items:
   nameWithType: RealmRepresentation.ClientProfiles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientProfiles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientProfiles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 139
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1044,14 +904,6 @@ items:
   nameWithType: RealmRepresentation.Clients
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Clients
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Clients
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 147
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1075,14 +927,6 @@ items:
   nameWithType: RealmRepresentation.ClientScopeMappings
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientScopeMappings
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientScopeMappings
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 155
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1106,14 +950,6 @@ items:
   nameWithType: RealmRepresentation.ClientScopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 163
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1137,14 +973,6 @@ items:
   nameWithType: RealmRepresentation.ClientSessionIdleTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientSessionIdleTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientSessionIdleTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 169
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1168,14 +996,6 @@ items:
   nameWithType: RealmRepresentation.ClientSessionMaxLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientSessionMaxLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientSessionMaxLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 171
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1199,14 +1019,6 @@ items:
   nameWithType: RealmRepresentation.ClientTemplates
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ClientTemplates
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ClientTemplates
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 173
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1242,14 +1054,6 @@ items:
   nameWithType: RealmRepresentation.CodeSecret
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.CodeSecret
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CodeSecret
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 182
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1285,14 +1089,6 @@ items:
   nameWithType: RealmRepresentation.Components
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Components
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Components
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 193
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1316,14 +1112,6 @@ items:
   nameWithType: RealmRepresentation.DefaultDefaultClientScopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultDefaultClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultDefaultClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 201
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1347,14 +1135,6 @@ items:
   nameWithType: RealmRepresentation.DefaultGroups
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultGroups
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultGroups
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 209
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1378,14 +1158,6 @@ items:
   nameWithType: RealmRepresentation.DefaultLocale
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultLocale
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultLocale
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 217
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1409,14 +1181,6 @@ items:
   nameWithType: RealmRepresentation.DefaultOptionalClientScopes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultOptionalClientScopes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultOptionalClientScopes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 225
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1440,14 +1204,6 @@ items:
   nameWithType: RealmRepresentation.DefaultRole
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultRole
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultRole
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 233
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1471,14 +1227,6 @@ items:
   nameWithType: RealmRepresentation.DefaultRoles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultRoles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultRoles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 239
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1514,14 +1262,6 @@ items:
   nameWithType: RealmRepresentation.DefaultSignatureAlgorithm
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DefaultSignatureAlgorithm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DefaultSignatureAlgorithm
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 250
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1545,14 +1285,6 @@ items:
   nameWithType: RealmRepresentation.DirectGrantFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DirectGrantFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DirectGrantFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 258
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1576,14 +1308,6 @@ items:
   nameWithType: RealmRepresentation.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 266
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1607,14 +1331,6 @@ items:
   nameWithType: RealmRepresentation.DisplayNameHtml
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DisplayNameHtml
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayNameHtml
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 274
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1638,14 +1354,6 @@ items:
   nameWithType: RealmRepresentation.DockerAuthenticationFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DockerAuthenticationFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DockerAuthenticationFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 282
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1669,14 +1377,6 @@ items:
   nameWithType: RealmRepresentation.DuplicateEmailsAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.DuplicateEmailsAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DuplicateEmailsAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 288
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1700,14 +1400,6 @@ items:
   nameWithType: RealmRepresentation.EditUsernameAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EditUsernameAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EditUsernameAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 290
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1731,14 +1423,6 @@ items:
   nameWithType: RealmRepresentation.EmailTheme
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EmailTheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EmailTheme
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 294
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1762,14 +1446,6 @@ items:
   nameWithType: RealmRepresentation.Enabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Enabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Enabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 300
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1793,14 +1469,6 @@ items:
   nameWithType: RealmRepresentation.EnabledEventTypes
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EnabledEventTypes
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EnabledEventTypes
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 304
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1824,14 +1492,6 @@ items:
   nameWithType: RealmRepresentation.EventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EventsEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 310
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1855,14 +1515,6 @@ items:
   nameWithType: RealmRepresentation.EventsExpiration
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EventsExpiration
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsExpiration
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 312
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1886,14 +1538,6 @@ items:
   nameWithType: RealmRepresentation.EventsListeners
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.EventsListeners
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: EventsListeners
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 316
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1917,14 +1561,6 @@ items:
   nameWithType: RealmRepresentation.FailureFactor
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.FailureFactor
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FailureFactor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 322
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1948,14 +1584,6 @@ items:
   nameWithType: RealmRepresentation.FederatedUsers
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.FederatedUsers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FederatedUsers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 326
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1979,14 +1607,6 @@ items:
   nameWithType: RealmRepresentation.FirstBrokerLoginFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.FirstBrokerLoginFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FirstBrokerLoginFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 334
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2010,14 +1630,6 @@ items:
   nameWithType: RealmRepresentation.Groups
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Groups
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Groups
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 342
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2041,14 +1653,6 @@ items:
   nameWithType: RealmRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 350
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2072,14 +1676,6 @@ items:
   nameWithType: RealmRepresentation.IdentityProviderMappers
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.IdentityProviderMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IdentityProviderMappers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 358
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2103,14 +1699,6 @@ items:
   nameWithType: RealmRepresentation.IdentityProviders
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.IdentityProviders
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IdentityProviders
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 366
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2134,14 +1722,6 @@ items:
   nameWithType: RealmRepresentation.InternationalizationEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.InternationalizationEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: InternationalizationEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 372
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2165,14 +1745,6 @@ items:
   nameWithType: RealmRepresentation.KeycloakVersion
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.KeycloakVersion
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakVersion
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 376
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2196,14 +1768,6 @@ items:
   nameWithType: RealmRepresentation.LocalizationTexts
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.LocalizationTexts
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LocalizationTexts
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 384
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2227,14 +1791,6 @@ items:
   nameWithType: RealmRepresentation.LoginTheme
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.LoginTheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LoginTheme
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 392
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2258,14 +1814,6 @@ items:
   nameWithType: RealmRepresentation.LoginWithEmailAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.LoginWithEmailAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: LoginWithEmailAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 398
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2289,14 +1837,6 @@ items:
   nameWithType: RealmRepresentation.MaxDeltaTimeSeconds
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.MaxDeltaTimeSeconds
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MaxDeltaTimeSeconds
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 400
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2320,14 +1860,6 @@ items:
   nameWithType: RealmRepresentation.MaxFailureWaitSeconds
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.MaxFailureWaitSeconds
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MaxFailureWaitSeconds
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 402
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2351,14 +1883,6 @@ items:
   nameWithType: RealmRepresentation.MaxTemporaryLockouts
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.MaxTemporaryLockouts
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MaxTemporaryLockouts
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 404
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2382,14 +1906,6 @@ items:
   nameWithType: RealmRepresentation.MinimumQuickLoginWaitSeconds
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.MinimumQuickLoginWaitSeconds
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: MinimumQuickLoginWaitSeconds
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 406
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2413,14 +1929,6 @@ items:
   nameWithType: RealmRepresentation.NotBefore
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.NotBefore
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NotBefore
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 408
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2444,14 +1952,6 @@ items:
   nameWithType: RealmRepresentation.Oauth2DeviceCodeLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Oauth2DeviceCodeLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Oauth2DeviceCodeLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 410
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2475,14 +1975,6 @@ items:
   nameWithType: RealmRepresentation.Oauth2DevicePollingInterval
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Oauth2DevicePollingInterval
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Oauth2DevicePollingInterval
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 412
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2506,14 +1998,6 @@ items:
   nameWithType: RealmRepresentation.OauthClients
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OauthClients
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OauthClients
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 414
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2549,14 +2033,6 @@ items:
   nameWithType: RealmRepresentation.OfflineSessionIdleTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionIdleTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OfflineSessionIdleTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 423
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2580,14 +2056,6 @@ items:
   nameWithType: RealmRepresentation.OfflineSessionMaxLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OfflineSessionMaxLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 425
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2611,14 +2079,6 @@ items:
   nameWithType: RealmRepresentation.OfflineSessionMaxLifespanEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespanEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OfflineSessionMaxLifespanEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 427
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2631,6 +2091,52 @@ items:
       type: System.Nullable{System.Boolean}
     content.vb: Public Property OfflineSessionMaxLifespanEnabled As Boolean?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespanEnabled*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+  id: Organizations
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: Organizations
+  nameWithType: RealmRepresentation.Organizations
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The organizations property
+  example: []
+  syntax:
+    content: public List<OrganizationRepresentation>? Organizations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation}
+    content.vb: Public Property Organizations As List(Of OrganizationRepresentation)
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
+  id: OrganizationsEnabled
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: OrganizationsEnabled
+  nameWithType: RealmRepresentation.OrganizationsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The organizationsEnabled property
+  example: []
+  syntax:
+    content: public bool? OrganizationsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property OrganizationsEnabled As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm
   id: OtpPolicyAlgorithm
@@ -2642,14 +2148,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyAlgorithm
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyAlgorithm
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 431
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2673,14 +2171,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyCodeReusable
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyCodeReusable
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyCodeReusable
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 437
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2704,14 +2194,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyDigits
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyDigits
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyDigits
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 439
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2735,14 +2217,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyInitialCounter
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyInitialCounter
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyInitialCounter
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 441
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2766,14 +2240,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyLookAheadWindow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyLookAheadWindow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyLookAheadWindow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 443
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2797,14 +2263,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyPeriod
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyPeriod
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyPeriod
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 445
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2828,14 +2286,6 @@ items:
   nameWithType: RealmRepresentation.OtpPolicyType
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyType
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpPolicyType
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 449
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2859,14 +2309,6 @@ items:
   nameWithType: RealmRepresentation.OtpSupportedApplications
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpSupportedApplications
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OtpSupportedApplications
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 457
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2890,14 +2332,6 @@ items:
   nameWithType: RealmRepresentation.PasswordCredentialGrantAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.PasswordCredentialGrantAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PasswordCredentialGrantAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 463
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2933,14 +2367,6 @@ items:
   nameWithType: RealmRepresentation.PasswordPolicy
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.PasswordPolicy
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PasswordPolicy
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 468
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2964,14 +2390,6 @@ items:
   nameWithType: RealmRepresentation.PermanentLockout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.PermanentLockout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PermanentLockout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 474
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -2995,14 +2413,6 @@ items:
   nameWithType: RealmRepresentation.PrivateKey
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.PrivateKey
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PrivateKey
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 476
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3038,14 +2448,6 @@ items:
   nameWithType: RealmRepresentation.ProtocolMappers
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ProtocolMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtocolMappers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 487
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3069,14 +2471,6 @@ items:
   nameWithType: RealmRepresentation.PublicKey
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.PublicKey
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PublicKey
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 493
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3112,14 +2506,6 @@ items:
   nameWithType: RealmRepresentation.QuickLoginCheckMilliSeconds
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.QuickLoginCheckMilliSeconds
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: QuickLoginCheckMilliSeconds
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 502
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3143,14 +2529,6 @@ items:
   nameWithType: RealmRepresentation.Realm
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Realm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Realm
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 506
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3174,14 +2552,6 @@ items:
   nameWithType: RealmRepresentation.RealmCacheEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmCacheEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmCacheEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 512
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3217,14 +2587,6 @@ items:
   nameWithType: RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmRepresentationOAuth2DeviceCodeLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 515
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3248,14 +2610,6 @@ items:
   nameWithType: RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmRepresentationOAuth2DevicePollingInterval
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 517
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3279,14 +2633,6 @@ items:
   nameWithType: RealmRepresentation.RefreshTokenMaxReuse
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RefreshTokenMaxReuse
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 519
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3310,14 +2656,6 @@ items:
   nameWithType: RealmRepresentation.RegistrationAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RegistrationAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RegistrationAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 521
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3341,14 +2679,6 @@ items:
   nameWithType: RealmRepresentation.RegistrationEmailAsUsername
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RegistrationEmailAsUsername
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RegistrationEmailAsUsername
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 523
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3372,14 +2702,6 @@ items:
   nameWithType: RealmRepresentation.RegistrationFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RegistrationFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RegistrationFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 527
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3403,14 +2725,6 @@ items:
   nameWithType: RealmRepresentation.RememberMe
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RememberMe
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RememberMe
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 533
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3434,14 +2748,6 @@ items:
   nameWithType: RealmRepresentation.RequiredActions
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RequiredActions
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequiredActions
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 537
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3465,14 +2771,6 @@ items:
   nameWithType: RealmRepresentation.RequiredCredentials
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RequiredCredentials
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RequiredCredentials
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 543
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3508,14 +2806,6 @@ items:
   nameWithType: RealmRepresentation.ResetCredentialsFlow
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ResetCredentialsFlow
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResetCredentialsFlow
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 554
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3539,14 +2829,6 @@ items:
   nameWithType: RealmRepresentation.ResetPasswordAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ResetPasswordAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResetPasswordAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 560
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3570,14 +2852,6 @@ items:
   nameWithType: RealmRepresentation.RevokeRefreshToken
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RevokeRefreshToken
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RevokeRefreshToken
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 562
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3601,14 +2875,6 @@ items:
   nameWithType: RealmRepresentation.Roles
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Roles
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Roles
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 566
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3632,14 +2898,6 @@ items:
   nameWithType: RealmRepresentation.ScopeMappings
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.ScopeMappings
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ScopeMappings
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 574
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3663,14 +2921,6 @@ items:
   nameWithType: RealmRepresentation.SmtpServer
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SmtpServer
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SmtpServer
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 582
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3694,14 +2944,6 @@ items:
   nameWithType: RealmRepresentation.Social
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Social
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Social
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 588
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3737,14 +2979,6 @@ items:
   nameWithType: RealmRepresentation.SocialProviders
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SocialProviders
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SocialProviders
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 591
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3780,14 +3014,6 @@ items:
   nameWithType: RealmRepresentation.SslRequired
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SslRequired
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SslRequired
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 602
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3811,14 +3037,6 @@ items:
   nameWithType: RealmRepresentation.SsoSessionIdleTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SsoSessionIdleTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SsoSessionIdleTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 608
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3842,14 +3060,6 @@ items:
   nameWithType: RealmRepresentation.SsoSessionIdleTimeoutRememberMe
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SsoSessionIdleTimeoutRememberMe
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SsoSessionIdleTimeoutRememberMe
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 610
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3873,14 +3083,6 @@ items:
   nameWithType: RealmRepresentation.SsoSessionMaxLifespan
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SsoSessionMaxLifespan
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SsoSessionMaxLifespan
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 612
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3904,14 +3106,6 @@ items:
   nameWithType: RealmRepresentation.SsoSessionMaxLifespanRememberMe
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SsoSessionMaxLifespanRememberMe
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SsoSessionMaxLifespanRememberMe
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 614
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3935,14 +3129,6 @@ items:
   nameWithType: RealmRepresentation.SupportedLocales
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.SupportedLocales
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SupportedLocales
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 618
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -3966,14 +3152,6 @@ items:
   nameWithType: RealmRepresentation.UpdateProfileOnInitialSocialLogin
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UpdateProfileOnInitialSocialLogin
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UpdateProfileOnInitialSocialLogin
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 624
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4009,14 +3187,6 @@ items:
   nameWithType: RealmRepresentation.UserCacheEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserCacheEnabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserCacheEnabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 627
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4052,14 +3222,6 @@ items:
   nameWithType: RealmRepresentation.UserFederationMappers
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserFederationMappers
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserFederationMappers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 632
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4083,14 +3245,6 @@ items:
   nameWithType: RealmRepresentation.UserFederationProviders
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserFederationProviders
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserFederationProviders
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 640
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4114,14 +3268,6 @@ items:
   nameWithType: RealmRepresentation.UserManagedAccessAllowed
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.UserManagedAccessAllowed
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserManagedAccessAllowed
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 646
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4145,14 +3291,6 @@ items:
   nameWithType: RealmRepresentation.Users
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Users
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Users
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 650
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4165,6 +3303,29 @@ items:
       type: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserRepresentation}
     content.vb: Public Property Users As List(Of UserRepresentation)
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Users*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
+  id: VerifiableCredentialsEnabled
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: VerifiableCredentialsEnabled
+  nameWithType: RealmRepresentation.VerifiableCredentialsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The verifiableCredentialsEnabled property
+  example: []
+  syntax:
+    content: public bool? VerifiableCredentialsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property VerifiableCredentialsEnabled As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail
   id: VerifyEmail
@@ -4176,14 +3337,6 @@ items:
   nameWithType: RealmRepresentation.VerifyEmail
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: VerifyEmail
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 656
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4207,14 +3360,6 @@ items:
   nameWithType: RealmRepresentation.WaitIncrementSeconds
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WaitIncrementSeconds
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WaitIncrementSeconds
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 658
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4238,14 +3383,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyAcceptableAaguids
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyAcceptableAaguids
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyAcceptableAaguids
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 662
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4269,14 +3406,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyAttestationConveyancePreference
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyAttestationConveyancePreference
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyAttestationConveyancePreference
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 670
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4300,14 +3429,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyAuthenticatorAttachment
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyAuthenticatorAttachment
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyAuthenticatorAttachment
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 678
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4331,14 +3452,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyAvoidSameAuthenticatorRegister
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyAvoidSameAuthenticatorRegister
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyAvoidSameAuthenticatorRegister
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 684
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4362,14 +3475,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyCreateTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyCreateTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyCreateTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 686
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4393,14 +3498,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyExtraOrigins
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyExtraOrigins
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyExtraOrigins
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 690
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4424,14 +3521,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessAcceptableAaguids
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessAcceptableAaguids
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessAcceptableAaguids
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 698
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4455,14 +3544,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessAttestationConveyancePreference
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessAttestationConveyancePreference
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessAttestationConveyancePreference
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 706
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4486,14 +3567,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessAuthenticatorAttachment
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessAuthenticatorAttachment
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessAuthenticatorAttachment
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 714
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4517,14 +3590,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 720
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4548,14 +3613,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessCreateTimeout
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessCreateTimeout
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessCreateTimeout
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 722
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4579,14 +3636,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessExtraOrigins
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 726
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4599,6 +3648,29 @@ items:
       type: System.Collections.Generic.List{System.String}
     content.vb: Public Property WebAuthnPolicyPasswordlessExtraOrigins As List(Of String)
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  id: WebAuthnPolicyPasswordlessPasskeysEnabled
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
+  langs:
+  - csharp
+  - vb
+  name: WebAuthnPolicyPasswordlessPasskeysEnabled
+  nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The webAuthnPolicyPasswordlessPasskeysEnabled property
+  example: []
+  syntax:
+    content: public bool? WebAuthnPolicyPasswordlessPasskeysEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property WebAuthnPolicyPasswordlessPasskeysEnabled As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   id: WebAuthnPolicyPasswordlessRequireResidentKey
@@ -4610,14 +3682,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessRequireResidentKey
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 734
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4641,14 +3705,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessRpEntityName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRpEntityName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessRpEntityName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 742
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4672,14 +3728,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessRpId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRpId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessRpId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 750
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4703,14 +3751,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessSignatureAlgorithms
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessSignatureAlgorithms
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessSignatureAlgorithms
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 758
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4734,14 +3774,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessUserVerificationRequirement
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessUserVerificationRequirement
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyPasswordlessUserVerificationRequirement
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 766
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4765,14 +3797,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyRequireResidentKey
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyRequireResidentKey
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyRequireResidentKey
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 774
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4796,14 +3820,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyRpEntityName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyRpEntityName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyRpEntityName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 782
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4827,14 +3843,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyRpId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyRpId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyRpId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 790
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4858,14 +3866,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicySignatureAlgorithms
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicySignatureAlgorithms
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicySignatureAlgorithms
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 798
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4889,14 +3889,6 @@ items:
   nameWithType: RealmRepresentation.WebAuthnPolicyUserVerificationRequirement
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyUserVerificationRequirement
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: WebAuthnPolicyUserVerificationRequirement
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 806
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4920,14 +3912,6 @@ items:
   nameWithType: RealmRepresentation.RealmRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 814
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4951,14 +3935,6 @@ items:
   nameWithType: RealmRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 823
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -4986,14 +3962,6 @@ items:
   nameWithType: RealmRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 832
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -5019,14 +3987,6 @@ items:
   nameWithType: RealmRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation.cs
-    startLine: 987
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -5662,6 +4622,25 @@ references:
   name: AdminEventsEnabled
   nameWithType: RealmRepresentation.AdminEventsEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminEventsEnabled
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_AdminPermissionsClient
+  name: AdminPermissionsClient
+  nameWithType: RealmRepresentation.AdminPermissionsClient
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsClient
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientRepresentation.html
+  name: ClientRepresentation
+  nameWithType: ClientRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_AdminPermissionsEnabled
+  name: AdminPermissionsEnabled
+  nameWithType: RealmRepresentation.AdminPermissionsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminPermissionsEnabled
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.AdminTheme
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_AdminTheme
@@ -5864,6 +4843,30 @@ references:
   name: BruteForceProtected
   nameWithType: RealmRepresentation.BruteForceProtected
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceProtected
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_BruteForceStrategy
+  name: BruteForceStrategy
+  nameWithType: RealmRepresentation.BruteForceStrategy
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.BruteForceStrategy
+- uid: System.Nullable{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy}
+  commentId: T:System.Nullable{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy}
+  parent: System
+  definition: System.Nullable`1
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.html
+  name: BruteForceStrategy?
+  nameWithType: BruteForceStrategy?
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy?
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+    name: BruteForceStrategy
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.html
+  - name: '?'
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+    name: BruteForceStrategy
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.html
+  - name: '?'
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Certificate
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_Certificate
@@ -6564,6 +5567,51 @@ references:
   name: OfflineSessionMaxLifespanEnabled
   nameWithType: RealmRepresentation.OfflineSessionMaxLifespanEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OfflineSessionMaxLifespanEnabled
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_Organizations
+  name: Organizations
+  nameWithType: RealmRepresentation.Organizations
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Organizations
+- uid: System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation}
+  commentId: T:System.Collections.Generic.List{Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<OrganizationRepresentation>
+  nameWithType: List<OrganizationRepresentation>
+  fullName: System.Collections.Generic.List<Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation>
+  nameWithType.vb: List(Of OrganizationRepresentation)
+  fullName.vb: System.Collections.Generic.List(Of Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation)
+  name.vb: List(Of OrganizationRepresentation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+    name: OrganizationRepresentation
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
+    name: OrganizationRepresentation
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation.html
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_OrganizationsEnabled
+  name: OrganizationsEnabled
+  nameWithType: RealmRepresentation.OrganizationsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OrganizationsEnabled
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.OtpPolicyAlgorithm
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_OtpPolicyAlgorithm
@@ -7026,6 +6074,12 @@ references:
   name: Users
   nameWithType: RealmRepresentation.Users
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Users
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_VerifiableCredentialsEnabled
+  name: VerifiableCredentialsEnabled
+  nameWithType: RealmRepresentation.VerifiableCredentialsEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifiableCredentialsEnabled
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.VerifyEmail
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_VerifyEmail
@@ -7110,6 +6164,12 @@ references:
   name: WebAuthnPolicyPasswordlessExtraOrigins
   nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessExtraOrigins
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_WebAuthnPolicyPasswordlessPasskeysEnabled
+  name: WebAuthnPolicyPasswordlessPasskeysEnabled
+  nameWithType: RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessPasskeysEnabled
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.WebAuthnPolicyPasswordlessRequireResidentKey
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_WebAuthnPolicyPasswordlessRequireResidentKey

@@ -17,14 +17,6 @@ items:
   nameWithType: KeycloakMetrics
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakMetrics
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -54,14 +46,6 @@ items:
   nameWithType: KeycloakMetrics.KeycloakMetrics(IMeterFactory)
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics.KeycloakMetrics(System.Diagnostics.Metrics.IMeterFactory)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -89,14 +73,6 @@ items:
   nameWithType: KeycloakMetrics.FailRequirement(string)
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics.FailRequirement(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: FailRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -124,14 +100,6 @@ items:
   nameWithType: KeycloakMetrics.SucceedRequirement(string)
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics.SucceedRequirement(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SucceedRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 51
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -159,14 +127,6 @@ items:
   nameWithType: KeycloakMetrics.ErrorRequirement(string)
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics.ErrorRequirement(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ErrorRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -194,14 +154,6 @@ items:
   nameWithType: KeycloakMetrics.SkipRequirement(string)
   fullName: Keycloak.AuthServices.Authorization.KeycloakMetrics.SkipRequirement(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SkipRequirement
-    path: ../src/Keycloak.AuthServices.Authorization/KeycloakMetrics.cs
-    startLine: 72
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization

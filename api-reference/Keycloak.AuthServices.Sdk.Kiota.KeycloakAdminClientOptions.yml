@@ -13,14 +13,6 @@ items:
   nameWithType: KeycloakAdminClientOptions
   fullName: Keycloak.AuthServices.Sdk.Kiota.KeycloakAdminClientOptions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/KeycloakAdminClientOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakAdminClientOptions
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/KeycloakAdminClientOptions.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota
@@ -59,14 +51,6 @@ items:
   nameWithType: KeycloakAdminClientOptions.Section
   fullName: Keycloak.AuthServices.Sdk.Kiota.KeycloakAdminClientOptions.Section
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/KeycloakAdminClientOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Section
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/KeycloakAdminClientOptions.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota

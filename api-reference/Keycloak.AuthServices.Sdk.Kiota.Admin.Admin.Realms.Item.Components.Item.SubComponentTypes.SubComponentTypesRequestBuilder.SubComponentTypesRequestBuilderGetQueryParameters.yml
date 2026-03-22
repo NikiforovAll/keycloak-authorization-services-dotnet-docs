@@ -13,14 +13,6 @@ items:
   nameWithType: SubComponentTypesRequestBuilder.SubComponentTypesRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Components.Item.SubComponentTypes.SubComponentTypesRequestBuilder.SubComponentTypesRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Components/Item/SubComponentTypes/SubComponentTypesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SubComponentTypesRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Components/Item/SubComponentTypes/SubComponentTypesRequestBuilder.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Components.Item.SubComponentTypes
@@ -50,14 +42,6 @@ items:
   nameWithType: SubComponentTypesRequestBuilder.SubComponentTypesRequestBuilderGetQueryParameters.Type
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Components.Item.SubComponentTypes.SubComponentTypesRequestBuilder.SubComponentTypesRequestBuilderGetQueryParameters.Type
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Components/Item/SubComponentTypes/SubComponentTypesRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Type
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Components/Item/SubComponentTypes/SubComponentTypesRequestBuilder.cs
-    startLine: 86
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Components.Item.SubComponentTypes

@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  id: BruteForceStrategy
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  children:
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.LINEAR
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.MULTIPLE
+  langs:
+  - csharp
+  - vb
+  name: BruteForceStrategy
+  nameWithType: BruteForceStrategy
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  type: Enum
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: public enum BruteForceStrategy
+    content.vb: Public Enum BruteForceStrategy
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.LINEAR
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.LINEAR
+  id: LINEAR
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  langs:
+  - csharp
+  - vb
+  name: LINEAR
+  nameWithType: BruteForceStrategy.LINEAR
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.LINEAR
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "LINEAR")]
+
+      LINEAR = 0
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+    content.vb: >-
+      <EnumMember(Value:="LINEAR")>
+
+      LINEAR = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: LINEAR
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.MULTIPLE
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.MULTIPLE
+  id: MULTIPLE
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  langs:
+  - csharp
+  - vb
+  name: MULTIPLE
+  nameWithType: BruteForceStrategy.MULTIPLE
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.MULTIPLE
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "MULTIPLE")]
+
+      MULTIPLE = 1
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+    content.vb: >-
+      <EnumMember(Value:="MULTIPLE")>
+
+      MULTIPLE = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: MULTIPLE
+references:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy.html
+  name: BruteForceStrategy
+  nameWithType: BruteForceStrategy
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.BruteForceStrategy

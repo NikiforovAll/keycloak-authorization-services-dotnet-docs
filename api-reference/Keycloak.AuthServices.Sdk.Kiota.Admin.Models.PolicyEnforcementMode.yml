@@ -15,14 +15,6 @@ items:
   nameWithType: PolicyEnforcementMode
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEnforcementMode
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PolicyEnforcementMode
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -40,14 +32,6 @@ items:
   nameWithType: PolicyEnforcementMode.ENFORCING
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEnforcementMode.ENFORCING
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ENFORCING
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -81,14 +65,6 @@ items:
   nameWithType: PolicyEnforcementMode.PERMISSIVE
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEnforcementMode.PERMISSIVE
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PERMISSIVE
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -122,14 +98,6 @@ items:
   nameWithType: PolicyEnforcementMode.DISABLED
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.PolicyEnforcementMode.DISABLED
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DISABLED
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/PolicyEnforcementMode.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

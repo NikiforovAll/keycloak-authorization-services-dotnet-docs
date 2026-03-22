@@ -25,14 +25,6 @@ items:
   nameWithType: UserProfileAttributeMetadata
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: UserProfileAttributeMetadata
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -63,14 +55,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 12
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -96,14 +80,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Annotations
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Annotations
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Annotations
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 16
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -127,14 +103,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.DisplayName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.DisplayName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: DisplayName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 24
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -158,14 +126,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Group
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Group
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Group
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -189,14 +149,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Multivalued
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Multivalued
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Multivalued
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 38
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -220,14 +172,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -251,14 +195,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.ReadOnly
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.ReadOnly
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ReadOnly
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 48
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -282,14 +218,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Required
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Required
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Required
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 50
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -313,14 +241,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Validators
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Validators
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Validators
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -344,14 +264,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.UserProfileAttributeMetadata()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.UserProfileAttributeMetadata()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 62
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -375,14 +287,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 71
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -410,14 +314,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 80
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -443,14 +339,6 @@ items:
   nameWithType: UserProfileAttributeMetadata.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserProfileAttributeMetadata.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/UserProfileAttributeMetadata.cs
-    startLine: 98
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

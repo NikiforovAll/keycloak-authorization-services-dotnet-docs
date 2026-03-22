@@ -13,14 +13,6 @@ items:
   nameWithType: Config
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.Config
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Config
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7940
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -53,17 +45,19 @@ items:
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.ContainsKey(System.String)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.ContainsValue(System.Collections.ObjectModel.Collection{System.String})
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.EnsureCapacity(System.Int32)
+  - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetAlternateLookup``1
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetEnumerator
-  - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.OnDeserialization(System.Object)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Remove(System.String)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Remove(System.String,System.Collections.ObjectModel.Collection{System.String}@)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TrimExcess
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TrimExcess(System.Int32)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryAdd(System.String,System.Collections.ObjectModel.Collection{System.String})
+  - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup{{TAlternateKey}}@)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetValue(System.String,System.Collections.ObjectModel.Collection{System.String}@)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Comparer
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Count
+  - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Capacity
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Item(System.String)
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Keys
   - System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Values
@@ -89,14 +83,6 @@ items:
   nameWithType: Config.AdditionalProperties
   fullName: Keycloak.AuthServices.Sdk.Admin.Models.Config.AdditionalProperties
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalProperties
-    path: ../src/Keycloak.AuthServices.Sdk/Admin/Models/Contracts.cs
-    startLine: 7953
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Admin.Models
@@ -819,6 +805,39 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetAlternateLookup``1
+  commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetAlternateLookup``1
+  parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
+  definition: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  name: GetAlternateLookup<TAlternateKey>()
+  nameWithType: Dictionary<string, Collection<string>>.GetAlternateLookup<TAlternateKey>()
+  fullName: System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.GetAlternateLookup<TAlternateKey>()
+  nameWithType.vb: Dictionary(Of String, Collection(Of String)).GetAlternateLookup(Of TAlternateKey)()
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).GetAlternateLookup(Of TAlternateKey)()
+  name.vb: GetAlternateLookup(Of TAlternateKey)()
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetEnumerator
   commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetEnumerator
   parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
@@ -842,50 +861,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator
   - name: (
-  - name: )
-- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
-  definition: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Dictionary<string, Collection<string>>.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType.vb: Dictionary(Of String, Collection(Of String)).GetObjectData(SerializationInfo, StreamingContext)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.OnDeserialization(System.Object)
   commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.OnDeserialization(System.Object)
@@ -1130,6 +1105,57 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
   - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup{{TAlternateKey}}@)
+  commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup{``0}@)
+  parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
+  definition: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  name: TryGetAlternateLookup<TAlternateKey>(out AlternateLookup<TAlternateKey>)
+  nameWithType: Dictionary<string, Collection<string>>.TryGetAlternateLookup<TAlternateKey>(out Dictionary<string, Collection<string>>.AlternateLookup<TAlternateKey>)
+  fullName: System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.TryGetAlternateLookup<TAlternateKey>(out System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.AlternateLookup<TAlternateKey>)
+  nameWithType.vb: Dictionary(Of String, Collection(Of String)).TryGetAlternateLookup(Of TAlternateKey)(Dictionary(Of String, Collection(Of String)).AlternateLookup(Of TAlternateKey))
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).TryGetAlternateLookup(Of TAlternateKey)(System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).AlternateLookup(Of TAlternateKey))
+  name.vb: TryGetAlternateLookup(Of TAlternateKey)(AlternateLookup(Of TAlternateKey))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetValue(System.String,System.Collections.ObjectModel.Collection{System.String}@)
   commentId: M:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.TryGetValue(System.String,System.Collections.ObjectModel.Collection{System.String}@)
   parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
@@ -1211,6 +1237,16 @@ references:
   fullName: System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.Count
   nameWithType.vb: Dictionary(Of String, Collection(Of String)).Count
   fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).Count
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Capacity
+  commentId: P:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Capacity
+  parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
+  definition: System.Collections.Generic.Dictionary`2.Capacity
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.capacity
+  name: Capacity
+  nameWithType: Dictionary<string, Collection<string>>.Capacity
+  fullName: System.Collections.Generic.Dictionary<string, System.Collections.ObjectModel.Collection<string>>.Capacity
+  nameWithType.vb: Dictionary(Of String, Collection(Of String)).Capacity
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.ObjectModel.Collection(Of String)).Capacity
 - uid: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Item(System.String)
   commentId: P:System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}.Item(System.String)
   parent: System.Collections.Generic.Dictionary{System.String,System.Collections.ObjectModel.Collection{System.String}}
@@ -1910,6 +1946,38 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  commentId: M:System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  name: GetAlternateLookup<TAlternateKey>()
+  nameWithType: Dictionary<TKey, TValue>.GetAlternateLookup<TAlternateKey>()
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.GetAlternateLookup<TAlternateKey>()
+  nameWithType.vb: Dictionary(Of TKey, TValue).GetAlternateLookup(Of TAlternateKey)()
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).GetAlternateLookup(Of TAlternateKey)()
+  name.vb: GetAlternateLookup(Of TAlternateKey)()
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.GetAlternateLookup``1
+    name: GetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary`2.GetEnumerator
   commentId: M:System.Collections.Generic.Dictionary`2.GetEnumerator
   isExternal: true
@@ -1932,49 +2000,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator
   - name: (
-  - name: )
-- uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  commentId: M:System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  nameWithType: Dictionary<TKey, TValue>.GetObjectData(SerializationInfo, StreamingContext)
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType.vb: Dictionary(Of TKey, TValue).GetObjectData(SerializationInfo, StreamingContext)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-    name: GetObjectData
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata
-  - name: (
-  - uid: System.Runtime.Serialization.SerializationInfo
-    name: SerializationInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
-  - name: ','
-  - name: " "
-  - uid: System.Runtime.Serialization.StreamingContext
-    name: StreamingContext
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
   - name: )
 - uid: System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)
   commentId: M:System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)
@@ -2153,6 +2178,56 @@ references:
   - name: " "
   - name: TValue
   - name: )
+- uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  commentId: M:System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  name: TryGetAlternateLookup<TAlternateKey>(out AlternateLookup<TAlternateKey>)
+  nameWithType: Dictionary<TKey, TValue>.TryGetAlternateLookup<TAlternateKey>(out Dictionary<TKey, TValue>.AlternateLookup<TAlternateKey>)
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.TryGetAlternateLookup<TAlternateKey>(out System.Collections.Generic.Dictionary<TKey, TValue>.AlternateLookup<TAlternateKey>)
+  nameWithType.vb: Dictionary(Of TKey, TValue).TryGetAlternateLookup(Of TAlternateKey)(Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey))
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).TryGetAlternateLookup(Of TAlternateKey)(System.Collections.Generic.Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey))
+  name.vb: TryGetAlternateLookup(Of TAlternateKey)(AlternateLookup(Of TAlternateKey))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: <
+  - name: TAlternateKey
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.TryGetAlternateLookup``1(System.Collections.Generic.Dictionary{`0,`1}.AlternateLookup{``0}@)
+    name: TryGetAlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetalternatelookup
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2.AlternateLookup`1
+    name: AlternateLookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.alternatelookup-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TAlternateKey
+  - name: )
+  - name: )
 - uid: System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)
   commentId: M:System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)
   isExternal: true
@@ -2205,6 +2280,15 @@ references:
   fullName: System.Collections.Generic.Dictionary<TKey, TValue>.Count
   nameWithType.vb: Dictionary(Of TKey, TValue).Count
   fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).Count
+- uid: System.Collections.Generic.Dictionary`2.Capacity
+  commentId: P:System.Collections.Generic.Dictionary`2.Capacity
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.capacity
+  name: Capacity
+  nameWithType: Dictionary<TKey, TValue>.Capacity
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>.Capacity
+  nameWithType.vb: Dictionary(Of TKey, TValue).Capacity
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue).Capacity
 - uid: System.Collections.Generic.Dictionary`2.Item(`0)
   commentId: P:System.Collections.Generic.Dictionary`2.Item(`0)
   isExternal: true

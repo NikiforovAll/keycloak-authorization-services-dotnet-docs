@@ -18,14 +18,6 @@ items:
   nameWithType: KeycloakConstants
   fullName: Keycloak.AuthServices.Common.KeycloakConstants
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakConstants
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -55,14 +47,6 @@ items:
   nameWithType: KeycloakConstants.TokenEndpointPath
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.TokenEndpointPath
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TokenEndpointPath
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -84,14 +68,6 @@ items:
   nameWithType: KeycloakConstants.OpenIdConnectConfigurationPath
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.OpenIdConnectConfigurationPath
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: OpenIdConnectConfigurationPath
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -113,14 +89,6 @@ items:
   nameWithType: KeycloakConstants.ResourceAccessClaimType
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.ResourceAccessClaimType
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccessClaimType
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 21
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -142,14 +110,6 @@ items:
   nameWithType: KeycloakConstants.RealmAccessClaimType
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.RealmAccessClaimType
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmAccessClaimType
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -171,14 +131,6 @@ items:
   nameWithType: KeycloakConstants.RoleClaimType
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.RoleClaimType
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RoleClaimType
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 31
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -200,14 +152,6 @@ items:
   nameWithType: KeycloakConstants.NameClaimType
   fullName: Keycloak.AuthServices.Common.KeycloakConstants.NameClaimType
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: NameClaimType
-    path: ../src/Keycloak.AuthServices.Common/KeycloakConstants.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common

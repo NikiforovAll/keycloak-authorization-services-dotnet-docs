@@ -4,6 +4,7 @@ items:
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport
   id: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport
   children:
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportPostResponse
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportRequestBuilder
   langs:
   - csharp
@@ -15,6 +16,13 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
 references:
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportPostResponse
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportPostResponse
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportPostResponse.html
+  name: PartialImportPostResponse
+  nameWithType: PartialImportPostResponse
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportPostResponse
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportRequestBuilder
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport.PartialImportRequestBuilder
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.PartialImport

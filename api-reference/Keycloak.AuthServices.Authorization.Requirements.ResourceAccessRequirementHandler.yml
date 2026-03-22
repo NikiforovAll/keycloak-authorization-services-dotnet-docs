@@ -14,14 +14,6 @@ items:
   nameWithType: ResourceAccessRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceAccessRequirementHandler
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -55,14 +47,6 @@ items:
   nameWithType: ResourceAccessRequirementHandler.ResourceAccessRequirementHandler(IOptions<KeycloakAuthorizationOptions>, KeycloakMetrics, ILogger<ResourceAccessRequirementHandler>)
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.ResourceAccessRequirementHandler(Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions>, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -96,25 +80,20 @@ items:
   nameWithType: ResourceAccessRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, ResourceAccessRequirement)
   fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HandleRequirementAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/ResourceAccessRequirement.cs
-    startLine: 66
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Makes a decision if authorization is allowed based on a specific requirement.
   example: []
   syntax:
     content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, ResourceAccessRequirement requirement)
     parameters:
     - id: context
       type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+      description: The authorization context.
     - id: requirement
       type: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
+      description: The requirement to evaluate.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As ResourceAccessRequirement) As Task

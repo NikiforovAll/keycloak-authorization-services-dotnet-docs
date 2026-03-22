@@ -13,14 +13,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilder
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakWebApiAuthenticationBuilder
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilder.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication
@@ -53,14 +45,6 @@ items:
   nameWithType: KeycloakWebApiAuthenticationBuilder.JwtBearerAuthenticationScheme
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder.JwtBearerAuthenticationScheme
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: JwtBearerAuthenticationScheme
-    path: ../src/Keycloak.AuthServices.Authentication/WebApiExtensions/KeycloakWebApiAuthenticationBuilder.cs
-    startLine: 43
   assemblies:
   - Keycloak.AuthServices.Authentication
   namespace: Keycloak.AuthServices.Authentication

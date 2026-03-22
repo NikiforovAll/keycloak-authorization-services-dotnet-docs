@@ -17,14 +17,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmRepresentation_applicationScopeMappings
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 7
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -67,14 +59,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -100,14 +84,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings.RealmRepresentation_applicationScopeMappings()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings.RealmRepresentation_applicationScopeMappings()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -131,14 +107,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 26
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -166,14 +134,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 35
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -199,14 +159,6 @@ items:
   nameWithType: RealmRepresentation_applicationScopeMappings.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation_applicationScopeMappings.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/RealmRepresentation_applicationScopeMappings.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

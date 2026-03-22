@@ -14,14 +14,6 @@ items:
   nameWithType: IAuthorizationServerClient
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
   type: Interface
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: IAuthorizationServerClient
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -30,6 +22,8 @@ items:
   syntax:
     content: public interface IAuthorizationServerClient
     content.vb: Public Interface IAuthorizationServerClient
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Threading.CancellationToken)
   id: VerifyAccessToResource(System.String,System.String,System.Threading.CancellationToken)
@@ -41,14 +35,6 @@ items:
   nameWithType: IAuthorizationServerClient.VerifyAccessToResource(string, string, CancellationToken)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(string, string, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: VerifyAccessToResource
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -85,14 +71,6 @@ items:
   nameWithType: IAuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: VerifyAccessToResource
-    path: ../src/Keycloak.AuthServices.Authorization/AuthorizationServer/IAuthorizationServerClient.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer

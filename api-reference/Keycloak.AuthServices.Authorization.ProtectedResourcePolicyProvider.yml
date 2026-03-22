@@ -14,14 +14,6 @@ items:
   nameWithType: ProtectedResourcePolicyProvider
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ProtectedResourcePolicyProvider
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-    startLine: 8
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -38,6 +30,7 @@ items:
   inheritedMembers:
   - Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.GetDefaultPolicyAsync
   - Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.GetFallbackPolicyAsync
+  - Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.AllowsCachingPolicies
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -56,14 +49,6 @@ items:
   nameWithType: ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions>)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Authorization.AuthorizationOptions>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-    startLine: 13
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
@@ -91,25 +76,20 @@ items:
   nameWithType: ProtectedResourcePolicyProvider.GetPolicyAsync(string)
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.GetPolicyAsync(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetPolicyAsync
-    path: ../src/Keycloak.AuthServices.Authorization/ProtectedResourcePolicyProvider.cs
-    startLine: 17
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
+  summary: Gets a <xref href="Microsoft.AspNetCore.Authorization.AuthorizationPolicy" data-throw-if-not-resolved="false"></xref> from the given <code class="paramref">policyName</code>
   example: []
   syntax:
     content: public override Task<AuthorizationPolicy?> GetPolicyAsync(string policyName)
     parameters:
     - id: policyName
       type: System.String
+      description: The policy name to retrieve.
     return:
       type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Authorization.AuthorizationPolicy}
+      description: The named <xref href="Microsoft.AspNetCore.Authorization.AuthorizationPolicy" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Overrides Function GetPolicyAsync(policyName As String) As Task(Of AuthorizationPolicy)
   overridden: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.GetPolicyAsync(System.String)
   overload: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.GetPolicyAsync*
@@ -218,6 +198,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.defaultauthorizationpolicyprovider.getfallbackpolicyasync
   - name: (
   - name: )
+- uid: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.AllowsCachingPolicies
+  commentId: P:Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.AllowsCachingPolicies
+  parent: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.defaultauthorizationpolicyprovider.allowscachingpolicies
+  name: AllowsCachingPolicies
+  nameWithType: DefaultAuthorizationPolicyProvider.AllowsCachingPolicies
+  fullName: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.AllowsCachingPolicies
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -590,6 +578,13 @@ references:
     name: Options
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationpolicy
+  name: AuthorizationPolicy
+  nameWithType: AuthorizationPolicy
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
 - uid: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.GetPolicyAsync(System.String)
   commentId: M:Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider.GetPolicyAsync(System.String)
   parent: Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider

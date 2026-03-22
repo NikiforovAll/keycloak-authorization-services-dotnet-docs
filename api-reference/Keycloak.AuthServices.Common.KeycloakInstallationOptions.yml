@@ -21,14 +21,6 @@ items:
   nameWithType: KeycloakInstallationOptions
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakInstallationOptions
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 11
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -66,14 +58,6 @@ items:
   nameWithType: KeycloakInstallationOptions.AuthServerUrl
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.AuthServerUrl
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: AuthServerUrl
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 32
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -111,14 +95,6 @@ items:
   nameWithType: KeycloakInstallationOptions.Realm
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.Realm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Realm
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 46
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -142,14 +118,6 @@ items:
   nameWithType: KeycloakInstallationOptions.Resource
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.Resource
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Resource
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -174,14 +142,6 @@ items:
   nameWithType: KeycloakInstallationOptions.VerifyTokenAudience
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.VerifyTokenAudience
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: VerifyTokenAudience
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 59
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -217,14 +177,6 @@ items:
   nameWithType: KeycloakInstallationOptions.Credentials
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.Credentials
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Credentials
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 73
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -248,14 +200,6 @@ items:
   nameWithType: KeycloakInstallationOptions.TokenClockSkew
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.TokenClockSkew
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: TokenClockSkew
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 81
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -292,14 +236,6 @@ items:
   nameWithType: KeycloakInstallationOptions.SslRequired
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.SslRequired
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: SslRequired
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 95
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -335,14 +271,6 @@ items:
   nameWithType: KeycloakInstallationOptions.KeycloakUrlRealm
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.KeycloakUrlRealm
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakUrlRealm
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 109
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common
@@ -366,14 +294,6 @@ items:
   nameWithType: KeycloakInstallationOptions.KeycloakTokenEndpoint
   fullName: Keycloak.AuthServices.Common.KeycloakInstallationOptions.KeycloakTokenEndpoint
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: KeycloakTokenEndpoint
-    path: ../src/Keycloak.AuthServices.Common/KeycloakInstallationOptions.cs
-    startLine: 125
   assemblies:
   - Keycloak.AuthServices.Common
   namespace: Keycloak.AuthServices.Common

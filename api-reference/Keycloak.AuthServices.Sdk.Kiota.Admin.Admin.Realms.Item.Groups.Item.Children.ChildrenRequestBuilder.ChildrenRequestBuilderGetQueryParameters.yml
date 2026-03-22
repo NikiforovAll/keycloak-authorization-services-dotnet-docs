@@ -6,8 +6,11 @@ items:
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
   children:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.BriefRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Max
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
   langs:
   - csharp
   - vb
@@ -15,14 +18,6 @@ items:
   nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ChildrenRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-    startLine: 123
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
@@ -52,17 +47,11 @@ items:
   nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.BriefRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.BriefRepresentation
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: BriefRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-    startLine: 125
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: 'Boolean which defines whether brief groups representations are returned or not (default: false)'
+  example: []
   syntax:
     content: >-
       [QueryParameter("briefRepresentation")]
@@ -82,6 +71,41 @@ items:
     arguments:
     - type: System.String
       value: briefRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  id: Exact
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: Exact
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: Boolean which defines whether the params "search" must match exactly or not
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("exact")]
+
+      public bool? Exact { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <QueryParameter("exact")>
+
+      Public Property Exact As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exact
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   id: First
@@ -93,17 +117,11 @@ items:
   nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-    startLine: 127
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: The position of the first result to be returned (pagination offset).
+  example: []
   syntax:
     content: >-
       [QueryParameter("first")]
@@ -134,17 +152,11 @@ items:
   nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Groups/Item/Children/ChildrenRequestBuilder.cs
-    startLine: 129
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: The maximum number of results that are to be returned. Defaults to 10
+  example: []
   syntax:
     content: >-
       [QueryParameter("max")]
@@ -164,6 +176,76 @@ items:
     arguments:
     - type: System.String
       value: max
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  id: Search
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: A String representing either an exact group name or a partial name
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("search")]
+
+      public string? Search { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <QueryParameter("search")>
+
+      Public Property Search As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: search
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  id: SubGroupsCount
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: SubGroupsCount
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
+  summary: 'Boolean which defines whether to return the count of subgroups for each subgroup of this group (default: true'
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("subGroupsCount")]
+
+      public bool? SubGroupsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <QueryParameter("subGroupsCount")>
+
+      Public Property SubGroupsCount As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: subGroupsCount
 references:
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children
@@ -553,6 +635,12 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_Item_Children_ChildrenRequestBuilder_ChildrenRequestBuilderGetQueryParameters_Exact
+  name: Exact
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Exact
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.First
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_Item_Children_ChildrenRequestBuilder_ChildrenRequestBuilderGetQueryParameters_First
@@ -588,3 +676,26 @@ references:
   name: Max
   nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Max
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_Item_Children_ChildrenRequestBuilder_ChildrenRequestBuilderGetQueryParameters_Search
+  name: Search
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.Search
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_Item_Children_ChildrenRequestBuilder_ChildrenRequestBuilderGetQueryParameters_SubGroupsCount
+  name: SubGroupsCount
+  nameWithType: ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.Children.ChildrenRequestBuilder.ChildrenRequestBuilderGetQueryParameters.SubGroupsCount

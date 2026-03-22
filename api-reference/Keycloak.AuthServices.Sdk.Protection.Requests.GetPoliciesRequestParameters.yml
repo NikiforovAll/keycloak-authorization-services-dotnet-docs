@@ -17,14 +17,6 @@ items:
   nameWithType: GetPoliciesRequestParameters
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: GetPoliciesRequestParameters
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests
@@ -54,14 +46,6 @@ items:
   nameWithType: GetPoliciesRequestParameters.PermissionName
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters.PermissionName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: PermissionName
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests
@@ -85,14 +69,6 @@ items:
   nameWithType: GetPoliciesRequestParameters.ResourceId
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters.ResourceId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: ResourceId
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests
@@ -116,14 +92,6 @@ items:
   nameWithType: GetPoliciesRequestParameters.Scope
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters.Scope
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Scope
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests
@@ -147,14 +115,6 @@ items:
   nameWithType: GetPoliciesRequestParameters.First
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests
@@ -178,14 +138,6 @@ items:
   nameWithType: GetPoliciesRequestParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk/Protection/Requests/GetPoliciesRequestParameters.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Sdk
   namespace: Keycloak.AuthServices.Sdk.Protection.Requests

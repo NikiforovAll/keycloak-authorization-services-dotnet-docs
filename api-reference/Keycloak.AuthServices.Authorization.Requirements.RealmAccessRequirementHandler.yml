@@ -14,14 +14,6 @@ items:
   nameWithType: RealmAccessRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: RealmAccessRequirementHandler
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 30
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -55,14 +47,6 @@ items:
   nameWithType: RealmAccessRequirementHandler.RealmAccessRequirementHandler(KeycloakMetrics, ILogger<RealmAccessRequirementHandler>)
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.RealmAccessRequirementHandler(Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler>)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 39
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
@@ -93,25 +77,20 @@ items:
   nameWithType: RealmAccessRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, RealmAccessRequirement)
   fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-      branch: 107-docfx-documentation
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet
-    id: HandleRequirementAsync
-    path: ../src/Keycloak.AuthServices.Authorization/Requirements/RealmAccessRequirement.cs
-    startLine: 49
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: Makes a decision if authorization is allowed based on a specific requirement.
   example: []
   syntax:
     content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, RealmAccessRequirement requirement)
     parameters:
     - id: context
       type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+      description: The authorization context.
     - id: requirement
       type: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
+      description: The requirement to evaluate.
     return:
       type: System.Threading.Tasks.Task
     content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As RealmAccessRequirement) As Task
