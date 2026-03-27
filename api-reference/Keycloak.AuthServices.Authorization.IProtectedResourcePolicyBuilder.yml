@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  commentId: T:Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  id: IProtectedResourcePolicyBuilder
+  parent: Keycloak.AuthServices.Authorization
+  children:
+  - Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IProtectedResourcePolicyBuilder
+  nameWithType: IProtectedResourcePolicyBuilder
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Builds an <xref href="Microsoft.AspNetCore.Authorization.AuthorizationPolicy" data-throw-if-not-resolved="false"></xref> from a protected resource policy name.
+  remarks: >-
+    Implement this interface to customize how policies are built from protected resource names,
+
+    for example to add caching, logging, or additional requirements.
+  example: []
+  syntax:
+    content: public interface IProtectedResourcePolicyBuilder
+    content.vb: Public Interface IProtectedResourcePolicyBuilder
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build(System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build(System.String)
+  id: Build(System.String)
+  parent: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build(string)
+  nameWithType: IProtectedResourcePolicyBuilder.Build(string)
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build(string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Builds an authorization policy from the given policy name.
+  example: []
+  syntax:
+    content: AuthorizationPolicy? Build(string policyName)
+    parameters:
+    - id: policyName
+      type: System.String
+      description: The policy name in the format <code>resource#scope</code>.
+    return:
+      type: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+      description: The built <xref href="Microsoft.AspNetCore.Authorization.AuthorizationPolicy" data-throw-if-not-resolved="false"></xref>, or <code>null</code> if the name is not valid.
+    content.vb: Function Build(policyName As String) As AuthorizationPolicy
+  overload: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build*
+  nameWithType.vb: IProtectedResourcePolicyBuilder.Build(String)
+  fullName.vb: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build(String)
+  name.vb: Build(String)
+references:
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+  parent: Microsoft.AspNetCore.Authorization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationpolicy
+  name: AuthorizationPolicy
+  nameWithType: AuthorizationPolicy
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+- uid: Keycloak.AuthServices.Authorization
+  commentId: N:Keycloak.AuthServices.Authorization
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization
+  nameWithType: Keycloak.AuthServices.Authorization
+  fullName: Keycloak.AuthServices.Authorization
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+- uid: Microsoft.AspNetCore.Authorization
+  commentId: N:Microsoft.AspNetCore.Authorization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Authorization
+  nameWithType: Microsoft.AspNetCore.Authorization
+  fullName: Microsoft.AspNetCore.Authorization
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Authorization
+    name: Authorization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Authorization
+    name: Authorization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build*
+  commentId: Overload:Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build
+  href: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.html#Keycloak_AuthServices_Authorization_IProtectedResourcePolicyBuilder_Build_System_String_
+  name: Build
+  nameWithType: IProtectedResourcePolicyBuilder.Build
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.Build
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

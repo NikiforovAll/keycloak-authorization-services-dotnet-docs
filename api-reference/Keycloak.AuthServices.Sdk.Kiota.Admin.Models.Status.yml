@@ -14,14 +14,6 @@ items:
   nameWithType: Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
   type: Enum
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-    startLine: 5
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -39,14 +31,6 @@ items:
   nameWithType: Status.PENDING
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.PENDING
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: PENDING
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-    startLine: 10
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -80,14 +64,6 @@ items:
   nameWithType: Status.EXPIRED
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.EXPIRED
   type: Field
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: EXPIRED
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/Status.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

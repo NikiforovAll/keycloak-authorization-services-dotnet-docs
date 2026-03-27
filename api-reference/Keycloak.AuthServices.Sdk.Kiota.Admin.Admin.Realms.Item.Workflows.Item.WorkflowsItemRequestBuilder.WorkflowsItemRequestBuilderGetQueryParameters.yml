@@ -13,14 +13,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WorkflowsItemRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 171
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -50,14 +42,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters.IncludeId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters.IncludeId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: IncludeId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 175
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item

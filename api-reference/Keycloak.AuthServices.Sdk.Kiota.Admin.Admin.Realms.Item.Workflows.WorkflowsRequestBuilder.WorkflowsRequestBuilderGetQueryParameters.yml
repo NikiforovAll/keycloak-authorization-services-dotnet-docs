@@ -16,14 +16,6 @@ items:
   nameWithType: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WorkflowsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-    startLine: 143
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
@@ -53,14 +45,6 @@ items:
   nameWithType: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Exact
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Exact
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Exact
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-    startLine: 147
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
@@ -96,14 +80,6 @@ items:
   nameWithType: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-    startLine: 150
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
@@ -139,14 +115,6 @@ items:
   nameWithType: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-    startLine: 153
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
@@ -182,14 +150,6 @@ items:
   nameWithType: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/WorkflowsRequestBuilder.cs
-    startLine: 158
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows

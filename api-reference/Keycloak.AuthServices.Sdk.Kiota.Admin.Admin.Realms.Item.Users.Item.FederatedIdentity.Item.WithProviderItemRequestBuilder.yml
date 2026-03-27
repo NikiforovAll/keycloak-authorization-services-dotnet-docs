@@ -8,9 +8,9 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.#ctor(System.String,Microsoft.Kiota.Abstractions.IRequestAdapter)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.DeleteAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToDeleteRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.WithUrl(System.String)
   langs:
   - csharp
@@ -133,16 +133,16 @@ items:
   nameWithType.vb: WithProviderItemRequestBuilder.DeleteAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.DeleteAsync(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
   name.vb: DeleteAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
-  id: PostAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
+  id: PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder
   langs:
   - csharp
   - vb
-  name: PostAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
-  nameWithType: WithProviderItemRequestBuilder.PostAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
+  name: PostAsync(FederatedIdentityRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
+  nameWithType: WithProviderItemRequestBuilder.PostAsync(FederatedIdentityRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
@@ -150,8 +150,11 @@ items:
   summary: Add a social login provider to the user
   example: []
   syntax:
-    content: public Task PostAsync(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
+    content: public Task PostAsync(FederatedIdentityRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
     parameters:
+    - id: body
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation
+      description: The request body
     - id: requestConfiguration
       type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
       description: Configuration for the request such as headers, query parameters, and middleware options.
@@ -160,11 +163,11 @@ items:
       description: Cancellation token to use when cancelling requests
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function PostAsync(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Public Function PostAsync(body As FederatedIdentityRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync*
-  nameWithType.vb: WithProviderItemRequestBuilder.PostAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
-  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
-  name.vb: PostAsync(Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
+  nameWithType.vb: WithProviderItemRequestBuilder.PostAsync(FederatedIdentityRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation, System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
+  name.vb: PostAsync(FederatedIdentityRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToDeleteRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToDeleteRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   id: ToDeleteRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
@@ -195,16 +198,16 @@ items:
   nameWithType.vb: WithProviderItemRequestBuilder.ToDeleteRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToDeleteRequestInformation(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)))
   name.vb: ToDeleteRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
-  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
-  id: ToPostRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+  commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
+  id: ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder
   langs:
   - csharp
   - vb
-  name: ToPostRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
-  nameWithType: WithProviderItemRequestBuilder.ToPostRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
+  name: ToPostRequestInformation(FederatedIdentityRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?)
+  nameWithType: WithProviderItemRequestBuilder.ToPostRequestInformation(FederatedIdentityRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?)
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
@@ -212,19 +215,22 @@ items:
   summary: Add a social login provider to the user
   example: []
   syntax:
-    content: public RequestInformation ToPostRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null)
+    content: public RequestInformation ToPostRequestInformation(FederatedIdentityRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null)
     parameters:
+    - id: body
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation
+      description: The request body
     - id: requestConfiguration
       type: System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}}
       description: Configuration for the request such as headers, query parameters, and middleware options.
     return:
       type: Microsoft.Kiota.Abstractions.RequestInformation
       description: A <xref href="Microsoft.Kiota.Abstractions.RequestInformation" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function ToPostRequestInformation(requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing) As RequestInformation
+    content.vb: Public Function ToPostRequestInformation(body As FederatedIdentityRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing) As RequestInformation
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation*
-  nameWithType.vb: WithProviderItemRequestBuilder.ToPostRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
-  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)))
-  name.vb: ToPostRequestInformation(Action(Of RequestConfiguration(Of DefaultQueryParameters)))
+  nameWithType.vb: WithProviderItemRequestBuilder.ToPostRequestInformation(FederatedIdentityRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)))
+  fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation, System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)))
+  name.vb: ToPostRequestInformation(FederatedIdentityRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)))
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.WithUrl(System.String)
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.WithUrl(System.String)
   id: WithUrl(System.String)
@@ -966,10 +972,71 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_FederatedIdentity_Item_WithProviderItemRequestBuilder_PostAsync_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___System_Threading_CancellationToken_
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_FederatedIdentity_Item_WithProviderItemRequestBuilder_PostAsync_Keycloak_AuthServices_Sdk_Kiota_Admin_Models_FederatedIdentityRepresentation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___System_Threading_CancellationToken_
   name: PostAsync
   nameWithType: WithProviderItemRequestBuilder.PostAsync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.PostAsync
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation.html
+  name: FederatedIdentityRepresentation
+  nameWithType: FederatedIdentityRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.FederatedIdentityRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.html
 - uid: Microsoft.Kiota.Abstractions.RequestInformation
   commentId: T:Microsoft.Kiota.Abstractions.RequestInformation
   parent: Microsoft.Kiota.Abstractions
@@ -985,7 +1052,7 @@ references:
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToDeleteRequestInformation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_FederatedIdentity_Item_WithProviderItemRequestBuilder_ToPostRequestInformation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Item_FederatedIdentity_Item_WithProviderItemRequestBuilder_ToPostRequestInformation_Keycloak_AuthServices_Sdk_Kiota_Admin_Models_FederatedIdentityRepresentation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___
   name: ToPostRequestInformation
   nameWithType: WithProviderItemRequestBuilder.ToPostRequestInformation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Item.FederatedIdentity.Item.WithProviderItemRequestBuilder.ToPostRequestInformation

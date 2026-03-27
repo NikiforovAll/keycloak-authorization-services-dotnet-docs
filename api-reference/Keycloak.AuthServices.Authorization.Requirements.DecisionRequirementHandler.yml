@@ -5,7 +5,7 @@ items:
   id: DecisionRequirementHandler
   parent: Keycloak.AuthServices.Authorization.Requirements
   children:
-  - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
+  - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
   langs:
   - csharp
@@ -17,11 +17,15 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Authorization handler for <xref href="Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
     content: 'public class DecisionRequirementHandler : AuthorizationHandler<DecisionRequirement>, IAuthorizationHandler'
     content.vb: Public Class DecisionRequirementHandler Inherits AuthorizationHandler(Of DecisionRequirement) Implements IAuthorizationHandler
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
   inheritance:
   - System.Object
   - Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement}
@@ -36,24 +40,24 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
-  commentId: M:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
-  id: '#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})'
+- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
+  commentId: M:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})
+  id: '#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler})'
   parent: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler
   langs:
   - csharp
   - vb
-  name: DecisionRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<DecisionRequirementHandler>)
-  nameWithType: DecisionRequirementHandler.DecisionRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<DecisionRequirementHandler>)
-  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.DecisionRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler>)
+  name: DecisionRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger<DecisionRequirementHandler>)
+  nameWithType: DecisionRequirementHandler.DecisionRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger<DecisionRequirementHandler>)
+  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.DecisionRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler>)
   type: Constructor
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Authorization handler for <xref href="Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
-    content: public DecisionRequirementHandler(IAuthorizationServerClient client, IHttpContextAccessor httpContextAccessor, KeycloakMetrics metrics, ILogger<DecisionRequirementHandler> logger)
+    content: public DecisionRequirementHandler(IAuthorizationServerClient client, IHttpContextAccessor httpContextAccessor, IServiceProvider serviceProvider, KeycloakMetrics metrics, ILogger<DecisionRequirementHandler> logger)
     parameters:
     - id: client
       type: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
@@ -61,21 +65,24 @@ items:
     - id: httpContextAccessor
       type: Microsoft.AspNetCore.Http.IHttpContextAccessor
       description: ''
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: ''
     - id: metrics
       type: Keycloak.AuthServices.Authorization.KeycloakMetrics
       description: ''
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler}
       description: ''
-    content.vb: Public Sub New(client As IAuthorizationServerClient, httpContextAccessor As IHttpContextAccessor, metrics As KeycloakMetrics, logger As ILogger(Of DecisionRequirementHandler))
+    content.vb: Public Sub New(client As IAuthorizationServerClient, httpContextAccessor As IHttpContextAccessor, serviceProvider As IServiceProvider, metrics As KeycloakMetrics, logger As ILogger(Of DecisionRequirementHandler))
   overload: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor*
   exceptions:
   - type: System.ArgumentNullException
     commentId: T:System.ArgumentNullException
     description: ''
-  nameWithType.vb: DecisionRequirementHandler.New(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger(Of DecisionRequirementHandler))
-  fullName.vb: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.New(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler))
-  name.vb: New(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger(Of DecisionRequirementHandler))
+  nameWithType.vb: DecisionRequirementHandler.New(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger(Of DecisionRequirementHandler))
+  fullName.vb: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.New(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler))
+  name.vb: New(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger(Of DecisionRequirementHandler))
 - uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
   commentId: M:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
   id: HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
@@ -107,6 +114,20 @@ items:
   overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement)
   overload: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.HandleRequirementAsync*
 references:
+- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.html
+  name: DecisionRequirement
+  nameWithType: DecisionRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.Requirements
   commentId: N:Keycloak.AuthServices.Authorization.Requirements
   href: Keycloak.html
@@ -551,16 +572,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationhandlercontext
   - name: )
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
-  name: ArgumentNullException
-  nameWithType: ArgumentNullException
-  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.#ctor
-  href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_DecisionRequirementHandler__ctor_Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_Microsoft_AspNetCore_Http_IHttpContextAccessor_Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_DecisionRequirementHandler__
+  href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_DecisionRequirementHandler__ctor_Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_Microsoft_AspNetCore_Http_IHttpContextAccessor_System_IServiceProvider_Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_DecisionRequirementHandler__
   name: DecisionRequirementHandler
   nameWithType: DecisionRequirementHandler.DecisionRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler.DecisionRequirementHandler
@@ -582,6 +596,14 @@ references:
   name: IHttpContextAccessor
   nameWithType: IHttpContextAccessor
   fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
 - uid: Keycloak.AuthServices.Authorization.KeycloakMetrics
   commentId: T:Keycloak.AuthServices.Authorization.KeycloakMetrics
   parent: Keycloak.AuthServices.Authorization
@@ -848,13 +870,6 @@ references:
   name: AuthorizationHandlerContext
   nameWithType: AuthorizationHandlerContext
   fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
-  commentId: T:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
-  parent: Keycloak.AuthServices.Authorization.Requirements
-  href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.html
-  name: DecisionRequirement
-  nameWithType: DecisionRequirement
-  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks

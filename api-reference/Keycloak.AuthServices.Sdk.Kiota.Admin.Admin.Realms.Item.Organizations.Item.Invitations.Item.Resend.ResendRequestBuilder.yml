@@ -17,14 +17,6 @@ items:
   nameWithType: ResendRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ResendRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
@@ -58,14 +50,6 @@ items:
   nameWithType: ResendRequestBuilder.ResendRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder.ResendRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 23
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
@@ -96,14 +80,6 @@ items:
   nameWithType: ResendRequestBuilder.ResendRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder.ResendRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 31
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
@@ -134,14 +110,6 @@ items:
   nameWithType: ResendRequestBuilder.PostAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder.PostAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: PostAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 41
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
@@ -174,14 +142,6 @@ items:
   nameWithType: ResendRequestBuilder.ToPostRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder.ToPostRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ToPostRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 58
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
@@ -212,14 +172,6 @@ items:
   nameWithType: ResendRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/Item/Resend/ResendRequestBuilder.cs
-    startLine: 74
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend

@@ -6,11 +6,14 @@ items:
   parent: Keycloak.AuthServices.Common
   children:
   - Keycloak.AuthServices.Common.KeycloakConstants.NameClaimType
+  - Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
   - Keycloak.AuthServices.Common.KeycloakConstants.OpenIdConnectConfigurationPath
+  - Keycloak.AuthServices.Common.KeycloakConstants.OrganizationClaimType
   - Keycloak.AuthServices.Common.KeycloakConstants.RealmAccessClaimType
   - Keycloak.AuthServices.Common.KeycloakConstants.ResourceAccessClaimType
   - Keycloak.AuthServices.Common.KeycloakConstants.RoleClaimType
   - Keycloak.AuthServices.Common.KeycloakConstants.TokenEndpointPath
+  - Keycloak.AuthServices.Common.KeycloakConstants.TokenIntrospectionEndpointPath
   langs:
   - csharp
   - vb
@@ -78,6 +81,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const OpenIdConnectConfigurationPath As String = ".well-known/openid-configuration"
+- uid: Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  commentId: F:Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  id: OAuthAuthorizationServerMetadataPath
+  parent: Keycloak.AuthServices.Common.KeycloakConstants
+  langs:
+  - csharp
+  - vb
+  name: OAuthAuthorizationServerMetadataPath
+  nameWithType: KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  fullName: Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Common
+  namespace: Keycloak.AuthServices.Common
+  summary: >-
+    OAuth 2.0 Authorization Server Metadata endpoint (RFC 8414).
+
+    Available in Keycloak 26.4+.
+  example: []
+  syntax:
+    content: public const string OAuthAuthorizationServerMetadataPath = ".well-known/oauth-authorization-server"
+    return:
+      type: System.String
+    content.vb: Public Const OAuthAuthorizationServerMetadataPath As String = ".well-known/oauth-authorization-server"
 - uid: Keycloak.AuthServices.Common.KeycloakConstants.ResourceAccessClaimType
   commentId: F:Keycloak.AuthServices.Common.KeycloakConstants.ResourceAccessClaimType
   id: ResourceAccessClaimType
@@ -162,6 +189,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const NameClaimType As String = "preferred_username"
+- uid: Keycloak.AuthServices.Common.KeycloakConstants.OrganizationClaimType
+  commentId: F:Keycloak.AuthServices.Common.KeycloakConstants.OrganizationClaimType
+  id: OrganizationClaimType
+  parent: Keycloak.AuthServices.Common.KeycloakConstants
+  langs:
+  - csharp
+  - vb
+  name: OrganizationClaimType
+  nameWithType: KeycloakConstants.OrganizationClaimType
+  fullName: Keycloak.AuthServices.Common.KeycloakConstants.OrganizationClaimType
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Common
+  namespace: Keycloak.AuthServices.Common
+  summary: Token Claim - Organization
+  example: []
+  syntax:
+    content: public const string OrganizationClaimType = "organization"
+    return:
+      type: System.String
+    content.vb: Public Const OrganizationClaimType As String = "organization"
+- uid: Keycloak.AuthServices.Common.KeycloakConstants.TokenIntrospectionEndpointPath
+  commentId: F:Keycloak.AuthServices.Common.KeycloakConstants.TokenIntrospectionEndpointPath
+  id: TokenIntrospectionEndpointPath
+  parent: Keycloak.AuthServices.Common.KeycloakConstants
+  langs:
+  - csharp
+  - vb
+  name: TokenIntrospectionEndpointPath
+  nameWithType: KeycloakConstants.TokenIntrospectionEndpointPath
+  fullName: Keycloak.AuthServices.Common.KeycloakConstants.TokenIntrospectionEndpointPath
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Common
+  namespace: Keycloak.AuthServices.Common
+  summary: Token introspection endpoint
+  example: []
+  syntax:
+    content: public const string TokenIntrospectionEndpointPath = "protocol/openid-connect/token/introspect"
+    return:
+      type: System.String
+    content.vb: Public Const TokenIntrospectionEndpointPath As String = "protocol/openid-connect/token/introspect"
 references:
 - uid: Keycloak.AuthServices.Common
   commentId: N:Keycloak.AuthServices.Common

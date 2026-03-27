@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+  commentId: N:Keycloak.AuthServices.Authorization.TokenIntrospection
+  id: Keycloak.AuthServices.Authorization.TokenIntrospection
+  children:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+  langs:
+  - csharp
+  - vb
+  name: Keycloak.AuthServices.Authorization.TokenIntrospection
+  nameWithType: Keycloak.AuthServices.Authorization.TokenIntrospection
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection
+  type: Namespace
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+references:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation.html
+  name: IKeycloakTokenIntrospectionTransformation
+  nameWithType: IKeycloakTokenIntrospectionTransformation
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.html
+  name: IKeycloakTokenIntrospectionClient
+  nameWithType: IKeycloakTokenIntrospectionClient
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse.html
+  name: TokenIntrospectionResponse
+  nameWithType: TokenIntrospectionResponse
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation.html
+  name: KeycloakTokenIntrospectionClaimsTransformation
+  nameWithType: KeycloakTokenIntrospectionClaimsTransformation
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient.html
+  name: KeycloakTokenIntrospectionClient
+  nameWithType: KeycloakTokenIntrospectionClient
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions.html
+  name: KeycloakTokenIntrospectionOptions
+  nameWithType: KeycloakTokenIntrospectionOptions
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator.html
+  name: KeycloakTokenIntrospectionOptionsValidator
+  nameWithType: KeycloakTokenIntrospectionOptionsValidator
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions.html
+  name: ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+  commentId: N:Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization.TokenIntrospection
+  nameWithType: Keycloak.AuthServices.Authorization.TokenIntrospection
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html

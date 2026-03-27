@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  id: IKeycloakTokenIntrospectionClient
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection
+  children:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IKeycloakTokenIntrospectionClient
+  nameWithType: IKeycloakTokenIntrospectionClient
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection
+  namespace: Keycloak.AuthServices.Authorization.TokenIntrospection
+  summary: >-
+    Client for Keycloak token introspection endpoint.
+
+    Resolves the full claim set for lightweight access tokens.
+  example: []
+  syntax:
+    content: public interface IKeycloakTokenIntrospectionClient
+    content.vb: Public Interface IKeycloakTokenIntrospectionClient
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(System.String,System.Threading.CancellationToken)
+  id: IntrospectTokenAsync(System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+  langs:
+  - csharp
+  - vb
+  name: IntrospectTokenAsync(string, CancellationToken)
+  nameWithType: IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(string, CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection
+  namespace: Keycloak.AuthServices.Authorization.TokenIntrospection
+  summary: Introspects the given access token and returns the full claim set.
+  example: []
+  syntax:
+    content: Task<TokenIntrospectionResponse?> IntrospectTokenAsync(string token, CancellationToken cancellationToken = default)
+    parameters:
+    - id: token
+      type: System.String
+      description: The access token to introspect.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse}
+      description: The introspection response, or null if the request failed.
+    content.vb: Function IntrospectTokenAsync(token As String, cancellationToken As CancellationToken = Nothing) As Task(Of TokenIntrospectionResponse)
+  overload: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync*
+  nameWithType.vb: IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync(String, System.Threading.CancellationToken)
+  name.vb: IntrospectTokenAsync(String, CancellationToken)
+references:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+  commentId: N:Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization.TokenIntrospection
+  nameWithType: Keycloak.AuthServices.Authorization.TokenIntrospection
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync*
+  commentId: Overload:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync
+  href: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.html#Keycloak_AuthServices_Authorization_TokenIntrospection_IKeycloakTokenIntrospectionClient_IntrospectTokenAsync_System_String_System_Threading_CancellationToken_
+  name: IntrospectTokenAsync
+  nameWithType: IKeycloakTokenIntrospectionClient.IntrospectTokenAsync
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient.IntrospectTokenAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse}
+  commentId: T:System.Threading.Tasks.Task{Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TokenIntrospectionResponse>
+  nameWithType: Task<TokenIntrospectionResponse>
+  fullName: System.Threading.Tasks.Task<Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse>
+  nameWithType.vb: Task(Of TokenIntrospectionResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse)
+  name.vb: Task(Of TokenIntrospectionResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+    name: TokenIntrospectionResponse
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+    name: TokenIntrospectionResponse
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

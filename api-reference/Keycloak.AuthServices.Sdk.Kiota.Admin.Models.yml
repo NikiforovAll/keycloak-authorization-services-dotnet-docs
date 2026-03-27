@@ -9,7 +9,6 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken_otherClaims
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken_resource_access
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation_details
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ApplicationRepresentation
@@ -107,6 +106,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_claims
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OAuthClientRepresentation_registeredNodes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation_attributes
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Permission
@@ -149,6 +149,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ScopeMappingRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ScopeRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.SocialLinkRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttributePermissions
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttributeRequired
@@ -177,6 +178,11 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserRepresentation_clientRoles
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserSessionRepresentation
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserSessionRepresentation_clients
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation
   langs:
   - csharp
   - vb
@@ -222,13 +228,6 @@ references:
   name: AccessToken_resource_access
   nameWithType: AccessToken_resource_access
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken_resource_access
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.html
-  name: AddressClaimSet
-  nameWithType: AddressClaimSet
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -908,6 +907,13 @@ references:
   name: OrganizationDomainRepresentation
   nameWithType: OrganizationDomainRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.html
+  name: OrganizationInvitationRepresentation
+  nameWithType: OrganizationInvitationRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1202,6 +1208,13 @@ references:
   name: SocialLinkRepresentation
   nameWithType: SocialLinkRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.SocialLinkRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status.html
+  name: Status
+  nameWithType: Status
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UnmanagedAttributePolicy
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UnmanagedAttributePolicy
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -1398,6 +1411,41 @@ references:
   name: UserSessionRepresentation_clients
   nameWithType: UserSessionRepresentation_clients
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserSessionRepresentation_clients
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation.html
+  name: WorkflowConcurrencyRepresentation
+  nameWithType: WorkflowConcurrencyRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.html
+  name: WorkflowRepresentation
+  nameWithType: WorkflowRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation.html
+  name: WorkflowScheduleRepresentation
+  nameWithType: WorkflowScheduleRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation.html
+  name: WorkflowStateRepresentation
+  nameWithType: WorkflowStateRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation.html
+  name: WorkflowStepRepresentation
+  nameWithType: WorkflowStepRepresentation
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   href: Keycloak.html

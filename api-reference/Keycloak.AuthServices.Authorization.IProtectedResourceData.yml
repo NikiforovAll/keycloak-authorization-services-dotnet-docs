@@ -6,6 +6,7 @@ items:
   parent: Keycloak.AuthServices.Authorization
   children:
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression
+  - Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.Resource
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.Scopes
   langs:
@@ -73,6 +74,32 @@ items:
       type: System.String[]
     content.vb: ReadOnly Property Scopes As String()
   overload: Keycloak.AuthServices.Authorization.IProtectedResourceData.Scopes*
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  commentId: P:Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  id: ResolverType
+  parent: Keycloak.AuthServices.Authorization.IProtectedResourceData
+  langs:
+  - csharp
+  - vb
+  name: ResolverType
+  nameWithType: IProtectedResourceData.ResolverType
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: >-
+    Gets the type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> used to resolve resource template parameters.
+
+    When <code>null</code>, the default <code>RouteParameterResolver</code> is used.
+  example: []
+  syntax:
+    content: Type? ResolverType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property ResolverType As Type
+  overload: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType*
 - uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression
   commentId: M:Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression
   id: GetScopesExpression
@@ -180,6 +207,27 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IParameterResolver.html
+  name: IParameterResolver
+  nameWithType: IParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType*
+  commentId: Overload:Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  href: Keycloak.AuthServices.Authorization.IProtectedResourceData.html#Keycloak_AuthServices_Authorization_IProtectedResourceData_ResolverType
+  name: ResolverType
+  nameWithType: IProtectedResourceData.ResolverType
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
 - uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression*
   commentId: Overload:Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression
   href: Keycloak.AuthServices.Authorization.IProtectedResourceData.html#Keycloak_AuthServices_Authorization_IProtectedResourceData_GetScopesExpression

@@ -5,7 +5,7 @@ items:
   id: ParameterizedProtectedResourceRequirementHandler
   parent: Keycloak.AuthServices.Authorization.Requirements
   children:
-  - Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
+  - Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
   - Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
   langs:
   - csharp
@@ -17,11 +17,15 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Authorization handler for <xref href="Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
     content: 'public class ParameterizedProtectedResourceRequirementHandler : AuthorizationHandler<ParameterizedProtectedResourceRequirement>, IAuthorizationHandler'
     content.vb: Public Class ParameterizedProtectedResourceRequirementHandler Inherits AuthorizationHandler(Of ParameterizedProtectedResourceRequirement) Implements IAuthorizationHandler
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
   inheritance:
   - System.Object
   - Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement}
@@ -36,24 +40,24 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
-  commentId: M:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
-  id: '#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})'
+- uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
+  commentId: M:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})
+  id: '#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider,Keycloak.AuthServices.Authorization.KeycloakMetrics,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler})'
   parent: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler
   langs:
   - csharp
   - vb
-  name: ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<ParameterizedProtectedResourceRequirementHandler>)
-  nameWithType: ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger<ParameterizedProtectedResourceRequirementHandler>)
-  fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler>)
+  name: ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger<ParameterizedProtectedResourceRequirementHandler>)
+  nameWithType: ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger<ParameterizedProtectedResourceRequirementHandler>)
+  fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler>)
   type: Constructor
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Authorization handler for <xref href="Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
-    content: public ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient client, IHttpContextAccessor httpContextAccessor, KeycloakMetrics metrics, ILogger<ParameterizedProtectedResourceRequirementHandler> logger)
+    content: public ParameterizedProtectedResourceRequirementHandler(IAuthorizationServerClient client, IHttpContextAccessor httpContextAccessor, IServiceProvider serviceProvider, KeycloakMetrics metrics, ILogger<ParameterizedProtectedResourceRequirementHandler> logger)
     parameters:
     - id: client
       type: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
@@ -61,21 +65,24 @@ items:
     - id: httpContextAccessor
       type: Microsoft.AspNetCore.Http.IHttpContextAccessor
       description: ''
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: ''
     - id: metrics
       type: Keycloak.AuthServices.Authorization.KeycloakMetrics
       description: ''
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler}
       description: ''
-    content.vb: Public Sub New(client As IAuthorizationServerClient, httpContextAccessor As IHttpContextAccessor, metrics As KeycloakMetrics, logger As ILogger(Of ParameterizedProtectedResourceRequirementHandler))
+    content.vb: Public Sub New(client As IAuthorizationServerClient, httpContextAccessor As IHttpContextAccessor, serviceProvider As IServiceProvider, metrics As KeycloakMetrics, logger As ILogger(Of ParameterizedProtectedResourceRequirementHandler))
   overload: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor*
   exceptions:
   - type: System.ArgumentNullException
     commentId: T:System.ArgumentNullException
     description: ''
-  nameWithType.vb: ParameterizedProtectedResourceRequirementHandler.New(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger(Of ParameterizedProtectedResourceRequirementHandler))
-  fullName.vb: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.New(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler))
-  name.vb: New(IAuthorizationServerClient, IHttpContextAccessor, KeycloakMetrics, ILogger(Of ParameterizedProtectedResourceRequirementHandler))
+  nameWithType.vb: ParameterizedProtectedResourceRequirementHandler.New(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger(Of ParameterizedProtectedResourceRequirementHandler))
+  fullName.vb: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.New(Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider, Keycloak.AuthServices.Authorization.KeycloakMetrics, Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler))
+  name.vb: New(IAuthorizationServerClient, IHttpContextAccessor, IServiceProvider, KeycloakMetrics, ILogger(Of ParameterizedProtectedResourceRequirementHandler))
 - uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
   commentId: M:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
   id: HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
@@ -107,6 +114,20 @@ items:
   overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement)
   overload: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.HandleRequirementAsync*
 references:
+- uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement.html
+  name: ParameterizedProtectedResourceRequirement
+  nameWithType: ParameterizedProtectedResourceRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.Requirements
   commentId: N:Keycloak.AuthServices.Authorization.Requirements
   href: Keycloak.html
@@ -551,16 +572,9 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationhandlercontext
   - name: )
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
-  name: ArgumentNullException
-  nameWithType: ArgumentNullException
-  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.#ctor
-  href: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_ParameterizedProtectedResourceRequirementHandler__ctor_Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_Microsoft_AspNetCore_Http_IHttpContextAccessor_Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_ParameterizedProtectedResourceRequirementHandler__
+  href: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_ParameterizedProtectedResourceRequirementHandler__ctor_Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_Microsoft_AspNetCore_Http_IHttpContextAccessor_System_IServiceProvider_Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_ParameterizedProtectedResourceRequirementHandler__
   name: ParameterizedProtectedResourceRequirementHandler
   nameWithType: ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler.ParameterizedProtectedResourceRequirementHandler
@@ -582,6 +596,14 @@ references:
   name: IHttpContextAccessor
   nameWithType: IHttpContextAccessor
   fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
 - uid: Keycloak.AuthServices.Authorization.KeycloakMetrics
   commentId: T:Keycloak.AuthServices.Authorization.KeycloakMetrics
   parent: Keycloak.AuthServices.Authorization
@@ -848,13 +870,6 @@ references:
   name: AuthorizationHandlerContext
   nameWithType: AuthorizationHandlerContext
   fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-- uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
-  commentId: T:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
-  parent: Keycloak.AuthServices.Authorization.Requirements
-  href: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement.html
-  name: ParameterizedProtectedResourceRequirement
-  nameWithType: ParameterizedProtectedResourceRequirement
-  fullName: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks

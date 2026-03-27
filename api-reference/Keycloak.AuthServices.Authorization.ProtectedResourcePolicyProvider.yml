@@ -5,7 +5,7 @@ items:
   id: ProtectedResourcePolicyProvider
   parent: Keycloak.AuthServices.Authorization
   children:
-  - Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions})
+  - Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions},Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder)
   - Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.GetPolicyAsync(System.String)
   langs:
   - csharp
@@ -17,7 +17,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
-  summary: ''
+  summary: Dynamically provides authorization policies for protected resources based on policy name conventions.
   example: []
   syntax:
     content: 'public class ProtectedResourcePolicyProvider : DefaultAuthorizationPolicyProvider, IAuthorizationPolicyProvider'
@@ -38,16 +38,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions})
-  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions})
-  id: '#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions})'
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions},Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions},Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder)
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions},Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder)'
   parent: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider
   langs:
   - csharp
   - vb
-  name: ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions>)
-  nameWithType: ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions>)
-  fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Authorization.AuthorizationOptions>)
+  name: ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions>, IProtectedResourcePolicyBuilder?)
+  nameWithType: ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions>, IProtectedResourcePolicyBuilder?)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider(Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Authorization.AuthorizationOptions>, Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder?)
   type: Constructor
   assemblies:
   - Keycloak.AuthServices.Authorization
@@ -55,16 +55,19 @@ items:
   summary: ''
   example: []
   syntax:
-    content: public ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions> options)
+    content: public ProtectedResourcePolicyProvider(IOptions<AuthorizationOptions> options, IProtectedResourcePolicyBuilder? builder = null)
     parameters:
     - id: options
       type: Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions}
       description: ''
-    content.vb: Public Sub New(options As IOptions(Of AuthorizationOptions))
+    - id: builder
+      type: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+      description: ''
+    content.vb: Public Sub New(options As IOptions(Of AuthorizationOptions), builder As IProtectedResourcePolicyBuilder = Nothing)
   overload: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor*
-  nameWithType.vb: ProtectedResourcePolicyProvider.New(IOptions(Of AuthorizationOptions))
-  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.New(Microsoft.Extensions.Options.IOptions(Of Microsoft.AspNetCore.Authorization.AuthorizationOptions))
-  name.vb: New(IOptions(Of AuthorizationOptions))
+  nameWithType.vb: ProtectedResourcePolicyProvider.New(IOptions(Of AuthorizationOptions), IProtectedResourcePolicyBuilder)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.New(Microsoft.Extensions.Options.IOptions(Of Microsoft.AspNetCore.Authorization.AuthorizationOptions), Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder)
+  name.vb: New(IOptions(Of AuthorizationOptions), IProtectedResourcePolicyBuilder)
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.GetPolicyAsync(System.String)
   commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.GetPolicyAsync(System.String)
   id: GetPolicyAsync(System.String)
@@ -471,7 +474,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.#ctor
-  href: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.html#Keycloak_AuthServices_Authorization_ProtectedResourcePolicyProvider__ctor_Microsoft_Extensions_Options_IOptions_Microsoft_AspNetCore_Authorization_AuthorizationOptions__
+  href: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.html#Keycloak_AuthServices_Authorization_ProtectedResourcePolicyProvider__ctor_Microsoft_Extensions_Options_IOptions_Microsoft_AspNetCore_Authorization_AuthorizationOptions__Keycloak_AuthServices_Authorization_IProtectedResourcePolicyBuilder_
   name: ProtectedResourcePolicyProvider
   nameWithType: ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider.ProtectedResourcePolicyProvider
@@ -513,6 +516,13 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationoptions
   - name: )
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  commentId: T:Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.html
+  name: IProtectedResourcePolicyBuilder
+  nameWithType: IProtectedResourcePolicyBuilder
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
 - uid: Microsoft.Extensions.Options.IOptions`1
   commentId: T:Microsoft.Extensions.Options.IOptions`1
   isExternal: true
@@ -580,6 +590,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
 - uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicy
   commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationPolicy
+  parent: Microsoft.AspNetCore.Authorization
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationpolicy
   name: AuthorizationPolicy

@@ -5,7 +5,7 @@ items:
   id: AccessTokenPropagationHandler
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer
   children:
-  - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -40,16 +40,16 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
-  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
-  id: '#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})'
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})
+  id: '#ctor(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler})'
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler
   langs:
   - csharp
   - vb
-  name: AccessTokenPropagationHandler(IHttpContextAccessor, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AccessTokenPropagationHandler>)
-  nameWithType: AccessTokenPropagationHandler.AccessTokenPropagationHandler(IHttpContextAccessor, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AccessTokenPropagationHandler>)
-  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.AccessTokenPropagationHandler(Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions>, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler>)
+  name: AccessTokenPropagationHandler(IKeycloakAccessTokenProvider, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AccessTokenPropagationHandler>)
+  nameWithType: AccessTokenPropagationHandler.AccessTokenPropagationHandler(IKeycloakAccessTokenProvider, IOptions<KeycloakAuthorizationServerOptions>, ILogger<AccessTokenPropagationHandler>)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.AccessTokenPropagationHandler(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider, Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions>, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler>)
   type: Constructor
   assemblies:
   - Keycloak.AuthServices.Authorization
@@ -57,22 +57,22 @@ items:
   summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
-    content: public AccessTokenPropagationHandler(IHttpContextAccessor contextAccessor, IOptions<KeycloakAuthorizationServerOptions> options, ILogger<AccessTokenPropagationHandler> logger)
+    content: public AccessTokenPropagationHandler(IKeycloakAccessTokenProvider tokenProvider, IOptions<KeycloakAuthorizationServerOptions> options, ILogger<AccessTokenPropagationHandler> logger)
     parameters:
-    - id: contextAccessor
-      type: Microsoft.AspNetCore.Http.IHttpContextAccessor
-      description: The HTTP context accessor.
+    - id: tokenProvider
+      type: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+      description: The access token provider.
     - id: options
       type: Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions}
       description: The Keycloak client options.
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler}
       description: ''
-    content.vb: Public Sub New(contextAccessor As IHttpContextAccessor, options As IOptions(Of KeycloakAuthorizationServerOptions), logger As ILogger(Of AccessTokenPropagationHandler))
+    content.vb: Public Sub New(tokenProvider As IKeycloakAccessTokenProvider, options As IOptions(Of KeycloakAuthorizationServerOptions), logger As ILogger(Of AccessTokenPropagationHandler))
   overload: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor*
-  nameWithType.vb: AccessTokenPropagationHandler.New(IHttpContextAccessor, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AccessTokenPropagationHandler))
-  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.New(Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Options.IOptions(Of Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions), Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler))
-  name.vb: New(IHttpContextAccessor, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AccessTokenPropagationHandler))
+  nameWithType.vb: AccessTokenPropagationHandler.New(IKeycloakAccessTokenProvider, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AccessTokenPropagationHandler))
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.New(Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider, Microsoft.Extensions.Options.IOptions(Of Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions), Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler))
+  name.vb: New(IKeycloakAccessTokenProvider, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AccessTokenPropagationHandler))
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
   id: SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
@@ -561,21 +561,20 @@ references:
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.#ctor
-  href: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AccessTokenPropagationHandler__ctor_Microsoft_AspNetCore_Http_IHttpContextAccessor_Microsoft_Extensions_Options_IOptions_Keycloak_AuthServices_Authorization_AuthorizationServer_KeycloakAuthorizationServerOptions__Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_AuthorizationServer_AccessTokenPropagationHandler__
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AccessTokenPropagationHandler__ctor_Keycloak_AuthServices_Authorization_AuthorizationServer_IKeycloakAccessTokenProvider_Microsoft_Extensions_Options_IOptions_Keycloak_AuthServices_Authorization_AuthorizationServer_KeycloakAuthorizationServerOptions__Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_AuthorizationServer_AccessTokenPropagationHandler__
   name: AccessTokenPropagationHandler
   nameWithType: AccessTokenPropagationHandler.AccessTokenPropagationHandler
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.AccessTokenPropagationHandler
   nameWithType.vb: AccessTokenPropagationHandler.New
   fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.New
   name.vb: New
-- uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
-  commentId: T:Microsoft.AspNetCore.Http.IHttpContextAccessor
-  parent: Microsoft.AspNetCore.Http
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor
-  name: IHttpContextAccessor
-  nameWithType: IHttpContextAccessor
-  fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html
+  name: IKeycloakAccessTokenProvider
+  nameWithType: IKeycloakAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
 - uid: Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions}
   commentId: T:Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions}
   parent: Microsoft.Extensions.Options
@@ -642,43 +641,6 @@ references:
     name: AccessTokenPropagationHandler
     href: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler.html
   - name: )
-- uid: Microsoft.AspNetCore.Http
-  commentId: N:Microsoft.AspNetCore.Http
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft
-  name: Microsoft.AspNetCore.Http
-  nameWithType: Microsoft.AspNetCore.Http
-  fullName: Microsoft.AspNetCore.Http
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.AspNetCore
-    name: AspNetCore
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
-  - name: .
-  - uid: Microsoft.AspNetCore.Http
-    name: Http
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.AspNetCore
-    name: AspNetCore
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
-  - name: .
-  - uid: Microsoft.AspNetCore.Http
-    name: Http
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
 - uid: Microsoft.Extensions.Options.IOptions`1
   commentId: T:Microsoft.Extensions.Options.IOptions`1
   isExternal: true

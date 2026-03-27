@@ -4,16 +4,22 @@ items:
   commentId: N:Keycloak.AuthServices.Authorization
   id: Keycloak.AuthServices.Authorization
   children:
+  - Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+  - Keycloak.AuthServices.Authorization.HeaderParameterResolver
+  - Keycloak.AuthServices.Authorization.IParameterResolver
   - Keycloak.AuthServices.Authorization.IProtectedResourceData
+  - Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
   - Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
   - Keycloak.AuthServices.Authorization.KeycloakMetrics
   - Keycloak.AuthServices.Authorization.MvcOptionsExtensions
+  - Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions
   - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
   - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
   - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
   - Keycloak.AuthServices.Authorization.ProtectedResourcePolicy
   - Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider
+  - Keycloak.AuthServices.Authorization.QueryParameterResolver
   - Keycloak.AuthServices.Authorization.RolesClaimTransformationSource
   - Keycloak.AuthServices.Authorization.ServiceCollectionExtensions
   langs:
@@ -26,12 +32,31 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
 references:
+- uid: Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+  commentId: T:Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+  href: Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder.html
+  name: DefaultProtectedResourcePolicyBuilder
+  nameWithType: DefaultProtectedResourcePolicyBuilder
+  fullName: Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+- uid: Keycloak.AuthServices.Authorization.HeaderParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.HeaderParameterResolver
+  href: Keycloak.AuthServices.Authorization.HeaderParameterResolver.html
+  name: HeaderParameterResolver
+  nameWithType: HeaderParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.HeaderParameterResolver
 - uid: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
   commentId: T:Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
   href: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute.html
   name: IgnoreProtectedResourceAttribute
   nameWithType: IgnoreProtectedResourceAttribute
   fullName: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IParameterResolver.html
+  name: IParameterResolver
+  nameWithType: IParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver
 - uid: Keycloak.AuthServices.Authorization.IProtectedResourceData
   commentId: T:Keycloak.AuthServices.Authorization.IProtectedResourceData
   parent: Keycloak.AuthServices.Authorization
@@ -39,6 +64,13 @@ references:
   name: IProtectedResourceData
   nameWithType: IProtectedResourceData
   fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  commentId: T:Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder.html
+  name: IProtectedResourcePolicyBuilder
+  nameWithType: IProtectedResourcePolicyBuilder
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
 - uid: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
   commentId: T:Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
   href: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.html
@@ -65,6 +97,12 @@ references:
   name: MvcOptionsExtensions
   nameWithType: MvcOptionsExtensions
   fullName: Keycloak.AuthServices.Authorization.MvcOptionsExtensions
+- uid: Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions
+  commentId: T:Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions
+  href: Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions.html
+  name: OrganizationEndpointConventionBuilderExtensions
+  nameWithType: OrganizationEndpointConventionBuilderExtensions
+  fullName: Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions
 - uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
   commentId: T:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
   href: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.html
@@ -95,6 +133,12 @@ references:
   name: ProtectedResourcePolicyProvider
   nameWithType: ProtectedResourcePolicyProvider
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider
+- uid: Keycloak.AuthServices.Authorization.QueryParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.QueryParameterResolver
+  href: Keycloak.AuthServices.Authorization.QueryParameterResolver.html
+  name: QueryParameterResolver
+  nameWithType: QueryParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.QueryParameterResolver
 - uid: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions
   commentId: T:Keycloak.AuthServices.Authorization.ServiceCollectionExtensions
   href: Keycloak.AuthServices.Authorization.ServiceCollectionExtensions.html

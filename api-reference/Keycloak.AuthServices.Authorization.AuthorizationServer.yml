@@ -7,7 +7,9 @@ items:
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
   - Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
   - Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
   - Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode
   langs:
@@ -38,6 +40,12 @@ references:
   name: AuthorizationServerClient
   nameWithType: AuthorizationServerClient
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider.html
+  name: HttpContextAccessTokenProvider
+  nameWithType: HttpContextAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
   commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -45,6 +53,13 @@ references:
   name: IAuthorizationServerClient
   nameWithType: IAuthorizationServerClient
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html
+  name: IKeycloakAccessTokenProvider
+  nameWithType: IKeycloakAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
   commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
   href: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions.html

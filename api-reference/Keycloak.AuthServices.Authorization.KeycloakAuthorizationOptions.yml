@@ -6,6 +6,7 @@ items:
   parent: Keycloak.AuthServices.Authorization
   children:
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.EnableRolesMapping
+  - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RoleClaimType
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RolesResource
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.Section
@@ -134,6 +135,29 @@ items:
       type: System.String
     content.vb: Public Property RoleClaimType As String
   overload: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RoleClaimType*
+- uid: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType
+  commentId: P:Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType
+  id: OrganizationClaimType
+  parent: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
+  langs:
+  - csharp
+  - vb
+  name: OrganizationClaimType
+  nameWithType: KeycloakAuthorizationOptions.OrganizationClaimType
+  fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Gets or sets the claim type used for organization membership.
+  example: []
+  syntax:
+    content: public string OrganizationClaimType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrganizationClaimType As String
+  overload: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType*
 references:
 - uid: Keycloak.AuthServices.Authorization
   commentId: N:Keycloak.AuthServices.Authorization
@@ -538,3 +562,9 @@ references:
   name: RoleClaimType
   nameWithType: KeycloakAuthorizationOptions.RoleClaimType
   fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.RoleClaimType
+- uid: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType*
+  commentId: Overload:Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType
+  href: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.html#Keycloak_AuthServices_Authorization_KeycloakAuthorizationOptions_OrganizationClaimType
+  name: OrganizationClaimType
+  nameWithType: KeycloakAuthorizationOptions.OrganizationClaimType
+  fullName: Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions.OrganizationClaimType

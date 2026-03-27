@@ -6,6 +6,8 @@ items:
   children:
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler
+  - Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement
+  - Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler
   - Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
   - Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirementHandler
   - Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
@@ -37,6 +39,19 @@ references:
   name: DecisionRequirementHandler
   nameWithType: DecisionRequirementHandler
   fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler
+- uid: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement.html
+  name: OrganizationRequirement
+  nameWithType: OrganizationRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement
+- uid: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler
+  href: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler.html
+  name: OrganizationRequirementHandler
+  nameWithType: OrganizationRequirementHandler
+  fullName: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler
 - uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
   commentId: T:Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
   parent: Keycloak.AuthServices.Authorization.Requirements

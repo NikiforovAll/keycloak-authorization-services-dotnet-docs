@@ -106,8 +106,6 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.QuickLoginCheckMilliSeconds
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.Realm
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmCacheEnabled
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RegistrationAllowed
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RegistrationEmailAsUsername
@@ -2576,52 +2574,6 @@ items:
     arguments:
     - type: System.String
       value: ''
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  id: RealmRepresentationOAuth2DeviceCodeLifespan
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
-  langs:
-  - csharp
-  - vb
-  name: RealmRepresentationOAuth2DeviceCodeLifespan
-  nameWithType: RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  type: Property
-  assemblies:
-  - Keycloak.AuthServices.Sdk.Kiota
-  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The oAuth2DeviceCodeLifespan property
-  example: []
-  syntax:
-    content: public int? RealmRepresentationOAuth2DeviceCodeLifespan { get; set; }
-    parameters: []
-    return:
-      type: System.Nullable{System.Int32}
-    content.vb: Public Property RealmRepresentationOAuth2DeviceCodeLifespan As Integer?
-  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan*
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  id: RealmRepresentationOAuth2DevicePollingInterval
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation
-  langs:
-  - csharp
-  - vb
-  name: RealmRepresentationOAuth2DevicePollingInterval
-  nameWithType: RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  type: Property
-  assemblies:
-  - Keycloak.AuthServices.Sdk.Kiota
-  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The oAuth2DevicePollingInterval property
-  example: []
-  syntax:
-    content: public int? RealmRepresentationOAuth2DevicePollingInterval { get; set; }
-    parameters: []
-    return:
-      type: System.Nullable{System.Int32}
-    content.vb: Public Property RealmRepresentationOAuth2DevicePollingInterval As Integer?
-  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse
   id: RefreshTokenMaxReuse
@@ -5747,18 +5699,6 @@ references:
   name: RealmCacheEnabled
   nameWithType: RealmRepresentation.RealmCacheEnabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmCacheEnabled
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_RealmRepresentationOAuth2DeviceCodeLifespan
-  name: RealmRepresentationOAuth2DeviceCodeLifespan
-  nameWithType: RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DeviceCodeLifespan
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_RealmRepresentationOAuth2DevicePollingInterval
-  name: RealmRepresentationOAuth2DevicePollingInterval
-  nameWithType: RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RealmRepresentationOAuth2DevicePollingInterval
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.RefreshTokenMaxReuse
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.RealmRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_RealmRepresentation_RefreshTokenMaxReuse

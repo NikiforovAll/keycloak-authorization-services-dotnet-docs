@@ -9,7 +9,13 @@ items:
   - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResources``1(``0)
   - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String)
   - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String)
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String,System.Type)
   - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String[])
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String[],System.Type)
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.Type)
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String)
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String)
+  - Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String[])
   langs:
   - csharp
   - vb
@@ -149,6 +155,255 @@ items:
   nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String())
   fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String())
   name.vb: RequireProtectedResource(Of TBuilder)(TBuilder, String, String())
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String)
+  id: RequireProtectedResource``2(``0,System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder, TResolver>(TBuilder, string)
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder, TResolver>(this TBuilder builder, string resource) where TBuilder : IEndpointConventionBuilder where TResolver : IParameterResolver'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    - id: TResolver
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use for resolving resource template parameters.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder, TResolver As IParameterResolver)(builder As TBuilder, resource As String) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String)
+  name.vb: RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String)
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String)
+  id: RequireProtectedResource``2(``0,System.String,System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string)
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder, TResolver>(this TBuilder builder, string resource, string scope) where TBuilder : IEndpointConventionBuilder where TResolver : IParameterResolver'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    - id: scope
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    - id: TResolver
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use for resolving resource template parameters.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder, TResolver As IParameterResolver)(builder As TBuilder, resource As String, scope As String) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String)
+  name.vb: RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String)
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String[])
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``2(``0,System.String,System.String[])
+  id: RequireProtectedResource``2(``0,System.String,System.String[])
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string[])
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string[])
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder, TResolver>(TBuilder, string, string[])
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder, TResolver>(this TBuilder builder, string resource, string[] scopes) where TBuilder : IEndpointConventionBuilder where TResolver : IParameterResolver'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    - id: TResolver
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use for resolving resource template parameters.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder, TResolver As IParameterResolver)(builder As TBuilder, resource As String, scopes As String()) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String())
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String())
+  name.vb: RequireProtectedResource(Of TBuilder, TResolver)(TBuilder, String, String())
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.Type)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.Type)
+  id: RequireProtectedResource``1(``0,System.String,System.Type)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder>(TBuilder, string, Type)
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, Type)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, System.Type)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder>(this TBuilder builder, string resource, Type resolverType) where TBuilder : IEndpointConventionBuilder'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    - id: resolverType
+      type: System.Type
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use.
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder)(builder As TBuilder, resource As String, resolverType As Type) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, Type)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, System.Type)
+  name.vb: RequireProtectedResource(Of TBuilder)(TBuilder, String, Type)
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String,System.Type)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String,System.Type)
+  id: RequireProtectedResource``1(``0,System.String,System.String,System.Type)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder>(TBuilder, string, string, Type)
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string, Type)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string, System.Type)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder>(this TBuilder builder, string resource, string scope, Type resolverType) where TBuilder : IEndpointConventionBuilder'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    - id: scope
+      type: System.String
+      description: ''
+    - id: resolverType
+      type: System.Type
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use.
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder)(builder As TBuilder, resource As String, scope As String, resolverType As Type) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String, Type)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String, System.Type)
+  name.vb: RequireProtectedResource(Of TBuilder)(TBuilder, String, String, Type)
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String[],System.Type)
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource``1(``0,System.String,System.String[],System.Type)
+  id: RequireProtectedResource``1(``0,System.String,System.String[],System.Type)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireProtectedResource<TBuilder>(TBuilder, string, string[], Type)
+  nameWithType: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string[], Type)
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource<TBuilder>(TBuilder, string, string[], System.Type)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> to the endpoint(s) with a custom <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static TBuilder RequireProtectedResource<TBuilder>(this TBuilder builder, string resource, string[] scopes, Type resolverType) where TBuilder : IEndpointConventionBuilder'
+    parameters:
+    - id: builder
+      type: '{TBuilder}'
+      description: The endpoint convention builder.
+    - id: resource
+      type: System.String
+      description: ''
+    - id: scopes
+      type: System.String[]
+      description: ''
+    - id: resolverType
+      type: System.Type
+      description: The type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> to use.
+    typeParameters:
+    - id: TBuilder
+      description: The type of endpoint convention builder.
+    return:
+      type: '{TBuilder}'
+      description: The original convention builder parameter.
+    content.vb: Public Shared Function RequireProtectedResource(Of TBuilder As IEndpointConventionBuilder)(builder As TBuilder, resource As String, scopes As String(), resolverType As Type) As TBuilder
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource*
+  nameWithType.vb: ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String(), Type)
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.RequireProtectedResource(Of TBuilder)(TBuilder, String, String(), System.Type)
+  name.vb: RequireProtectedResource(Of TBuilder)(TBuilder, String, String(), Type)
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResource``1(``0,System.String)
   commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceEndpointConventionBuilderExtensions.IgnoreProtectedResource``1(``0,System.String)
   id: IgnoreProtectedResource``1(``0,System.String)
@@ -549,6 +804,21 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IParameterResolver.html
+  name: IParameterResolver
+  nameWithType: IParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
 - uid: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
   commentId: T:Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
   href: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute.html

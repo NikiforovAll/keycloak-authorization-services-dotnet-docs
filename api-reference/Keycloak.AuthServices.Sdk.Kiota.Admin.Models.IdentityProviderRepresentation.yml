@@ -25,6 +25,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.StoreToken
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.TrustEmail
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLoginMode
   langs:
@@ -423,6 +424,29 @@ items:
       type: System.Nullable{System.Boolean}
     content.vb: Public Property TrustEmail As Boolean?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.TrustEmail*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
+  id: Types
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation
+  langs:
+  - csharp
+  - vb
+  name: Types
+  nameWithType: IdentityProviderRepresentation.Types
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The types property
+  example: []
+  syntax:
+    content: public List<string>? Types { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property Types As List(Of String)
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin
   id: UpdateProfileFirstLogin
@@ -1228,6 +1252,75 @@ references:
   name: TrustEmail
   nameWithType: IdentityProviderRepresentation.TrustEmail
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.TrustEmail
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IdentityProviderRepresentation_Types
+  name: Types
+  nameWithType: IdentityProviderRepresentation.Types
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.Types
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.UpdateProfileFirstLogin
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_IdentityProviderRepresentation_UpdateProfileFirstLogin

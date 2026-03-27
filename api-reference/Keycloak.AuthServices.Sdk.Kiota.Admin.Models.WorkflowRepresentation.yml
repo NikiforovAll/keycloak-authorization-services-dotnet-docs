@@ -29,14 +29,6 @@ items:
   nameWithType: WorkflowRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WorkflowRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -67,14 +59,6 @@ items:
   nameWithType: WorkflowRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -100,14 +84,6 @@ items:
   nameWithType: WorkflowRepresentation.CancelInProgress
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.CancelInProgress
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: CancelInProgress
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 19
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -131,14 +107,6 @@ items:
   nameWithType: WorkflowRepresentation.Concurrency
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Concurrency
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Concurrency
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -162,14 +130,6 @@ items:
   nameWithType: WorkflowRepresentation.Enabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Enabled
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Enabled
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 33
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -193,14 +153,6 @@ items:
   nameWithType: WorkflowRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -224,14 +176,6 @@ items:
   nameWithType: WorkflowRepresentation.If
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.If
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: If
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -255,14 +199,6 @@ items:
   nameWithType: WorkflowRepresentation.Name
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Name
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Name
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -286,14 +222,6 @@ items:
   nameWithType: WorkflowRepresentation.On
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.On
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: On
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -317,14 +245,6 @@ items:
   nameWithType: WorkflowRepresentation.RestartInProgress
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.RestartInProgress
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: RestartInProgress
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -348,14 +268,6 @@ items:
   nameWithType: WorkflowRepresentation.Schedule
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Schedule
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Schedule
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 77
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -379,14 +291,6 @@ items:
   nameWithType: WorkflowRepresentation.State
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.State
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: State
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 85
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -410,14 +314,6 @@ items:
   nameWithType: WorkflowRepresentation.Steps
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Steps
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Steps
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 93
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -441,14 +337,6 @@ items:
   nameWithType: WorkflowRepresentation.With
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.With
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: With
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 101
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -472,14 +360,6 @@ items:
   nameWithType: WorkflowRepresentation.WorkflowRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.WorkflowRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 109
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -503,14 +383,6 @@ items:
   nameWithType: WorkflowRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 118
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -538,14 +410,6 @@ items:
   nameWithType: WorkflowRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 127
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -571,14 +435,6 @@ items:
   nameWithType: WorkflowRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/WorkflowRepresentation.cs
-    startLine: 149
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

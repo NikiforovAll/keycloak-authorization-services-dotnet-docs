@@ -61,8 +61,20 @@ items:
   name: Keycloak.AuthServices.Authorization
   type: Namespace
   items:
+  - uid: Keycloak.AuthServices.Authorization.DefaultProtectedResourcePolicyBuilder
+    name: DefaultProtectedResourcePolicyBuilder
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.HeaderParameterResolver
+    name: HeaderParameterResolver
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.IParameterResolver
+    name: IParameterResolver
+    type: Interface
   - uid: Keycloak.AuthServices.Authorization.IProtectedResourceData
     name: IProtectedResourceData
+    type: Interface
+  - uid: Keycloak.AuthServices.Authorization.IProtectedResourcePolicyBuilder
+    name: IProtectedResourcePolicyBuilder
     type: Interface
   - uid: Keycloak.AuthServices.Authorization.IgnoreProtectedResourceAttribute
     name: IgnoreProtectedResourceAttribute
@@ -75,6 +87,9 @@ items:
     type: Class
   - uid: Keycloak.AuthServices.Authorization.MvcOptionsExtensions
     name: MvcOptionsExtensions
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.OrganizationEndpointConventionBuilderExtensions
+    name: OrganizationEndpointConventionBuilderExtensions
     type: Class
   - uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
     name: PoliciesBuilderExtensions
@@ -90,6 +105,9 @@ items:
     type: Class
   - uid: Keycloak.AuthServices.Authorization.ProtectedResourcePolicyProvider
     name: ProtectedResourcePolicyProvider
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.QueryParameterResolver
+    name: QueryParameterResolver
     type: Class
   - uid: Keycloak.AuthServices.Authorization.RolesClaimTransformationSource
     name: RolesClaimTransformationSource
@@ -110,8 +128,14 @@ items:
   - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
     name: AuthorizationServerClient
     type: Class
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+    name: HttpContextAccessTokenProvider
+    type: Class
   - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
     name: IAuthorizationServerClient
+    type: Interface
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+    name: IKeycloakAccessTokenProvider
     type: Interface
   - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
     name: KeycloakAuthorizationServerOptions
@@ -136,6 +160,12 @@ items:
   - uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirementHandler
     name: DecisionRequirementHandler
     type: Class
+  - uid: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirement
+    name: OrganizationRequirement
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.Requirements.OrganizationRequirementHandler
+    name: OrganizationRequirementHandler
+    type: Class
   - uid: Keycloak.AuthServices.Authorization.Requirements.ParameterizedProtectedResourceRequirement
     name: ParameterizedProtectedResourceRequirement
     type: Class
@@ -159,6 +189,34 @@ items:
     type: Class
   - uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler
     name: RptRequirementHandler
+    type: Class
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+  name: Keycloak.AuthServices.Authorization.TokenIntrospection
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionClient
+    name: IKeycloakTokenIntrospectionClient
+    type: Interface
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+    name: IKeycloakTokenIntrospectionTransformation
+    type: Interface
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+    name: KeycloakTokenIntrospectionClaimsTransformation
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
+    name: KeycloakTokenIntrospectionClient
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
+    name: KeycloakTokenIntrospectionOptions
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
+    name: KeycloakTokenIntrospectionOptionsValidator
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
+    name: ServiceCollectionExtensions
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
+    name: TokenIntrospectionResponse
     type: Class
 - uid: Keycloak.AuthServices.Common
   name: Keycloak.AuthServices.Common
@@ -191,6 +249,12 @@ items:
   items:
   - uid: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
     name: KeycloakClaimsExtensions
+    type: Class
+  - uid: Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions
+    name: KeycloakOrganizationClaimsExtensions
+    type: Class
+  - uid: Keycloak.AuthServices.Common.Claims.OrganizationMembership
+    name: OrganizationMembership
     type: Class
   - uid: Keycloak.AuthServices.Common.Claims.ResourceAccess
     name: ResourceAccess
@@ -2267,6 +2331,13 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Providers.Item.WithProvider_ItemRequestBuilder
     name: WithProvider_ItemRequestBuilder
     type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder
+    name: UploadCertificateRequestBuilder
+    type: Class
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Keys
   name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Keys
   type: Namespace
@@ -2351,6 +2422,30 @@ items:
   items:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.IdentityProviders.Item.WithAliasItemRequestBuilder
     name: WithAliasItemRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder
+    name: InvitationsRequestBuilder
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters
+    name: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.InvitationsItemRequestBuilder
+    name: InvitationsItemRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.Item.Resend.ResendRequestBuilder
+    name: ResendRequestBuilder
     type: Class
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Members
   name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Members
@@ -2937,6 +3032,85 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.UsersManagementPermissions.UsersManagementPermissionsRequestBuilder
     name: UsersManagementPermissionsRequestBuilder
     type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder
+    name: WorkflowsRequestBuilder
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters
+    name: WorkflowsRequestBuilder.WorkflowsRequestBuilderGetQueryParameters
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder
+    name: WorkflowsItemRequestBuilder
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters
+    name: WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.ActivateRequestBuilder
+    name: ActivateRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.WithTypeItemRequestBuilder
+    name: WithTypeItemRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item.WithResourceItemRequestBuilder
+    name: WithResourceItemRequestBuilder
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item.WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters
+    name: WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.DeactivateRequestBuilder
+    name: DeactivateRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item.WithTypeItemRequestBuilder
+    name: WithTypeItemRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Deactivate.Item.Item.WithResourceItemRequestBuilder
+    name: WithResourceItemRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.ScheduledRequestBuilder
+    name: ScheduledRequestBuilder
+    type: Class
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.Item
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.Item
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.Item.ResourceItemRequestBuilder
+    name: ResourceItemRequestBuilder
+    type: Class
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   name: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   type: Namespace
@@ -2955,9 +3129,6 @@ items:
     type: Class
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken_resource_access
     name: AccessToken_resource_access
-    type: Class
-  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-    name: AddressClaimSet
     type: Class
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AdminEventRepresentation
     name: AdminEventRepresentation
@@ -3250,6 +3421,9 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationDomainRepresentation
     name: OrganizationDomainRepresentation
     type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
+    name: OrganizationInvitationRepresentation
+    type: Class
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation
     name: OrganizationRepresentation
     type: Class
@@ -3376,6 +3550,9 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.SocialLinkRepresentation
     name: SocialLinkRepresentation
     type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.Status
+    name: Status
+    type: Enum
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute
     name: UPAttribute
     type: Class
@@ -3459,6 +3636,21 @@ items:
     type: Class
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UserSessionRepresentation_clients
     name: UserSessionRepresentation_clients
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowConcurrencyRepresentation
+    name: WorkflowConcurrencyRepresentation
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation
+    name: WorkflowRepresentation
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowScheduleRepresentation
+    name: WorkflowScheduleRepresentation
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStateRepresentation
+    name: WorkflowStateRepresentation
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowStepRepresentation
+    name: WorkflowStepRepresentation
     type: Class
 - uid: Keycloak.AuthServices.Sdk.Protection
   name: Keycloak.AuthServices.Sdk.Protection

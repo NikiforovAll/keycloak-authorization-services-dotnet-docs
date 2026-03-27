@@ -8,7 +8,10 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Email
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.EmailVerified
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Enabled
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.LastName
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Q
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Search
@@ -52,7 +55,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
-  summary: email filter
+  summary: A String contained in email, or the complete email, if param "exact" is true
   example: []
   syntax:
     content: >-
@@ -87,6 +90,8 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
+  summary: whether the email has been verified
+  example: []
   syntax:
     content: >-
       [QueryParameter("emailVerified")]
@@ -141,6 +146,41 @@ items:
     arguments:
     - type: System.String
       value: enabled
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  id: Exact
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: Exact
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
+  summary: Boolean which defines whether the params "last", "first", "email" and "username" must match exactly
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("exact")]
+
+      public bool? Exact { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: >-
+      <QueryParameter("exact")>
+
+      Public Property Exact As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exact
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
   id: FirstName
@@ -155,7 +195,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
-  summary: first name filter
+  summary: A String contained in firstName, or the complete firstName, if param "exact" is true
   example: []
   syntax:
     content: >-
@@ -176,6 +216,76 @@ items:
     arguments:
     - type: System.String
       value: firstName
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  id: IdpAlias
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: IdpAlias
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
+  summary: The alias of an Identity Provider linked to the user
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("idpAlias")]
+
+      public string? IdpAlias { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <QueryParameter("idpAlias")>
+
+      Public Property IdpAlias As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: idpAlias
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  id: IdpUserId
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters
+  langs:
+  - csharp
+  - vb
+  name: IdpUserId
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
+  summary: The userId at an Identity Provider linked to the user
+  example: []
+  syntax:
+    content: >-
+      [QueryParameter("idpUserId")]
+
+      public string? IdpUserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <QueryParameter("idpUserId")>
+
+      Public Property IdpUserId As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId*
+  attributes:
+  - type: Microsoft.Kiota.Abstractions.QueryParameterAttribute
+    ctor: Microsoft.Kiota.Abstractions.QueryParameterAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: idpUserId
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.LastName
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.LastName
   id: LastName
@@ -190,7 +300,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
-  summary: last name filter
+  summary: A String contained in lastName, or the complete lastName, if param "exact" is true
   example: []
   syntax:
     content: >-
@@ -225,6 +335,8 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
+  summary: A query to search for custom attributes, in the format 'key1:value2 key2:value2'
+  example: []
   syntax:
     content: >-
       [QueryParameter("q")]
@@ -258,7 +370,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
-  summary: arbitrary search string for all the fields below. Default search behavior is prefix-based (e.g., foo or foo*). Use *foo* for infix search and "foo" for exact search.
+  summary: A String contained in username, first or last name, or email. Default search behavior is prefix-based (e.g., foo or foo*). Use *foo* for infix search and "foo" for exact search.
   example: []
   syntax:
     content: >-
@@ -293,7 +405,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count
-  summary: username filter
+  summary: A String contained in username, or the complete username, if param "exact" is true
   example: []
   syntax:
     content: >-
@@ -718,12 +830,30 @@ references:
   name: Enabled
   nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.Enabled
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Enabled
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Count_CountRequestBuilder_CountRequestBuilderGetQueryParameters_Exact
+  name: Exact
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.Exact
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Count_CountRequestBuilder_CountRequestBuilderGetQueryParameters_FirstName
   name: FirstName
   nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.FirstName
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Count_CountRequestBuilder_CountRequestBuilderGetQueryParameters_IdpAlias
+  name: IdpAlias
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpAlias
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Count_CountRequestBuilder_CountRequestBuilderGetQueryParameters_IdpUserId
+  name: IdpUserId
+  nameWithType: CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.IdpUserId
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.LastName*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.LastName
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Users.Count.CountRequestBuilder.CountRequestBuilderGetQueryParameters.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Users_Count_CountRequestBuilder_CountRequestBuilderGetQueryParameters_LastName

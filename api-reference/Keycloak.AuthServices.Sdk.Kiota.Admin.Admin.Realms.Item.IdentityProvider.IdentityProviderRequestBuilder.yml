@@ -10,6 +10,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.ImportConfig
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.Instances
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.Providers
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
   langs:
   - csharp
   - vb
@@ -108,6 +109,29 @@ items:
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Providers.ProvidersRequestBuilder
     content.vb: Public ReadOnly Property Providers As ProvidersRequestBuilder
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.Providers*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
+  id: UploadCertificate
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder
+  langs:
+  - csharp
+  - vb
+  name: UploadCertificate
+  nameWithType: IdentityProviderRequestBuilder.UploadCertificate
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider
+  summary: The uploadCertificate property
+  example: []
+  syntax:
+    content: public UploadCertificateRequestBuilder UploadCertificate { get; }
+    parameters: []
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder
+    content.vb: Public ReadOnly Property UploadCertificate As UploadCertificateRequestBuilder
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   id: '#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)'
@@ -839,6 +863,105 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Providers
     name: Providers
     href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Providers.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_IdentityProvider_IdentityProviderRequestBuilder_UploadCertificate
+  name: UploadCertificate
+  nameWithType: IdentityProviderRequestBuilder.UploadCertificate
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder.UploadCertificate
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder.html
+  name: UploadCertificateRequestBuilder
+  nameWithType: UploadCertificateRequestBuilder
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.UploadCertificateRequestBuilder
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider
+    name: IdentityProvider
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+    name: UploadCertificate
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider
+    name: IdentityProvider
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate
+    name: UploadCertificate
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.UploadCertificate.html
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.IdentityProviderRequestBuilder
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider
