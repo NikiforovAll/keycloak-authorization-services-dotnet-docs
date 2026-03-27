@@ -13,14 +13,6 @@ items:
   nameWithType: WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item.WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/Activate/Item/Item/WithResourceItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WithResourceItemRequestBuilderPostQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/Activate/Item/Item/WithResourceItemRequestBuilder.cs
-    startLine: 81
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item
@@ -50,14 +42,6 @@ items:
   nameWithType: WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters.NotBefore
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item.WithResourceItemRequestBuilder.WithResourceItemRequestBuilderPostQueryParameters.NotBefore
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/Activate/Item/Item/WithResourceItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: NotBefore
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/Activate/Item/Item/WithResourceItemRequestBuilder.cs
-    startLine: 87
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.Activate.Item.Item

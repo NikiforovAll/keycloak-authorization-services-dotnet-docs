@@ -12,6 +12,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.Expiration
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.GetFieldDeserializers
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
   langs:
   - csharp
   - vb
@@ -109,6 +110,29 @@ items:
       type: System.Nullable{System.Int32}
     content.vb: Public Property Expiration As Integer?
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.Expiration*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
+  id: WebOrigins
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation
+  langs:
+  - csharp
+  - vb
+  name: WebOrigins
+  nameWithType: ClientInitialAccessCreatePresentation.WebOrigins
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The webOrigins property
+  example: []
+  syntax:
+    content: public List<string>? WebOrigins { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property WebOrigins As List(Of String)
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.#ctor
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.#ctor
   id: '#ctor'
@@ -748,6 +772,75 @@ references:
   name: Expiration
   nameWithType: ClientInitialAccessCreatePresentation.Expiration
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.Expiration
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_ClientInitialAccessCreatePresentation_WebOrigins
+  name: WebOrigins
+  nameWithType: ClientInitialAccessCreatePresentation.WebOrigins
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation.WebOrigins
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.ClientInitialAccessCreatePresentation
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

@@ -7,6 +7,7 @@ items:
   children:
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping
+  - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.NameClaimType
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.OpenIdConnectUrl
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.RoleClaimType
@@ -159,6 +160,35 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property OpenIdConnectUrl As String
   overload: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.OpenIdConnectUrl*
+- uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
+  commentId: P:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
+  id: MetadataAddress
+  parent: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
+  langs:
+  - csharp
+  - vb
+  name: MetadataAddress
+  nameWithType: KeycloakAuthenticationOptions.MetadataAddress
+  fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+  namespace: Keycloak.AuthServices.Authentication
+  summary: >-
+    Gets or sets the metadata address used for server metadata discovery.
+
+    When set, overrides the default OIDC discovery path derived from Authority.
+
+    Use <xref href="Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath" data-throw-if-not-resolved="false"></xref> for RFC 8414 discovery.
+  example:
+  - <pre><code class="lang-csharp">options.MetadataAddress = KeycloakConstants.OAuthAuthorizationServerMetadataPath;</code></pre>
+  syntax:
+    content: public string? MetadataAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MetadataAddress As String
+  overload: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress*
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping
   commentId: P:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping
   id: DisableRolesAccessTokenMapping
@@ -585,6 +615,17 @@ references:
   name: OpenIdConnectUrl
   nameWithType: KeycloakAuthenticationOptions.OpenIdConnectUrl
   fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.OpenIdConnectUrl
+- uid: Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  commentId: F:Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  name: OAuthAuthorizationServerMetadataPath
+  nameWithType: KeycloakConstants.OAuthAuthorizationServerMetadataPath
+  fullName: Keycloak.AuthServices.Common.KeycloakConstants.OAuthAuthorizationServerMetadataPath
+- uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress*
+  commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
+  href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html#Keycloak_AuthServices_Authentication_KeycloakAuthenticationOptions_MetadataAddress
+  name: MetadataAddress
+  nameWithType: KeycloakAuthenticationOptions.MetadataAddress
+  fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping*
   commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping
   href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html#Keycloak_AuthServices_Authentication_KeycloakAuthenticationOptions_DisableRolesAccessTokenMapping

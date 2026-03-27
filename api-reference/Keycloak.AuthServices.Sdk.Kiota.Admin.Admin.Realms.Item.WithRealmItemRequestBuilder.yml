@@ -48,6 +48,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Users
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.UsersManagementPermissions
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.WithUrl(System.String)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
   langs:
   - csharp
   - vb
@@ -859,6 +860,29 @@ items:
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.UsersManagementPermissions.UsersManagementPermissionsRequestBuilder
     content.vb: Public ReadOnly Property UsersManagementPermissions As UsersManagementPermissionsRequestBuilder
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.UsersManagementPermissions*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
+  id: Workflows
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder
+  langs:
+  - csharp
+  - vb
+  name: Workflows
+  nameWithType: WithRealmItemRequestBuilder.Workflows
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+  summary: The workflows property
+  example: []
+  syntax:
+    content: public WorkflowsRequestBuilder Workflows { get; }
+    parameters: []
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder
+    content.vb: Public ReadOnly Property Workflows As WorkflowsRequestBuilder
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   commentId: M:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)
   id: '#ctor(System.Collections.Generic.Dictionary{System.String,System.Object},Microsoft.Kiota.Abstractions.IRequestAdapter)'
@@ -4602,6 +4626,97 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.UsersManagementPermissions
     name: UsersManagementPermissions
     href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.UsersManagementPermissions.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_WithRealmItemRequestBuilder_Workflows
+  name: Workflows
+  nameWithType: WithRealmItemRequestBuilder.Workflows
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder.Workflows
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder.html
+  name: WorkflowsRequestBuilder
+  nameWithType: WorkflowsRequestBuilder
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.WorkflowsRequestBuilder
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+    name: Workflows
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows
+    name: Workflows
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.html
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder
   commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.WithRealmItemRequestBuilder
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item

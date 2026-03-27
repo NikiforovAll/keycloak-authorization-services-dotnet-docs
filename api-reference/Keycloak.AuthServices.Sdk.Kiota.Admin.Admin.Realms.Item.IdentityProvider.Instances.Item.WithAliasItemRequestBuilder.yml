@@ -306,7 +306,7 @@ items:
   summary: Update the identity provider
   example: []
   syntax:
-    content: public Task<Stream?> PutAsync(IdentityProviderRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
+    content: public Task PutAsync(IdentityProviderRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
     parameters:
     - id: body
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation
@@ -318,9 +318,8 @@ items:
       type: System.Threading.CancellationToken
       description: Cancellation token to use when cancelling requests
     return:
-      type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: A <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function PutAsync(body As IdentityProviderRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function PutAsync(body As IdentityProviderRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.Item.WithAliasItemRequestBuilder.PutAsync*
   nameWithType.vb: WithAliasItemRequestBuilder.PutAsync(IdentityProviderRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.Item.WithAliasItemRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.IdentityProviderRepresentation, System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
@@ -1920,6 +1919,14 @@ references:
   name: PutAsync
   nameWithType: WithAliasItemRequestBuilder.PutAsync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.IdentityProvider.Instances.Item.WithAliasItemRequestBuilder.PutAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: Microsoft.Kiota.Abstractions.RequestInformation
   commentId: T:Microsoft.Kiota.Abstractions.RequestInformation
   parent: Microsoft.Kiota.Abstractions

@@ -5,6 +5,8 @@ items:
   id: Keycloak.AuthServices.Common.Claims
   children:
   - Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
+  - Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions
+  - Keycloak.AuthServices.Common.Claims.OrganizationMembership
   - Keycloak.AuthServices.Common.Claims.ResourceAccess
   - Keycloak.AuthServices.Common.Claims.ResourceAccessCollection
   langs:
@@ -17,12 +19,24 @@ items:
   assemblies:
   - Keycloak.AuthServices.Common
 references:
+- uid: Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions
+  commentId: T:Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions
+  href: Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions.html
+  name: KeycloakOrganizationClaimsExtensions
+  nameWithType: KeycloakOrganizationClaimsExtensions
+  fullName: Keycloak.AuthServices.Common.Claims.KeycloakOrganizationClaimsExtensions
 - uid: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
   commentId: T:Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
   href: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions.html
   name: KeycloakClaimsExtensions
   nameWithType: KeycloakClaimsExtensions
   fullName: Keycloak.AuthServices.Common.Claims.KeycloakClaimsExtensions
+- uid: Keycloak.AuthServices.Common.Claims.OrganizationMembership
+  commentId: T:Keycloak.AuthServices.Common.Claims.OrganizationMembership
+  href: Keycloak.AuthServices.Common.Claims.OrganizationMembership.html
+  name: OrganizationMembership
+  nameWithType: OrganizationMembership
+  fullName: Keycloak.AuthServices.Common.Claims.OrganizationMembership
 - uid: Keycloak.AuthServices.Common.Claims.ResourceAccessCollection
   commentId: T:Keycloak.AuthServices.Common.Claims.ResourceAccessCollection
   parent: Keycloak.AuthServices.Common.Claims

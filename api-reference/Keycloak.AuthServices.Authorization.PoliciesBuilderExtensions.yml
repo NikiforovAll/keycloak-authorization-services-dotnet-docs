@@ -5,6 +5,8 @@ items:
   id: PoliciesBuilderExtensions
   parent: Keycloak.AuthServices.Authorization
   children:
+  - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)
+  - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String)
   - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String,System.String)
   - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String,System.String[],System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode})
   - Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireRealmRoles(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String[])
@@ -220,6 +222,68 @@ items:
   nameWithType.vb: PoliciesBuilderExtensions.RequireProtectedResource(AuthorizationPolicyBuilder, String, String(), ScopesValidationMode?)
   fullName.vb: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, String, String(), Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?)
   name.vb: RequireProtectedResource(AuthorizationPolicyBuilder, String, String(), ScopesValidationMode?)
+- uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)
+  commentId: M:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)
+  id: RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireOrganizationMembership(AuthorizationPolicyBuilder)
+  nameWithType: PoliciesBuilderExtensions.RequireOrganizationMembership(AuthorizationPolicyBuilder)
+  fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds organization membership requirement to builder. Requires the user to be a member of any Keycloak organization.
+  example: []
+  syntax:
+    content: public static AuthorizationPolicyBuilder RequireOrganizationMembership(this AuthorizationPolicyBuilder builder)
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+      description: The authorization policy builder.
+    return:
+      type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+      description: The modified authorization policy builder.
+    content.vb: Public Shared Function RequireOrganizationMembership(builder As AuthorizationPolicyBuilder) As AuthorizationPolicyBuilder
+  overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership*
+- uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String)
+  id: RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder,System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: RequireOrganizationMembership(AuthorizationPolicyBuilder, string)
+  nameWithType: PoliciesBuilderExtensions.RequireOrganizationMembership(AuthorizationPolicyBuilder, string)
+  fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Adds organization membership requirement to builder. Requires the user to be a member of the specified organization.
+  example: []
+  syntax:
+    content: public static AuthorizationPolicyBuilder RequireOrganizationMembership(this AuthorizationPolicyBuilder builder, string organization)
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+      description: The authorization policy builder.
+    - id: organization
+      type: System.String
+      description: The organization alias or identifier.
+    return:
+      type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+      description: The modified authorization policy builder.
+    content.vb: Public Shared Function RequireOrganizationMembership(builder As AuthorizationPolicyBuilder, organization As String) As AuthorizationPolicyBuilder
+  overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership*
+  nameWithType.vb: PoliciesBuilderExtensions.RequireOrganizationMembership(AuthorizationPolicyBuilder, String)
+  fullName.vb: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, String)
+  name.vb: RequireOrganizationMembership(AuthorizationPolicyBuilder, String)
 references:
 - uid: Keycloak.AuthServices.Authorization
   commentId: N:Keycloak.AuthServices.Authorization
@@ -637,3 +701,9 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership*
+  commentId: Overload:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership
+  href: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.html#Keycloak_AuthServices_Authorization_PoliciesBuilderExtensions_RequireOrganizationMembership_Microsoft_AspNetCore_Authorization_AuthorizationPolicyBuilder_
+  name: RequireOrganizationMembership
+  nameWithType: PoliciesBuilderExtensions.RequireOrganizationMembership
+  fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership

@@ -19,14 +19,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: InvitationsRequestBuilderGetQueryParameters
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 98
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -56,14 +48,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Email
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Email
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Email
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 103
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -97,14 +81,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.First
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.First
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: First
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 110
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -138,14 +114,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.FirstName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.FirstName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: FirstName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 114
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -179,14 +147,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.LastName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.LastName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: LastName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 123
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -220,14 +180,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Max
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Max
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Max
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 130
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -261,14 +213,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Search
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Search
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Search
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 134
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
@@ -302,14 +246,6 @@ items:
   nameWithType: InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.InvitationsRequestBuilderGetQueryParameters.Status
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Organizations/Item/Invitations/InvitationsRequestBuilder.cs
-    startLine: 143
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations

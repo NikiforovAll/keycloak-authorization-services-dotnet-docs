@@ -36,6 +36,7 @@ items:
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
   - Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions
   - Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
   - Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions
   - Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
   - Keycloak.AuthServices.Sdk.Kiota.KeycloakAdminClientOptions

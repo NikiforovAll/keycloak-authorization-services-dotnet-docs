@@ -279,7 +279,7 @@ items:
   summary: Update group, ignores subgroups.
   example: []
   syntax:
-    content: public Task<Stream?> PutAsync(GroupRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
+    content: public Task PutAsync(GroupRepresentation body, Action<RequestConfiguration<DefaultQueryParameters>>? requestConfiguration = null, CancellationToken cancellationToken = default)
     parameters:
     - id: body
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation
@@ -291,9 +291,8 @@ items:
       type: System.Threading.CancellationToken
       description: Cancellation token to use when cancelling requests
     return:
-      type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: A <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref>
-    content.vb: Public Function PutAsync(body As GroupRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function PutAsync(body As GroupRepresentation, requestConfiguration As Action(Of RequestConfiguration(Of DefaultQueryParameters)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.PutAsync*
   nameWithType.vb: GroupItemRequestBuilder.PutAsync(GroupRepresentation, Action(Of RequestConfiguration(Of DefaultQueryParameters)), CancellationToken)
   fullName.vb: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.GroupRepresentation, System.Action(Of Microsoft.Kiota.Abstractions.RequestConfiguration(Of Microsoft.Kiota.Abstractions.DefaultQueryParameters)), System.Threading.CancellationToken)
@@ -1668,82 +1667,12 @@ references:
   - name: " "
   - name: TResult
   - name: )
-- uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.PutAsync*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.PutAsync
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Groups_Item_GroupItemRequestBuilder_PutAsync_Keycloak_AuthServices_Sdk_Kiota_Admin_Models_GroupRepresentation_System_Action_Microsoft_Kiota_Abstractions_RequestConfiguration_Microsoft_Kiota_Abstractions_DefaultQueryParameters___System_Threading_CancellationToken_
   name: PutAsync
   nameWithType: GroupItemRequestBuilder.PutAsync
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Groups.Item.GroupItemRequestBuilder.PutAsync
-- uid: System.Threading.Tasks.Task{System.IO.Stream}
-  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Stream>
-  nameWithType: Task<Stream>
-  fullName: System.Threading.Tasks.Task<System.IO.Stream>
-  nameWithType.vb: Task(Of Stream)
-  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
-  name.vb: Task(Of Stream)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: Microsoft.Kiota.Abstractions.RequestInformation
   commentId: T:Microsoft.Kiota.Abstractions.RequestInformation
   parent: Microsoft.Kiota.Abstractions

@@ -9,6 +9,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.AdditionalData
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.Annotations
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.GetFieldDeserializers
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.Group
@@ -93,6 +94,29 @@ items:
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute_annotations
     content.vb: Public Property Annotations As UPAttribute_annotations
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.Annotations*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
+  id: DefaultValue
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: UPAttribute.DefaultValue
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  summary: The defaultValue property
+  example: []
+  syntax:
+    content: public string? DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultValue As String
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
   id: DisplayName
@@ -866,12 +890,12 @@ references:
   name: UPAttribute_annotations
   nameWithType: UPAttribute_annotations
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute_annotations
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_UPAttribute_DisplayName
-  name: DisplayName
-  nameWithType: UPAttribute.DisplayName
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_UPAttribute_DefaultValue
+  name: DefaultValue
+  nameWithType: UPAttribute.DefaultValue
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DefaultValue
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -883,6 +907,12 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_UPAttribute_DisplayName
+  name: DisplayName
+  nameWithType: UPAttribute.DisplayName
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.DisplayName
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.Group*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.Group
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.UPAttribute.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_UPAttribute_Group

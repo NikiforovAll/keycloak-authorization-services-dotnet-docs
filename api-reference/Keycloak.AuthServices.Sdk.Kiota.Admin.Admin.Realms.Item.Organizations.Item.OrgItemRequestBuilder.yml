@@ -10,6 +10,7 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.DeleteAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.GetAsync(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.IdentityProviders
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Members
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationRepresentation,System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}},System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.ToDeleteRequestInformation(System.Action{Microsoft.Kiota.Abstractions.RequestConfiguration{Microsoft.Kiota.Abstractions.DefaultQueryParameters}})
@@ -68,6 +69,29 @@ items:
       type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.IdentityProviders.IdentityProvidersRequestBuilder
     content.vb: Public ReadOnly Property IdentityProviders As IdentityProvidersRequestBuilder
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.IdentityProviders*
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
+  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
+  id: Invitations
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder
+  langs:
+  - csharp
+  - vb
+  name: Invitations
+  nameWithType: OrgItemRequestBuilder.Invitations
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item
+  summary: The invitations property
+  example: []
+  syntax:
+    content: public InvitationsRequestBuilder Invitations { get; }
+    parameters: []
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder
+    content.vb: Public ReadOnly Property Invitations As InvitationsRequestBuilder
+  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Members
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Members
   id: Members
@@ -863,6 +887,113 @@ references:
   - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.IdentityProviders
     name: IdentityProviders
     href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.IdentityProviders.html
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Organizations_Item_OrgItemRequestBuilder_Invitations
+  name: Invitations
+  nameWithType: OrgItemRequestBuilder.Invitations
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Invitations
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder
+  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder.html
+  name: InvitationsRequestBuilder
+  nameWithType: InvitationsRequestBuilder
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.InvitationsRequestBuilder
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  nameWithType: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations
+    name: Organizations
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+    name: Invitations
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota
+    name: Kiota
+    href: Keycloak.AuthServices.Sdk.Kiota.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin
+    name: Admin
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms
+    name: Realms
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations
+    name: Organizations
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item
+    name: Item
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations
+    name: Invitations
+    href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.Invitations.html
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Members*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.Members
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Organizations.Item.OrgItemRequestBuilder.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Admin_Realms_Item_Organizations_Item_OrgItemRequestBuilder_Members

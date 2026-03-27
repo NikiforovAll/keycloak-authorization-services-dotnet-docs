@@ -26,14 +26,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: OrganizationInvitationRepresentation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 9
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -64,14 +56,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.AdditionalData
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.AdditionalData
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: AdditionalData
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 15
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -97,14 +81,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.Email
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.Email
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Email
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 19
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -128,14 +104,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.ExpiresAt
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.ExpiresAt
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ExpiresAt
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 25
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -159,14 +127,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.FirstName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.FirstName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: FirstName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 29
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -190,14 +150,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.Id
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.Id
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Id
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 37
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -221,14 +173,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.InviteLink
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.InviteLink
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: InviteLink
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 45
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -252,14 +196,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.LastName
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.LastName
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: LastName
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 53
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -283,14 +219,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.OrganizationId
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.OrganizationId
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: OrganizationId
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 61
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -314,14 +242,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.SentDate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.SentDate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: SentDate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 67
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -345,14 +265,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.Status
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.Status
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Status
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 69
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -376,14 +288,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.OrganizationInvitationRepresentation()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.OrganizationInvitationRepresentation()
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 73
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -407,14 +311,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.CreateFromDiscriminatorValue(IParseNode)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.CreateFromDiscriminatorValue(Microsoft.Kiota.Abstractions.Serialization.IParseNode)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: CreateFromDiscriminatorValue
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 82
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -442,14 +338,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.GetFieldDeserializers()
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.GetFieldDeserializers()
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: GetFieldDeserializers
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 91
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
@@ -475,14 +363,6 @@ items:
   nameWithType: OrganizationInvitationRepresentation.Serialize(ISerializationWriter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.OrganizationInvitationRepresentation.Serialize(Microsoft.Kiota.Abstractions.Serialization.ISerializationWriter)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Serialize
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Models/OrganizationInvitationRepresentation.cs
-    startLine: 110
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models

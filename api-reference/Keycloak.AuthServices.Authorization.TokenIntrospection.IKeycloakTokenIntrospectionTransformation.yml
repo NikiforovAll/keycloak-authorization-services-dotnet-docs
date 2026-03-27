@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  id: IKeycloakTokenIntrospectionTransformation
+  parent: Keycloak.AuthServices.Authorization.TokenIntrospection
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IKeycloakTokenIntrospectionTransformation
+  nameWithType: IKeycloakTokenIntrospectionTransformation
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.IKeycloakTokenIntrospectionTransformation
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.TokenIntrospection
+  summary: >-
+    Marker interface for the token introspection claims transformation.
+
+    Allows the authorization composite to discover and chain the introspection
+
+    transformation without depending on the concrete implementation.
+  example: []
+  syntax:
+    content: 'public interface IKeycloakTokenIntrospectionTransformation : IClaimsTransformation'
+    content.vb: Public Interface IKeycloakTokenIntrospectionTransformation Inherits IClaimsTransformation
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClaimsTransformation
+  inheritedMembers:
+  - Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+references:
+- uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+  commentId: N:Keycloak.AuthServices.Authorization.TokenIntrospection
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization.TokenIntrospection
+  nameWithType: Keycloak.AuthServices.Authorization.TokenIntrospection
+  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
+    name: TokenIntrospection
+    href: Keycloak.AuthServices.Authorization.TokenIntrospection.html
+- uid: Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+  parent: Microsoft.AspNetCore.Authentication.IClaimsTransformation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation.transformasync
+  name: TransformAsync(ClaimsPrincipal)
+  nameWithType: IClaimsTransformation.TransformAsync(ClaimsPrincipal)
+  fullName: Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+    name: TransformAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation.transformasync
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Authentication.IClaimsTransformation.TransformAsync(System.Security.Claims.ClaimsPrincipal)
+    name: TransformAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation.transformasync
+  - name: (
+  - uid: System.Security.Claims.ClaimsPrincipal
+    name: ClaimsPrincipal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal
+  - name: )
+- uid: Microsoft.AspNetCore.Authentication.IClaimsTransformation
+  commentId: T:Microsoft.AspNetCore.Authentication.IClaimsTransformation
+  parent: Microsoft.AspNetCore.Authentication
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.iclaimstransformation
+  name: IClaimsTransformation
+  nameWithType: IClaimsTransformation
+  fullName: Microsoft.AspNetCore.Authentication.IClaimsTransformation
+- uid: Microsoft.AspNetCore.Authentication
+  commentId: N:Microsoft.AspNetCore.Authentication
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Authentication
+  nameWithType: Microsoft.AspNetCore.Authentication
+  fullName: Microsoft.AspNetCore.Authentication
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Authentication
+    name: Authentication
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Authentication
+    name: Authentication
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication

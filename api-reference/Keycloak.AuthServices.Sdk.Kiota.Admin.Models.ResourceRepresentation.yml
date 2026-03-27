@@ -156,7 +156,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The _id property
+  summary: The id property
   example: []
   syntax:
     content: public string? Id { get; set; }

@@ -7,6 +7,7 @@ items:
   children:
   - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String)
   - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String[])
+  - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
   - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Resource
   - Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Scopes
   langs:
@@ -20,6 +21,7 @@ items:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
   summary: Specifies that the class or method that this attribute is applied to requires the specified authorization.
+  remarks: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> class with the specified policy.
   example: []
   syntax:
     content: >-
@@ -90,6 +92,35 @@ items:
     - name: Inherited
       type: System.Boolean
       value: true
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String[])
+  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String[])
+  id: '#ctor(System.String,System.String[])'
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
+  langs:
+  - csharp
+  - vb
+  name: ProtectedResourceAttribute(string, string[])
+  nameWithType: ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
+  type: Constructor
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Specifies that the class or method that this attribute is applied to requires the specified authorization.
+  remarks: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> class with the specified policy.
+  example: []
+  syntax:
+    content: public ProtectedResourceAttribute(string resource, string[] scopes)
+    parameters:
+    - id: resource
+      type: System.String
+    - id: scopes
+      type: System.String[]
+    content.vb: Public Sub New(resource As String, scopes As String())
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor*
+  nameWithType.vb: ProtectedResourceAttribute.New(String, String())
+  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.New(String, String())
+  name.vb: New(String, String())
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String)
   commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String)
   id: '#ctor(System.String,System.String)'
@@ -118,34 +149,6 @@ items:
   nameWithType.vb: ProtectedResourceAttribute.New(String, String)
   fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.New(String, String)
   name.vb: New(String, String)
-- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String[])
-  commentId: M:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor(System.String,System.String[])
-  id: '#ctor(System.String,System.String[])'
-  parent: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
-  langs:
-  - csharp
-  - vb
-  name: ProtectedResourceAttribute(string, string[])
-  nameWithType: ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
-  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ProtectedResourceAttribute(string, string[])
-  type: Constructor
-  assemblies:
-  - Keycloak.AuthServices.Authorization
-  namespace: Keycloak.AuthServices.Authorization
-  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.ProtectedResourceAttribute" data-throw-if-not-resolved="false"></xref> class with the specified policy.
-  example: []
-  syntax:
-    content: public ProtectedResourceAttribute(string resource, string[] scopes)
-    parameters:
-    - id: resource
-      type: System.String
-    - id: scopes
-      type: System.String[]
-    content.vb: Public Sub New(resource As String, scopes As String())
-  overload: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor*
-  nameWithType.vb: ProtectedResourceAttribute.New(String, String())
-  fullName.vb: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.New(String, String())
-  name.vb: New(String, String())
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Resource
   commentId: P:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Resource
   id: Resource
@@ -196,7 +199,41 @@ items:
   overload: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.Scopes*
   implements:
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.Scopes
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
+  commentId: P:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
+  id: ResolverType
+  parent: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
+  langs:
+  - csharp
+  - vb
+  name: ResolverType
+  nameWithType: ProtectedResourceAttribute.ResolverType
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: >-
+    Gets or sets the type of <xref href="Keycloak.AuthServices.Authorization.IParameterResolver" data-throw-if-not-resolved="false"></xref> used to resolve resource template parameters.
+
+    When <code>null</code>, the default <code>RouteParameterResolver</code> is used.
+  example: []
+  syntax:
+    content: public Type? ResolverType { get; set; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public Property ResolverType As Type
+  overload: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType*
+  implements:
+  - Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
 references:
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
+  commentId: T:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
+  href: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.html
+  name: ProtectedResourceAttribute
+  nameWithType: ProtectedResourceAttribute
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
 - uid: Keycloak.AuthServices.Authorization
   commentId: N:Keycloak.AuthServices.Authorization
   href: Keycloak.html
@@ -2004,15 +2041,9 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
-  commentId: T:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
-  href: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.html
-  name: ProtectedResourceAttribute
-  nameWithType: ProtectedResourceAttribute
-  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute
 - uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.#ctor
-  href: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.html#Keycloak_AuthServices_Authorization_ProtectedResourceAttribute__ctor_System_String_System_String_
+  href: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.html#Keycloak_AuthServices_Authorization_ProtectedResourceAttribute__ctor_System_String_System_String___
   name: ProtectedResourceAttribute
   nameWithType: ProtectedResourceAttribute.ProtectedResourceAttribute
   fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ProtectedResourceAttribute
@@ -2079,3 +2110,31 @@ references:
   name: Scopes
   nameWithType: IProtectedResourceData.Scopes
   fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.Scopes
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
+  parent: Keycloak.AuthServices.Authorization
+  href: Keycloak.AuthServices.Authorization.IParameterResolver.html
+  name: IParameterResolver
+  nameWithType: IParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver
+- uid: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType*
+  commentId: Overload:Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
+  href: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.html#Keycloak_AuthServices_Authorization_ProtectedResourceAttribute_ResolverType
+  name: ResolverType
+  nameWithType: ProtectedResourceAttribute.ResolverType
+  fullName: Keycloak.AuthServices.Authorization.ProtectedResourceAttribute.ResolverType
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  commentId: P:Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+  parent: Keycloak.AuthServices.Authorization.IProtectedResourceData
+  href: Keycloak.AuthServices.Authorization.IProtectedResourceData.html#Keycloak_AuthServices_Authorization_IProtectedResourceData_ResolverType
+  name: ResolverType
+  nameWithType: IProtectedResourceData.ResolverType
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

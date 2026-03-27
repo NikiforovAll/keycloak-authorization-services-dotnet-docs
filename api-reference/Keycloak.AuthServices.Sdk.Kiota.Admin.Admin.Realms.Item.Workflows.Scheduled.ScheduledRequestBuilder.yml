@@ -15,14 +15,6 @@ items:
   nameWithType: ScheduledRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.ScheduledRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ScheduledRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-    startLine: 14
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled
@@ -56,14 +48,6 @@ items:
   nameWithType: ScheduledRequestBuilder.this[string]
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.ScheduledRequestBuilder.this[string]
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: this[]
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-    startLine: 20
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled
@@ -94,14 +78,6 @@ items:
   nameWithType: ScheduledRequestBuilder.ScheduledRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.ScheduledRequestBuilder.ScheduledRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-    startLine: 34
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled
@@ -132,14 +108,6 @@ items:
   nameWithType: ScheduledRequestBuilder.ScheduledRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled.ScheduledRequestBuilder.ScheduledRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Scheduled/ScheduledRequestBuilder.cs
-    startLine: 42
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Scheduled

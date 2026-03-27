@@ -8,7 +8,6 @@ items:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.#ctor
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Acr
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AdditionalData
-  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AllowedOrigins
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AtHash
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AuthTime
@@ -127,29 +126,6 @@ items:
   overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AdditionalData*
   implements:
   - Microsoft.Kiota.Abstractions.Serialization.IAdditionalDataHolder.AdditionalData
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
-  commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
-  id: Address
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken
-  langs:
-  - csharp
-  - vb
-  name: Address
-  nameWithType: AccessToken.Address
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
-  type: Property
-  assemblies:
-  - Keycloak.AuthServices.Sdk.Kiota
-  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  summary: The address property
-  example: []
-  syntax:
-    content: public AddressClaimSet? Address { get; set; }
-    parameters: []
-    return:
-      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-    content.vb: Public Property Address As AddressClaimSet
-  overload: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address*
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AllowedOrigins
   commentId: P:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AllowedOrigins
   id: AllowedOrigins
@@ -1686,19 +1662,6 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address*
-  commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_AccessToken_Address
-  name: Address
-  nameWithType: AccessToken.Address
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.Address
-- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-  commentId: T:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
-  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
-  href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet.html
-  name: AddressClaimSet
-  nameWithType: AddressClaimSet
-  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AddressClaimSet
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AllowedOrigins*
   commentId: Overload:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.AllowedOrigins
   href: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.AccessToken.html#Keycloak_AuthServices_Sdk_Kiota_Admin_Models_AccessToken_AllowedOrigins

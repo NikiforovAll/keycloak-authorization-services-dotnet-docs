@@ -23,14 +23,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder
   type: Class
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WorkflowsItemRequestBuilder
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 18
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -64,14 +56,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.Activate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.Activate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Activate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 22
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -95,14 +79,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.Deactivate
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.Deactivate
   type: Property
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: Deactivate
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 27
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -126,14 +102,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilder(Dictionary<string, object>, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilder(System.Collections.Generic.Dictionary<string, object>, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 36
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -164,14 +132,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilder(string, IRequestAdapter)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilder(string, Microsoft.Kiota.Abstractions.IRequestAdapter)
   type: Constructor
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: .ctor
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 44
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -202,14 +162,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.DeleteAsync(Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.DeleteAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: DeleteAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 54
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -242,14 +194,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.GetAsync(Action<RequestConfiguration<WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.GetAsync(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: GetAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 72
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -283,14 +227,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.PutAsync(WorkflowRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?, CancellationToken)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.PutAsync(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?, System.Threading.CancellationToken)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: PutAsync
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 90
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -326,14 +262,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.ToDeleteRequestInformation(Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.ToDeleteRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ToDeleteRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 108
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -364,14 +292,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.ToGetRequestInformation(Action<RequestConfiguration<WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.ToGetRequestInformation(System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WorkflowsItemRequestBuilderGetQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ToGetRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 126
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -402,14 +322,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.ToPutRequestInformation(WorkflowRepresentation, Action<RequestConfiguration<DefaultQueryParameters>>?)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.ToPutRequestInformation(Keycloak.AuthServices.Sdk.Kiota.Admin.Models.WorkflowRepresentation, System.Action<Microsoft.Kiota.Abstractions.RequestConfiguration<Microsoft.Kiota.Abstractions.DefaultQueryParameters>>?)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: ToPutRequestInformation
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 146
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item
@@ -443,14 +355,6 @@ items:
   nameWithType: WorkflowsItemRequestBuilder.WithUrl(string)
   fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item.WorkflowsItemRequestBuilder.WithUrl(string)
   type: Method
-  source:
-    remote:
-      path: src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-      branch: feat/keycloak-auth-services-skill
-      repo: https://github.com/NikiforovAll/keycloak-authorization-services-dotnet.git
-    id: WithUrl
-    path: ../src/Keycloak.AuthServices.Sdk.Kiota/Admin/Realms/Item/Workflows/Item/WorkflowsItemRequestBuilder.cs
-    startLine: 164
   assemblies:
   - Keycloak.AuthServices.Sdk.Kiota
   namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Admin.Realms.Item.Workflows.Item

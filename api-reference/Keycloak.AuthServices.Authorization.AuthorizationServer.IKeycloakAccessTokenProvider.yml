@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  id: IKeycloakAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  children:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IKeycloakAccessTokenProvider
+  nameWithType: IKeycloakAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Provides access tokens for Keycloak authorization server requests.
+  remarks: >-
+    The default implementation uses <xref href="Microsoft.AspNetCore.Http.IHttpContextAccessor" data-throw-if-not-resolved="false"></xref> to extract the token
+
+    from the current HTTP context. For SignalR or other long-lived connection scenarios,
+
+    implement this interface to provide fresh tokens from an alternative source.
+  example: []
+  syntax:
+    content: public interface IKeycloakAccessTokenProvider
+    content.vb: Public Interface IKeycloakAccessTokenProvider
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  id: GetAccessTokenAsync(System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAccessTokenAsync(CancellationToken)
+  nameWithType: IKeycloakAccessTokenProvider.GetAccessTokenAsync(CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Gets the current access token.
+  example: []
+  syntax:
+    content: Task<string?> GetAccessTokenAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: The cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The access token, or <code>null</code> if no token is available.
+    content.vb: Function GetAccessTokenAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync*
+references:
+- uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
+  commentId: T:Microsoft.AspNetCore.Http.IHttpContextAccessor
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor
+  name: IHttpContextAccessor
+  nameWithType: IHttpContextAccessor
+  fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+  commentId: N:Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization.AuthorizationServer
+  nameWithType: Keycloak.AuthServices.Authorization.AuthorizationServer
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+    name: AuthorizationServer
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+    name: AuthorizationServer
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.html
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync*
+  commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IKeycloakAccessTokenProvider_GetAccessTokenAsync_System_Threading_CancellationToken_
+  name: GetAccessTokenAsync
+  nameWithType: IKeycloakAccessTokenProvider.GetAccessTokenAsync
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

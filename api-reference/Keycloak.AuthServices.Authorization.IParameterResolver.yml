@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver
+  commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
+  id: IParameterResolver
+  parent: Keycloak.AuthServices.Authorization
+  children:
+  - Keycloak.AuthServices.Authorization.IParameterResolver.Resolve(System.String,Microsoft.AspNetCore.Http.HttpContext,System.IServiceProvider)
+  langs:
+  - csharp
+  - vb
+  name: IParameterResolver
+  nameWithType: IParameterResolver
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Resolves parameter values from a request context for protected resource templates.
+  example: []
+  syntax:
+    content: public interface IParameterResolver
+    content.vb: Public Interface IParameterResolver
+  derivedClasses:
+  - Keycloak.AuthServices.Authorization.HeaderParameterResolver
+  - Keycloak.AuthServices.Authorization.QueryParameterResolver
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve(System.String,Microsoft.AspNetCore.Http.HttpContext,System.IServiceProvider)
+  commentId: M:Keycloak.AuthServices.Authorization.IParameterResolver.Resolve(System.String,Microsoft.AspNetCore.Http.HttpContext,System.IServiceProvider)
+  id: Resolve(System.String,Microsoft.AspNetCore.Http.HttpContext,System.IServiceProvider)
+  parent: Keycloak.AuthServices.Authorization.IParameterResolver
+  langs:
+  - csharp
+  - vb
+  name: Resolve(string, HttpContext, IServiceProvider)
+  nameWithType: IParameterResolver.Resolve(string, HttpContext, IServiceProvider)
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve(string, Microsoft.AspNetCore.Http.HttpContext, System.IServiceProvider)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: Resolves the value of a named parameter from the current request context.
+  example: []
+  syntax:
+    content: string? Resolve(string parameter, HttpContext httpContext, IServiceProvider serviceProvider)
+    parameters:
+    - id: parameter
+      type: System.String
+      description: The parameter name extracted from the resource template (e.g., "workspaceId" from "{workspaceId}").
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+      description: The current HTTP context.
+    - id: serviceProvider
+      type: System.IServiceProvider
+      description: The request-scoped service provider.
+    return:
+      type: System.String
+      description: The resolved parameter value, or <code>null</code> if the parameter could not be resolved.
+    content.vb: Function Resolve(parameter As String, httpContext As HttpContext, serviceProvider As IServiceProvider) As String
+  overload: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve*
+  nameWithType.vb: IParameterResolver.Resolve(String, HttpContext, IServiceProvider)
+  fullName.vb: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve(String, Microsoft.AspNetCore.Http.HttpContext, System.IServiceProvider)
+  name.vb: Resolve(String, HttpContext, IServiceProvider)
+references:
+- uid: Keycloak.AuthServices.Authorization
+  commentId: N:Keycloak.AuthServices.Authorization
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization
+  nameWithType: Keycloak.AuthServices.Authorization
+  fullName: Keycloak.AuthServices.Authorization
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+- uid: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve*
+  commentId: Overload:Keycloak.AuthServices.Authorization.IParameterResolver.Resolve
+  href: Keycloak.AuthServices.Authorization.IParameterResolver.html#Keycloak_AuthServices_Authorization_IParameterResolver_Resolve_System_String_Microsoft_AspNetCore_Http_HttpContext_System_IServiceProvider_
+  name: Resolve
+  nameWithType: IParameterResolver.Resolve
+  fullName: Keycloak.AuthServices.Authorization.IParameterResolver.Resolve
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.httpcontext
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.IServiceProvider
+  commentId: T:System.IServiceProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http

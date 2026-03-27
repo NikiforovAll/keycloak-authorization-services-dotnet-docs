@@ -6,6 +6,7 @@ items:
   parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   children:
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.ENC
+  - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.JWT_SVID
   - Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.SIG
   langs:
   - csharp
@@ -86,6 +87,39 @@ items:
     - name: Value
       type: System.String
       value: ENC
+- uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.JWT_SVID
+  commentId: F:Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.JWT_SVID
+  id: JWT_SVID
+  parent: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse
+  langs:
+  - csharp
+  - vb
+  name: JWT_SVID
+  nameWithType: KeyUse.JWT_SVID
+  fullName: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse.JWT_SVID
+  type: Field
+  assemblies:
+  - Keycloak.AuthServices.Sdk.Kiota
+  namespace: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
+  syntax:
+    content: >-
+      [EnumMember(Value = "JWT_SVID")]
+
+      JWT_SVID = 2
+    return:
+      type: Keycloak.AuthServices.Sdk.Kiota.Admin.Models.KeyUse
+    content.vb: >-
+      <EnumMember(Value:="JWT_SVID")>
+
+      JWT_SVID = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: JWT_SVID
 references:
 - uid: Keycloak.AuthServices.Sdk.Kiota.Admin.Models
   commentId: N:Keycloak.AuthServices.Sdk.Kiota.Admin.Models
