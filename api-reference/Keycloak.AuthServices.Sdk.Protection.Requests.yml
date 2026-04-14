@@ -4,6 +4,7 @@ items:
   commentId: N:Keycloak.AuthServices.Sdk.Protection.Requests
   id: Keycloak.AuthServices.Sdk.Protection.Requests
   children:
+  - Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
   - Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters
   - Keycloak.AuthServices.Sdk.Protection.Requests.GetResourcesRequestParameters
   langs:
@@ -16,6 +17,13 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk
 references:
+- uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+  parent: Keycloak.AuthServices.Sdk.Protection.Requests
+  href: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters.html
+  name: GetPermissionTicketsRequestParameters
+  nameWithType: GetPermissionTicketsRequestParameters
+  fullName: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
 - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters
   commentId: T:Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters
   parent: Keycloak.AuthServices.Sdk.Protection.Requests

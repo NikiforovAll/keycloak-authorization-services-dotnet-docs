@@ -28,6 +28,7 @@ items:
     content: public interface IKeycloakAccessTokenProvider
     content.vb: Public Interface IKeycloakAccessTokenProvider
   derivedClasses:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
   - Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)

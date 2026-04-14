@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  id: PermissionTicket
+  parent: Keycloak.AuthServices.Sdk.Protection.Models
+  children:
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+  langs:
+  - csharp
+  - vb
+  name: PermissionTicket
+  nameWithType: PermissionTicket
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  type: Class
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: Represents a stored permission ticket (for querying existing tickets).
+  example: []
+  syntax:
+    content: public class PermissionTicket
+    content.vb: Public Class PermissionTicket
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+  id: Id
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PermissionTicket.Id
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The permission ticket ID.
+  example: []
+  syntax:
+    content: public string? Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+  id: Owner
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: PermissionTicket.Owner
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The resource owner.
+  example: []
+  syntax:
+    content: public string? Owner { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Owner As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+  id: Resource
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: PermissionTicket.Resource
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The resource ID.
+  example: []
+  syntax:
+    content: public string? Resource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Resource As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+  id: Scope
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: PermissionTicket.Scope
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The scope.
+  example: []
+  syntax:
+    content: public string? Scope { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scope As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+  id: Granted
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Granted
+  nameWithType: PermissionTicket.Granted
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: Whether the permission has been granted.
+  example: []
+  syntax:
+    content: public bool? Granted { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Granted As Boolean?
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+  id: Requester
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: Requester
+  nameWithType: PermissionTicket.Requester
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The requesting party.
+  example: []
+  syntax:
+    content: public string? Requester { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Requester As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+  id: ScopeName
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: ScopeName
+  nameWithType: PermissionTicket.ScopeName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The scope name (populated when <code>returnNames=true</code>).
+  example: []
+  syntax:
+    content: public string? ScopeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScopeName As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+  id: ResourceName
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: PermissionTicket.ResourceName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The resource name (populated when <code>returnNames=true</code>).
+  example: []
+  syntax:
+    content: public string? ResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResourceName As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+  id: OwnerName
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: PermissionTicket.OwnerName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The resource owner name (populated when <code>returnNames=true</code>).
+  example: []
+  syntax:
+    content: public string? OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OwnerName As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName
+  id: RequesterName
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  langs:
+  - csharp
+  - vb
+  name: RequesterName
+  nameWithType: PermissionTicket.RequesterName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: The requester name (populated when <code>returnNames=true</code>).
+  example: []
+  syntax:
+    content: public string? RequesterName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequesterName As String
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName*
+references:
+- uid: Keycloak.AuthServices.Sdk.Protection.Models
+  commentId: N:Keycloak.AuthServices.Sdk.Protection.Models
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Protection.Models
+  nameWithType: Keycloak.AuthServices.Sdk.Protection.Models
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Protection.Models.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models
+    name: Models
+    href: Keycloak.AuthServices.Sdk.Protection.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Id
+  name: Id
+  nameWithType: PermissionTicket.Id
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Owner
+  name: Owner
+  nameWithType: PermissionTicket.Owner
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Owner
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Resource
+  name: Resource
+  nameWithType: PermissionTicket.Resource
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Resource
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Scope
+  name: Scope
+  nameWithType: PermissionTicket.Scope
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Scope
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Granted
+  name: Granted
+  nameWithType: PermissionTicket.Granted
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Granted
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_Requester
+  name: Requester
+  nameWithType: PermissionTicket.Requester
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.Requester
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_ScopeName
+  name: ScopeName
+  nameWithType: PermissionTicket.ScopeName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ScopeName
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_ResourceName
+  name: ResourceName
+  nameWithType: PermissionTicket.ResourceName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.ResourceName
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_OwnerName
+  name: OwnerName
+  nameWithType: PermissionTicket.OwnerName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.OwnerName
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html#Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_RequesterName
+  name: RequesterName
+  nameWithType: PermissionTicket.RequesterName
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.RequesterName

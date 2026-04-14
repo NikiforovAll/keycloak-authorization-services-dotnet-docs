@@ -1,0 +1,993 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  id: UmaTicketExchangeClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  children:
+  - Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient})
+  - Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: UmaTicketExchangeClient
+  nameWithType: UmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  type: Class
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Implements UMA ticket exchange using the Keycloak token endpoint.
+  remarks: Initializes a new instance of the <xref href="Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: 'public class UmaTicketExchangeClient : IUmaTicketExchangeClient'
+    content.vb: Public Class UmaTicketExchangeClient Implements IUmaTicketExchangeClient
+  inheritance:
+  - System.Object
+  implements:
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient})
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient})
+  id: '#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient})'
+  parent: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  langs:
+  - csharp
+  - vb
+  name: UmaTicketExchangeClient(HttpClient, IOptions<KeycloakProtectionClientOptions>, ILogger<UmaTicketExchangeClient>)
+  nameWithType: UmaTicketExchangeClient.UmaTicketExchangeClient(HttpClient, IOptions<KeycloakProtectionClientOptions>, ILogger<UmaTicketExchangeClient>)
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.UmaTicketExchangeClient(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient>)
+  type: Constructor
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Implements UMA ticket exchange using the Keycloak token endpoint.
+  remarks: Initializes a new instance of the <xref href="Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public UmaTicketExchangeClient(HttpClient httpClient, IOptions<KeycloakProtectionClientOptions> options, ILogger<UmaTicketExchangeClient> logger)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient}
+    content.vb: Public Sub New(httpClient As HttpClient, options As IOptions(Of KeycloakProtectionClientOptions), logger As ILogger(Of UmaTicketExchangeClient))
+  overload: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor*
+  nameWithType.vb: UmaTicketExchangeClient.New(HttpClient, IOptions(Of KeycloakProtectionClientOptions), ILogger(Of UmaTicketExchangeClient))
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.New(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions(Of Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions), Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient))
+  name.vb: New(HttpClient, IOptions(Of KeycloakProtectionClientOptions), ILogger(Of UmaTicketExchangeClient))
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  langs:
+  - csharp
+  - vb
+  name: ExchangeTicketForRptAsync(string, string, CancellationToken)
+  nameWithType: UmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Exchanges a UMA permission ticket for a Requesting Party Token (RPT).
+  example: []
+  syntax:
+    content: public Task<string?> ExchangeTicketForRptAsync(string accessToken, string ticket, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: The bearer access token of the requesting party.
+    - id: ticket
+      type: System.String
+      description: The permission ticket received from the resource server's UMA challenge.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The RPT access token string, or <code>null</code> if the exchange failed.
+    content.vb: Public Function ExchangeTicketForRptAsync(accessToken As String, ticket As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: UmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, System.Threading.CancellationToken)
+  name.vb: ExchangeTicketForRptAsync(String, String, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  langs:
+  - csharp
+  - vb
+  name: SubmitPermissionRequestAsync(string, string, CancellationToken)
+  nameWithType: UmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Submits a permission request for resource owner approval.
+  remarks: >-
+    Uses the <code>submit_request=true</code> parameter in the UMA ticket exchange.
+
+    When access is denied, Keycloak persists a pending permission request that
+
+    the resource owner can approve.
+  example: []
+  syntax:
+    content: public Task<bool> SubmitPermissionRequestAsync(string accessToken, string ticket, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: The bearer access token of the requesting party.
+    - id: ticket
+      type: System.String
+      description: The permission ticket received from the resource server's UMA challenge.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: <code>true</code> if the permission request was submitted for owner approval; otherwise <code>false</code>.
+    content.vb: Public Function SubmitPermissionRequestAsync(accessToken As String, ticket As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync*
+  implements:
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: UmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, System.Threading.CancellationToken)
+  name.vb: SubmitPermissionRequestAsync(String, String, CancellationToken)
+references:
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html
+  name: UmaTicketExchangeClient
+  nameWithType: UmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+- uid: Keycloak.AuthServices.Sdk.Protection
+  commentId: N:Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Protection
+  nameWithType: Keycloak.AuthServices.Sdk.Protection
+  fullName: Keycloak.AuthServices.Sdk.Protection
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html
+  name: IUmaTicketExchangeClient
+  nameWithType: IUmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.#ctor
+  href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_UmaTicketExchangeClient__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Options_IOptions_Keycloak_AuthServices_Sdk_KeycloakProtectionClientOptions__Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Sdk_Protection_UmaTicketExchangeClient__
+  name: UmaTicketExchangeClient
+  nameWithType: UmaTicketExchangeClient.UmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.UmaTicketExchangeClient
+  nameWithType.vb: UmaTicketExchangeClient.New
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<KeycloakProtectionClientOptions>
+  nameWithType: IOptions<KeycloakProtectionClientOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>
+  nameWithType.vb: IOptions(Of KeycloakProtectionClientOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  name.vb: IOptions(Of KeycloakProtectionClientOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<UmaTicketExchangeClient>
+  nameWithType: ILogger<UmaTicketExchangeClient>
+  fullName: Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient>
+  nameWithType.vb: ILogger(Of UmaTicketExchangeClient)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient)
+  name.vb: ILogger(Of UmaTicketExchangeClient)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+    name: UmaTicketExchangeClient
+    href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+    name: UmaTicketExchangeClient
+    href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html
+  - name: )
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - name: TOptions
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOptions
+  - name: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync
+  href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_UmaTicketExchangeClient_ExchangeTicketForRptAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: ExchangeTicketForRptAsync
+  nameWithType: UmaTicketExchangeClient.ExchangeTicketForRptAsync
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.ExchangeTicketForRptAsync
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_ExchangeTicketForRptAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: ExchangeTicketForRptAsync(string, string, CancellationToken)
+  nameWithType: IUmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IUmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, System.Threading.CancellationToken)
+  name.vb: ExchangeTicketForRptAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: ExchangeTicketForRptAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_ExchangeTicketForRptAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: ExchangeTicketForRptAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_ExchangeTicketForRptAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync
+  href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_UmaTicketExchangeClient_SubmitPermissionRequestAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: SubmitPermissionRequestAsync
+  nameWithType: UmaTicketExchangeClient.SubmitPermissionRequestAsync
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.SubmitPermissionRequestAsync
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_SubmitPermissionRequestAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: SubmitPermissionRequestAsync(string, string, CancellationToken)
+  nameWithType: IUmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IUmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, System.Threading.CancellationToken)
+  name.vb: SubmitPermissionRequestAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: SubmitPermissionRequestAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_SubmitPermissionRequestAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: SubmitPermissionRequestAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_SubmitPermissionRequestAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

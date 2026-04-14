@@ -8,6 +8,7 @@ items:
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor(System.String,System.String)
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor(System.String,System.String,System.String)
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor(System.String,System.String[])
+  - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Resource
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Scopes
   - Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.ScopesValidationMode
@@ -112,6 +113,34 @@ items:
       type: System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode}
     content.vb: Public Property ScopesValidationMode As ScopesValidationMode?
   overload: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.ScopesValidationMode*
+- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
+  commentId: P:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
+  id: Audience
+  parent: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: DecisionRequirement.Audience
+  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.Requirements
+  summary: >-
+    Gets or sets the Keycloak client ID of the resource server to use as the UMA <code>audience</code> parameter.
+
+    When <code>null</code>, the global <code>KeycloakAuthorizationServerOptions.Resource</code> value is used.
+  example: []
+  syntax:
+    content: public string? Audience { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Audience As String
+  overload: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience*
+  implements:
+  - Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
 - uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor(System.String,System.String)
   commentId: M:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor(System.String,System.String)
   id: '#ctor(System.String,System.String)'
@@ -675,6 +704,19 @@ references:
   - name: " "
   - name: T
   - name: )
+- uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience*
+  commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
+  href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.html#Keycloak_AuthServices_Authorization_Requirements_DecisionRequirement_Audience
+  name: Audience
+  nameWithType: DecisionRequirement.Audience
+  fullName: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.Audience
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  commentId: P:Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  parent: Keycloak.AuthServices.Authorization.IProtectedResourceData
+  href: Keycloak.AuthServices.Authorization.IProtectedResourceData.html#Keycloak_AuthServices_Authorization_IProtectedResourceData_Audience
+  name: Audience
+  nameWithType: IProtectedResourceData.Audience
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
 - uid: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.#ctor
   href: Keycloak.AuthServices.Authorization.Requirements.DecisionRequirement.html#Keycloak_AuthServices_Authorization_Requirements_DecisionRequirement__ctor_System_String_System_String_

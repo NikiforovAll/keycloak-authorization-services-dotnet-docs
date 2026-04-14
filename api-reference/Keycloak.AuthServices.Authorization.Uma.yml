@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.Uma
+  commentId: N:Keycloak.AuthServices.Authorization.Uma
+  id: Keycloak.AuthServices.Authorization.Uma
+  children:
+  - Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler
+  - Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler
+  langs:
+  - csharp
+  - vb
+  name: Keycloak.AuthServices.Authorization.Uma
+  nameWithType: Keycloak.AuthServices.Authorization.Uma
+  fullName: Keycloak.AuthServices.Authorization.Uma
+  type: Namespace
+  assemblies:
+  - Keycloak.AuthServices.Authorization.Uma
+references:
+- uid: Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler
+  href: Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler.html
+  name: UmaAuthorizationMiddlewareResultHandler
+  nameWithType: UmaAuthorizationMiddlewareResultHandler
+  fullName: Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler
+- uid: Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler
+  href: Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler.html
+  name: UmaTokenHandler
+  nameWithType: UmaTokenHandler
+  fullName: Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler

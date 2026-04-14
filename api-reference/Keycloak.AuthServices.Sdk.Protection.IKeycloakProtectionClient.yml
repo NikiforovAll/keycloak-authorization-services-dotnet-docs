@@ -19,8 +19,8 @@ items:
   remarks: 'See: https://www.keycloak.org/docs/latest/authorization_services/index.html#_service_protection_api'
   example: []
   syntax:
-    content: 'public interface IKeycloakProtectionClient : IKeycloakProtectedResourceClient, IKeycloakPolicyClient'
-    content.vb: Public Interface IKeycloakProtectionClient Inherits IKeycloakProtectedResourceClient, IKeycloakPolicyClient
+    content: 'public interface IKeycloakProtectionClient : IKeycloakProtectedResourceClient, IKeycloakPolicyClient, IKeycloakPermissionClient'
+    content.vb: Public Interface IKeycloakProtectionClient Inherits IKeycloakProtectedResourceClient, IKeycloakPolicyClient, IKeycloakPermissionClient
   derivedClasses:
   - Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
   inheritedMembers:
@@ -46,6 +46,16 @@ items:
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient.UpdatePolicyAsync(System.String,System.String,Keycloak.AuthServices.Sdk.Protection.Models.Policy,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient.DeletePolicyWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient.DeletePolicyAsync(System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
 references:
 - uid: Keycloak.AuthServices.Sdk.Protection
   commentId: N:Keycloak.AuthServices.Sdk.Protection
@@ -1339,6 +1349,568 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketWithResponseAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  name: CreatePermissionTicketWithResponseAsync(string, IList<PermissionTicketRequest>, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(string, IList<PermissionTicketRequest>, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(string, System.Collections.Generic.IList<Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest>, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(String, IList(Of PermissionTicketRequest), CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(String, System.Collections.Generic.IList(Of Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest), System.Threading.CancellationToken)
+  name.vb: CreatePermissionTicketWithResponseAsync(String, IList(Of PermissionTicketRequest), CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+    name: CreatePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketWithResponseAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+    name: PermissionTicketRequest
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketWithResponseAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+    name: CreatePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketWithResponseAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+    name: PermissionTicketRequest
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  name: CreatePermissionTicketAsync(string, IList<PermissionTicketRequest>, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.CreatePermissionTicketAsync(string, IList<PermissionTicketRequest>, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(string, System.Collections.Generic.IList<Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest>, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.CreatePermissionTicketAsync(String, IList(Of PermissionTicketRequest), CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(String, System.Collections.Generic.IList(Of Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest), System.Threading.CancellationToken)
+  name.vb: CreatePermissionTicketAsync(String, IList(Of PermissionTicketRequest), CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+    name: CreatePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+    name: PermissionTicketRequest
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreatePermissionTicketAsync(System.String,System.Collections.Generic.IList{Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest},System.Threading.CancellationToken)
+    name: CreatePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreatePermissionTicketAsync_System_String_System_Collections_Generic_IList_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicketRequest__System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+    name: PermissionTicketRequest
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  name: GetPermissionTicketsWithResponseAsync(string, GetPermissionTicketsRequestParameters, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(string, GetPermissionTicketsRequestParameters, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(String, GetPermissionTicketsRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(String, Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetPermissionTicketsWithResponseAsync(String, GetPermissionTicketsRequestParameters, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+    name: GetPermissionTicketsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+    name: GetPermissionTicketsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+    name: GetPermissionTicketsWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+    name: GetPermissionTicketsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  name: GetPermissionTicketsAsync(string, GetPermissionTicketsRequestParameters, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.GetPermissionTicketsAsync(string, GetPermissionTicketsRequestParameters, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(string, Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.GetPermissionTicketsAsync(String, GetPermissionTicketsRequestParameters, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(String, Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters, System.Threading.CancellationToken)
+  name.vb: GetPermissionTicketsAsync(String, GetPermissionTicketsRequestParameters, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+    name: GetPermissionTicketsAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+    name: GetPermissionTicketsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.GetPermissionTicketsAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters,System.Threading.CancellationToken)
+    name: GetPermissionTicketsAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_GetPermissionTicketsAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Requests_GetPermissionTicketsRequestParameters_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+    name: GetPermissionTicketsRequestParameters
+    href: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  name: UpdatePermissionTicketWithResponseAsync(string, PermissionTicket, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(string, PermissionTicket, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(String, PermissionTicket, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(String, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  name.vb: UpdatePermissionTicketWithResponseAsync(String, PermissionTicket, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: UpdatePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: UpdatePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  name: UpdatePermissionTicketAsync(string, PermissionTicket, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.UpdatePermissionTicketAsync(string, PermissionTicket, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.UpdatePermissionTicketAsync(String, PermissionTicket, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(String, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  name.vb: UpdatePermissionTicketAsync(String, PermissionTicket, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: UpdatePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.UpdatePermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: UpdatePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_UpdatePermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: DeletePermissionTicketWithResponseAsync(string, string, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(String, String, System.Threading.CancellationToken)
+  name.vb: DeletePermissionTicketWithResponseAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeletePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketWithResponseAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeletePermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketWithResponseAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: DeletePermissionTicketAsync(string, string, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.DeletePermissionTicketAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.DeletePermissionTicketAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(String, String, System.Threading.CancellationToken)
+  name.vb: DeletePermissionTicketAsync(String, String, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeletePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.DeletePermissionTicketAsync(System.String,System.String,System.Threading.CancellationToken)
+    name: DeletePermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_DeletePermissionTicketAsync_System_String_System_String_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  name: CreateStoredPermissionTicketWithResponseAsync(string, PermissionTicket, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(string, PermissionTicket, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(String, PermissionTicket, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(String, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  name.vb: CreateStoredPermissionTicketWithResponseAsync(String, PermissionTicket, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: CreateStoredPermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketWithResponseAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: CreateStoredPermissionTicketWithResponseAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketWithResponseAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  isExternal: true
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  name: CreateStoredPermissionTicketAsync(string, PermissionTicket, CancellationToken)
+  nameWithType: IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(string, PermissionTicket, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(string, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  nameWithType.vb: IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(String, PermissionTicket, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(String, Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket, System.Threading.CancellationToken)
+  name.vb: CreateStoredPermissionTicketAsync(String, PermissionTicket, CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: CreateStoredPermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.CreateStoredPermissionTicketAsync(System.String,Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket,System.Threading.CancellationToken)
+    name: CreateStoredPermissionTicketAsync
+    href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html#Keycloak_AuthServices_Sdk_Protection_IKeycloakPermissionClient_CreateStoredPermissionTicketAsync_System_String_Keycloak_AuthServices_Sdk_Protection_Models_PermissionTicket_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient
   commentId: T:Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient
   parent: Keycloak.AuthServices.Sdk.Protection
@@ -1353,3 +1925,10 @@ references:
   name: IKeycloakPolicyClient
   nameWithType: IKeycloakPolicyClient
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html
+  name: IKeycloakPermissionClient
+  nameWithType: IKeycloakPermissionClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient

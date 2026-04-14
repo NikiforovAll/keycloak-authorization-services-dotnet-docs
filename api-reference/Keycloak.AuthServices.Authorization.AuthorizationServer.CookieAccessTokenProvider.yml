@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  id: CookieAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  children:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider},System.String,System.String)
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: CookieAccessTokenProvider
+  nameWithType: CookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  type: Class
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: >-
+    <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider" data-throw-if-not-resolved="false"></xref> implementation for OIDC+Cookie Web Apps.
+
+    Retrieves the access token stored in the cookie authentication scheme when
+
+    <code>SaveTokens = true</code> is configured on the OpenIdConnect options.
+  remarks: >-
+    Register this provider instead of (or before) calling <code>AddAuthorizationServer</code>
+
+    when using <code>AddKeycloakWebAppAuthentication</code>:
+
+
+    <pre><code class="lang-csharp">services.AddCookieAccessTokenProvider();
+
+    services.AddKeycloakAuthorization().AddAuthorizationServer(...);</code></pre>
+
+
+    Ensure <code>SaveTokens = true</code> is set in your OIDC options so the token
+
+    is persisted in the cookie:
+
+
+    <pre><code class="lang-csharp">.AddKeycloakWebApp(config, configureOpenIdConnectOptions: o =&gt;
+
+    {
+        o.SaveTokens = true;
+        o.ResponseType = OpenIdConnectResponseType.Code;
+    });</code></pre>
+  example: []
+  syntax:
+    content: 'public class CookieAccessTokenProvider : IKeycloakAccessTokenProvider'
+    content.vb: Public Class CookieAccessTokenProvider Implements IKeycloakAccessTokenProvider
+  inheritance:
+  - System.Object
+  implements:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider},System.String,System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider},System.String,System.String)
+  id: '#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider},System.String,System.String)'
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: CookieAccessTokenProvider(IHttpContextAccessor, ILogger<CookieAccessTokenProvider>, string, string)
+  nameWithType: CookieAccessTokenProvider.CookieAccessTokenProvider(IHttpContextAccessor, ILogger<CookieAccessTokenProvider>, string, string)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieAccessTokenProvider(Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider>, string, string)
+  type: Constructor
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public CookieAccessTokenProvider(IHttpContextAccessor contextAccessor, ILogger<CookieAccessTokenProvider> logger, string cookieScheme = "Cookies", string tokenName = "access_token")
+    parameters:
+    - id: contextAccessor
+      type: Microsoft.AspNetCore.Http.IHttpContextAccessor
+      description: The HTTP context accessor.
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider}
+      description: The logger.
+    - id: cookieScheme
+      type: System.String
+      description: >-
+        The cookie authentication scheme where tokens are stored.
+
+        Defaults to <xref href="Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme" data-throw-if-not-resolved="false"></xref> ("Cookies").
+    - id: tokenName
+      type: System.String
+      description: The name of the token to retrieve. Defaults to <code>"access_token"</code>.
+    content.vb: Public Sub New(contextAccessor As IHttpContextAccessor, logger As ILogger(Of CookieAccessTokenProvider), cookieScheme As String = "Cookies", tokenName As String = "access_token")
+  overload: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor*
+  nameWithType.vb: CookieAccessTokenProvider.New(IHttpContextAccessor, ILogger(Of CookieAccessTokenProvider), String, String)
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.New(Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider), String, String)
+  name.vb: New(IHttpContextAccessor, ILogger(Of CookieAccessTokenProvider), String, String)
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+  commentId: P:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+  id: CookieScheme
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: CookieScheme
+  nameWithType: CookieAccessTokenProvider.CookieScheme
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Gets the cookie authentication scheme name used for token retrieval.
+  example: []
+  syntax:
+    content: public string CookieScheme { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CookieScheme As String
+  overload: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme*
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  id: GetAccessTokenAsync(System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAccessTokenAsync(CancellationToken)
+  nameWithType: CookieAccessTokenProvider.GetAccessTokenAsync(CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: Gets the current access token.
+  example: []
+  syntax:
+    content: public Task<string?> GetAccessTokenAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: The cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The access token, or <code>null</code> if no token is available.
+    content.vb: Public Function GetAccessTokenAsync(cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync*
+  implements:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+references:
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html
+  name: IKeycloakAccessTokenProvider
+  nameWithType: IKeycloakAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+  commentId: N:Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authorization.AuthorizationServer
+  nameWithType: Keycloak.AuthServices.Authorization.AuthorizationServer
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+    name: AuthorizationServer
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization
+    name: Authorization
+    href: Keycloak.AuthServices.Authorization.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
+    name: AuthorizationServer
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html
+  name: CookieAccessTokenProvider
+  nameWithType: CookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+- uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  commentId: F:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.cookies.cookieauthenticationdefaults.authenticationscheme
+  name: AuthenticationScheme
+  nameWithType: CookieAuthenticationDefaults.AuthenticationScheme
+  fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor*
+  commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.#ctor
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_CookieAccessTokenProvider__ctor_Microsoft_AspNetCore_Http_IHttpContextAccessor_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_AuthorizationServer_CookieAccessTokenProvider__System_String_System_String_
+  name: CookieAccessTokenProvider
+  nameWithType: CookieAccessTokenProvider.CookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieAccessTokenProvider
+  nameWithType.vb: CookieAccessTokenProvider.New
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.New
+  name.vb: New
+- uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
+  commentId: T:Microsoft.AspNetCore.Http.IHttpContextAccessor
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor
+  name: IHttpContextAccessor
+  nameWithType: IHttpContextAccessor
+  fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<CookieAccessTokenProvider>
+  nameWithType: ILogger<CookieAccessTokenProvider>
+  fullName: Microsoft.Extensions.Logging.ILogger<Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider>
+  nameWithType.vb: ILogger(Of CookieAccessTokenProvider)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider)
+  name.vb: ILogger(Of CookieAccessTokenProvider)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+    name: CookieAccessTokenProvider
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+    name: CookieAccessTokenProvider
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme*
+  commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_CookieAccessTokenProvider_CookieScheme
+  name: CookieScheme
+  nameWithType: CookieAccessTokenProvider.CookieScheme
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.CookieScheme
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync*
+  commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_CookieAccessTokenProvider_GetAccessTokenAsync_System_Threading_CancellationToken_
+  name: GetAccessTokenAsync
+  nameWithType: CookieAccessTokenProvider.GetAccessTokenAsync
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.GetAccessTokenAsync
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  isExternal: true
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IKeycloakAccessTokenProvider_GetAccessTokenAsync_System_Threading_CancellationToken_
+  name: GetAccessTokenAsync(CancellationToken)
+  nameWithType: IKeycloakAccessTokenProvider.GetAccessTokenAsync(CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+    name: GetAccessTokenAsync
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IKeycloakAccessTokenProvider_GetAccessTokenAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.GetAccessTokenAsync(System.Threading.CancellationToken)
+    name: GetAccessTokenAsync
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IKeycloakAccessTokenProvider_GetAccessTokenAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

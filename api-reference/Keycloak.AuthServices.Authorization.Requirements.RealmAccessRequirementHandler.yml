@@ -17,7 +17,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Handles <xref href="Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement" data-throw-if-not-resolved="false"></xref> by checking the user's realm roles.
   example: []
   syntax:
     content: 'public class RealmAccessRequirementHandler : AuthorizationHandler<RealmAccessRequirement>, IAuthorizationHandler'
@@ -50,17 +50,17 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public RealmAccessRequirementHandler(KeycloakMetrics metrics, ILogger<RealmAccessRequirementHandler> logger)
     parameters:
     - id: metrics
       type: Keycloak.AuthServices.Authorization.KeycloakMetrics
-      description: ''
+      description: The Keycloak metrics tracker.
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler}
-      description: ''
+      description: The logger.
     content.vb: Public Sub New(metrics As KeycloakMetrics, logger As ILogger(Of RealmAccessRequirementHandler))
   overload: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.#ctor*
   nameWithType.vb: RealmAccessRequirementHandler.New(KeycloakMetrics, ILogger(Of RealmAccessRequirementHandler))
@@ -97,6 +97,13 @@ items:
   overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement)
   overload: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.HandleRequirementAsync*
 references:
+- uid: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.html
+  name: RealmAccessRequirement
+  nameWithType: RealmAccessRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
 - uid: Keycloak.AuthServices.Authorization.Requirements
   commentId: N:Keycloak.AuthServices.Authorization.Requirements
   href: Keycloak.html
@@ -541,6 +548,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationhandlercontext
   - name: )
+- uid: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler
+  href: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.html
+  name: RealmAccessRequirementHandler
+  nameWithType: RealmAccessRequirementHandler
+  fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler
 - uid: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.#ctor
   href: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_RealmAccessRequirementHandler__ctor_Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_RealmAccessRequirementHandler__
@@ -741,13 +754,6 @@ references:
   name: AuthorizationHandlerContext
   nameWithType: AuthorizationHandlerContext
   fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-- uid: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
-  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
-  parent: Keycloak.AuthServices.Authorization.Requirements
-  href: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement.html
-  name: RealmAccessRequirement
-  nameWithType: RealmAccessRequirement
-  fullName: Keycloak.AuthServices.Authorization.Requirements.RealmAccessRequirement
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks

@@ -103,6 +103,10 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: >-
+    Gets or sets the token name used by <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler" data-throw-if-not-resolved="false"></xref>
+
+    to retrieve the access token from the authentication result.
   example: []
   syntax:
     content: public string SourceTokenName { get; set; }

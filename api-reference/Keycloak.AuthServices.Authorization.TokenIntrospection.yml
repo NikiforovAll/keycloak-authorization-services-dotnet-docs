@@ -10,7 +10,6 @@ items:
   - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionClient
   - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptions
   - Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
-  - Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
   - Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
   langs:
   - csharp
@@ -67,12 +66,6 @@ references:
   name: KeycloakTokenIntrospectionOptionsValidator
   nameWithType: KeycloakTokenIntrospectionOptionsValidator
   fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
-- uid: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
-  commentId: T:Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
-  href: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions.html
-  name: ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-  fullName: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
 - uid: Keycloak.AuthServices.Authorization.TokenIntrospection
   commentId: N:Keycloak.AuthServices.Authorization.TokenIntrospection
   href: Keycloak.html

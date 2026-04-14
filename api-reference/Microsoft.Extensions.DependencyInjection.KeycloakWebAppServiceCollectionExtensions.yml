@@ -1,33 +1,28 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
-  commentId: T:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
-  id: KeycloakBaseAuthenticationBuilder
-  parent: Keycloak.AuthServices.Authentication
+- uid: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+  id: KeycloakWebAppServiceCollectionExtensions
+  parent: Microsoft.Extensions.DependencyInjection
   children:
-  - Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection)
-  - Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  - Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
+  - Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String,System.String,System.String)
   langs:
   - csharp
   - vb
-  name: KeycloakBaseAuthenticationBuilder
-  nameWithType: KeycloakBaseAuthenticationBuilder
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
+  name: KeycloakWebAppServiceCollectionExtensions
+  nameWithType: KeycloakWebAppServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
   type: Class
   assemblies:
   - Keycloak.AuthServices.Authentication
-  namespace: Keycloak.AuthServices.Authentication
-  summary: Represents a base class for configuring Keycloak authentication in an application.
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: Extension for IServiceCollection for startup initialization.
   example: []
   syntax:
-    content: public class KeycloakBaseAuthenticationBuilder
-    content.vb: Public Class KeycloakBaseAuthenticationBuilder
+    content: public static class KeycloakWebAppServiceCollectionExtensions
+    content.vb: Public Module KeycloakWebAppServiceCollectionExtensions
   inheritance:
   - System.Object
-  derivedClasses:
-  - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
-  - Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -36,114 +31,95 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection)
-  commentId: M:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection)
-  id: '#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection)'
-  parent: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
+- uid: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String,System.String,System.String)
+  id: AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
   langs:
   - csharp
   - vb
-  name: KeycloakBaseAuthenticationBuilder(IServiceCollection, IConfigurationSection?)
-  nameWithType: KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder(IServiceCollection, IConfigurationSection?)
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection?)
-  type: Constructor
+  name: AddKeycloakWebAppAuthentication(IServiceCollection, IConfiguration, string, string, string, string?)
+  nameWithType: KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(IServiceCollection, IConfiguration, string, string, string, string?)
+  fullName: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, string, string, string, string?)
+  type: Method
   assemblies:
   - Keycloak.AuthServices.Authentication
-  namespace: Keycloak.AuthServices.Authentication
-  summary: Constructor.
+  namespace: Microsoft.Extensions.DependencyInjection
+  summary: >-
+    Add authentication with Keycloak
+
+    This method expects the configuration file will have a section, (by default named "Keycloak"), with the necessary settings to
+
+    initialize the authentication options.
   example: []
   syntax:
-    content: protected KeycloakBaseAuthenticationBuilder(IServiceCollection services, IConfigurationSection? configurationSection = null)
+    content: public static KeycloakWebAppAuthenticationBuilder AddKeycloakWebAppAuthentication(this IServiceCollection services, IConfiguration configuration, string configSectionName = "Keycloak", string openIdConnectScheme = "OpenIdConnect", string cookieScheme = "Cookies", string? displayName = null)
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: The services being configured.
-    - id: configurationSection
-      type: Microsoft.Extensions.Configuration.IConfigurationSection
-      description: Optional configuration section.
-    content.vb: Protected Sub New(services As IServiceCollection, configurationSection As IConfigurationSection = Nothing)
-  overload: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor*
-  nameWithType.vb: KeycloakBaseAuthenticationBuilder.New(IServiceCollection, IConfigurationSection)
-  fullName.vb: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.New(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection)
-  name.vb: New(IServiceCollection, IConfigurationSection)
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
-  commentId: P:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
-  id: Services
-  parent: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
-  langs:
-  - csharp
-  - vb
-  name: Services
-  nameWithType: KeycloakBaseAuthenticationBuilder.Services
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
-  type: Property
-  assemblies:
-  - Keycloak.AuthServices.Authentication
-  namespace: Keycloak.AuthServices.Authentication
-  summary: Gets the services being configured.
-  example: []
-  syntax:
-    content: public IServiceCollection Services { get; }
-    parameters: []
+      description: Service collection to which to add authentication.
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+      description: The IConfiguration object.
+    - id: configSectionName
+      type: System.String
+      description: >-
+        The name of the configuration section with the necessary
+            settings to initialize authentication options.
+    - id: openIdConnectScheme
+      type: System.String
+      description: >-
+        Optional name for the open id connect authentication scheme
+            (by default OpenIdConnectDefaults.AuthenticationScheme). This can be specified when you want to support
+            several OpenIdConnect identity providers.
+    - id: cookieScheme
+      type: System.String
+      description: >-
+        Optional name for the cookie authentication scheme
+            (by default CookieAuthenticationDefaults.AuthenticationScheme).
+    - id: displayName
+      type: System.String
+      description: A display name for the authentication handler.
     return:
-      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-    content.vb: Public Property Services As IServiceCollection
-  overload: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services*
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  commentId: P:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  id: ConfigurationSection
-  parent: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
-  langs:
-  - csharp
-  - vb
-  name: ConfigurationSection
-  nameWithType: KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  type: Property
-  assemblies:
-  - Keycloak.AuthServices.Authentication
-  namespace: Keycloak.AuthServices.Authentication
-  summary: Gets the configuration section from which to bind options.
-  remarks: It can be null if the configuration happens with delegates rather than configuration.
-  example: []
-  syntax:
-    content: protected IConfigurationSection? ConfigurationSection { get; set; }
-    parameters: []
-    return:
-      type: Microsoft.Extensions.Configuration.IConfigurationSection
-    content.vb: Protected Property ConfigurationSection As IConfigurationSection
-  overload: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection*
+      type: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
+      description: The authentication builder to chain extension methods.
+    content.vb: Public Shared Function AddKeycloakWebAppAuthentication(services As IServiceCollection, configuration As IConfiguration, configSectionName As String = "Keycloak", openIdConnectScheme As String = "OpenIdConnect", cookieScheme As String = "Cookies", displayName As String = Nothing) As KeycloakWebAppAuthenticationBuilder
+  overload: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication*
+  nameWithType.vb: KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(IServiceCollection, IConfiguration, String, String, String, String)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, String, String, String, String)
+  name.vb: AddKeycloakWebAppAuthentication(IServiceCollection, IConfiguration, String, String, String, String)
 references:
-- uid: Keycloak.AuthServices.Authentication
-  commentId: N:Keycloak.AuthServices.Authentication
-  href: Keycloak.html
-  name: Keycloak.AuthServices.Authentication
-  nameWithType: Keycloak.AuthServices.Authentication
-  fullName: Keycloak.AuthServices.Authentication
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
   spec.csharp:
-  - uid: Keycloak
-    name: Keycloak
-    href: Keycloak.html
+  - uid: Microsoft
+    name: Microsoft
+    href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
-  - uid: Keycloak.AuthServices
-    name: AuthServices
-    href: Keycloak.AuthServices.html
+  - uid: Microsoft.Extensions
+    name: Extensions
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
-  - uid: Keycloak.AuthServices.Authentication
-    name: Authentication
-    href: Keycloak.AuthServices.Authentication.html
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
   spec.vb:
-  - uid: Keycloak
-    name: Keycloak
-    href: Keycloak.html
+  - uid: Microsoft
+    name: Microsoft
+    href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
-  - uid: Keycloak.AuthServices
-    name: AuthServices
-    href: Keycloak.AuthServices.html
+  - uid: Microsoft.Extensions
+    name: Extensions
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
-  - uid: Keycloak.AuthServices.Authentication
-    name: Authentication
-    href: Keycloak.AuthServices.Authentication.html
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -381,15 +357,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor*
-  commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.#ctor
-  href: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.html#Keycloak_AuthServices_Authentication_KeycloakBaseAuthenticationBuilder__ctor_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfigurationSection_
-  name: KeycloakBaseAuthenticationBuilder
-  nameWithType: KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.KeycloakBaseAuthenticationBuilder
-  nameWithType.vb: KeycloakBaseAuthenticationBuilder.New
-  fullName.vb: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.New
-  name.vb: New
+- uid: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication*
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication
+  href: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_KeycloakWebAppServiceCollectionExtensions_AddKeycloakWebAppAuthentication_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_System_String_System_String_System_String_System_String_
+  name: AddKeycloakWebAppAuthentication
+  nameWithType: KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication
+  fullName: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.AddKeycloakWebAppAuthentication
 - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
   commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
   parent: Microsoft.Extensions.DependencyInjection
@@ -398,44 +371,32 @@ references:
   name: IServiceCollection
   nameWithType: IServiceCollection
   fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
-- uid: Microsoft.Extensions.Configuration.IConfigurationSection
-  commentId: T:Microsoft.Extensions.Configuration.IConfigurationSection
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  commentId: T:Microsoft.Extensions.Configuration.IConfiguration
   parent: Microsoft.Extensions.Configuration
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfigurationsection
-  name: IConfigurationSection
-  nameWithType: IConfigurationSection
-  fullName: Microsoft.Extensions.Configuration.IConfigurationSection
-- uid: Microsoft.Extensions.DependencyInjection
-  commentId: N:Microsoft.Extensions.DependencyInjection
-  href: https://learn.microsoft.com/dotnet/api/microsoft
-  name: Microsoft.Extensions.DependencyInjection
-  nameWithType: Microsoft.Extensions.DependencyInjection
-  fullName: Microsoft.Extensions.DependencyInjection
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
+  commentId: T:Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
+  parent: Keycloak.AuthServices.Authentication
+  href: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder.html
+  name: KeycloakWebAppAuthenticationBuilder
+  nameWithType: KeycloakWebAppAuthenticationBuilder
+  fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
 - uid: Microsoft.Extensions.Configuration
   commentId: N:Microsoft.Extensions.Configuration
   isExternal: true
@@ -473,15 +434,33 @@ references:
     name: Configuration
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services*
-  commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
-  href: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.html#Keycloak_AuthServices_Authentication_KeycloakBaseAuthenticationBuilder_Services
-  name: Services
-  nameWithType: KeycloakBaseAuthenticationBuilder.Services
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.Services
-- uid: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection*
-  commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  href: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.html#Keycloak_AuthServices_Authentication_KeycloakBaseAuthenticationBuilder_ConfigurationSection
-  name: ConfigurationSection
-  nameWithType: KeycloakBaseAuthenticationBuilder.ConfigurationSection
-  fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder.ConfigurationSection
+- uid: Keycloak.AuthServices.Authentication
+  commentId: N:Keycloak.AuthServices.Authentication
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Authentication
+  nameWithType: Keycloak.AuthServices.Authentication
+  fullName: Keycloak.AuthServices.Authentication
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authentication
+    name: Authentication
+    href: Keycloak.AuthServices.Authentication.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Authentication
+    name: Authentication
+    href: Keycloak.AuthServices.Authentication.html

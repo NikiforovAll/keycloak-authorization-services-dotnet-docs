@@ -5,6 +5,9 @@ items:
   id: Keycloak.AuthServices.Sdk.Protection.Models
   children:
   - Keycloak.AuthServices.Sdk.Protection.Models.DecisionStrategy
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+  - Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse
   - Keycloak.AuthServices.Sdk.Protection.Models.Policy
   - Keycloak.AuthServices.Sdk.Protection.Models.Resource
   - Keycloak.AuthServices.Sdk.Protection.Models.ResourceResponse
@@ -20,6 +23,25 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk
 references:
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+  parent: Keycloak.AuthServices.Sdk.Protection.Models
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket.html
+  name: PermissionTicket
+  nameWithType: PermissionTicket
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest.html
+  name: PermissionTicketRequest
+  nameWithType: PermissionTicketRequest
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse
+  href: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse.html
+  name: PermissionTicketResponse
+  nameWithType: PermissionTicketResponse
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse
 - uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy
   commentId: T:Keycloak.AuthServices.Sdk.Protection.Models.Policy
   parent: Keycloak.AuthServices.Sdk.Protection.Models

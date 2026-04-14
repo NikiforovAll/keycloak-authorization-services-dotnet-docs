@@ -17,6 +17,7 @@ items:
   - Keycloak.AuthServices.Sdk.Protection.Models.Policy.Roles
   - Keycloak.AuthServices.Sdk.Protection.Models.Policy.Scopes
   - Keycloak.AuthServices.Sdk.Protection.Models.Policy.Type
+  - Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
   langs:
   - csharp
   - vb
@@ -250,6 +251,29 @@ items:
       type: System.String[]
     content.vb: Public Property Scopes As String()
   overload: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Scopes*
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
+  commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
+  id: Users
+  parent: Keycloak.AuthServices.Sdk.Protection.Models.Policy
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: Policy.Users
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection.Models
+  summary: Gets or sets the users associated with the policy.
+  example: []
+  syntax:
+    content: public string[]? Users { get; init; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Users As String()
+  overload: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users*
 - uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Groups
   commentId: P:Keycloak.AuthServices.Sdk.Protection.Models.Policy.Groups
   id: Groups
@@ -698,6 +722,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
+  href: Keycloak.AuthServices.Sdk.Protection.Models.Policy.html#Keycloak_AuthServices_Sdk_Protection_Models_Policy_Users
+  name: Users
+  nameWithType: Policy.Users
+  fullName: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Users
 - uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy.Groups*
   commentId: Overload:Keycloak.AuthServices.Sdk.Protection.Models.Policy.Groups
   href: Keycloak.AuthServices.Sdk.Protection.Models.Policy.html#Keycloak_AuthServices_Sdk_Protection_Models_Policy_Groups

@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  commentId: T:Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  id: KeycloakProtectionClientOptionsValidator
+  parent: Keycloak.AuthServices.Sdk
+  children:
+  - Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  langs:
+  - csharp
+  - vb
+  name: KeycloakProtectionClientOptionsValidator
+  nameWithType: KeycloakProtectionClientOptionsValidator
+  fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  type: Class
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk
+  summary: >-
+    Validates <xref href="Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions" data-throw-if-not-resolved="false"></xref> at startup.
+
+    Ensures the minimum required configuration is present before any Protection API calls are made.
+  example: []
+  syntax:
+    content: 'public class KeycloakProtectionClientOptionsValidator : IValidateOptions<KeycloakProtectionClientOptions>'
+    content.vb: Public Class KeycloakProtectionClientOptionsValidator Implements IValidateOptions(Of KeycloakProtectionClientOptions)
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  commentId: M:Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  id: Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  parent: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  langs:
+  - csharp
+  - vb
+  name: Validate(string?, KeycloakProtectionClientOptions)
+  nameWithType: KeycloakProtectionClientOptionsValidator.Validate(string?, KeycloakProtectionClientOptions)
+  fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate(string?, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk
+  summary: Validates a specified named options instance (or all if <code class="paramref">name</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>).
+  example: []
+  syntax:
+    content: public ValidateOptionsResult Validate(string? name, KeycloakProtectionClientOptions options)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the options instance being validated.
+    - id: options
+      type: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+      description: The options instance.
+    return:
+      type: Microsoft.Extensions.Options.ValidateOptionsResult
+      description: The <xref href="Microsoft.Extensions.Options.ValidateOptionsResult" data-throw-if-not-resolved="false"></xref> result.
+    content.vb: Public Function Validate(name As String, options As KeycloakProtectionClientOptions) As ValidateOptionsResult
+  overload: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate*
+  implements:
+  - Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  nameWithType.vb: KeycloakProtectionClientOptionsValidator.Validate(String, KeycloakProtectionClientOptions)
+  fullName.vb: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate(String, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  name.vb: Validate(String, KeycloakProtectionClientOptions)
+references:
+- uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+  commentId: T:Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+  parent: Keycloak.AuthServices.Sdk
+  href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  name: KeycloakProtectionClientOptions
+  nameWithType: KeycloakProtectionClientOptions
+  fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+- uid: Keycloak.AuthServices.Sdk
+  commentId: N:Keycloak.AuthServices.Sdk
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk
+  nameWithType: Keycloak.AuthServices.Sdk
+  fullName: Keycloak.AuthServices.Sdk
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  commentId: T:Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IValidateOptions`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  name: IValidateOptions<KeycloakProtectionClientOptions>
+  nameWithType: IValidateOptions<KeycloakProtectionClientOptions>
+  fullName: Microsoft.Extensions.Options.IValidateOptions<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>
+  nameWithType.vb: IValidateOptions(Of KeycloakProtectionClientOptions)
+  fullName.vb: Microsoft.Extensions.Options.IValidateOptions(Of Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  name.vb: IValidateOptions(Of KeycloakProtectionClientOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1
+    name: IValidateOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  - name: <
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1
+    name: IValidateOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Options.IValidateOptions`1
+  commentId: T:Microsoft.Extensions.Options.IValidateOptions`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  name: IValidateOptions<TOptions>
+  nameWithType: IValidateOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IValidateOptions<TOptions>
+  nameWithType.vb: IValidateOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IValidateOptions(Of TOptions)
+  name.vb: IValidateOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1
+    name: IValidateOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  - name: <
+  - name: TOptions
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1
+    name: IValidateOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOptions
+  - name: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: Microsoft.Extensions.Options.ValidateOptionsResult
+  commentId: T:Microsoft.Extensions.Options.ValidateOptionsResult
+  parent: Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.validateoptionsresult
+  name: ValidateOptionsResult
+  nameWithType: ValidateOptionsResult
+  fullName: Microsoft.Extensions.Options.ValidateOptionsResult
+- uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate*
+  commentId: Overload:Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate
+  href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.html#Keycloak_AuthServices_Sdk_KeycloakProtectionClientOptionsValidator_Validate_System_String_Keycloak_AuthServices_Sdk_KeycloakProtectionClientOptions_
+  name: Validate
+  nameWithType: KeycloakProtectionClientOptionsValidator.Validate
+  fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.Validate
+- uid: Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  commentId: M:Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  parent: Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+  definition: Microsoft.Extensions.Options.IValidateOptions`1.Validate(System.String,`0)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  name: Validate(string, KeycloakProtectionClientOptions)
+  nameWithType: IValidateOptions<KeycloakProtectionClientOptions>.Validate(string, KeycloakProtectionClientOptions)
+  fullName: Microsoft.Extensions.Options.IValidateOptions<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>.Validate(string, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  nameWithType.vb: IValidateOptions(Of KeycloakProtectionClientOptions).Validate(String, KeycloakProtectionClientOptions)
+  fullName.vb: Microsoft.Extensions.Options.IValidateOptions(Of Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions).Validate(String, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+  name.vb: Validate(String, KeycloakProtectionClientOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+    name: Validate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IValidateOptions{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}.Validate(System.String,Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions)
+    name: Validate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+    name: KeycloakProtectionClientOptions
+    href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Microsoft.Extensions.Options.IValidateOptions`1.Validate(System.String,`0)
+  commentId: M:Microsoft.Extensions.Options.IValidateOptions`1.Validate(System.String,`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  name: Validate(string, TOptions)
+  nameWithType: IValidateOptions<TOptions>.Validate(string, TOptions)
+  fullName: Microsoft.Extensions.Options.IValidateOptions<TOptions>.Validate(string, TOptions)
+  nameWithType.vb: IValidateOptions(Of TOptions).Validate(String, TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IValidateOptions(Of TOptions).Validate(String, TOptions)
+  name.vb: Validate(String, TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1.Validate(System.String,`0)
+    name: Validate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TOptions
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IValidateOptions`1.Validate(System.String,`0)
+    name: Validate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ivalidateoptions-1.validate
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: TOptions
+  - name: )

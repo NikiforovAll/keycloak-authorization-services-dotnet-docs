@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  id: Microsoft.Extensions.DependencyInjection
+  children:
+  - Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  - Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions
+  - Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+references:
+- uid: Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions
+  href: Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions.html
+  name: KeycloakWebApiServiceCollectionExtensions
+  nameWithType: KeycloakWebApiServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+  href: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions.html
+  name: KeycloakWebAppServiceCollectionExtensions
+  nameWithType: KeycloakWebAppServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  href: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  name: ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions
+  href: Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions.html
+  name: UmaHttpClientBuilderExtensions
+  nameWithType: UmaHttpClientBuilderExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions
+- uid: Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions
+  commentId: T:Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions
+  href: Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions.html
+  name: UmaServiceCollectionExtensions
+  nameWithType: UmaServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions

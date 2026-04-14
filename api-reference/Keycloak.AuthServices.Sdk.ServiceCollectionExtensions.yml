@@ -13,6 +13,9 @@ items:
   - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{System.Net.Http.HttpClient},System.String)
   - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{System.Net.Http.HttpClient})
   - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},System.Action{System.Net.Http.HttpClient})
+  - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{System.Net.Http.HttpClient},System.String)
+  - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{System.Net.Http.HttpClient})
+  - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},System.Action{System.Net.Http.HttpClient})
   langs:
   - csharp
   - vb
@@ -340,6 +343,120 @@ items:
   nameWithType.vb: ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(IServiceCollection, KeycloakProtectionClientOptions, Action(Of HttpClient))
   fullName.vb: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakProtectionHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions, System.Action(Of System.Net.Http.HttpClient))
   name.vb: AddKeycloakProtectionHttpClient(IServiceCollection, KeycloakProtectionClientOptions, Action(Of HttpClient))
+- uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{System.Net.Http.HttpClient},System.String)
+  commentId: M:Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{System.Net.Http.HttpClient},System.String)
+  id: AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Action{System.Net.Http.HttpClient},System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
+  nameWithType: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfiguration, Action<HttpClient>?, string)
+  fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action<System.Net.Http.HttpClient>?, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk
+  summary: Adds <xref href="Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient" data-throw-if-not-resolved="false"></xref> HTTP client for UMA ticket exchange at the Keycloak token endpoint.
+  example: []
+  syntax:
+    content: public static IHttpClientBuilder AddKeycloakUmaTicketExchangeHttpClient(this IServiceCollection services, IConfiguration configuration, Action<HttpClient>? configureClient = null, string keycloakClientSectionName = "Keycloak")
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection to add the HttpClient to.
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+      description: The IConfiguration instance to bind the Keycloak options from.
+    - id: configureClient
+      type: System.Action{System.Net.Http.HttpClient}
+      description: An optional action to configure the HttpClient.
+    - id: keycloakClientSectionName
+      type: System.String
+      description: The name of the configuration section containing the Keycloak client options.
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IHttpClientBuilder
+      description: The IHttpClientBuilder for further configuration.
+    content.vb: Public Shared Function AddKeycloakUmaTicketExchangeHttpClient(services As IServiceCollection, configuration As IConfiguration, configureClient As Action(Of HttpClient) = Nothing, keycloakClientSectionName As String = "Keycloak") As IHttpClientBuilder
+  overload: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient*
+  nameWithType.vb: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfiguration, Action(Of HttpClient), String)
+  fullName.vb: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.Action(Of System.Net.Http.HttpClient), String)
+  name.vb: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfiguration, Action(Of HttpClient), String)
+- uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{System.Net.Http.HttpClient})
+  commentId: M:Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{System.Net.Http.HttpClient})
+  id: AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection,System.Action{System.Net.Http.HttpClient})
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
+  nameWithType: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfigurationSection, Action<HttpClient>?)
+  fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action<System.Net.Http.HttpClient>?)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk
+  summary: Adds <xref href="Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient" data-throw-if-not-resolved="false"></xref> HTTP client for UMA ticket exchange at the Keycloak token endpoint.
+  example: []
+  syntax:
+    content: public static IHttpClientBuilder AddKeycloakUmaTicketExchangeHttpClient(this IServiceCollection services, IConfigurationSection configurationSection, Action<HttpClient>? configureClient = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection to add the HttpClient to.
+    - id: configurationSection
+      type: Microsoft.Extensions.Configuration.IConfigurationSection
+      description: The IConfigurationSection to bind the Keycloak options from.
+    - id: configureClient
+      type: System.Action{System.Net.Http.HttpClient}
+      description: An optional action to configure the HttpClient.
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IHttpClientBuilder
+      description: The IHttpClientBuilder for further configuration.
+    content.vb: Public Shared Function AddKeycloakUmaTicketExchangeHttpClient(services As IServiceCollection, configurationSection As IConfigurationSection, configureClient As Action(Of HttpClient) = Nothing) As IHttpClientBuilder
+  overload: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient*
+  nameWithType.vb: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfigurationSection, Action(Of HttpClient))
+  fullName.vb: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfigurationSection, System.Action(Of System.Net.Http.HttpClient))
+  name.vb: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, IConfigurationSection, Action(Of HttpClient))
+- uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},System.Action{System.Net.Http.HttpClient})
+  commentId: M:Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},System.Action{System.Net.Http.HttpClient})
+  id: AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions},System.Action{System.Net.Http.HttpClient})
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, Action<KeycloakProtectionClientOptions>, Action<HttpClient>?)
+  nameWithType: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, Action<KeycloakProtectionClientOptions>, Action<HttpClient>?)
+  fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions>, System.Action<System.Net.Http.HttpClient>?)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk
+  summary: Adds <xref href="Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient" data-throw-if-not-resolved="false"></xref> HTTP client for UMA ticket exchange at the Keycloak token endpoint.
+  example: []
+  syntax:
+    content: public static IHttpClientBuilder AddKeycloakUmaTicketExchangeHttpClient(this IServiceCollection services, Action<KeycloakProtectionClientOptions> configureKeycloakOptions, Action<HttpClient>? configureClient = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection to add the HttpClient to.
+    - id: configureKeycloakOptions
+      type: System.Action{Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions}
+      description: An action to configure the Keycloak client options.
+    - id: configureClient
+      type: System.Action{System.Net.Http.HttpClient}
+      description: An optional action to configure the HttpClient.
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IHttpClientBuilder
+      description: The IHttpClientBuilder for further configuration.
+    content.vb: Public Shared Function AddKeycloakUmaTicketExchangeHttpClient(services As IServiceCollection, configureKeycloakOptions As Action(Of KeycloakProtectionClientOptions), configureClient As Action(Of HttpClient) = Nothing) As IHttpClientBuilder
+  overload: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient*
+  nameWithType.vb: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, Action(Of KeycloakProtectionClientOptions), Action(Of HttpClient))
+  fullName.vb: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions), System.Action(Of System.Net.Http.HttpClient))
+  name.vb: AddKeycloakUmaTicketExchangeHttpClient(IServiceCollection, Action(Of KeycloakProtectionClientOptions), Action(Of HttpClient))
 references:
 - uid: Keycloak.AuthServices.Sdk
   commentId: N:Keycloak.AuthServices.Sdk
@@ -752,7 +869,6 @@ references:
     href: Keycloak.AuthServices.Sdk.Admin.html
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
-  isExternal: true
   href: https://learn.microsoft.com/dotnet/api/microsoft
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
@@ -760,32 +876,26 @@ references:
   spec.csharp:
   - uid: Microsoft
     name: Microsoft
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
   - uid: Microsoft.Extensions.DependencyInjection
     name: DependencyInjection
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
   spec.vb:
   - uid: Microsoft
     name: Microsoft
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
   - uid: Microsoft.Extensions.DependencyInjection
     name: DependencyInjection
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
 - uid: Microsoft.Extensions.Configuration
   commentId: N:Microsoft.Extensions.Configuration
@@ -1005,3 +1115,16 @@ references:
   name: KeycloakProtectionClientOptions
   nameWithType: KeycloakProtectionClientOptions
   fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html
+  name: IUmaTicketExchangeClient
+  nameWithType: IUmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+- uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient*
+  commentId: Overload:Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient
+  href: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.html#Keycloak_AuthServices_Sdk_ServiceCollectionExtensions_AddKeycloakUmaTicketExchangeHttpClient_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_System_Action_System_Net_Http_HttpClient__System_String_
+  name: AddKeycloakUmaTicketExchangeHttpClient
+  nameWithType: ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient
+  fullName: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.AddKeycloakUmaTicketExchangeHttpClient

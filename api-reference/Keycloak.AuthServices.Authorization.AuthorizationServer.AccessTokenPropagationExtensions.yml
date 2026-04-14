@@ -5,6 +5,7 @@ items:
   id: AccessTokenPropagationExtensions
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer
   children:
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddHeaderPropagation(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder)
   langs:
   - csharp
@@ -59,6 +60,55 @@ items:
       description: ''
     content.vb: Public Shared Function AddHeaderPropagation(builder As IHttpClientBuilder) As IHttpClientBuilder
   overload: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddHeaderPropagation*
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
+  id: AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String)
+  isExtensionMethod: true
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddCookieAccessTokenProvider(IServiceCollection, string, string)
+  nameWithType: AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(IServiceCollection, string, string)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, string, string)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization.AuthorizationServer
+  summary: >-
+    Registers <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider" data-throw-if-not-resolved="false"></xref> as the <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider" data-throw-if-not-resolved="false"></xref>,
+
+    replacing the default <xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Use this for OIDC+Cookie Web Apps (<code>AddKeycloakWebAppAuthentication</code>) where access tokens
+
+    are stored in the cookie scheme via <code>SaveTokens = true</code>.
+
+    Call this before <code>AddAuthorizationServer</code>, or it will override the default registration.
+  example: []
+  syntax:
+    content: public static IServiceCollection AddCookieAccessTokenProvider(this IServiceCollection services, string cookieScheme = "Cookies", string tokenName = "access_token")
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The service collection.
+    - id: cookieScheme
+      type: System.String
+      description: >-
+        The cookie authentication scheme where tokens are stored.
+
+        Defaults to <xref href="Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme" data-throw-if-not-resolved="false"></xref> ("Cookies").
+    - id: tokenName
+      type: System.String
+      description: The name of the token to retrieve. Defaults to <code>"access_token"</code>.
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The service collection.
+    content.vb: Public Shared Function AddCookieAccessTokenProvider(services As IServiceCollection, cookieScheme As String = "Cookies", tokenName As String = "access_token") As IServiceCollection
+  overload: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider*
+  nameWithType.vb: AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(IServiceCollection, String, String)
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, String, String)
+  name.vb: AddCookieAccessTokenProvider(IServiceCollection, String, String)
 references:
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
   commentId: N:Keycloak.AuthServices.Authorization.AuthorizationServer
@@ -351,7 +401,6 @@ references:
   fullName: Microsoft.Extensions.DependencyInjection.IHttpClientBuilder
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
-  isExternal: true
   href: https://learn.microsoft.com/dotnet/api/microsoft
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
@@ -359,30 +408,75 @@ references:
   spec.csharp:
   - uid: Microsoft
     name: Microsoft
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
   - uid: Microsoft.Extensions.DependencyInjection
     name: DependencyInjection
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
   spec.vb:
   - uid: Microsoft
     name: Microsoft
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
   - name: .
   - uid: Microsoft.Extensions.DependencyInjection
     name: DependencyInjection
-    isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html
+  name: CookieAccessTokenProvider
+  nameWithType: CookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+  parent: Keycloak.AuthServices.Authorization.AuthorizationServer
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider.html
+  name: IKeycloakAccessTokenProvider
+  nameWithType: IKeycloakAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider.html
+  name: HttpContextAccessTokenProvider
+  nameWithType: HttpContextAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
+- uid: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  commentId: F:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.cookies.cookieauthenticationdefaults.authenticationscheme
+  name: AuthenticationScheme
+  nameWithType: CookieAuthenticationDefaults.AuthenticationScheme
+  fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider*
+  commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AccessTokenPropagationExtensions_AddCookieAccessTokenProvider_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_System_String_
+  name: AddCookieAccessTokenProvider
+  nameWithType: AccessTokenPropagationExtensions.AddCookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions.AddCookieAccessTokenProvider
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

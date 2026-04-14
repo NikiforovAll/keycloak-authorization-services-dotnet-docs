@@ -5,6 +5,7 @@ items:
   id: KeycloakAuthenticationOptions
   parent: Keycloak.AuthServices.Authentication
   children:
+  - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.DisableRolesAccessTokenMapping
   - Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.MetadataAddress
@@ -91,6 +92,41 @@ items:
       type: System.String
     content.vb: Public Property Audience As String
   overload: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience*
+- uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
+  commentId: P:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
+  id: AdditionalAudiences
+  parent: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
+  langs:
+  - csharp
+  - vb
+  name: AdditionalAudiences
+  nameWithType: KeycloakAuthenticationOptions.AdditionalAudiences
+  fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authentication
+  namespace: Keycloak.AuthServices.Authentication
+  summary: >-
+    Gets or sets additional valid audiences accepted during JWT validation.
+
+    Combined with the primary audience (<xref href="Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience" data-throw-if-not-resolved="false"></xref> or <xref href="Keycloak.AuthServices.Common.KeycloakInstallationOptions.Resource" data-throw-if-not-resolved="false"></xref>)
+
+    to validate tokens issued for multiple clients within the same realm.
+  example:
+  - >-
+    <pre><code class="lang-csharp">services.AddKeycloakWebApiAuthentication(options =&gt;
+
+    {
+        options.Resource = "api-client";
+        options.AdditionalAudiences = ["billing-service", "reporting-service"];
+    });</code></pre>
+  syntax:
+    content: public string[]? AdditionalAudiences { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property AdditionalAudiences As String()
+  overload: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences*
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.RoleClaimType
   commentId: P:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.RoleClaimType
   id: RoleClaimType
@@ -597,6 +633,41 @@ references:
   name: Audience
   nameWithType: KeycloakAuthenticationOptions.Audience
   fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
+- uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
+  commentId: P:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
+  href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html#Keycloak_AuthServices_Authentication_KeycloakAuthenticationOptions_Audience
+  name: Audience
+  nameWithType: KeycloakAuthenticationOptions.Audience
+  fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.Audience
+- uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences*
+  commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
+  href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html#Keycloak_AuthServices_Authentication_KeycloakAuthenticationOptions_AdditionalAudiences
+  name: AdditionalAudiences
+  nameWithType: KeycloakAuthenticationOptions.AdditionalAudiences
+  fullName: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.AdditionalAudiences
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.RoleClaimType*
   commentId: Overload:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.RoleClaimType
   href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html#Keycloak_AuthServices_Authentication_KeycloakAuthenticationOptions_RoleClaimType

@@ -17,7 +17,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Handles <xref href="Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement" data-throw-if-not-resolved="false"></xref> by checking the user's resource (client) roles.
   example: []
   syntax:
     content: 'public class ResourceAccessRequirementHandler : AuthorizationHandler<ResourceAccessRequirement>, IAuthorizationHandler'
@@ -50,20 +50,20 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public ResourceAccessRequirementHandler(IOptions<KeycloakAuthorizationOptions> keycloakOptions, KeycloakMetrics metrics, ILogger<ResourceAccessRequirementHandler> logger)
     parameters:
     - id: keycloakOptions
       type: Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.KeycloakAuthorizationOptions}
-      description: ''
+      description: The Keycloak authorization options.
     - id: metrics
       type: Keycloak.AuthServices.Authorization.KeycloakMetrics
-      description: ''
+      description: The Keycloak metrics tracker.
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler}
-      description: ''
+      description: The logger.
     content.vb: Public Sub New(keycloakOptions As IOptions(Of KeycloakAuthorizationOptions), metrics As KeycloakMetrics, logger As ILogger(Of ResourceAccessRequirementHandler))
   overload: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.#ctor*
   nameWithType.vb: ResourceAccessRequirementHandler.New(IOptions(Of KeycloakAuthorizationOptions), KeycloakMetrics, ILogger(Of ResourceAccessRequirementHandler))
@@ -100,6 +100,13 @@ items:
   overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement)
   overload: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.HandleRequirementAsync*
 references:
+- uid: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.html
+  name: ResourceAccessRequirement
+  nameWithType: ResourceAccessRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
 - uid: Keycloak.AuthServices.Authorization.Requirements
   commentId: N:Keycloak.AuthServices.Authorization.Requirements
   href: Keycloak.html
@@ -544,6 +551,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationhandlercontext
   - name: )
+- uid: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler
+  href: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.html
+  name: ResourceAccessRequirementHandler
+  nameWithType: ResourceAccessRequirementHandler
+  fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler
 - uid: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.#ctor
   href: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_ResourceAccessRequirementHandler__ctor_Microsoft_Extensions_Options_IOptions_Keycloak_AuthServices_Authorization_KeycloakAuthorizationOptions__Keycloak_AuthServices_Authorization_KeycloakMetrics_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_ResourceAccessRequirementHandler__
@@ -842,13 +855,6 @@ references:
   name: AuthorizationHandlerContext
   nameWithType: AuthorizationHandlerContext
   fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-- uid: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
-  commentId: T:Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
-  parent: Keycloak.AuthServices.Authorization.Requirements
-  href: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement.html
-  name: ResourceAccessRequirement
-  nameWithType: ResourceAccessRequirement
-  fullName: Keycloak.AuthServices.Authorization.Requirements.ResourceAccessRequirement
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks

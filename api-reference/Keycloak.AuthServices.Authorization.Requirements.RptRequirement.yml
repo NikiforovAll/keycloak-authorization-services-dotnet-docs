@@ -95,17 +95,17 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.Requirements.RptRequirement" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public RptRequirement(string resource, string scope)
     parameters:
     - id: resource
       type: System.String
-      description: ''
+      description: The resource name.
     - id: scope
       type: System.String
-      description: ''
+      description: The resource scope.
     content.vb: Public Sub New(resource As String, scope As String)
   overload: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.#ctor*
   nameWithType.vb: RptRequirement.New(String, String)
@@ -455,6 +455,13 @@ references:
   name: Scope
   nameWithType: RptRequirement.Scope
   fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.Scope
+- uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RptRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.html
+  name: RptRequirement
+  nameWithType: RptRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
 - uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.RptRequirement.#ctor
   href: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.html#Keycloak_AuthServices_Authorization_Requirements_RptRequirement__ctor_System_String_System_String_

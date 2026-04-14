@@ -7,6 +7,7 @@ items:
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationExtensions
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AccessTokenPropagationHandler
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
   - Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
   - Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
   - Keycloak.AuthServices.Authorization.AuthorizationServer.IKeycloakAccessTokenProvider
@@ -40,6 +41,12 @@ references:
   name: AuthorizationServerClient
   nameWithType: AuthorizationServerClient
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider.html
+  name: CookieAccessTokenProvider
+  nameWithType: CookieAccessTokenProvider
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
   commentId: T:Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
   href: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider.html

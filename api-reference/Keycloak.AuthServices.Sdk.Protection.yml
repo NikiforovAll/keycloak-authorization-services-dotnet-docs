@@ -4,10 +4,14 @@ items:
   commentId: N:Keycloak.AuthServices.Sdk.Protection
   id: Keycloak.AuthServices.Sdk.Protection
   children:
+  - Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectedResourceClient
   - Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectionClient
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
   - Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
+  - Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  - Keycloak.AuthServices.Sdk.Protection.UmaUtils
   langs:
   - csharp
   - vb
@@ -18,6 +22,13 @@ items:
   assemblies:
   - Keycloak.AuthServices.Sdk
 references:
+- uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient.html
+  name: IKeycloakPermissionClient
+  nameWithType: IKeycloakPermissionClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
 - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient
   commentId: T:Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient
   parent: Keycloak.AuthServices.Sdk.Protection
@@ -39,12 +50,31 @@ references:
   name: IKeycloakProtectionClient
   nameWithType: IKeycloakProtectionClient
   fullName: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectionClient
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html
+  name: IUmaTicketExchangeClient
+  nameWithType: IUmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
 - uid: Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
   commentId: T:Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
   href: Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient.html
   name: KeycloakProtectionClient
   nameWithType: KeycloakProtectionClient
   fullName: Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+  href: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient.html
+  name: UmaTicketExchangeClient
+  nameWithType: UmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+- uid: Keycloak.AuthServices.Sdk.Protection.UmaUtils
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.UmaUtils
+  href: Keycloak.AuthServices.Sdk.Protection.UmaUtils.html
+  name: UmaUtils
+  nameWithType: UmaUtils
+  fullName: Keycloak.AuthServices.Sdk.Protection.UmaUtils
 - uid: Keycloak.AuthServices.Sdk.Protection
   commentId: N:Keycloak.AuthServices.Sdk.Protection
   href: Keycloak.html

@@ -6,7 +6,7 @@ items:
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer
   children:
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions},Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient})
-  - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
   - Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
   langs:
   - csharp
@@ -23,6 +23,10 @@ items:
   syntax:
     content: 'public class AuthorizationServerClient : IAuthorizationServerClient'
     content.vb: Public Class AuthorizationServerClient Implements IAuthorizationServerClient
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
   inheritance:
   - System.Object
   implements:
@@ -72,16 +76,16 @@ items:
   nameWithType.vb: AuthorizationServerClient.New(HttpClient, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AuthorizationServerClient))
   fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.New(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions(Of Keycloak.AuthServices.Authorization.AuthorizationServer.KeycloakAuthorizationServerOptions), Microsoft.Extensions.Logging.ILogger(Of Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient))
   name.vb: New(HttpClient, IOptions(Of KeycloakAuthorizationServerOptions), ILogger(Of AuthorizationServerClient))
-- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
-  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
-  id: VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
+  id: VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
   langs:
   - csharp
   - vb
-  name: VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
-  nameWithType: AuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
-  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
+  name: VerifyAccessToResource(string, string, ScopesValidationMode?, string?, CancellationToken)
+  nameWithType: AuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, string?, CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, string?, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - Keycloak.AuthServices.Authorization
@@ -89,7 +93,7 @@ items:
   summary: Verifies access to the protected resource. Sends decision request to token endpoint {resource}#{scope}
   example: []
   syntax:
-    content: public Task<bool> VerifyAccessToResource(string resource, string scope, ScopesValidationMode? scopesValidationMode = null, CancellationToken cancellationToken = default)
+    content: public Task<bool> VerifyAccessToResource(string resource, string scope, ScopesValidationMode? scopesValidationMode = null, string? audience = null, CancellationToken cancellationToken = default)
     parameters:
     - id: resource
       type: System.String
@@ -100,19 +104,25 @@ items:
     - id: scopesValidationMode
       type: System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode}
       description: ''
+    - id: audience
+      type: System.String
+      description: >-
+        The Keycloak client ID of the target resource server to use as the UMA <code>audience</code> parameter.
+
+        When <code>null</code>, the global <code>KeycloakAuthorizationServerOptions.Resource</code> value is used.
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: ''
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: ''
-    content.vb: Public Function VerifyAccessToResource(resource As String, scope As String, scopesValidationMode As ScopesValidationMode? = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+    content.vb: Public Function VerifyAccessToResource(resource As String, scope As String, scopesValidationMode As ScopesValidationMode? = Nothing, audience As String = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
   overload: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource*
   implements:
-  - Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
-  nameWithType.vb: AuthorizationServerClient.VerifyAccessToResource(String, String, ScopesValidationMode?, CancellationToken)
-  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(String, String, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
-  name.vb: VerifyAccessToResource(String, String, ScopesValidationMode?, CancellationToken)
+  - Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
+  nameWithType.vb: AuthorizationServerClient.VerifyAccessToResource(String, String, ScopesValidationMode?, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(String, String, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, String, System.Threading.CancellationToken)
+  name.vb: VerifyAccessToResource(String, String, ScopesValidationMode?, String, CancellationToken)
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
   commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
   id: VerifyAccessToResource(System.String,System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
@@ -163,6 +173,13 @@ items:
   fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource(String, String, String, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
   name.vb: VerifyAccessToResource(String, String, String, ScopesValidationMode?, CancellationToken)
 references:
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer
   commentId: N:Keycloak.AuthServices.Authorization.AuthorizationServer
   href: Keycloak.html
@@ -445,13 +462,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
-  name: ArgumentNullException
-  nameWithType: ArgumentNullException
-  fullName: System.ArgumentNullException
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.#ctor
   href: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AuthorizationServerClient__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Options_IOptions_Keycloak_AuthServices_Authorization_AuthorizationServer_KeycloakAuthorizationServerOptions__Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_AuthorizationServer_AuthorizationServerClient__
@@ -704,25 +714,25 @@ references:
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource*
   commentId: Overload:Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource
-  href: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_Threading_CancellationToken_
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_AuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_String_System_Threading_CancellationToken_
   name: VerifyAccessToResource
   nameWithType: AuthorizationServerClient.VerifyAccessToResource
   fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient.VerifyAccessToResource
-- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
-  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
   parent: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient
   isExternal: true
-  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_Threading_CancellationToken_
-  name: VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
-  nameWithType: IAuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, CancellationToken)
-  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
-  nameWithType.vb: IAuthorizationServerClient.VerifyAccessToResource(String, String, ScopesValidationMode?, CancellationToken)
-  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(String, String, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, System.Threading.CancellationToken)
-  name.vb: VerifyAccessToResource(String, String, ScopesValidationMode?, CancellationToken)
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_String_System_Threading_CancellationToken_
+  name: VerifyAccessToResource(string, string, ScopesValidationMode?, string, CancellationToken)
+  nameWithType: IAuthorizationServerClient.VerifyAccessToResource(string, string, ScopesValidationMode?, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(string, string, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, string, System.Threading.CancellationToken)
+  nameWithType.vb: IAuthorizationServerClient.VerifyAccessToResource(String, String, ScopesValidationMode?, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(String, String, Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode?, String, System.Threading.CancellationToken)
+  name.vb: VerifyAccessToResource(String, String, ScopesValidationMode?, String, CancellationToken)
   spec.csharp:
-  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
     name: VerifyAccessToResource
-    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_Threading_CancellationToken_
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_String_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: string
@@ -740,6 +750,12 @@ references:
     name: ScopesValidationMode
     href: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.html
   - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken
@@ -748,9 +764,9 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.Threading.CancellationToken)
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.VerifyAccessToResource(System.String,System.String,System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode},System.String,System.Threading.CancellationToken)
     name: VerifyAccessToResource
-    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_Threading_CancellationToken_
+    href: Keycloak.AuthServices.Authorization.AuthorizationServer.IAuthorizationServerClient.html#Keycloak_AuthServices_Authorization_AuthorizationServer_IAuthorizationServerClient_VerifyAccessToResource_System_String_System_String_System_Nullable_Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode__System_String_System_Threading_CancellationToken_
   - name: (
   - uid: System.String
     name: String
@@ -768,6 +784,12 @@ references:
     name: ScopesValidationMode
     href: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.html
   - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken

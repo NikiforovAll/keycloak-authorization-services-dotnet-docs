@@ -8,11 +8,8 @@ items:
   - Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
   - Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
-  - Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions
   - Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
   - Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilderExtensions
-  - Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
-  - Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
   langs:
   - csharp
   - vb
@@ -25,7 +22,6 @@ items:
 references:
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
   commentId: T:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
-  parent: Keycloak.AuthServices.Authentication
   href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html
   name: KeycloakAuthenticationOptions
   nameWithType: KeycloakAuthenticationOptions
@@ -37,12 +33,6 @@ references:
   name: KeycloakBaseAuthenticationBuilder
   nameWithType: KeycloakBaseAuthenticationBuilder
   fullName: Keycloak.AuthServices.Authentication.KeycloakBaseAuthenticationBuilder
-- uid: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
-  commentId: T:Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
-  href: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions.html
-  name: ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-  fullName: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
 - uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
   commentId: T:Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilder
   parent: Keycloak.AuthServices.Authentication
@@ -56,12 +46,6 @@ references:
   name: KeycloakWebApiAuthenticationBuilderExtensions
   nameWithType: KeycloakWebApiAuthenticationBuilderExtensions
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
-- uid: Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions
-  commentId: T:Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions
-  href: Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions.html
-  name: KeycloakWebApiServiceCollectionExtensions
-  nameWithType: KeycloakWebApiServiceCollectionExtensions
-  fullName: Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions
 - uid: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
   commentId: T:Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
   parent: Keycloak.AuthServices.Authentication
@@ -75,12 +59,6 @@ references:
   name: KeycloakWebAppAuthenticationBuilderExtensions
   nameWithType: KeycloakWebAppAuthenticationBuilderExtensions
   fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilderExtensions
-- uid: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
-  commentId: T:Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
-  href: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions.html
-  name: KeycloakWebAppServiceCollectionExtensions
-  nameWithType: KeycloakWebAppServiceCollectionExtensions
-  fullName: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
 - uid: Keycloak.AuthServices.Authentication
   commentId: N:Keycloak.AuthServices.Authentication
   href: Keycloak.html

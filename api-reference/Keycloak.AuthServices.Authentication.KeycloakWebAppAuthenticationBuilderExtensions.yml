@@ -906,7 +906,6 @@ references:
   - name: )
 - uid: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
   commentId: T:Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions
-  parent: Keycloak.AuthServices.Authentication
   href: Keycloak.AuthServices.Authentication.KeycloakAuthenticationOptions.html
   name: KeycloakAuthenticationOptions
   nameWithType: KeycloakAuthenticationOptions

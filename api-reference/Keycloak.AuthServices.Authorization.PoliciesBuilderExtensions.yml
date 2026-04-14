@@ -22,7 +22,12 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization
-  summary: ''
+  summary: >-
+    Extension methods for <xref href="Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder" data-throw-if-not-resolved="false"></xref> to add Keycloak-specific
+
+    authorization requirements such as realm roles, resource roles, protected resources,
+
+    and organization membership checks.
   example: []
   syntax:
     content: public static class PoliciesBuilderExtensions
@@ -62,13 +67,13 @@ items:
     parameters:
     - id: builder
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     - id: roles
       type: System.String[]
-      description: ''
+      description: The resource roles to require. At least one must match.
     return:
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     content.vb: Public Shared Function RequireResourceRoles(builder As AuthorizationPolicyBuilder, ParamArray roles As String()) As AuthorizationPolicyBuilder
   overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles*
   nameWithType.vb: PoliciesBuilderExtensions.RequireResourceRoles(AuthorizationPolicyBuilder, ParamArray String())
@@ -96,16 +101,16 @@ items:
     parameters:
     - id: builder
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     - id: client
       type: System.String
-      description: ''
+      description: The Keycloak client (resource) name to check roles against.
     - id: roles
       type: System.String[]
-      description: ''
+      description: The resource roles to require. At least one must match.
     return:
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     content.vb: Public Shared Function RequireResourceRolesForClient(builder As AuthorizationPolicyBuilder, client As String, roles As String()) As AuthorizationPolicyBuilder
   overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRolesForClient*
   nameWithType.vb: PoliciesBuilderExtensions.RequireResourceRolesForClient(AuthorizationPolicyBuilder, String, String())
@@ -133,13 +138,13 @@ items:
     parameters:
     - id: builder
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     - id: roles
       type: System.String[]
-      description: ''
+      description: The realm roles to require. At least one must match.
     return:
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     content.vb: Public Shared Function RequireRealmRoles(builder As AuthorizationPolicyBuilder, ParamArray roles As String()) As AuthorizationPolicyBuilder
   overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireRealmRoles*
   nameWithType.vb: PoliciesBuilderExtensions.RequireRealmRoles(AuthorizationPolicyBuilder, ParamArray String())
@@ -167,16 +172,16 @@ items:
     parameters:
     - id: builder
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     - id: resource
       type: System.String
-      description: ''
+      description: The protected resource name.
     - id: scope
       type: System.String
-      description: ''
+      description: The required scope for the resource.
     return:
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     content.vb: Public Shared Function RequireProtectedResource(builder As AuthorizationPolicyBuilder, resource As String, scope As String) As AuthorizationPolicyBuilder
   overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource*
   nameWithType.vb: PoliciesBuilderExtensions.RequireProtectedResource(AuthorizationPolicyBuilder, String, String)
@@ -204,19 +209,22 @@ items:
     parameters:
     - id: builder
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     - id: resource
       type: System.String
-      description: ''
+      description: The protected resource name.
     - id: scopes
       type: System.String[]
-      description: ''
+      description: The required scopes for the resource.
     - id: scopesValidationMode
       type: System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode}
-      description: ''
+      description: >-
+        Controls whether all scopes (<xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AllOf" data-throw-if-not-resolved="false"></xref>) or at least one scope
+
+        (<xref href="Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AnyOf" data-throw-if-not-resolved="false"></xref>) must be granted. Defaults to the server-level setting.
     return:
       type: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-      description: ''
+      description: The authorization policy builder.
     content.vb: Public Shared Function RequireProtectedResource(builder As AuthorizationPolicyBuilder, resource As String, scopes As String(), scopesValidationMode As ScopesValidationMode? = Nothing) As AuthorizationPolicyBuilder
   overload: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource*
   nameWithType.vb: PoliciesBuilderExtensions.RequireProtectedResource(AuthorizationPolicyBuilder, String, String(), ScopesValidationMode?)
@@ -285,6 +293,14 @@ items:
   fullName.vb: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireOrganizationMembership(Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder, String)
   name.vb: RequireOrganizationMembership(AuthorizationPolicyBuilder, String)
 references:
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
+  parent: Microsoft.AspNetCore.Authorization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationpolicybuilder
+  name: AuthorizationPolicyBuilder
+  nameWithType: AuthorizationPolicyBuilder
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
 - uid: Keycloak.AuthServices.Authorization
   commentId: N:Keycloak.AuthServices.Authorization
   href: Keycloak.html
@@ -545,50 +561,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles*
-  commentId: Overload:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles
-  href: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.html#Keycloak_AuthServices_Authorization_PoliciesBuilderExtensions_RequireResourceRoles_Microsoft_AspNetCore_Authorization_AuthorizationPolicyBuilder_System_String___
-  name: RequireResourceRoles
-  nameWithType: PoliciesBuilderExtensions.RequireResourceRoles
-  fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles
-- uid: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-  commentId: T:Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-  parent: Microsoft.AspNetCore.Authorization
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationpolicybuilder
-  name: AuthorizationPolicyBuilder
-  nameWithType: AuthorizationPolicyBuilder
-  fullName: Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder
-- uid: System.String[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
-  nameWithType.vb: String()
-  fullName.vb: String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
 - uid: Microsoft.AspNetCore.Authorization
   commentId: N:Microsoft.AspNetCore.Authorization
   isExternal: true
@@ -626,6 +598,42 @@ references:
     name: Authorization
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles*
+  commentId: Overload:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles
+  href: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.html#Keycloak_AuthServices_Authorization_PoliciesBuilderExtensions_RequireResourceRoles_Microsoft_AspNetCore_Authorization_AuthorizationPolicyBuilder_System_String___
+  name: RequireResourceRoles
+  nameWithType: PoliciesBuilderExtensions.RequireResourceRoles
+  fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRoles
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
 - uid: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRolesForClient*
   commentId: Overload:Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireResourceRolesForClient
   href: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.html#Keycloak_AuthServices_Authorization_PoliciesBuilderExtensions_RequireResourceRolesForClient_Microsoft_AspNetCore_Authorization_AuthorizationPolicyBuilder_System_String_System_String___
@@ -655,6 +663,18 @@ references:
   name: RequireProtectedResource
   nameWithType: PoliciesBuilderExtensions.RequireProtectedResource
   fullName: Keycloak.AuthServices.Authorization.PoliciesBuilderExtensions.RequireProtectedResource
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AllOf
+  commentId: F:Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AllOf
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.html#Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode_AllOf
+  name: AllOf
+  nameWithType: ScopesValidationMode.AllOf
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AllOf
+- uid: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AnyOf
+  commentId: F:Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AnyOf
+  href: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.html#Keycloak_AuthServices_Authorization_AuthorizationServer_ScopesValidationMode_AnyOf
+  name: AnyOf
+  nameWithType: ScopesValidationMode.AnyOf
+  fullName: Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode.AnyOf
 - uid: System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode}
   commentId: T:System.Nullable{Keycloak.AuthServices.Authorization.AuthorizationServer.ScopesValidationMode}
   parent: System

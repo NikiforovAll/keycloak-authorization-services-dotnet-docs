@@ -5,6 +5,7 @@ items:
   id: IProtectedResourceData
   parent: Keycloak.AuthServices.Authorization
   children:
+  - Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.GetScopesExpression
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
   - Keycloak.AuthServices.Authorization.IProtectedResourceData.Resource
@@ -74,6 +75,32 @@ items:
       type: System.String[]
     content.vb: ReadOnly Property Scopes As String()
   overload: Keycloak.AuthServices.Authorization.IProtectedResourceData.Scopes*
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  commentId: P:Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  id: Audience
+  parent: Keycloak.AuthServices.Authorization.IProtectedResourceData
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: IProtectedResourceData.Audience
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  type: Property
+  assemblies:
+  - Keycloak.AuthServices.Authorization
+  namespace: Keycloak.AuthServices.Authorization
+  summary: >-
+    Gets the Keycloak client ID of the resource server to use as the UMA <code>audience</code> parameter.
+
+    When <code>null</code>, the global <code>KeycloakAuthorizationServerOptions.Resource</code> value is used.
+  example: []
+  syntax:
+    content: string? Audience { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Audience As String
+  overload: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience*
 - uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
   commentId: P:Keycloak.AuthServices.Authorization.IProtectedResourceData.ResolverType
   id: ResolverType
@@ -207,6 +234,12 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: (
   - name: )
+- uid: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience*
+  commentId: Overload:Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
+  href: Keycloak.AuthServices.Authorization.IProtectedResourceData.html#Keycloak_AuthServices_Authorization_IProtectedResourceData_Audience
+  name: Audience
+  nameWithType: IProtectedResourceData.Audience
+  fullName: Keycloak.AuthServices.Authorization.IProtectedResourceData.Audience
 - uid: Keycloak.AuthServices.Authorization.IParameterResolver
   commentId: T:Keycloak.AuthServices.Authorization.IParameterResolver
   parent: Keycloak.AuthServices.Authorization

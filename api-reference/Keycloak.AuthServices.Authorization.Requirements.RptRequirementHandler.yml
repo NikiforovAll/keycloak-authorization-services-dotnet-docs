@@ -17,7 +17,7 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Handles <xref href="Keycloak.AuthServices.Authorization.Requirements.RptRequirement" data-throw-if-not-resolved="false"></xref> by inspecting the RPT (Requesting Party Token) authorization claim.
   example: []
   syntax:
     content: 'public class RptRequirementHandler : AuthorizationHandler<RptRequirement>, IAuthorizationHandler'
@@ -50,14 +50,14 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Initializes a new instance of the <xref href="Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler" data-throw-if-not-resolved="false"></xref> class.
   example: []
   syntax:
     content: public RptRequirementHandler(ILogger<RptRequirementHandler> logger)
     parameters:
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler}
-      description: ''
+      description: The logger.
     content.vb: Public Sub New(logger As ILogger(Of RptRequirementHandler))
   overload: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.#ctor*
   nameWithType.vb: RptRequirementHandler.New(ILogger(Of RptRequirementHandler))
@@ -77,24 +77,30 @@ items:
   assemblies:
   - Keycloak.AuthServices.Authorization
   namespace: Keycloak.AuthServices.Authorization.Requirements
-  summary: ''
+  summary: Makes a decision if authorization is allowed based on a specific requirement.
   example: []
   syntax:
     content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, RptRequirement requirement)
     parameters:
     - id: context
       type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-      description: ''
+      description: The authorization context.
     - id: requirement
       type: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
-      description: ''
+      description: The requirement to evaluate.
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As RptRequirement) As Task
   overridden: Microsoft.AspNetCore.Authorization.AuthorizationHandler{Keycloak.AuthServices.Authorization.Requirements.RptRequirement}.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Keycloak.AuthServices.Authorization.Requirements.RptRequirement)
   overload: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.HandleRequirementAsync*
 references:
+- uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RptRequirement
+  parent: Keycloak.AuthServices.Authorization.Requirements
+  href: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.html
+  name: RptRequirement
+  nameWithType: RptRequirement
+  fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
 - uid: Keycloak.AuthServices.Authorization.Requirements
   commentId: N:Keycloak.AuthServices.Authorization.Requirements
   href: Keycloak.html
@@ -539,6 +545,12 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authorization.authorizationhandlercontext
   - name: )
+- uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler
+  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler
+  href: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.html
+  name: RptRequirementHandler
+  nameWithType: RptRequirementHandler
+  fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler
 - uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.#ctor*
   commentId: Overload:Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.#ctor
   href: Keycloak.AuthServices.Authorization.Requirements.RptRequirementHandler.html#Keycloak_AuthServices_Authorization_Requirements_RptRequirementHandler__ctor_Microsoft_Extensions_Logging_ILogger_Keycloak_AuthServices_Authorization_Requirements_RptRequirementHandler__
@@ -702,13 +714,6 @@ references:
   name: AuthorizationHandlerContext
   nameWithType: AuthorizationHandlerContext
   fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
-- uid: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
-  commentId: T:Keycloak.AuthServices.Authorization.Requirements.RptRequirement
-  parent: Keycloak.AuthServices.Authorization.Requirements
-  href: Keycloak.AuthServices.Authorization.Requirements.RptRequirement.html
-  name: RptRequirement
-  nameWithType: RptRequirement
-  fullName: Keycloak.AuthServices.Authorization.Requirements.RptRequirement
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks

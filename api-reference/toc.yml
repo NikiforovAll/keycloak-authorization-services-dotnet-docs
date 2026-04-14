@@ -29,20 +29,11 @@ items:
   - uid: Keycloak.AuthServices.Authentication.KeycloakWebApiAuthenticationBuilderExtensions
     name: KeycloakWebApiAuthenticationBuilderExtensions
     type: Class
-  - uid: Keycloak.AuthServices.Authentication.KeycloakWebApiServiceCollectionExtensions
-    name: KeycloakWebApiServiceCollectionExtensions
-    type: Class
   - uid: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilder
     name: KeycloakWebAppAuthenticationBuilder
     type: Class
   - uid: Keycloak.AuthServices.Authentication.KeycloakWebAppAuthenticationBuilderExtensions
     name: KeycloakWebAppAuthenticationBuilderExtensions
-    type: Class
-  - uid: Keycloak.AuthServices.Authentication.KeycloakWebAppServiceCollectionExtensions
-    name: KeycloakWebAppServiceCollectionExtensions
-    type: Class
-  - uid: Keycloak.AuthServices.Authentication.ServiceCollectionExtensions
-    name: ServiceCollectionExtensions
     type: Class
 - uid: Keycloak.AuthServices.Authentication.Configuration
   name: Keycloak.AuthServices.Authentication.Configuration
@@ -128,6 +119,9 @@ items:
   - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.AuthorizationServerClient
     name: AuthorizationServerClient
     type: Class
+  - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.CookieAccessTokenProvider
+    name: CookieAccessTokenProvider
+    type: Class
   - uid: Keycloak.AuthServices.Authorization.AuthorizationServer.HttpContextAccessTokenProvider
     name: HttpContextAccessTokenProvider
     type: Class
@@ -212,11 +206,18 @@ items:
   - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.KeycloakTokenIntrospectionOptionsValidator
     name: KeycloakTokenIntrospectionOptionsValidator
     type: Class
-  - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.ServiceCollectionExtensions
-    name: ServiceCollectionExtensions
-    type: Class
   - uid: Keycloak.AuthServices.Authorization.TokenIntrospection.TokenIntrospectionResponse
     name: TokenIntrospectionResponse
+    type: Class
+- uid: Keycloak.AuthServices.Authorization.Uma
+  name: Keycloak.AuthServices.Authorization.Uma
+  type: Namespace
+  items:
+  - uid: Keycloak.AuthServices.Authorization.Uma.UmaAuthorizationMiddlewareResultHandler
+    name: UmaAuthorizationMiddlewareResultHandler
+    type: Class
+  - uid: Keycloak.AuthServices.Authorization.Uma.UmaTokenHandler
+    name: UmaTokenHandler
     type: Class
 - uid: Keycloak.AuthServices.Common
   name: Keycloak.AuthServices.Common
@@ -275,11 +276,17 @@ items:
   - uid: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions
     name: KeycloakAdminClientOptions
     type: Class
+  - uid: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator
+    name: KeycloakAdminClientOptionsValidator
+    type: Class
   - uid: Keycloak.AuthServices.Sdk.KeycloakHttpClientException
     name: KeycloakHttpClientException
     type: Class
   - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
     name: KeycloakProtectionClientOptions
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+    name: KeycloakProtectionClientOptionsValidator
     type: Class
   - uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
     name: ServiceCollectionExtensions
@@ -3656,6 +3663,9 @@ items:
   name: Keycloak.AuthServices.Sdk.Protection
   type: Namespace
   items:
+  - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPermissionClient
+    name: IKeycloakPermissionClient
+    type: Interface
   - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakPolicyClient
     name: IKeycloakPolicyClient
     type: Interface
@@ -3665,8 +3675,17 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Protection.IKeycloakProtectionClient
     name: IKeycloakProtectionClient
     type: Interface
+  - uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+    name: IUmaTicketExchangeClient
+    type: Interface
   - uid: Keycloak.AuthServices.Sdk.Protection.KeycloakProtectionClient
     name: KeycloakProtectionClient
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+    name: UmaTicketExchangeClient
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Protection.UmaUtils
+    name: UmaUtils
     type: Class
 - uid: Keycloak.AuthServices.Sdk.Protection.Models
   name: Keycloak.AuthServices.Sdk.Protection.Models
@@ -3675,6 +3694,15 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Protection.Models.DecisionStrategy
     name: DecisionStrategy
     type: Enum
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicket
+    name: PermissionTicket
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketRequest
+    name: PermissionTicketRequest
+    type: Class
+  - uid: Keycloak.AuthServices.Sdk.Protection.Models.PermissionTicketResponse
+    name: PermissionTicketResponse
+    type: Class
   - uid: Keycloak.AuthServices.Sdk.Protection.Models.Policy
     name: Policy
     type: Class
@@ -3694,6 +3722,9 @@ items:
   name: Keycloak.AuthServices.Sdk.Protection.Requests
   type: Namespace
   items:
+  - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPermissionTicketsRequestParameters
+    name: GetPermissionTicketsRequestParameters
+    type: Class
   - uid: Keycloak.AuthServices.Sdk.Protection.Requests.GetPoliciesRequestParameters
     name: GetPoliciesRequestParameters
     type: Class
@@ -3710,6 +3741,25 @@ items:
   - uid: Keycloak.AuthServices.Sdk.Utils.QueryString
     name: QueryString
     type: Struct
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  type: Namespace
+  items:
+  - uid: Microsoft.Extensions.DependencyInjection.KeycloakWebApiServiceCollectionExtensions
+    name: KeycloakWebApiServiceCollectionExtensions
+    type: Class
+  - uid: Microsoft.Extensions.DependencyInjection.KeycloakWebAppServiceCollectionExtensions
+    name: KeycloakWebAppServiceCollectionExtensions
+    type: Class
+  - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+    name: ServiceCollectionExtensions
+    type: Class
+  - uid: Microsoft.Extensions.DependencyInjection.UmaHttpClientBuilderExtensions
+    name: UmaHttpClientBuilderExtensions
+    type: Class
+  - uid: Microsoft.Extensions.DependencyInjection.UmaServiceCollectionExtensions
+    name: UmaServiceCollectionExtensions
+    type: Class
 - uid: OpenTelemetry.Metrics
   name: OpenTelemetry.Metrics
   type: Namespace

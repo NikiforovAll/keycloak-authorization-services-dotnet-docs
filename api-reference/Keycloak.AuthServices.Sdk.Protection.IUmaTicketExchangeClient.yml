@@ -1,0 +1,349 @@
+### YamlMime:ManagedReference
+items:
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  commentId: T:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  id: IUmaTicketExchangeClient
+  parent: Keycloak.AuthServices.Sdk.Protection
+  children:
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  - Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: IUmaTicketExchangeClient
+  nameWithType: IUmaTicketExchangeClient
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  type: Interface
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Client for exchanging UMA permission tickets at the Keycloak token endpoint.
+  remarks: >-
+    Implements the UMA grant type (<code>urn:ietf:params:oauth:grant-type:uma-ticket</code>)
+
+    to exchange permission tickets for RPTs (Requesting Party Tokens) or to submit
+
+    permission requests for resource owner approval.
+  example: []
+  syntax:
+    content: public interface IUmaTicketExchangeClient
+    content.vb: Public Interface IUmaTicketExchangeClient
+  derivedClasses:
+  - Keycloak.AuthServices.Sdk.Protection.UmaTicketExchangeClient
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: ExchangeTicketForRptAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  langs:
+  - csharp
+  - vb
+  name: ExchangeTicketForRptAsync(string, string, CancellationToken)
+  nameWithType: IUmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Exchanges a UMA permission ticket for a Requesting Party Token (RPT).
+  example: []
+  syntax:
+    content: Task<string?> ExchangeTicketForRptAsync(string accessToken, string ticket, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: The bearer access token of the requesting party.
+    - id: ticket
+      type: System.String
+      description: The permission ticket received from the resource server's UMA challenge.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The RPT access token string, or <code>null</code> if the exchange failed.
+    content.vb: Function ExchangeTicketForRptAsync(accessToken As String, ticket As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync*
+  nameWithType.vb: IUmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync(String, String, System.Threading.CancellationToken)
+  name.vb: ExchangeTicketForRptAsync(String, String, CancellationToken)
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  id: SubmitPermissionRequestAsync(System.String,System.String,System.Threading.CancellationToken)
+  parent: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient
+  langs:
+  - csharp
+  - vb
+  name: SubmitPermissionRequestAsync(string, string, CancellationToken)
+  nameWithType: IUmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, CancellationToken)
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - Keycloak.AuthServices.Sdk
+  namespace: Keycloak.AuthServices.Sdk.Protection
+  summary: Submits a permission request for resource owner approval.
+  remarks: >-
+    Uses the <code>submit_request=true</code> parameter in the UMA ticket exchange.
+
+    When access is denied, Keycloak persists a pending permission request that
+
+    the resource owner can approve.
+  example: []
+  syntax:
+    content: Task<bool> SubmitPermissionRequestAsync(string accessToken, string ticket, CancellationToken cancellationToken = default)
+    parameters:
+    - id: accessToken
+      type: System.String
+      description: The bearer access token of the requesting party.
+    - id: ticket
+      type: System.String
+      description: The permission ticket received from the resource server's UMA challenge.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation token.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: <code>true</code> if the permission request was submitted for owner approval; otherwise <code>false</code>.
+    content.vb: Function SubmitPermissionRequestAsync(accessToken As String, ticket As String, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync*
+  nameWithType.vb: IUmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, CancellationToken)
+  fullName.vb: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync(String, String, System.Threading.CancellationToken)
+  name.vb: SubmitPermissionRequestAsync(String, String, CancellationToken)
+references:
+- uid: Keycloak.AuthServices.Sdk.Protection
+  commentId: N:Keycloak.AuthServices.Sdk.Protection
+  href: Keycloak.html
+  name: Keycloak.AuthServices.Sdk.Protection
+  nameWithType: Keycloak.AuthServices.Sdk.Protection
+  fullName: Keycloak.AuthServices.Sdk.Protection
+  spec.csharp:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+  spec.vb:
+  - uid: Keycloak
+    name: Keycloak
+    href: Keycloak.html
+  - name: .
+  - uid: Keycloak.AuthServices
+    name: AuthServices
+    href: Keycloak.AuthServices.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk
+    name: Sdk
+    href: Keycloak.AuthServices.Sdk.html
+  - name: .
+  - uid: Keycloak.AuthServices.Sdk.Protection
+    name: Protection
+    href: Keycloak.AuthServices.Sdk.Protection.html
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_ExchangeTicketForRptAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: ExchangeTicketForRptAsync
+  nameWithType: IUmaTicketExchangeClient.ExchangeTicketForRptAsync
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.ExchangeTicketForRptAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync*
+  commentId: Overload:Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync
+  href: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.html#Keycloak_AuthServices_Sdk_Protection_IUmaTicketExchangeClient_SubmitPermissionRequestAsync_System_String_System_String_System_Threading_CancellationToken_
+  name: SubmitPermissionRequestAsync
+  nameWithType: IUmaTicketExchangeClient.SubmitPermissionRequestAsync
+  fullName: Keycloak.AuthServices.Sdk.Protection.IUmaTicketExchangeClient.SubmitPermissionRequestAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

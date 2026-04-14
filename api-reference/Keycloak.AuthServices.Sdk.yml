@@ -7,8 +7,10 @@ items:
   - Keycloak.AuthServices.Sdk.ErrorResponse
   - Keycloak.AuthServices.Sdk.HttpResponseExtensions
   - Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions
+  - Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator
   - Keycloak.AuthServices.Sdk.KeycloakHttpClientException
   - Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+  - Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
   - Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
   langs:
   - csharp
@@ -40,6 +42,12 @@ references:
   name: KeycloakAdminClientOptions
   nameWithType: KeycloakAdminClientOptions
   fullName: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptions
+- uid: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator
+  commentId: T:Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator
+  href: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator.html
+  name: KeycloakAdminClientOptionsValidator
+  nameWithType: KeycloakAdminClientOptionsValidator
+  fullName: Keycloak.AuthServices.Sdk.KeycloakAdminClientOptionsValidator
 - uid: Keycloak.AuthServices.Sdk.KeycloakHttpClientException
   commentId: T:Keycloak.AuthServices.Sdk.KeycloakHttpClientException
   href: Keycloak.AuthServices.Sdk.KeycloakHttpClientException.html
@@ -53,6 +61,12 @@ references:
   name: KeycloakProtectionClientOptions
   nameWithType: KeycloakProtectionClientOptions
   fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptions
+- uid: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  commentId: T:Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
+  href: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator.html
+  name: KeycloakProtectionClientOptionsValidator
+  nameWithType: KeycloakProtectionClientOptionsValidator
+  fullName: Keycloak.AuthServices.Sdk.KeycloakProtectionClientOptionsValidator
 - uid: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
   commentId: T:Keycloak.AuthServices.Sdk.ServiceCollectionExtensions
   href: Keycloak.AuthServices.Sdk.ServiceCollectionExtensions.html
